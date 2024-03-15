@@ -491,7 +491,7 @@
             #set text(size: 0.8em)
             Verantwortung und Betreuung: Gruppe "#box(move(dy: 0.25em, circle(stroke: 0.5pt, radius: 0.6em, move(dx: -0.42em, dy: -0.61em, $phi$)))) Philo lernen" © 2023-2024
 
-            Autor: Tristan Pieper, Version: #datetime.today().display("[year]/[month]")#text(fill: black.lighten(66%), datetime.today().display(".[day]"))
+            Autor: Tristan Pieper, Version: #datetime.today().display("[year]/[month]")#en[Die aktuellste Version dieses Dokuments finden Sie immer hier: #link("https://survari.github.io/philodidaktik-hro-phf-ifp/KÜK.pdf").]
         ])
 }
 
