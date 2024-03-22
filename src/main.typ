@@ -1,5 +1,6 @@
 //#ONLY_COMPILE_US
 //#COMPILE_NAME:KÜK.pdf
+//#COMPILE_NAME:KÜK-{YEAR}-{MONTH}.pdf
 
 /*
 Grundlagen der Philosophiedidaktik

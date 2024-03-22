@@ -1,5 +1,6 @@
 import sys
 import os
+import datetime
 
 INPUT_DIRECTORY = "src"
 OUTPUT_DIRECTORY = "."
@@ -7,6 +8,12 @@ ONLY_COMPILE_US = False
 
 FILE_LIST = []
 ONLY_COMPILE_US_LIST = []
+
+def replace_path(path):
+    path = path.replace("{YEAR}", str(datetime.date.today().year))
+    path = path.replace("{MONTH}", str(datetime.date.today().strftime("%m")))
+
+    return path
 
 for path, subdirs, files in os.walk(INPUT_DIRECTORY):
     for name in files:
@@ -27,22 +34,23 @@ for path, subdirs, files in os.walk(INPUT_DIRECTORY):
         if splitted_file[1] != ".typ":
             continue
 
+        splitted_file = os.path.splitext((os.sep).join([OUTPUT_DIRECTORY] + splitted_path[1:-1] + [output_name]))
+        new_path = splitted_file[0] + ".pdf"
+
         with open(file_name, "r") as f:
             for line in list(map(lambda n: n.strip(), f.readlines())):
                 if line.startswith("//#COMPILE_NAME:"):
                     output_name = line.replace("//#COMPILE_NAME:", "").strip()
 
-        splitted_file = os.path.splitext((os.sep).join([OUTPUT_DIRECTORY] + splitted_path[1:-1] + [output_name]))
+                    splitted_file = os.path.splitext((os.sep).join([OUTPUT_DIRECTORY] + splitted_path[1:-1] + [output_name]))
+                    new_path = splitted_file[0] + ".pdf"
 
-        new_path = splitted_file[0] + ".pdf"
+                    FILE_LIST.append((file_name, replace_path(new_path)))
 
-        with open(file_name, "r") as f:
-            if "//#ONLY_COMPILE_US" in list(map(lambda n: n.strip(), f.readlines())):
-                ONLY_COMPILE_US = True
-                ONLY_COMPILE_US_LIST.append((file_name, new_path))
-                break
-
-        FILE_LIST.append((file_name, new_path))
+                elif line.startswith("//#ONLY_COMPILE_US") and (file_name, replace_path(new_path)) in ONLY_COMPILE_US_LIST:
+                    ONLY_COMPILE_US = True
+                    ONLY_COMPILE_US_LIST.append((file_name, replace_path(new_path)))
+                    break
 
 if ONLY_COMPILE_US:
     FILE_LIST = ONLY_COMPILE_US_LIST
