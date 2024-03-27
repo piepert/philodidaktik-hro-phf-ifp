@@ -29,11 +29,11 @@
 #task[Philosophie als Kulturtechnik][
     Erklären Sie warum #ix("Martens", "Martens, Ekkehard") Philosophieren als "Kulturtechnik" bezeichnet!
 ][
-    #todo[]
+    #todo[Lösungsvorschlag erstellen.]
 ]
 
-#task[Philosophie als Kulturtechnik][
-    Erklären Sie, inwiefern sich die Begriffe "genetisch" und "anthropologisch" im Sinne von Philosophie als Kulturtechnik widersprechen können!
+#task[Philosophie als #ix("Kulturtechnik")][
+    Erklären Sie, inwiefern sich die Begriffe "genetisch" und "anthropologisch" im Sinne von Philosophie als #ix("Kulturtechnik") widersprechen können!
 ][
     Martens beschreibt die Philosophie im Sinne einer Kultur sowohl als "genetisch" sowie auch als "anthropologisch". Genetisch sei sie in der Hinsicht, dass sie Teil der griechisch-europäischen Kultur ist, da diese Region als das bezeichnet wird, was wir "Philosophie" nennen. Anthropologisch heißt hier, dass die Philosophie in der menschlichen Natur liegt, wie man daran erkennen kann, dass die Philosophie in vielen Kulturen unabhängig voneinander erkannt werden kann, wie etwa in der alt-indischen und alt-chinesischen Kultur.
 

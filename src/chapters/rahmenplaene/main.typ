@@ -11,5 +11,5 @@
 #task[Philosophie als Ersatzfach][
     Erklären Sie, wofür und warum der Philosophieunterricht in Mecklenburg-Vorpommern ein "Ersatzfach" ist.
 ][
-    #todo[]
+    #todo[Lösungsvorschlag erstellen.]
 ]

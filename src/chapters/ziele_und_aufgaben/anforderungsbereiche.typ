@@ -19,7 +19,7 @@ Die Anforderungsbereiche sind durch die EPA festgelegt und erklären, in welchen
     *Anforderungsbereich III -- Problemverortung*
     #set text(fill: black)
 
-    Es erfolgt eine Positionierung der SuS, in der der Problemkontext auf den eigenen Standpunkt bezogen wird. Dazu kommen additiv#en[additiv: Wenn A, B, und C additiv auftreten, treten sie zusammen auf.] oder alternativ#en[alternativ: Wenn A, B, und C alternativ auftreten, tritt mindestens eins von ihnen auf.]:
+    Es erfolgt eine Positionierung der SuS, in der der Problemkontext auf den eigenen Standpunkt bezogen wird. Dazu kommen additiv#en[additiv: Wenn A, B, und C additiv auftreten, treten sie alle zusammen auf.] oder alternativ#en[alternativ: Wenn A, B, und C alternativ auftreten, tritt mindestens eins von ihnen auf.]:
 
     - eine Beurteilung des Problems
     - eine resümierende Stellungnahme

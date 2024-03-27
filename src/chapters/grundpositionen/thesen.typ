@@ -10,7 +10,7 @@
     strong(ix("Transformationsthese")),
 
     [
-        Die Philosophie ist ein #ix("akademisches Fach", "Fach, akademisch"), Philosophieunterricht versucht dieses Fach in der Schule abzubilden. Daher braucht die Philosophie keine Didaktik und wird durch sie verfälscht. Ein #ix("Vermittlungsproblem") gibt es nicht, denn die Philosophie muss nicht vermittelt werden.#todo[Begründung? Muss die Philosophie wirklich nicht vermittelt werden oder warum gibt es kein Vermittlungsproblem?]
+        Die Philosophie ist ein #ix("akademisches Fach", "Fach, akademisch"), Philosophieunterricht versucht dieses Fach in der Schule abzubilden. Daher braucht die Philosophie keine Didaktik und wird durch sie verfälscht. Ein #ix("Vermittlungsproblem") gibt es nicht, denn die Philosophie muss nicht vermittelt werden.
     ], [
         Die Didaktik wird als konstitutiv#en[konstitutiv: für einen Sachverhalt grundlegend oder notwendig anzusehen] für Philosohie angesehen. Ohne Didaktik ist Philosophie nicht möglich, didaktische Konzepte sind notwendig für das Philosophieren, wie z.B. das Konzept des #ix("Dialogs", "Dialog") bei Platon. Philosophiedidaktik muss selbst philosophisch sein.
     ], [

@@ -13,7 +13,7 @@ Das Vorgehen ist folgendes:
 
 Die Bewertung der #ix("Anforderungsbereiche", "Anforderungsbereich") findet unterschiedlich gewichtet statt. Wenn in einer Leistungsüberprüfung 100% der Punkte erreichbar sind, dann sind davon 30% für den #ix("Anforderungsbereich") I, 40% für den #ix("Anforderungsbereich") II und wiederum 30% für den #ix("Anforderungsbereich") III gedacht.
 
-Auf den folgenden zwei Seiten finden Sie eine Lernerfolgskontrolle inklusive eines Erwartungshorizontes, der durch eine Bewertungsmatrix beschrieben wird.
+Auf der folgenden Seite finden Sie eine Lernerfolgskontrolle inklusive eines Erwartungshorizontes, der durch eine Bewertungsmatrix beschrieben wird.
 #pagebreak(weak: true)
 #include "../../lernerfolgskontrollen/uebung01/main.typ"
 #pagebreak(weak: true)

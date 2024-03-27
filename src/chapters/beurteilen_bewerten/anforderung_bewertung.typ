@@ -43,5 +43,7 @@ In der Didaktik des Philosophieunterrichts werden drei Anforderungen an Leistung
 #task[Leistungsbewertung][
     Erklären Sie an einem Beispiel, warum die Gruppenarbeit keine geeignete Sozialform für eine Leistungsbewertung ist!
 ][
-    #todo[Vgl Klager Lektüre zur Bewertung, die drei Anforderungen an Leistungsbewertung]
+    An die Leistungsbewertung werden drei Anforderungen gestellt: sie muss valide, reliabel und intersubjektiv sein. Die Validität und Reliabilität sind in der Gruppenarbeit bemängelbar. Besonders bei Gruppenarbeiten sind soziale Faktoren, wie das Umfeld oder die Situation, in der die Schüler leben, das Ergebnis stark beeinflussen. Beurteilt werden soll jedoch die Kompetenz, nicht die Umstände.
+
+    Ein weiterer Punkt ist, dass die bewertete Leistung (im besten Fall) eine Aggregation der Einzelleistungen der SuS ist. Das Aufteilen in Einzelleistungen ist nicht möglich, da jedoch die SuS nur einzeln bewertet werden können (da sie jeder nur einzeln ein Zeugnis besitzen), ist auch aus dieser Perspektive die Gruppenarbeit keine geeignete Sozialform für eine Leistungsbewertung.
 ]

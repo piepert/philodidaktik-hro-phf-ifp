@@ -3,12 +3,12 @@
 == #ix("Methoden", "Methode", "Unterrichtsmethode")
 
 #def("Methode")[
-    "#ix("Unterrichtsmethoden", "Methode", "Unterrichtsmethode") sind die Formen und Verfahren, in und mit denen sich Lehrer und Schüler die sie umgebende natürliche und gesellschaftliche Wirklichkeit unter institutionellen Rahmenbedingungen aneignen.“#en[H. Meyer: Unterrichtsmethoden. I: Theorieband. Berlin 2003. S. 45.]
+    "#ix("Unterrichtsmethoden", "Methode", "Unterrichtsmethode") sind die Formen und Verfahren, mit deren Hilfe sich Lehrer und Schüler die sie umgebende natürliche und gesellschaftliche Wirklichkeit unter dem institutionellen Rahmenbedingungen der Schule aneignen.“#en[H. Meyer: Leitfaden Unterrichtsvorbereitung. Berlin 2007. S. 44.]
 ]
 
 #ix("Methode", "Unterrichtsmethode") und #ix("Sozialformen", "Sozialform") sind voneinander abzugrenzen. Die #ix("Methoden", "Methode", "Unterrichtsmethode") des Unterrichts können bestimmte #ix("Sozialformen", "Sozialform") voraussetzen, allein mit #ix("Sozialform") kann jedoch keine inhaltliche Auseinandersetzung stattfinden. Ein Inhalt kann nur #ix("methodisch", "Methode", "Unterrichtsmethode") erarbeitet werden. Während #ix("Sozialformen", "Sozialform") also den sozialen Aspekt -- wer arbeitet, die "soziale Instanz" -- besprechen, besprechen #ix("Methoden", "Methode") die Form der Erarbeitung, die die soziale Instanz ausführt.
 
-Methoden bilden also das "Wie?" des Unterrichts und finden auf drei verschiedenen Ebenen statt:#en[Vgl. H. Meyer: Leitfaden für die Unterrichtsvorbereitung. Berlin 2009. S. 45 f.]
+Methoden bilden also das "Wie?" des Unterrichts und finden auf drei verschiedenen Ebenen statt:#en[Vgl. H. Meyer: Leitfaden Unterrichtsvorbereitung. Berlin 2007. S. 45 ff.]
 
 #grid(column-gutter: 2em,
     row-gutter: 1em,
@@ -24,7 +24,7 @@ Methoden bilden also das "Wie?" des Unterrichts und finden auf drei verschiedene
         - Projektarbeit
         - Marktplatzarbeit
     ], [
-        Zu der Mesoebene gehören Methoden, die zu den "historisch gewachsene[n] feste[n] Formen methodischen Handelns"#en[Vgl. H. Meyer: Leitfaden für die Unterrichtsvorbereitung. Berlin 2009. S. 46.] gehören. Sie werden durch ihre Sozial-, Handlungs-, Zeit- und Raumdimensiom charakterisiert. Darunter fallen z.B. folgende philosophische Methoden:
+        Zu der Mesoebene gehören Methoden, die zu den "historisch gewachsene[n] feste[n] Formen methodischen Handelns"#en[H. Meyer: Leitfaden für die Unterrichtsvorbereitung. Berlin 2007. S. 46.] gehören. Sie werden durch ihre Sozial-, Handlungs-, Zeit- und Raumdimension charakterisiert. Darunter fallen z.B. folgende philosophische Methoden:
 
         - Schaubild
         - Dilemmadiskussion
@@ -84,7 +84,7 @@ Für #ix("Methodenvielfalt"), also das Nutzen verschiedener Methoden, sprechen e
 
 3. *didaktisch:* Zugriff auf die Philosophie → dafür sorgen, dass die SuS verschiedene Zugangsmöglichkeiten zur Philosophie haben (weil beide Heterogenität)
 
-Es folgen einige Beispiele für Methoden des Philosophieunterrichts.#todo[Die Tabelle aus dem Vortrag / aus der Literatur hilft vielleicht beim Finden weiterer Methoden.]
+Es folgen einige Beispiele für Methoden des Philosophieunterrichts.
 
 #orange-list[
     *#ix("Gedankenexperiment")* #h(1fr) #ix("Partnerarbeit"), #ix("Frontalvortrag")
@@ -109,7 +109,7 @@ Es folgen einige Beispiele für Methoden des Philosophieunterrichts.#todo[Die Ta
     *#ix("sokratisches Gespräch", "sokratisches Gespräch", "Gespräch, sokratisch")* #h(1fr) #ix("Frontalvortrag")
     #set text(fill: black)
 
-    Das sokratische Gespräch bezeichnet eine Methode, die mittels der Mäeutik#en[Es handelt sich um die sogenannte "Hebammenkunst".#todo[]] ein manipulatives Gespräch in einem öffentlichen Raum führt, um zu einem der folgenden drei Ergebnisse zu kommen: vollständige *Begriffsklärung*, Erlangen neuer *Erkenntnis* oder *Aporie*.
+    Das sokratische Gespräch bezeichnet eine Methode, die mittels der #ix("Mäeutik")#en[Es handelt sich um die sogenannte "#ix("Hebammenkunst")".#todo[Kleine Erläuterung der Hebammenkunst.]] ein manipulatives Gespräch in einem öffentlichen Raum führt, um zu einem der folgenden drei Ergebnisse zu kommen: vollständige *Begriffsklärung*, Erlangen neuer *Erkenntnis* oder *#ix("Aporie")*.
 ][
     *#ix("neosokratisches Gespräch", "neosokratisches Gespräch", "Gespräch, neosokratisch")* #h(1fr) Gruppenarbeit #todo[Belege für das neosokratische Gespräch bei Leonard Nelson fehlen.]
     #set text(fill: black)
@@ -194,7 +194,7 @@ Es folgen einige Beispiele für Methoden des Philosophieunterrichts.#todo[Die Ta
 #task[Methodengruppen nach Martens und Rohbeck][
     Vergleichen Sie die fünf Methodengruppen von Martens (in Anlehnung an Aristoteles) mit den sechs Denkstilen von Rohbeck.
 ][
-    #todo[]
+    #todo[Lösungsvorschlag erstellen.]
 ]
 
 #task[Märchen und Fabeln][
@@ -208,5 +208,5 @@ Es folgen einige Beispiele für Methoden des Philosophieunterrichts.#todo[Die Ta
 #task[Neosokratisches Gespräch vs. Inquiry][
     Vergleichen Sie das Neosokratische Gespräch mit der Inquiry.
 ][
-    #todo[]
+    #todo[Lösungsvorschlag erstellen.]
 ]

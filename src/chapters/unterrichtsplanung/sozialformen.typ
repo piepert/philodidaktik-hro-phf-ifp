@@ -3,13 +3,13 @@
 == #ix("Sozialformen", "Sozialform")
 
 #def("Sozialform")[
-    "Sozialformen des Unterrichts bestimmen die organisatorische Seite der Interaktions- und Kommunikationsmöglichkeiten im Unterricht.“#en[H. Meyer: Leitfaden zur Unterrichtsvorbereitung. Frankfurt am Main 1991. #todo[Seite angeben.]]
+    "Sozialformen regeln die Art und Weise, in der Lehrer und Schüler im Unterricht miteinander kommunizieren und kooperieren."#en[H. Meyer: Leitfaden Unterrichtsvorbereitung. Berlin 2007. S. 41.]
 ]
 
 #table(columns: 2,
     stroke: none,
-    row-gutter: 1em,
-    column-gutter: 4em)[
+    row-gutter: 0.5em,
+    column-gutter: 2em)[
     *Einzelarbeit (EA)* #h(1fr) 1 SuS
 
     Alle SuS arbeiten alleine in Stillarbeit an Ihren Aufgaben, mit möglichen Pausen zum Austausch. Die Lehrkraft agiert als Berater und Kontrolleur.

@@ -69,7 +69,7 @@ Es gibt einen Zusammenhang zwischen Feinzielen und Aufgabenstellungen: Zu jeder 
 #task[Aufgabenstellung][
     Entwerfen Sie für jeden EPA-Anforderungsbereich je eine Aufgabenstellungen für eine Unterrichtsstunde zum Thema "Das Fremdpsychische in Descartes' _Meditationes de prima philosophia_." für die Sekundarstufe I.
 ][
-    todo Lösungsvorschlag#todo[Lösungsvorschlag erstellen]
+    #todo[Lösungsvorschlag erstellen.]
 
     #grid(columns: 2,
         column-gutter: 0.5em,

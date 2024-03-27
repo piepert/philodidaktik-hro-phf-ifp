@@ -491,7 +491,7 @@
             #set text(size: 0.8em)
             Verantwortung und Betreuung: Gruppe "#box(move(dy: 0.25em, circle(stroke: 0.5pt, radius: 0.6em, move(dx: -0.42em, dy: -0.61em, $phi$)))) Philo lernen" © 2023-2024
 
-            Autor: Tristan Pieper, Version: #datetime.today().display("[year]-[month]")#en[Die aktuellste Version dieses Dokuments finden Sie immer hier: #link("https://survari.github.io/philodidaktik-hro-phf-ifp/KÜK.pdf"). Eine archivierte Version dieser Datei finden Sie unter #link("https://survari.github.io/philodidaktik-hro-phf-ifp/KÜK-"+str(datetime.today().year())+"-"+if datetime.today().month() < 9 { "0" } else { "" } +str(datetime.today().month())+".pdf").]
+            Autor: Tristan Pieper, Version: #datetime.today().display("[year]-[month]")
         ])
 }
 
@@ -658,7 +658,7 @@
     show heading.where(level: 1, outlined: true): it => it + add-heading(it, heads)
     show heading.where(level: 1): set text(size: 1.75em)
     // show heading.where(level: 2): set block(above: 1.5em)
-    show heading.where(level: 2): it => it + add-subheading(it, subheads) + counter("subheadings").step()
+    show heading.where(outlined: true, level: 2): it => it + add-subheading(it, subheads) + counter("subheadings").step()
     show heading.where(level: 2): upper
 
     show heading: set par(justify: false)
@@ -690,6 +690,9 @@
         v(-0.75em)
         line(length: 100%, stroke: 0.5pt + color-blue)
     })
+
+    include "/src/nutzung.typ"
+    pagebreak(weak: true)
 
     make-outline()
 

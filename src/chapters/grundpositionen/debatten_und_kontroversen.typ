@@ -7,7 +7,7 @@
     #set text(fill: black)
     Sollten die Probleme und Fragen von SuS zu den Problemen der Philosophie werden oder umgekehrt?
 
-    #ix("Rudolf Lassahn", "Lassahn, Rudolf") ist der Meinung, dass die aktuellen gesellschaftlichen und politischen Fragestellungen der SuS kanonischen Philosophietexten vorzuziehen ist.#en[Vgl. R. Lassahn: Zum Philosophieunterricht am Gymnasium. Einige Anmerkungen und Thesen. In: Aufgaben und Wege des Philosophieunterrichts. Heft "Beiträge zu verschiedenen philosophischen Themen". Jg. 4 (1972). S. 16.] #ix("Wolfgang Deppe", "Deppe, Wolfgang") kritisiert diese Auffassung: seiner Meinung nach ist eine reine Konzentration auf aktuelle Fragestellungen insofern schwierig, als dass man sie erst durch die traditionellen Primärtexte komplett verstehen könne.#en[Vgl. W. Deppe: "Bedarf der Philosophieunterricht einer neuen Begründung? In: Aufgaben und Wege des Philosophieunterrichts. Heft "Didaktische Möglichkeiten der Philosophie".  Jg. 3 (1973). S. 49.]
+    #ix("Rudolf Lassahn", "Lassahn, Rudolf") ist der Meinung, dass die aktuellen gesellschaftlichen und politischen Fragestellungen der SuS kanonischen Philosophietexten vorzuziehen ist.#en[Vgl. R. Lassahn: Zum Philosophieunterricht am Gymnasium. Einige Anmerkungen und Thesen. In: Aufgaben und Wege des Philosophieunterrichts. Heft "Beiträge zu verschiedenen philosophischen Themen". Jg. 4 (1972). S. 16.] #ix("Wolfgang Deppe", "Deppe, Wolfgang") kritisiert diese Auffassung: seiner Meinung nach ist eine reine Konzentration auf aktuelle Fragestellungen insofern schwierig, als dass man sie erst durch die traditionellen Primärtexte komplett verstehen könne.#en[Vgl. W. Deppe: "Bedarf der Philosophieunterricht einer neuen Begründung?" In: Aufgaben und Wege des Philosophieunterrichts. Heft "Didaktische Möglichkeiten der Philosophie".  Jg. 3 (1973). S. 49.]
 ][
     *#ix("Rehfus-Martens-Kontroverse", "Rehfus-Martens-Kontroverse", "Martens, Ekkehard", "Rehfus, Wulff D."):*
     #set text(fill: black)
@@ -51,7 +51,7 @@
         ],
 
         align(right)[Philosophie-\ unterricht], [
-            - sollte bildungstheoretisch/identitätstheoretisch#en[#todo[Was bedeuten die Begriffe "bildungstheoretisch" und "identitätstheoretisch" bei Rehfus?]] ausgerichtet sein
+            - sollte bildungstheoretisch#en["bildungstheoretisch" meint in diesem Konetext, dass der Philosophieunterricht nicht praktisch, mit einem Fokus auf die Handlung, sondern theoretisch, mit einem Fokus auf das reflexive Denken, stattfinden soll.#en[Vgl. W. D. Rehfus: Methodischer Zweifel und Metaphysik. Der bildungstheoretisch-identitätstheoretische Ansatz in der Philosophiedidaktik. In: W. D. Rehfus, Horst Becker (Hg.); Handbuch des Philosophieunterrichts 1896. S. 98--113. Hier S. 101 ff.]]/identitätstheoretisch#en["identitätstheoretisch" meint in diesem Zusammenhang die Philosophie als Reflexionsmöglichkeit als Ausgang aus eigener Identitätsnot. #en[Vgl. W. D. Rehfus: Methodischer Zweifel und Metaphysik. Der bildungstheoretisch-identitätstheoretische Ansatz in der Philosophiedidaktik. In: W. D. Rehfus, Horst Becker (Hg.); Handbuch des Philosophieunterrichts 1896. S. 98--113. Hier S. 106 ff.]] ausgerichtet sein
             - sollte die Probleme der Philosophie zu den Problemen der SuS machen
             - sollte Lernzieltheorie ablehnen
         ], [
@@ -92,7 +92,7 @@
 #task[Diskursive vs. präsentative Formen][
     Kennzeichnen Sie den Unterschied zwischen diskursiven und präsentativen Formen des Philosophierens.
 ][
-    #todo[]
+    #todo[Lösungsvorschlag erstellen.]
 ]
 
 #task[Philosophieren mit Kindern][
