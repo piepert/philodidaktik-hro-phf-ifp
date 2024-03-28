@@ -5,7 +5,7 @@
 
 == Inhalt
 
-Auch wenn die Gestaltung und der Name des KÜKs als Parodie an den MÜK angelehnt sind, soll hier versucht werden die Inhalte der Philosophiedidaktik-Seminare an der Universität Rostock ernsthaft aufzuarbeiten und zusammenzufassen, zu belegen und weitere Hinweise und Tipps zu darzulegen. Arbeiten Sie aktiv mit den Inhalten, um sie sich anzueignen und in den Prüfungen wiedergeben und anwenden zu können!
+Auch wenn die Gestaltung und der Name des KÜKs als Parodie an den MÜK angelehnt sind, soll hier versucht werden die Inhalte der Philosophiedidaktik-Seminare an der Universität Rostock ernsthaft aufzuarbeiten und zusammenzufassen, zu belegen und weitere Hinweise und Tipps zu darzulegen.
 
 == Zusatzelemente
 
@@ -29,7 +29,7 @@ Die Zusatzelemente des KÜKs bieten weitere Informationen und Belege. Außerdem 
 
 == To Do
 
-Der KÜK ist nicht abgeschlossen. Auch für die bisher erarbeiteten Inhalte gibt es noch zu ergänzende Themengebiete. Hauptsächlich handelt es sich dabei um fehlende Lösungsvorschläge zu Aufgabenbeispielen. Um Stellen zu markieren, die ergänzt werden müssen
+Der KÜK ist nicht abgeschlossen. Auch für die bisher erarbeiteten Inhalte gibt es noch zu ergänzende Themengebiete. Hauptsächlich handelt es sich dabei um fehlende Lösungsvorschläge zu Aufgabenbeispielen. Um Stellen zu markieren, die ergänzt werden müssen, werden fettgedruckte, rote, hochgestellte, eingeklammerte römische Zahlen verwendet. Sie funktionieren sonst wie Anmerkungen, mit einem eigenen Verzeichnis am Ende des KÜKs.
 
 == Versionierung
 
