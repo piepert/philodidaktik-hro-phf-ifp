@@ -15,5 +15,5 @@ Die Bewertung der #ix("Anforderungsbereiche", "Anforderungsbereich") findet unte
 
 Auf der folgenden Seite finden Sie eine Lernerfolgskontrolle inklusive eines Erwartungshorizontes, der durch eine Bewertungsmatrix beschrieben wird.
 #pagebreak(weak: true)
-#include "../../lernerfolgskontrollen/uebung01/main.typ"
+#include "/src/lernerfolgskontrollen/uebung01/main.typ"
 #pagebreak(weak: true)

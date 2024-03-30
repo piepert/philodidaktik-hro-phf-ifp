@@ -42,11 +42,4 @@ Descartes in Verbindung mit dem Rahmenplan
 #import "/src/template.typ": *
 #show: project.with()
 
-// #include "chapters/grundlagen/main.typ"
-#include "chapters/grundpositionen/main.typ"
-#include "chapters/ziele_und_aufgaben/main.typ"
-#include "chapters/unterrichtsplanung/main.typ"
-#include "chapters/beurteilen_bewerten/main.typ"
-#include "chapters/operatoren/main.typ"
-#include "chapters/rahmenplaene/main.typ"
-#include "chapters/descartes/main.typ"
+#include "parts/ephid/ephid.typ"

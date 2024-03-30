@@ -495,6 +495,26 @@
         ])
 }
 
+#let add-part(it, s) = {
+    locate(loc => {
+        let key = "ref-part-"+str(s.at(loc).len())
+
+        [#s.update(k => {
+            if k == none {
+                k = ()
+            }
+
+            k.push((
+                page: loc.page(),
+                content: it,
+                "key": key
+            ))
+
+            k
+        })#label(key)]
+    })
+}
+
 #let add-heading(it, s) = {
     locate(loc => {
         let key = "ref-heading-"+str(s.at(loc).len())
@@ -507,7 +527,8 @@
             k.push((
                 page: loc.page(),
                 content: it,
-                "key": key
+                "key": key,
+                parent: state("parts").at(loc).last().key
             ))
 
             k
@@ -540,6 +561,35 @@
     })
 }
 
+#let make-part(p, subtitle: none) = {
+    pagebreak(to: "odd")
+
+    align(horizon, {
+        show par: set block(below: 0.5em)
+        set par(justify: false)
+        show: align.with(horizon)
+
+        {
+            set text(size: 4.5em, fill: color-brown)
+            par(p)
+        }
+
+        locate(loc => {
+            set text(size: 2em, fill: color-brown)
+            set text(fill: color-orange)
+            [Abschnitt #numbering("I", state("parts", ()).at(loc).len()+1)]
+
+            if subtitle != none {
+                [ -- ]
+                subtitle
+            }
+        })
+    })
+
+    add-part(p, state("parts", ()))
+    pagebreak()
+}
+
 #let make-outline() = {
     v(1em)
     heading(outlined: false)[Aller Anfang ist... klagerrisch]
@@ -548,80 +598,92 @@
 
     show: pad.with(x: 1cm, y: 2cm)
     locate(loc => {
-        let i = 0
         let arr = ()
         let after-no-subs-arr = ()
         let no-subs = false
+        let i = 0
+        let pc = 0 // part counter
 
-        for it in state("headings").final(loc) {
-            i += 1
+        for part in state("parts").final(loc) {
+            pc += 1
+            arr.push(grid.cell(colspan: 2, if pc > 1 { v(1em) }+heading(outlined: false, level: 2)[#numbering("I.", pc) #part.content]))
 
-            // place(move(dy: 0.95em,
-            // line(stroke: (dash: "dotted"),
-            //     length: 100%)))
+            for it in state("headings").final(loc) {
+                if it.parent != part.key {
+                    continue
+                }
 
-            if not no-subs {
-                arr.push([#i.])
+                i += 1
 
-                arr.push(box(inset: (bottom: 2pt), stroke: (bottom: (dash: "dotted")), {
-                    link(label(it.key), box(it.content))
-                    h(1fr)
-                    box[#it.page]
-                }))
-            } else {
-                after-no-subs-arr.push(box(inset: (bottom: 2pt), stroke: (bottom: (dash: "dotted")), {
-                    link(label(it.key), box(it.content))
-                    h(1fr)
-                    box[#it.page]
-                }))
-            }
+                // place(move(dy: 0.95em,
+                // line(stroke: (dash: "dotted"),
+                //     length: 100%)))
 
-            let sub_i = 0
-            let sub_arr = ()
+                if not no-subs {
+                    arr.push([#i.])
 
-            for sub in state("subheadings").final(loc) {
-                if sub.parent == it.key {
-                    sub_i += 1
-
-                    sub_arr.push([#i.#sub_i.])
-                    sub_arr.push(box(inset: (bottom: 2pt), stroke: (bottom: (dash: "dotted")), {
-                        link(label(sub.key), box(sub.content))
+                    arr.push(box(inset: (bottom: 2pt), stroke: (bottom: (dash: "dotted")), {
+                        link(label(it.key), box(it.content))
                         h(1fr)
-                        box[#sub.page]
+                        box[#it.page]
                     }))
+                } else {
+                    after-no-subs-arr.push(grid.cell(colspan: 2, box(inset: (bottom: 2pt), stroke: (bottom: (dash: "dotted")), {
+                        link(label(it.key), box(it.content))
+                        h(1fr)
+                        box[#it.page]
+                    })))
+                }
+
+                let sub_i = 0
+                let sub_arr = ()
+
+                for sub in state("subheadings").final(loc) {
+                    if sub.parent == it.key {
+                        sub_i += 1
+
+                        sub_arr.push([#i.#sub_i.])
+                        sub_arr.push(box(inset: (bottom: 2pt), stroke: (bottom: (dash: "dotted")), {
+                            link(label(sub.key), box(sub.content))
+                            h(1fr)
+                            box[#sub.page]
+                        }))
+                    }
+                }
+
+                if state("no-subs").final(loc) != none and state("no-subs").final(loc).key == it.key {
+                    arr.push([])
+                    arr.push(grid(columns: 2,
+                        column-gutter: 7pt,
+                        row-gutter: 5pt,
+                        ..sub_arr))
+                    no-subs = true
+
+                } else if sub_arr.len() > 1 {
+                    arr.push([])
+                    arr.push(grid(columns: 2,
+                        column-gutter: 7pt,
+                        row-gutter: 5pt,
+                        ..sub_arr))
                 }
             }
 
-            if state("no-subs").final(loc) != none and state("no-subs").final(loc).key == it.key {
-                arr.push([])
-                arr.push(grid(columns: 2,
-                    column-gutter: 7pt,
-                    row-gutter: 5pt,
-                    ..sub_arr))
-                no-subs = true
-
-            } else if sub_arr.len() > 1 {
-                arr.push([])
-                arr.push(grid(columns: 2,
-                    column-gutter: 7pt,
-                    row-gutter: 5pt,
-                    ..sub_arr))
-            }
         }
 
 
         grid(columns: 2,
             column-gutter: 5pt,
             row-gutter: 5pt,
-            ..arr)
+            ..arr,
+            ..after-no-subs-arr)
 
-        if after-no-subs-arr.len() > 0 {
-            v(0.5em)
-            grid(columns: 1,
-                column-gutter: 5pt,
-                row-gutter: 5pt,
-                ..after-no-subs-arr)
-        }
+        // if after-no-subs-arr.len() > 0 {
+        //     v(0.5em)
+        //     grid(columns: 1,
+        //         column-gutter: 5pt,
+        //         row-gutter: 5pt,
+        //         ..after-no-subs-arr)
+        // }
     })
 }
 
@@ -714,6 +776,7 @@
     }
 
     locate(loc => {state("no-subs").update(k => {state("headings").at(loc).last()})})
+    make-part[Anhang]
 
     // heading[Definitionen]
     // columns(3, make-definitions(title: none))

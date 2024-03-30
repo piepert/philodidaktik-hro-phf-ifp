@@ -1,4 +1,4 @@
-#import "../../template.typ": ix
+#import "/src/template.typ": ix
 
 == Zitierweise
 

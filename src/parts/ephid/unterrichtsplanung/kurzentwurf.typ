@@ -46,4 +46,4 @@ Zu jedem Grobentwurf gehört ein *Thema*, ein *Grobziel*, eine *Liste an Feinzie
 Sie finden auf den drei folgenden Seiten ein Beispiel für einen #ix("Plan für eine Unterrichtsstunde", "Plan für eine Unterrichtsstunde", "Unterrichtsplan") zum Thema #ix("Erkenntnistheorie") und #ix("Descartes", "Descartes, René")' #ix("cogito-Argument"), das formal den Anforderungen der Klausur entspricht.
 
 
-#include "../../kurzentwuerfe/uebung01/main.typ"
+#include "/src/kurzentwuerfe/uebung01/main.typ"
