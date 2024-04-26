@@ -8,9 +8,10 @@
 Auch wenn die Gestaltung und der Name des KÜKs als Parodie an den MÜK angelehnt sind, soll hier versucht werden die Inhalte der Philosophiedidaktik-Seminare an der Universität Rostock ernsthaft aufzuarbeiten und zusammenzufassen, zu belegen und weitere Hinweise und Tipps zu darzulegen.
 
 #align(center)[
+    #set par(justify: false)
     #set text(fill: red, size: 1.5em, hyphenate: false)
     #show: strong
-    Der KÜK ist keine wissenschaftliche Arbeit und sollte in keinen Prüfungen, Seminararbeiten, Unterrichtsentwürfen oder ähnlichem zitiert werden!
+    Der KÜK ist keine wissenschaftliche Arbeit und sollte in keiner Prüfung, Seminararbeit, Unterrichtsentwurf oder ähnlichem zitiert werden!
 ]
 
 Nutzen Sie stattdessen einfach die Quellen, die hier in den Anmerkungen angegeben werden, um die Informationen, die Sie brauchen, in wissenschaftlicher Lektüre zu finden.
