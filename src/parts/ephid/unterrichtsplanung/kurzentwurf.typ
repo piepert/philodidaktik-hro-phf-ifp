@@ -37,7 +37,7 @@ Im Standardmodell #ix("PEST") werden für den Kurzentwurf in tabellarischer Form
 
 + *Sicherungsphase:* Die Sicherungsphase ermöglicht es den SuS die Inhalte zu vergleichen und zu festigen.
 
-+ *Transformationsphase:* In der Transformationsphase wird das erarbeitete Wissen auf ein neues Beispiel angewendet, um sicherzugehen, dass die gewonnen Fertigkeiten anwendbar sind.
++ *Transferphase:* In der Transferphase wird das erarbeitete Wissen auf ein neues Beispiel angewendet, um sicherzugehen, dass die gewonnen Fertigkeiten anwendbar sind.
 
 + *Reserve/Hausaufgaben:* Falls die vorherigen Phasen schneller beendet wurden als geplant, kann eine Reserve weitere Übungen beinhalten und alternativ zur Übung als Hausaufgabe aufgegeben werden.
 

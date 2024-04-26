@@ -66,7 +66,7 @@ Es folgen einige standardmäßige Modelle für den Aufbau einer Unterrichtsstund
 
         + *Sicherungsphase:* Die Sicherungsphase ermöglicht es den SuS die Inhalte zu vergleichen und zu festigen.
 
-        + *Transformationsphase:* In der Transformationsphase wird das erarbeitete Wissen auf ein neues Beispiel angewendet, um sicherzugehen, dass die gewonnen Fertigkeiten anwendbar sind.
+        + *Transferphase:* In der Transferphase wird das erarbeitete Wissen auf ein neues Beispiel angewendet, um sicherzugehen, dass die gewonnen Fertigkeiten anwendbar sind.
     ], image("mod_pest.png", height: 1.75cm))
 ][
     *#ix("Backward Design") / #ix("PETF"):*  #h(1fr) #ix("Sistermann", "Sistermann, Rolf"), #ix("Pörschke", "Pörschke, Tim")
@@ -87,7 +87,7 @@ Es folgen einige standardmäßige Modelle für den Aufbau einer Unterrichtsstund
 
         + *Hinführung:* Was eignet sich als Hinführung?
 
-        #ix("Tim Pörschke", "Pörschke, Tim") empfiehlt eine Erweiterung des Modells, erweitert den Vorschlag damit um eine curriculare Legitimation und Einbettungen anderer didaktischer Konzepte:
+        #ix("Tim Pörschke", "Pörschke, Tim") empfiehlt eine Erweiterung des Modells, erweitert den Vorschlag damit um eine curriculare Legitimation und Einbettungen anderer didaktischer Konzepte:#en[Vgl. T. Pörschke: Unterrichtsplanung durch backward design. Wie plane ich eine gute Unterrichtsstunde im Fach Philosophie? Ein Leitfaden in sieben Schritten. In: ZDPE 1/2021. S. 112-120.]
 
         + *Formulierung des Lernziels:* Anhand des Rahmenplans und dem Thema der Unterrichtsreihe wird ein Lernziel formuliert.
 
