@@ -6,9 +6,9 @@
     Medien sind Träger und Halter von Informationen.
 ])
 
-#def("ephemere Medien", [
-    Ephemere Medien sind kurzlebige, nur im Augenblick bestehende Medien. Im Gegensatz zu einem Bild ändert sich das Medium Film stetig und wirkt durch diese Kurzlebigkeit anders als ein Bild. Die Art der Wahrnehmung ist in beiden Fällen eine andere. Auch die Sprache ist ein ephemeres Medium.
-], "Medium, ephemere")
+// #def("ephemere Medien", [
+//     Ephemere Medien sind kurzlebige, nur im Augenblick bestehende Medien. Im Gegensatz zu einem Bild ändert sich das Medium Film stetig und wirkt durch diese Kurzlebigkeit anders als ein Bild. Die Art der Wahrnehmung ist in beiden Fällen eine andere. Auch die Sprache ist ein ephemeres Medium.
+// ], "Medium, ephemere")
 
 Medien sind vielfältig und können im Unterricht verschiedene Aufgaben erfüllen. Unter anderem könnte man sie wie folgt einteilen:
 
