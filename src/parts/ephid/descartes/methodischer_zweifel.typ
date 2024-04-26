@@ -55,7 +55,7 @@ Der methodische Zweifel schreitet in drei Stufen voran:
     [], [
         - *Regeln logischen Denkens:* Wie urteile und schließe ich korrekt?#en[Vgl. Ministerium für Bildung, Wissenschaft und Kultur des Landes Mecklenburg-Vorpommern (Hg.): Rahmenplan Jahrgangsstufen 7-10. Philosophieren mit Kindern. Erprobungsfassung 2002. S. 34.]
     ], [
-        - Wie gut sind die Argumentationsschritte im #ix("methodischen Zweifel", "Zweifel, methodisch")
+        - Wie gut ist die Argumentation im #ix("methodischen Zweifel", "Zweifel, methodisch")
     ],
 
     [], [

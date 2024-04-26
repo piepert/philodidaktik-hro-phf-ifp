@@ -27,7 +27,7 @@ Im Wachsbeispiel gibt es die folgende Passage: "[W]enn ich nicht zufälligerweis
     [7], [
         - *Denken und Sprache:* Können Tiere denken?#en[Vgl. Ministerium für Bildung, Wissenschaft und Kultur des Landes Mecklenburg-Vorpommern (Hg.): Rahmenplan Jahrgangsstufen 7-10. Philosophieren mit Kindern. Erprobungsfassung. Schwerin 2002. S 23.]
     ], [
-        - Kann ich mir sicher sein, dass Tiere denken? Wie ist es bei anderen Menschen? Sind sie oder Tiere vielleicht nur Maschinen?Welcher Bezug besteht zur Sprache?
+        - Kann ich sicher sein, dass Tiere denken? Wie ist es bei anderen Menschen? Sind sie oder Tiere vielleicht nur Maschinen?Welcher Bezug besteht zur Sprache?
     ],
 
     [8/9], align(center + horizon)[/], align(center + horizon)[/],

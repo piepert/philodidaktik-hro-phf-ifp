@@ -77,7 +77,7 @@ Es folgen einige standardmäßige Modelle für den Aufbau einer Unterrichtsstund
 
         + *Festigungsphase:* Welche Inhalte sollen gefestigt werden?
 
-        + *Problemstellung:* Welche Problemstellung führt zu den Inhalten er Festigungsphase?
+        + *Problemstellung:* Welche Problemstellung führt zu den Inhalten der Festigungsphase?
 
         + *Materialien:* Welche Materialien unterstützen dabei?
 
