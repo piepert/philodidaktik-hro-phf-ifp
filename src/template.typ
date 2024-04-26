@@ -785,6 +785,9 @@
 
     make-todos()
 
+    pagebreak(weak: true)
+    include "changelog.typ"
+
     set par(justify: false)
 
     make-endnotes()
