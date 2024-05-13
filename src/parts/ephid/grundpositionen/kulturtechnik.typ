@@ -41,3 +41,11 @@
 
     #todo[Zitate und Indexierung für Aufgabenstellung hinzufügen.]
 ]
+
+#task(key: "kritikMartens")[Kritik an Martens Ansatz][
+    In Ekkehard Martens Buch "Methodik des Ethik- und Philosophieunterrichts: Philosophieren als elementare Kulturtechnik" wird der dialogisch-pragmatische Ansatz der Philosophie dargestellt. Ein Amazon-Rezensent kritisiert das Buch und Martens Ansatz scharf#en[Amazon: "Methodik des Ethik- und Philosophieunterrichts: Philosophieren als elementare Kulturtechnik." https://www.amazon.de/Methodik-Ethik-Philosophieunterrichts-Philosophieren-Kulturtechnik/dp/3937223002#customerReviews (letzter Zugriff am 12.05.2024)]. Fassen Sie die Kritikpunkte des Rezensenten zusammen und nehmen Sie beurteilt Stellung in der Debatte!
+
+    #image("martens_kritik_amazon.png", width: 100%)
+][
+    #todo[]
+]
