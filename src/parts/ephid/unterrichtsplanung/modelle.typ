@@ -17,7 +17,7 @@ Es folgen einige standardmäßige Modelle für den Aufbau einer Unterrichtsstund
     #set text(fill: black)
 
     #grid(columns: (1fr, 15%), column-gutter: 1em, [
-        Mit der Einteilung der #ix("Methoden", "Methode") in #ix("sokratisch-aristotelische Kategorien", "Kategorien, sokratisch-aristotelisch"), entfaltet #ix("Martens", "Martens, Ekkehard") das Prinzip seiner Unterrichtsplanung: die #ix("Methodenschlange"). Das Kernkonzept ist, diese Methoden nacheinander anzuwenden. Dabei müssen nicht in jeder Stunde alle Methoden angewandt werden, auf die Reihenfolge ist jedoch zu achten.#todo[Belege für die Methodenschlange sind anzuführen. Außerdem ist unklar, ob das Konzept der Methodenschlange hier richtig verstanden und wiedergegeben wurde.]
+        Mit der Einteilung der #ix("Methoden", "Methode") in #ix("sokratisch-aristotelische Kategorien", "Kategorien, sokratisch-aristotelisch"), entfaltet #ix("Martens", "Martens, Ekkehard") das Prinzip seiner Unterrichtsplanung: die #ix("Methodenschlange"). Martens sieht hier die folgende Reihenfolge der philosophischen Methoden als sinnvoll, jedoch nicht als notwendig an.#en[Vgl. E. Martens: Methodik des Ethik- und Philosophie-Unterrichts. Hannover 2003. S. 56.] Die angegebenen Methoden sind die wichtigsten, jedoch nicht die einzigen, die folgende Liste wird als erweiterbar und veränderbar angesehen:#en[Vgl. E. Martens: Methodik des Ethik- und Philosophie-Unterrichts. Hannover 2003. S. 56.]
 
         1. *phänomenologische Methode*: Zuerst wird das philosophische Problem phänomenologisch betrachtet. Die Eindrücke der SuS sind hier von Bedeutung.
 
