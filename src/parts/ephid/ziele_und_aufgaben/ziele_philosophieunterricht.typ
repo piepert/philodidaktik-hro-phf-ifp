@@ -6,7 +6,7 @@
     *Orientierung*
     #set text(fill: black)
 
-    Der Philosophie wird sich durh #ix("Kants vier Grundfragen", "Kantische Fragen") angenährt:
+    Der Philosophie wird sich durch #ix("Kants vier Grundfragen", "Kantische Fragen") angenähert:
 
     + Was kann ich wissen?
     + Was soll ich tun?
