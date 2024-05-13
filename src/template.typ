@@ -168,6 +168,7 @@
             if k == none {
                 ((
                     page: loc.page(),
+                    counter: counter-val,
                     "key": key,
                     origin: orig-key,
                     content: body),
@@ -175,6 +176,7 @@
             } else {
                 k.push((
                     page: loc.page(),
+                    counter: counter-val,
                     "key": key,
                     origin: orig-key,
                     content: body
@@ -258,6 +260,21 @@
         for item in state("endnotes").final(loc) {
             if item.key == key {
                 return en(item.content)
+                // return [#link(key, super[#key])]
+            }
+
+            index += 1
+        }
+    })
+}
+
+#let taskref(key) = {
+    locate(loc => {
+        let index = 1
+
+        for item in state("tasks").final(loc) {
+            if item.key == key {
+                return link(label(item.origin), [Aufgabe #numbering("A", item.counter)])
                 // return [#link(key, super[#key])]
             }
 
@@ -486,7 +503,7 @@
         ], [
 
         ], block(inset: 5pt)[
-            Der KÜK umfasst grundlegende, methodische und inhaltliche Überlebenstipps für das bestehen der Klausur "Einführung in die Philosophiedidaktik" am Institut für Philosophie der Universität Rostock. Die #locate(loc => counter("h1_parts").final(loc).first())-teilige Grundausrüstung richtet sich an alle Lehramtsstudent*innen der Philosophie und soll den Start in das Studium erleichtern. Der KÜK versteht sich prozessorientiert und erlaubt individuelle Ergänzungen. Die zusammengefassten Hinweise sind jedoch – gerade in Bezug auf die abzulegende Klausur – für das Lehramtsstudium der Philosophie als wichtig anzusehen. Diese Sammlung ersetzt nicht das Nachfragen und Nachdenken; wenn Formalia oder Methoden unklar erscheinen, sollten Dozent*innen und Kommiliton*innen um Rat gefragt werden.
+            Der KÜK umfasst grundlegende, methodische und inhaltliche Überlebenstipps für das Bestehen der Klausur "Einführung in die Philosophiedidaktik", die Seminarvor- und Nachbereitung und die Prügungsvorbereitung am Institut für Philosophie der Universität Rostock. Die #locate(loc => counter("h1_parts").final(loc).first())-teilige Grundausrüstung richtet sich an alle Lehramtsstudent*innen der Philosophie und soll den Start in das Studium erleichtern. Der KÜK versteht sich prozessorientiert und erlaubt individuelle Ergänzungen. Die zusammengefassten Hinweise sind jedoch für das Lehramtsstudium der Philosophie als wichtig anzusehen. Diese Sammlung ersetzt nicht das Nachfragen und Nachdenken; wenn Inhalte, Formalia oder Methoden unklar erscheinen, sollten Dozent*innen und Kommiliton*innen um Rat gefragt werden.
 
             #set text(size: 0.8em)
             Verantwortung und Betreuung: Gruppe "#box(move(dy: 0.25em, circle(stroke: 0.5pt, radius: 0.6em, move(dx: -0.42em, dy: -0.61em, $phi$)))) Philo lernen" © 2023-2024
