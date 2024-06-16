@@ -5,7 +5,7 @@
 
 == Inhalt
 
-Auch wenn die Gestaltung und der Name des KÜKs als Parodie an den MÜK angelehnt sind, soll hier versucht werden die Inhalte der Philosophiedidaktik-Seminare an der Universität Rostock ernsthaft aufzuarbeiten und zusammenzufassen, zu belegen und weitere Hinweise und Tipps zu darzulegen.
+Auch wenn die Gestaltung und der Name des KÜKs als Parodie an den MÜK angelehnt sind, soll hier versucht werden die Inhalte der Philosophiedidaktik-Seminare an der Universität Rostock ernsthaft aufzuarbeiten und zusammenzufassen, zu belegen und weitere Hinweise und Tipps darzulegen.
 
 #align(center)[
     #set par(justify: false)
