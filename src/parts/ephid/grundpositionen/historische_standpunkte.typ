@@ -7,15 +7,15 @@
 
 #let stances = (
     "#1 Sokrates": [
-        #ix("", "Sokrates")Die Philosophie ist eine öffentliche Angelegenheit, kritisches Denken, Entwickeln von Problembewusstsein. Die didaktische Methode ist die _#ix("Hebammenkunst", "Mäeutik", "Hebammenkunst")_: durch geziehlte Verwirrung wird der Mensch zu selbständigem Denken angeregt, der Philosophielehrer ist die Hebamme, die den Sus hilft die Erkenntnis, die bereits in ihnen steckt, hervor zu bringen.#en[Vgl. C. Runtenberg: Philosophiedidaktik. Lehren und Lernen. Paderborn 2016. S. 18 f.]
+        #ix("", "Sokrates")Die Philosophie ist eine öffentliche Angelegenheit, kritisches Denken, Entwickeln von Problembewusstsein. Das Verfahren ist die _#ix("Hebammenkunst", "Mäeutik", "Hebammenkunst")_ bzw. _Mäeutik_: durch gezielte Verwirrung wird der Mensch zu selbständigem Denken angeregt, der Philosophielehrer ist die Hebamme, die den SuS hilft die Erkenntnis, die bereits in ihnen steckt, hervor zu bringen.#en[Vgl. C. Runtenberg: Philosophiedidaktik. Lehren und Lernen. Paderborn 2016. S. 18 f.] Eine Methode der Mäeutik ist die _#ix("Elenktik")_.#en[Die Elenktik ist die Kunst der Überführung, in der Sokrates die Frage nach dem "Was ist $X$?" stellt und den Gesprächspartner überführt, sollte er Beispiele von $X$ nennen. Ziel des Sokrates ist das Ergründen des Wesens von $X$, also das, was die Beispiele gemein haben und sie überhaupt erst zu Beispielen von $X$ macht.#en[Vgl. @Beaney2016_Analysis]]
     ],
 
     "#2 Platon": [
-        #ix("", "Platon")Die philosophische Erforschung der Wahrheit und die Prüfung des Selbst führen dazu, für die eigene Seele zu sorgen. Philosophieren findet an praktischen Fragen statt, es ist der _Umgang mit den Ideen_. Die #ix("Dialektik") ist die Primärmethode des Philosophierens. Ziel der Philosophie ist das gute Leben.#en[Vgl. C. Runtenberg: Philosophiedidaktik. Lehren und Lernen. Paderborn 2016. S. 19 f.]
+        #ix("", "Platon")Die philosophische Erforschung der Wahrheit und die Prüfung des Selbst führen dazu, für die eigene Seele zu sorgen. Philosophieren findet an praktischen Fragen statt, als _Umgang mit den Ideen_. Die #ix("Dialektik") ist Hauptmethode des Philosophierens. Ziel der Philosophie ist gutes Leben.#en[Vgl. C. Runtenberg: Philosophiedidaktik. Lehren und Lernen. Paderborn 2016. S. 19 f.]
     ],
 
     "#3 Aristoteles": [
-        #ix("", "Aristoteles")Philosophie hat das gute, sittliche Leben und das Leben in der Wissenschaft zum Gegenstand. Ziel ist die Ausbildung von Klugheit in einer passenden Lernumgebund (entfernt vom Alltag), ein _#ix("Phronimos")_ (ein Weiser) zu werden, der das gute Leben zu organisieren weiß und die rechte Mitte zwischen zwei Extremen findet.#en[Vgl. C. Runtenberg: Philosophiedidaktik. Lehren und Lernen. Paderborn 2016. S. 20.]
+        #ix("", "Aristoteles")Philosophie hat das gute, sittliche Leben und das Leben in der Wissenschaft zum Gegenstand. Ziel ist die Ausbildung von Klugheit in einer passenden Lernumgebund (entfernt vom Alltag), ein _#ix("Phronimos")_ (ein Weiser) zu werden, der das gute Leben organisieren kann und die rechte Mitte zwischen zwei Extremen findet.#en[Vgl. C. Runtenberg: Philosophiedidaktik. Lehren und Lernen. Paderborn 2016. S. 20.]
     ],
 
     "#4 Epikur": [
