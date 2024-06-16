@@ -809,6 +809,8 @@
 
     make-endnotes()
 
+    bibliography("bibliography.bib", title: [Literaturhinweise], style: "kuek-zitierstil.csl")
+
     heading[Index]
     columns(3, make-index(title: none))
 }
