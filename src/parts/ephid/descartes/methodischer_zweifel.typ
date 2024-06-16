@@ -21,13 +21,13 @@ Der methodische Zweifel schreitet in drei Stufen voran:
     strong[Stufe], strong[Thema im Rahmenplan], strong[Thema bei Descartes],
 
     [5], [
-        - *Verlässlichkeit der Sinne*: Können wir sicher sein, dass uns die Sinne nicht täuschen?#en[Vgl. Ministerium für Bildung, Wissenschaft und Kultur des Landes Mecklenburg-Vorpommern (Hg.): Rahmenplan Jahrgangsstufen 5 und 6. Philosophieren mit Kindern. Schwerin 1996. S. 15.]
+        - *Verlässlichkeit der Sinne*: Können wir sicher sein, dass uns die Sinne nicht täuschen?#en[Vgl. @MBWKMV1996_RP56[S. 15]]
     ], [
         - Argument der Sinnestäuschung
     ],
 
     [], [
-        - *Verbindlichkeit der eigenen Wahrnehmung*: Ergibt die Addition Wahrnehmungserfahrungen ein sicheres Bild der Wirklichkeit?#en[Vgl. Ministerium für Bildung, Wissenschaft und Kultur des Landes Mecklenburg-Vorpommern (Hg.): Rahmenplan Jahrgangsstufen 5 und 6. Philosophieren mit Kindern. Schwerin 1996. S. 15.]
+        - *Verbindlichkeit der eigenen Wahrnehmung*: Ergibt die Addition Wahrnehmungserfahrungen ein sicheres Bild der Wirklichkeit?#en[Vgl. @MBWKMV1996_RP56[S. 15]]
     ], [
         - methodischer Zweifel als Projekt sicherer Erkenntnis, Ablehnung des Empirismus im Argument der Sinnestäuschung
     ],
@@ -35,7 +35,7 @@ Der methodische Zweifel schreitet in drei Stufen voran:
     [6], align(center + horizon)[/], align(center + horizon)[/],
 
     [7], [
-        - *Träumen und Denken:* Der nächtliche Traum#en[Vgl. Ministerium für Bildung, Wissenschaft und Kultur des Landes Mecklenburg-Vorpommern (Hg.): Rahmenplan Jahrgangsstufen 5-10. Philosophieren mit Kindern. Erprobungsfassung. Schwerin 2002.]
+        - *Träumen und Denken:* Der nächtliche Traum#en[Vgl. @MBWKMV2002_RP710[S. 18]]
     ], [
         - das Traumargument; Wie erkenne ich den Unterschied zwischen Traum und Realität? Wann Träume ich?
     ],

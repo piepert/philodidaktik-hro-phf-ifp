@@ -2,7 +2,7 @@
 
 == Anforderung an Leistungsbewertung
 
-In der Didaktik des Philosophieunterrichts werden drei Anforderungen an Leistungsauswertungen herausgestellt: Leistungsbewertungen müssen #ix("valide", "Validität"), #ix("reliabel", "Reliabilität") und #ix("intersubjektiv", "Intersubjektivität") sein.#en[C. Klager: Bewertung und Beurteilung im Philosophieunterricht. In: Praxis Philosophie und Ethik 1/2021. S. 5.]
+In der Didaktik des Philosophieunterrichts werden drei Anforderungen an Leistungsauswertungen herausgestellt: Leistungsbewertungen müssen #ix("valide", "Validität"), #ix("reliabel", "Reliabilität") und #ix("intersubjektiv", "Intersubjektivität") sein.#en[Vgl. @Klager2021_Bewertung[S. 5]]
 
 #let colg = 1em
 #grid(columns: (33.33%-(colg/2),)*3,
@@ -14,7 +14,7 @@ In der Didaktik des Philosophieunterrichts werden drei Anforderungen an Leistung
     strong[#ix("Intersubjektivität")],
 
     [
-        Geprüft werden sollen hauptsächlich #ix("Kompetenzen", "Kompetenz"), die an bestimmten Kriterien festgemacht werden. Dinge, die nicht zum Fachunterricht gehören, sollen nicht Teil von Prüfungen des Faches sein.
+        Geprüft werden sollen hauptsächlich #ix("Kompetenzen", "Kompetenz"), die an bestimmten Kriterien festgemacht werden. Dinge, die nicht zum Fachunterricht gehören, sollen nicht Teil von Prüfungen des Faches sein.#en[Die #ix("Validität") ist ebenfalls unter dem Begriff der #ix("Gültigkeit bekannt"). Siehe dazu @SchmidtRuthendorf2017_PhilosophierenMessen]
     ], [
         Die Situation, in der die Leistung erfasst wird, soll angemessen sein.
 
@@ -37,7 +37,7 @@ In der Didaktik des Philosophieunterrichts werden drei Anforderungen an Leistung
 #task[Intersubjektivität][
     Wählen und erläutern Sie eine Fehlerquelle der Intersubjektivität in Leistungsbewertungen an einem Beispiel!
 ][
-
+    #todo[]
 ]
 
 #task[Leistungsbewertung][
