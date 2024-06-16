@@ -802,9 +802,6 @@
 
     make-todos()
 
-    pagebreak(weak: true)
-    include "changelog.typ"
-
     set par(justify: false)
 
     make-endnotes()
@@ -813,4 +810,7 @@
 
     heading[Index]
     columns(3, make-index(title: none))
+
+    pagebreak(weak: true)
+    include "changelog.typ"
 }
