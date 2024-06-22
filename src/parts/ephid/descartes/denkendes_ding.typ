@@ -1,9 +1,9 @@
 #import "/src/template.typ": *
 
-#let med(page) = en[Vgl. R. Descartes: AT VII. S. #page.]
+#let med(page) = en[Vgl. Descartes, Renè: AT VII. S. #page.]
 
 == Der Mensch als denkendes Ding
-Im #ix("cogito-Argument") stellt #ix("Descartes", "Descartes, René") fest, dass er selbst notwendigerweise ist, solange er den Satz "Ich bin, ich existiere." ausspricht oder denkt. Darauffolgend wird untersucht, was denn nun dieses Ding sei, dass diesen Gedanken fasst. Dazu geht #ix("Descartes", "Descartes, René") auch hier radikal vor: alles, was täuschen könnte, wie seine Kleidung und seine körperliche Gestalt, werden auch hier vernachlässigt.#med[26 f] Was er feststellt ist, dass das Denken nicht von ihm, dem Denker, getrennt werden kann.#med[27] Also stellt Descartes fest: "Aber was bin ich also? Ein denkendes Ding."#en[R. Descartes: AT VII. S. 28.]
+Im #ix("cogito-Argument") stellt #ix("Descartes", "Descartes, René") fest, dass er selbst notwendigerweise ist, solange er den Satz "Ich bin, ich existiere." ausspricht oder denkt. Darauffolgend wird untersucht, was denn nun dieses Ding sei, dass diesen Gedanken fasst. Dazu geht #ix("Descartes", "Descartes, René") auch hier radikal vor: alles, was täuschen könnte, wie seine Kleidung und seine körperliche Gestalt, werden auch hier vernachlässigt.#med[26 f] Was er feststellt ist, dass das Denken nicht von ihm, dem Denker, getrennt werden kann.#med[27] Also stellt Descartes fest: "Aber was bin ich also? Ein denkendes Ding."#en[Descartes, Renè: AT VII. S. 28.]
 
 #set par(justify: false)
 #grid(columns: (10%, 45%, 45%).map(e => e - 1.5em),

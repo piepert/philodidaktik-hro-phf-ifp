@@ -14,6 +14,7 @@
       <term name="editor" form="verb-short">(Hrsg.)</term>
       <term name="translator" form="verb-short">Übers. v.</term>
       <term name="editortranslator" form="verb-short">Hrsg. und übers. von</term>
+      <term name="no date">o. J.</term>
     </terms>
   </locale>
   <macro name="author">
@@ -76,9 +77,25 @@
   <macro name="volume-edition">
     <choose>
       <if type="article-journal">
-        <text variable="volume" prefix="Jg. "/>
-        <text variable="issue" prefix=" (" suffix="/"/>
-        <text macro="issued" suffix=")"/>
+        <choose>
+          <if variable="issue">
+            <choose>
+              <if variable="volume">
+                <text variable="volume" prefix="Jg. "/>
+                <text variable="issue" prefix=" (" suffix="/"/>
+                <text macro="issued" prefix="" suffix=")"/>
+              </if>
+              <else>
+                <text variable="issue" suffix="/"/>
+                <text macro="issued"/>
+              </else>
+            </choose>
+          </if>
+          <else>
+            <text variable="volume" prefix="Jg. "/>
+            <text macro="issued" prefix=" (" suffix=")"/>
+          </else>
+        </choose>
       </if>
       <else>
         <choose>
@@ -103,9 +120,16 @@
     <text variable="publisher-place"/>
   </macro>
   <macro name="issued">
-    <date variable="issued">
-      <date-part name="year"/>
-    </date>
+    <choose>
+      <if match="any" variable="issued">
+        <date variable="issued">
+          <date-part name="year"/>
+        </date>
+      </if>
+      <else>
+        <text term="no date"/>
+      </else>
+    </choose>
   </macro>
   <macro name="point-locators-subsequent">
     <label variable="locator" form="short"/>
@@ -171,8 +195,8 @@
   </macro>
   <citation et-al-min="4" et-al-use-first="3" disambiguate-add-names="true">
     <layout suffix=".">
-        <text macro="complete-citation"/>
-        <text macro="point-locators-subsequent"/>
+      <text macro="complete-citation"/>
+      <text macro="point-locators-subsequent"/>
     </layout>
   </citation>
   <bibliography hanging-indent="true" et-al-min="11" et-al-use-first="7" subsequent-author-substitute="&#8212;&#8212;&#8212;" entry-spacing="0">

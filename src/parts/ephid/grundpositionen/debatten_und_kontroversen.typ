@@ -7,7 +7,7 @@
     #set text(fill: black)
     Sollten die Probleme und Fragen von SuS zu den Problemen der Philosophie werden oder umgekehrt?
 
-    #ix("Rudolf Lassahn", "Lassahn, Rudolf") ist der Meinung, dass die aktuellen gesellschaftlichen und politischen Fragestellungen der SuS kanonischen Philosophietexten vorzuziehen ist.#en[Vgl. R. Lassahn: Zum Philosophieunterricht am Gymnasium. Einige Anmerkungen und Thesen. In: Aufgaben und Wege des Philosophieunterrichts. Heft "Beiträge zu verschiedenen philosophischen Themen". Jg. 4 (1972). S. 16.] #ix("Wolfgang Deppe", "Deppe, Wolfgang") kritisiert diese Auffassung: seiner Meinung nach ist eine reine Konzentration auf aktuelle Fragestellungen insofern schwierig, als dass man sie erst durch die traditionellen Primärtexte komplett verstehen könne.#en[Vgl. W. Deppe: "Bedarf der Philosophieunterricht einer neuen Begründung?" In: Aufgaben und Wege des Philosophieunterrichts. Heft "Didaktische Möglichkeiten der Philosophie".  Jg. 3 (1973). S. 49.]
+    #ix("Rudolf Lassahn", "Lassahn, Rudolf") ist der Meinung, dass die aktuellen gesellschaftlichen und politischen Fragestellungen der SuS kanonischen Philosophietexten vorzuziehen ist.#en[Vgl. @Lassahn1972_Aktualitaet[S. 16]] #ix("Wolfgang Deppe", "Deppe, Wolfgang") kritisiert diese Auffassung: seiner Meinung nach ist eine reine Konzentration auf aktuelle Fragestellungen insofern schwierig, als dass man sie erst durch die traditionellen Primärtexte komplett verstehen könne.#en[Vgl. @Lassahn1972_PUBegruendung[S. 49]]
 ][
     *#ix("Rehfus-Martens-Kontroverse", "Rehfus-Martens-Kontroverse", "Martens, Ekkehard", "Rehfus, Wulff D."):*
     #set text(fill: black)
@@ -21,7 +21,7 @@
     #table(columns: (auto, 0.5fr, 0.5fr),
         stroke: none,
 
-        [], strong[#ix("Rehfus", "Rehfus, Wulff D.")]+en[W. D. Rehfus: Der bildungstheoretisch-identitätstheoretische Ansatz in der Philosophiedidaktik.], strong[#ix("Martens", "Martens, Ekkehard")]+en[E. Martens: Philosophieren als Kulturtechnik. In: ders.: Methodik des Ethik- und Philosophieunterrichts. Hannover 2003. S. 30 ff.],
+        [], strong[#ix("Rehfus", "Rehfus, Wulff D.")]+en[Vgl. @Rehfus1986_BildungstheoretischerPU], strong[#ix("Martens", "Martens, Ekkehard")]+en[E. Martens: Philosophieren als Kulturtechnik. In: ders.: Methodik des Ethik- und Philosophieunterrichts. Hannover 2003. S. 30 ff.],
 
         align(right)[Philosophie], [
             - ist nicht didaktisch sondern argumentativ in sich selbst
@@ -51,7 +51,7 @@
         ],
 
         align(right)[Philosophie-\ unterricht], [
-            - sollte bildungstheoretisch#en["bildungstheoretisch" meint in diesem Konetext, dass der Philosophieunterricht nicht praktisch, mit einem Fokus auf die Handlung, sondern theoretisch, mit einem Fokus auf das reflexive Denken, stattfinden soll.#en[Vgl. W. D. Rehfus: Methodischer Zweifel und Metaphysik. Der bildungstheoretisch-identitätstheoretische Ansatz in der Philosophiedidaktik. In: W. D. Rehfus, Horst Becker (Hg.); Handbuch des Philosophieunterrichts 1896. S. 98--113. Hier S. 101 ff.]]/identitätstheoretisch#en["identitätstheoretisch" meint in diesem Zusammenhang die Philosophie als Reflexionsmöglichkeit als Ausgang aus eigener Identitätsnot. #en[Vgl. W. D. Rehfus: Methodischer Zweifel und Metaphysik. Der bildungstheoretisch-identitätstheoretische Ansatz in der Philosophiedidaktik. In: W. D. Rehfus, Horst Becker (Hg.); Handbuch des Philosophieunterrichts 1896. S. 98--113. Hier S. 106 ff.]] ausgerichtet sein
+            - sollte bildungstheoretisch#en["bildungstheoretisch" meint in diesem Konetext, dass der Philosophieunterricht nicht praktisch, mit einem Fokus auf die Handlung, sondern theoretisch, mit einem Fokus auf das reflexive Denken, stattfinden soll.#en[Vgl. @Rehfus1986_BildungstheoretischerPU[S. 101 ff]]]/identitätstheoretisch#en["identitätstheoretisch" meint in diesem Zusammenhang die Philosophie als Reflexionsmöglichkeit als Ausgang aus eigener Identitätsnot. #en[Vgl. @Rehfus1986_BildungstheoretischerPU[S. 106 ff]]] ausgerichtet sein
             - sollte die Probleme der Philosophie zu den Problemen der SuS machen
             - sollte Lernzieltheorie ablehnen
         ], [
@@ -63,9 +63,9 @@
     #set text(fill: black)
     Sind #ix("präsentativ-symbolische", "Form, präsentativ-symbolisch") und/oder #ix("diskursive", "Form, diskursiv") Formen adäquate und genuin philosophische Medien/Methoden des Philosophierens?
 
-    Mit #ix("präsentativ-symbolischen Formen", "Form, präsentativ-symbolisch") ist die von #ix("Susanne K. Langer", "Langer, Susanne K.") weiterentwickelte Theorie von #ix("Ernst Cassierers", "Cassirer, Ernst") #ix("symbolischen Formen", "Form, symbolisch"). Die grundlegende Errungenschaft ist, dass Philosophieren nach #ix("Cassirer", "Cassirer, Ernst") und #ix("Langer", "Langer, Susanne K.") nicht mehr nur an Sprache gebunden ist (textuell durch z.B. Essays und verbal z.B. durch Dialoge), sondern Menschen Medien ebenfalls Bedeutung zuweisen können, die nicht sprachlich ausgedrückt werden kann. Der Unterschied zwischen diesen #ix("diskursiven", "Form, diskursiv") und #ix("präsentativen", "Form, präsentativ-symbolisch") Formen ist Teil der #ix("Tiedemann-Gefert-Kontroverse"). #ix("Gefert", "Gefert, Christian") behauptet, dass #ix("präsentativ-symbolische Formen", "Form, präsentativ-symbolisch") Teil des Philosophierens sein können. Die Idee ist, dass die Frage "Was bedeutet das?" für die Philosophie grundlegend ist. #ix("Tiedemann", "Tiedemann, Markus") hält dem entgegen, dass Menschen eventuell in #ix("präsentativ-symbolischen Formen", "Form, präsentativ-symbolisch") denken können, aber diese nicht für die Philosophie geeignet sind.#en[Vgl. C. Runtenberg: Philosophiedidaktik. Lehren und Lernen. Paderborn 2016. S. 42.]
+    Mit #ix("präsentativ-symbolischen Formen", "Form, präsentativ-symbolisch") ist die von #ix("Susanne K. Langer", "Langer, Susanne K.") weiterentwickelte Theorie von #ix("Ernst Cassierers", "Cassirer, Ernst") #ix("symbolischen Formen", "Form, symbolisch"). Die grundlegende Errungenschaft ist, dass Philosophieren nach #ix("Cassirer", "Cassirer, Ernst") und #ix("Langer", "Langer, Susanne K.") nicht mehr nur an Sprache gebunden ist (textuell durch z.B. Essays und verbal z.B. durch Dialoge), sondern Menschen Medien ebenfalls Bedeutung zuweisen können, die nicht sprachlich ausgedrückt werden kann. Der Unterschied zwischen diesen #ix("diskursiven", "Form, diskursiv") und #ix("präsentativen", "Form, präsentativ-symbolisch") Formen ist Teil der #ix("Tiedemann-Gefert-Kontroverse"). #ix("Gefert", "Gefert, Christian") behauptet, dass #ix("präsentativ-symbolische Formen", "Form, präsentativ-symbolisch") Teil des Philosophierens sein können. Die Idee ist, dass die Frage "Was bedeutet das?" für die Philosophie grundlegend ist. #ix("Tiedemann", "Tiedemann, Markus") hält dem entgegen, dass Menschen eventuell in #ix("präsentativ-symbolischen Formen", "Form, präsentativ-symbolisch") denken können, aber diese nicht für die Philosophie geeignet sind.#en[Vgl. @Runtenberg2016_EPhiD[S. 42]]
 ][
-    *#ix("Philosophieren mit Kindern", "Philosophieren mit Kindern", "PmK", "PwC") -- möglich oder unmöglich?*#en[S. Nordhofen: Philosophieren mit Kindern. Bausteine für eine theoretische Grundlegung. In: Ekkehard Martens/Helmut Schreier (Hgg.): Philosophieren mit Schulkindern: Philosophie und Ethik in Grundschule und Sekundarstufe I. Heinsberg 1994. S. 35-46.]
+    *#ix("Philosophieren mit Kindern", "Philosophieren mit Kindern", "PmK", "PwC") -- möglich oder unmöglich?*#en[Vgl. @Nordhofen1994_PmK[S. 35-46]]
     #set text(fill: black)
 
     Kinder können nicht philosophieren, denn ...
@@ -76,7 +76,7 @@
 
     + *#ix("entwicklungspsychologisches Argument", "entwicklungspsychologisches Argument", "Argument, entwicklungspsychologisch"):* ... ihnen fehlen die entwicklungspsychologischen Fähigkeiten.
 
-        #ix("Jean Piaget", "Piaget, Jean") war Pionier der #ix("Entwicklungspsychologie") und unterteilte die menschliche Entwicklung in grobe Phasen ein. Diese Phasen können experimentell teilweise bestätigt werden. Eine Erkenntnis ist, dass abstraktes Denken durchschnittlich erst ab etwa dem 11. Lebensjahr #ix("abstrakt", "Denken, abstrakt") und #ix("hypothetisch-deduktiv", "Denken, hypothetisch-deduktiv") -- was als "wissenschaftlich" charakterisiert wird -- denken können.#en[Vgl. K. Seitz-Stein und V.-D. Berner: Modelle und Bedingungen der Entwicklung. In: D. Urhahne, M. Dresel und F. Fischer (Hrsg.): Psychologie für den Lehrberuf. Berlin 2019. S. 241.] Sind die Kinder nicht in diesem Stadium, kann man argumentieren, dass sie nicht philosophieren können. Hier kann man jedoch entgegenhalten, dass auch vor dieser Phase philosophische Ansätze im Denken von Kindern erkennbar sind und gefördert werden müssen. Nur weil diese nicht, ähnlich wie im #ix("Seriösitätsargument"), nicht in der Art des universitäten Niveaus stattfinden, spricht dies der Tätigkeit noch nicht den philosophischen Aspekt ab.
+        #ix("Jean Piaget", "Piaget, Jean") war Pionier der #ix("Entwicklungspsychologie") und unterteilte die menschliche Entwicklung in grobe Phasen ein. Diese Phasen können experimentell teilweise bestätigt werden. Eine Erkenntnis ist, dass abstraktes Denken durchschnittlich erst ab etwa dem 11. Lebensjahr #ix("abstrakt", "Denken, abstrakt") und #ix("hypothetisch-deduktiv", "Denken, hypothetisch-deduktiv") -- was als "wissenschaftlich" charakterisiert wird -- denken können.#en[Vgl. @SeitzSteinBerner2019_Diagnostik[S. 241]] Sind die Kinder nicht in diesem Stadium, kann man argumentieren, dass sie nicht philosophieren können. Hier kann man jedoch entgegenhalten, dass auch vor dieser Phase philosophische Ansätze im Denken von Kindern erkennbar sind und gefördert werden müssen. Nur weil diese nicht, ähnlich wie im #ix("Seriösitätsargument"), nicht in der Art des universitäten Niveaus stattfinden, spricht dies der Tätigkeit noch nicht den philosophischen Aspekt ab.
 
     + *#ix("Sprachargument"):* ... ihnen fehlt der Wortschatz der philosophischen Fachsprache, um ihre Ideen ausdrücken zu können.
 
@@ -96,7 +96,7 @@
 ]
 
 #task[Philosophieren mit Kindern][
-    Erklären und widerlegen Sie die drei Gegenargumente zum Philosophieren mit Kindern nach Susanne Nordhofen!#en[S. Nordhofen: Philosophieren mit Kindern. Bausteine für eine theoretische Grundlegung. In: Ekkehard Martens/Helmut Schreier (Hgg.): Philosophieren mit Schulkindern: Philosophie und Ethik in Grundschule und Sekundarstufe I. Heinsberg 1994. S. 35-46.]
+    Erklären und widerlegen Sie die drei Gegenargumente zum Philosophieren mit Kindern nach Susanne Nordhofen!#en[@Nordhofen1994_PmK[S. 35-46]]
 ][
     Das Sprachargument unterstellt Kindern, ohne einen Grundschatz an philosophischen Fachtermini ihre Gedanken nicht ausdrücken zu können. Dies mag stimmen, jedoch ist der präsentativ-symbolische Ansatz der Philosophie eine Möglichkeit, wie man ohne Sprache, sondern über Bilder und Symbole philosophieren kann.
 

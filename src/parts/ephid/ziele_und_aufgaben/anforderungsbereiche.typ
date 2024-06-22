@@ -1,9 +1,7 @@
 #import "/src/template.typ": *
 
 == #ix("Anforderungsbereiche", "Anforderungsbereich")
-
-// warum das box[] ...? sonst geht das irgendwie nicht, aber ich weiß nicht warum...? was ist mit den countern los?
-Die Anforderungsbereiche sind durch die EPA festgelegt und erklären, in welchen Dimensionen die Aufgaben des Philosophieunterrichts stattfinden sollen:#en[KMK (2019). Beschlüsse der Kultusministerkonferenz: Einheitliche Prüfungsanforderungen in der Abiturprüfung Philosophie. (Fassung vom 16.11.2006). Sekretariat der Ständigen Konferenz der Kultusminister der Länder in der Bundesrepublik Deutschland. https://www.kmk.org/fileadmin/veroeffentlichungen_beschluesse/1989/1989_12_01-EPA-Philosophie.pdf (letzter Zugriff: 26.12.2023).]
+Die Anforderungsbereiche sind durch die EPA festgelegt und erklären, in welchen Dimensionen die Aufgaben des Philosophieunterrichts stattfinden sollen:#en[@KMK2006_EPAPhil]
 
 #orange-list[
     *Anforderungsbereich I -- Problemerfassung*

@@ -2,16 +2,16 @@
 
 == #ix("Philosophie als Kulturtechnik", "Philosophie als Kulturtechnik", "Kulturtechnik")
 
-#ix("Ekkehard Martens", "Martens, Ekkehard") prägt den Begriff der Philosophie als #ix("Kulturtechnik").#en[E. Martens: Philosohieren als Kulturtechnik. In: ders. Methodik des Ethik- und Philosophieunterrichts. Hannover 2003. S. 13-42.] Er unterscheidet #ix("Philosophie als Tätigkeit") -- d.i. der Prozess des Erkennens -- und #ix("Philosophie als Tatbestand") -- d.i. die hervorgebrachten Erkenntnisse, Theorien oder Produkte der Tradition.#en[Vgl. E. Martens: Philosohieren als Kulturtechnik. In: ders. Methodik des Ethik- und Philosophieunterrichts. Hannover 2003. S. 15.] Ziel des Philosophieunterrichts ist Kompetenzerwerb, Philosophieren lernen, nicht Philosophie-Wissen aneignen.#en[Vgl. E. Martens: Philosohieren als Kulturtechnik. In: ders. Methodik des Ethik- und Philosophieunterrichts. Hannover 2003. S. 15 f.]
+#ix("Ekkehard Martens", "Martens, Ekkehard") prägt den Begriff der Philosophie als #ix("Kulturtechnik").#en[@Martens2003_MethodenPU[S. 13-42]] Er unterscheidet #ix("Philosophie als Tätigkeit") -- d.i. der Prozess des Erkennens -- und #ix("Philosophie als Tatbestand") -- d.i. die hervorgebrachten Erkenntnisse, Theorien oder Produkte der Tradition.#en[Vgl. @Martens2003_MethodenPU[S. 15]] Ziel des Philosophieunterrichts ist Kompetenzerwerb, Philosophieren lernen, nicht Philosophie-Wissen aneignen.#en[Vgl. @Martens2003_MethodenPU[S. 15 f]]
 
 #ix("Martens", "Martens, Ekkehard") zeigt, dass Philosophieren stark mit der (westlichen) Kultur verbunden ist und Aspekte anderer Formen der Technik aufweist:
 
 #table(columns: (50%, 50%), stroke: none)[
     #show: strong
-    Philosophieren als Bestandteil der Kultur#en[Vgl. E. Martens: Philosohieren als Kulturtechnik. In: ders. Methodik des Ethik- und Philosophieunterrichts. Hannover 2003. S. 30 f.]
+    Philosophieren als Bestandteil der Kultur#en[Vgl. @Martens2003_MethodenPU[S. 30 f]]
 ][
     #show: strong
-    Philosophieren als Technik#en[Vgl. E. Martens: Philosohieren als Kulturtechnik. In: ders. Methodik des Ethik- und Philosophieunterrichts. Hannover 2003. S. 31 f.]
+    Philosophieren als Technik#en[Vgl. @Martens2003_MethodenPU[S. 31 f]]
 ][
     + *genetisch*: historisch Teil der griechisch-europäischen Kultur
     + *anthropologisch*: Teil der menschlichen Natur
@@ -43,9 +43,9 @@
 ]
 
 #task(key: "kritikMartens")[Kritik an Martens Ansatz][
-    In Ekkehard Martens Buch "Methodik des Ethik- und Philosophieunterrichts: Philosophieren als elementare Kulturtechnik" wird der dialogisch-pragmatische Ansatz der Philosophie dargestellt. Ein Amazon-Rezensent kritisiert das Buch und Martens Ansatz scharf#en[Amazon: "Methodik des Ethik- und Philosophieunterrichts: Philosophieren als elementare Kulturtechnik." https://www.amazon.de/Methodik-Ethik-Philosophieunterrichts-Philosophieren-Kulturtechnik/dp/3937223002#customerReviews (letzter Zugriff am 12.05.2024)]. Fassen Sie die Kritikpunkte des Rezensenten zusammen und nehmen Sie beurteilt Stellung in der Debatte!
+    In Ekkehard Martens Buch "Methodik des Ethik- und Philosophieunterrichts: Philosophieren als elementare Kulturtechnik" wird der dialogisch-pragmatische Ansatz der Philosophie dargestellt. Ein Amazon-Rezensent kritisiert das Buch und Martens Ansatz scharf.#en[Amazon: "Methodik des Ethik- und Philosophieunterrichts: Philosophieren als elementare Kulturtechnik." https://www.amazon.de/Methodik-Ethik-Philosophieunterrichts-Philosophieren-Kulturtechnik/dp/3937223002#customerReviews (letzter Zugriff am 12.05.2024)] Fassen Sie die Kritikpunkte des Rezensenten zusammen, benennen Sie das Selbstverständnis der Philosophie, das durch die Kritik propagiert wird und nehmen Sie beurteilt Stellung in der Debatte!
 
     #image("martens_kritik_amazon.png", width: 100%)
 ][
-    #todo[]
+    #todo[Lösungsvorschlag erstellen.]
 ]

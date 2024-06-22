@@ -2,7 +2,7 @@
 
 == Grundlage: Die vier #ix("Kantischen Fragen", "Kantische Fragen")
 
-Grundlage der Inhalte des Rahmebereiches bilden die vier Kantischen Grundfragen der Philosophie aus Kants Logik-Vorlesung:#ens[Vgl. I. Kant: Log, AA 9, 25.][Vgl. Ministerium für Bildung, Wissenschaft und Kultur des Landes Mecklenburg-Vorpommern (Hg.): Rahmenplan Jahrgangsstufen 5 und 6. Philosophieren mit Kindern. Schwerin 1996. S. 12.][Vgl. Ministerium für Bildung, Wissenschaft und Kultur des Landes Mecklenburg-Vorpommern (Hg.): Rahmenpln Jahrgangsstufen 7-10. Philosophieren mit Kindern. Erprobungsfassung. Schwerin 2002. S. 14.]
+Grundlage der Inhalte des Rahmebereiches bilden die vier Kantischen Grundfragen der Philosophie aus Kants Logik-Vorlesung:#ens[Vgl. Kant, Immanuel: Log, AA 9, 25.][Vgl. @MBWKMV1996_RP56[S. 12]][Vgl. @MBWKMV2002_RP710[S. 14]]
 
 #orange-list[
     *Was kann ich wissen?* #h(1fr) Erkenntnistheorie
@@ -42,7 +42,7 @@ Grundlage der Inhalte des Rahmebereiches bilden die vier Kantischen Grundfragen 
     Lohnt es sich nach dem Selbstverständnis des Menschen zu fragen angesichts von Missachtung und Manipulierbarkeit, die ich erfahre und sehe? Andererseits ist die Sicht auf den Menschen komplex und differenziert geworden -- das gilt auch für mich.
 ]
 
-In der Oberstufe werden die vier #ix("kantischen Fragen", "Kantische Fragen") als Grundlage zur Erörterung der philosophischen Einzeldisziplinen verwendet.#en[Vgl. Ministerium für Bildung, Wissenschaft und Kultur des Landes Mecklenburg-Vorpommern (Hg.): Rahmenplan für die Qualifikationsphase der gymnasialen Oberstufe Philosophie. Schwerin 2019. S. 11.]
+In der Oberstufe werden die vier #ix("kantischen Fragen", "Kantische Fragen") als Grundlage zur Erörterung der philosophischen Einzeldisziplinen verwendet.#en[Vgl. @MBWKMV2019_RP1112[S. 11]]
 
 #task[Grundlage Rahmenplan: Kant][
     Nennen Sie die vier #ix("Kantischen Fragen", "Kantische Fragen")!

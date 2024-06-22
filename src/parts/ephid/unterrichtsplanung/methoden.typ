@@ -3,12 +3,12 @@
 == #ix("Methoden", "Methode", "Unterrichtsmethode")
 
 #def("Methode")[
-    "#ix("Unterrichtsmethoden", "Methode", "Unterrichtsmethode") sind die Formen und Verfahren, mit deren Hilfe sich Lehrer und Schüler die sie umgebende natürliche und gesellschaftliche Wirklichkeit unter dem institutionellen Rahmenbedingungen der Schule aneignen.“#en[H. Meyer: Leitfaden Unterrichtsvorbereitung. Berlin 2007. S. 44.]
+    "#ix("Unterrichtsmethoden", "Methode", "Unterrichtsmethode") sind die Formen und Verfahren, mit deren Hilfe sich Lehrer und Schüler die sie umgebende natürliche und gesellschaftliche Wirklichkeit unter dem institutionellen Rahmenbedingungen der Schule aneignen.“#en[@Meyer2007_Unterrichtsvorbereitung[S. 44]]
 ]
 
 #ix("Methode", "Unterrichtsmethode") und #ix("Sozialformen", "Sozialform") sind voneinander abzugrenzen. Die #ix("Methoden", "Methode", "Unterrichtsmethode") des Unterrichts können bestimmte #ix("Sozialformen", "Sozialform") voraussetzen, allein mit #ix("Sozialform") kann jedoch keine inhaltliche Auseinandersetzung stattfinden. Ein Inhalt kann nur #ix("methodisch", "Methode", "Unterrichtsmethode") erarbeitet werden. Während #ix("Sozialformen", "Sozialform") also den sozialen Aspekt -- wer arbeitet, die "soziale Instanz" -- besprechen, besprechen #ix("Methoden", "Methode") die Form der Erarbeitung, die die soziale Instanz ausführt.
 
-Methoden bilden also das "Wie?" des Unterrichts und finden auf drei verschiedenen Ebenen statt:#en[Vgl. H. Meyer: Leitfaden Unterrichtsvorbereitung. Berlin 2007. S. 45 ff.]
+Methoden bilden also das "Wie?" des Unterrichts und finden auf drei verschiedenen Ebenen statt:#en[Vgl. @Meyer2007_Unterrichtsvorbereitung[S. 45 ff]]
 
 #grid(column-gutter: 2em,
     row-gutter: 1em,
@@ -24,7 +24,7 @@ Methoden bilden also das "Wie?" des Unterrichts und finden auf drei verschiedene
         - Projektarbeit
         - Marktplatzarbeit
     ], [
-        Zu der Mesoebene gehören Methoden, die zu den "historisch gewachsene[n] feste[n] Formen methodischen Handelns"#en[H. Meyer: Leitfaden für die Unterrichtsvorbereitung. Berlin 2007. S. 46.] gehören. Sie werden durch ihre Sozial-, Handlungs-, Zeit- und Raumdimension charakterisiert. Darunter fallen z.B. folgende philosophische Methoden:
+        Zu der Mesoebene gehören Methoden, die zu den "historisch gewachsene[n] feste[n] Formen methodischen Handelns"#en[@Meyer2007_Unterrichtsvorbereitung[S. 46]] gehören. Sie werden durch ihre Sozial-, Handlungs-, Zeit- und Raumdimension charakterisiert. Darunter fallen z.B. folgende philosophische Methoden:
 
         - Schaubild
         - Dilemmadiskussion
@@ -45,9 +45,9 @@ Methoden lassen sich nach einigen Autoren in unterschiedliche Kategorien einteil
 #table(columns: (50% - 1em, 50% - 1em),
     stroke: none,
     column-gutter: 2em,
-    [*#ix("sokratisch-aristotelische Kategorien", "Kategorien, sokratisch-aristotelisch")*\ nach #ix("Martens", "Martens, Ekkehard")] + ens[Vgl. E. Martens: Methodik des Ethik- und Philosophieunterrichts. Philosophieren als elementare Kulturtechnik. Hannover 2003. S. 54-56.][Vgl. V. Steenblock: Philosophische Bildung. Einführung in die Philosophiedidaktik und Handbuch Praktische Philosophie. Münster 2002. S. 134-136.][Vgl. C. Runtenberg: Philosophiedidaktik. Lehren und Lernen. Paderborn 2016. S. 79 f.],
+    [*#ix("sokratisch-aristotelische Kategorien", "Kategorien, sokratisch-aristotelisch")*\ nach #ix("Martens", "Martens, Ekkehard")] + ens[Vgl. @Martens2003_MethodenPU[S. 54-56]][Vgl. @Steenblock2002_EPhiD[S. 134-136]][Vgl. @Runtenberg2016_EPhiD[S. 79 f]],
 
-    [*#ix("Denkrichtungen", "Denkrichtung", "Denkstil")*\ nach #ix("Rohbeck", "Rohbeck, Johannes")] + ens[Vgl. J. Rohbeck: Didaktik der Philosophie und Ethik. Dresden 2008. S. 77-88.][Vgl. V. Steenblock: Philosophische Bildung. Einführung in die Philosophiedidaktik und Handbuch Praktische Philosophie. Münster 2002. S. 133f.][Vgl. C. Runtenberg: Philosophiedidaktik. Lehren und Lernen. Paderborn 2016. S. 77 f.],
+    [*#ix("Denkrichtungen", "Denkrichtung", "Denkstil")*\ nach #ix("Rohbeck", "Rohbeck, Johannes")] + ens[Vgl. @Rohbeck2008_EPhiD[S. 77-88]][Vgl. @Steenblock2002_EPhiD[S. 133 f]][Vgl. @Runtenberg2016_EPhiD[S. 77 f]],
 
     [
         + _phänomenologische Methoden:_ differenzierte und umfassende Beschreibung der eigenen Wahrnehmung
@@ -98,7 +98,7 @@ Es folgen einige Beispiele für Methoden des Philosophieunterrichts.
 
     3. *Beantwortung der Fragestellung:* Das Experiment wird durchgeführt und die Fragestellung gemäß der gegebenen Prämissen beantwortet.
 
-    #ix("Helmut Engels", "Engels, Helmut") nimmt für das #ix("Gedankenexperiment") an, dass es auf drei #ix("didaktischen Niveaustufen", "Stufen, didaktische") durchgeführt werden könne:#en[Vgl. H. Engels: "Nehmen wir an..." -- Das Gedankenexperiment in didaktischer Absicht. Weinheim/Basel 2004. S. 186 ff.]
+    #ix("Helmut Engels", "Engels, Helmut") nimmt für das #ix("Gedankenexperiment") an, dass es auf drei #ix("didaktischen Niveaustufen", "Stufen, didaktische") durchgeführt werden könne:#en[Vgl. @Engels2004_Gedankenexperiment[S. 186 ff]]
 
     1. *Alles gegeben, Interpretation:* Das Gedankenexperiment wird von den SuS gelesen, interpretiert und kritisiert. Die Funktion des ausgewählten #ix("Gedankenexperiments", "Gedankenexperiment") soll klar werden und. Die These, die durch das #ix("Gedankenexperiment") vom Autor vertreten wird, soll kritisch geprüft werden. Sind die Mittel des #ix("Gedankenexperiments", "Gedankenexperiment") wirklich genug, um das zu zeigen, was der Autor zeigen will?
 
@@ -121,7 +121,7 @@ Es folgen einige Beispiele für Methoden des Philosophieunterrichts.
 
     Neben dem #ix("neosokratischen Gespräch", "neosokratisches Gespräch", "Gespräch, neosokratisch") ist die Inquiry ebenfalls eine Gesprächsmethode für Gruppen. Ausgehend von einem gegebenen Stimulus wird gemeinsam eine Fragestellung erarbeitet, die dann zusammen in der Gruppe beantwortet wird. Im Gegensatz zum #ix("neosokratisches Gespräch", "neosokratisches Gespräch", "Gespräch, neosokratisch") muss *kein gemeinsamer Konsens* erreicht werden. Die Inquiry eignet sich ebenfalls für kurze Gespräche von 45 bis 90 Minuten.
 
-    Die Inquiry besteht aus 7 Phasen:#en[Vgl. C. Klager: Die Inquiry -- eine neue Methode des Philosophierens? In: EuU 4/2011. S. 44 ff.]
+    Die Inquiry besteht aus 7 Phasen:#en[Vgl. @Klager2011_Inquiry[S. 44 ff]]
 
     1. *Geben des Stimulus:* Die Lehrkraft gibt einen Stimulus, der die SuS dazu anregen soll, ein philosophisches Problembewusstsein zu entwickeln.
 
@@ -152,7 +152,7 @@ Es folgen einige Beispiele für Methoden des Philosophieunterrichts.
 
     Textarbeit kann auf verschiedene Arten angewandt verwden. Neben einfachem Lesen des Textes (mittels verschiedener Methoden wie *#ix("SQ3R")*) gibt es noch weitere Möglichkeiten, philosophische Texte zu bearbeiten.
 
-    Die *#ix("produktionsorientierte Didaktik", "Didaktik, produktionsorientiert", "Produktionsorientierung")* bietet hier einen anderen Blick auf die Arbeit mit Texten:#en[Vgl C. Runtenberg: Philosophiedidaktik. Lehren und Lernen. Paderborn 2016. S. 48 ff.]
+    Die *#ix("produktionsorientierte Didaktik", "Didaktik, produktionsorientiert", "Produktionsorientierung")* bietet hier einen anderen Blick auf die Arbeit mit Texten:#en[Vgl. @Runtenberg2016_EPhiD[S. 48 ff.]]
 
     1. ein Text ist ein handwerkliches Produkt
     2. Lesende sind Koproduzenten, durch Lesen und Verstehen wird etwas Neues geschaffen

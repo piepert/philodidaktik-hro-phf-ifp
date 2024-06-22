@@ -25,5 +25,5 @@
     *Philosophieren*
     #set text(fill: black)
 
-    Im Rahmenplan ist folgendes gefordert: "Der Kern der Philosophie besteht im Philosophieren, der Tätigkeit des philosophischen Denkens, der philosophischen Kritik und Reflexion."#en[Ministerium für Bildung, Wissenschaft und Kultur des Landes Mecklenburg-Vorpommern (Hg.): Rahmenplan für die Qualifikationsstufe der gymnasialen Oberstufe Philosophie. Schwerin 2019. S. 4.]
+    Im Rahmenplan ist folgendes gefordert: "Der Kern der Philosophie besteht im Philosophieren, der Tätigkeit des philosophischen Denkens, der philosophischen Kritik und Reflexion."#en[@MBWKMV2019_RP1112[S. 4]]
 ]

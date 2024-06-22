@@ -5,7 +5,7 @@
 Der Unterricht in Mecklenburg-Vorpommern ist kompetenzorientiert. Die Ausbildung von Komptenzen steht daher im Vordergrund. Für die Orientierungsstufe und weiterführende Stufe werden andere Kompetenzen angelegt als für die Oberstufe. Sie werden wie folgt bestimmt:
 
 #orange-list[
-    *fachübergreifende #ix("Kompetenzen", "Kompetenz")*#en[Vgl. Ministerium für Bildung, Wissenschaft und Kultur des Landes Mecklenburg-Vorpommern (Hg.): Rahmenplan für die Jahrgangsstufen 7-10. Philosophieren mit Kindern. Erprobungsfassung. Schwerin 2002.] #h(1fr) Stufe 5-10
+    *fachübergreifende #ix("Kompetenzen", "Kompetenz")*#en[Vgl. @MBWKMV2002_RP710[S. 3 ff]] #h(1fr) Stufe 5-10
     #set text(fill: black)
 
     Die Kompetenzen der Klassenstufen 5 bis 10 bestehen aus #ix("Sachkompetenz"), #ix("Sozialkompetenz"), #ix("Methodenkompetenz") und #ix("Selbstkompetenz"), die zusammen #ix("Handlungskompetenz") ergeben sollen.
@@ -50,7 +50,7 @@ Der Unterricht in Mecklenburg-Vorpommern ist kompetenzorientiert. Die Ausbildung
             - mit Konflikten angemessen umgehen
         ])
 ][
-    *fachspezifische #ix("Kompetenzen", "Kompetenz")*#en[Vgl. Ministerium für Bildung, Wissenschaft und Kultur des Landes Mecklenburg-Vorpommern (Hg.): Rahmenplan für die Qualifikationsphase der gymnasialen Oberstufe Philosophie. Schwerin 2019. S. 7. f.] #h(1fr) Stufe 11/12
+    *fachspezifische #ix("Kompetenzen", "Kompetenz")*#en[Vgl. @MBWKMV2019_RP1112[S. 7. f]] #h(1fr) Stufe 11/12
     #set text(fill: black)
 
     Für die gymnasiale Oberstufe werden fachspezifische #ix("Kompetenzen", "Kompetenz") als Grundlage für den Philosophieunterricht festgelegt: #ix("Wahrnehmungs- und Deutungskompetenz", "Wahrnehmungskompetenz", "Deutungskompetenz"), #ix("Argumentations- und Urteilskompetenz"), #ix("Dartstellungskompetenz"), #ix("Praktische Kompetenz"). Diese Kompetenzen aggregieren sich zu einer *#ix("Reflexionskompetenz")*. Die philosophischen Reflexionsmethoden sollen gestärkt werden.

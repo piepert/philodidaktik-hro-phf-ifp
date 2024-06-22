@@ -3,11 +3,11 @@
 == #ix("Modelle für den Stundenaufbau", "Stundenaufbau", "Ablaufplanmodelle", "Stundenmodelle", "Unterrichtsstundenmodelle")
 
 #def("Problem")[
-    Der Problembegriff bezeichnet in der Fachdidaktik eine "bestimmte Art von Schwierigkeit und enthält -- das ist wichtig -- eine Art Suchanleitung für den Lösungsversuch: Er lenkt nämlich den Blick auf die beiden anscheinend widersprüchlichen Thesen und ihr Verhältnis zueinander."#en[E. Helmut: Vorschlag, den Problembegriff einzugrenzen. In: ZDPE 3/1990. S. 126-134.]
+    Der Problembegriff bezeichnet in der Fachdidaktik eine "bestimmte Art von Schwierigkeit und enthält -- das ist wichtig -- eine Art Suchanleitung für den Lösungsversuch: Er lenkt nämlich den Blick auf die beiden anscheinend widersprüchlichen Thesen und ihr Verhältnis zueinander."#en[@Engels1990_Problembegriff[S. 126-134]]
 ]
 
 #def("Problemorientierung")[
-    Problemorientierter Unterricht bezeichnet eine Art und Weise, in der der Unterricht mit Fokus auf ein bestimmtes philosophisches Problem gerichtet ist. Zu Beginn der Stunde steht eine Problemfrage, am Ende der Stunde wird diese nach bestimmten Kriterien beantwortet.#en[Vgl. S. Beugholt: Problemorientierter Ethik- und Philosophieunterricht -- Wie macht man das eigentlich? In: ZDPE 2/2021. S. 117.]
+    Problemorientierter Unterricht bezeichnet eine Art und Weise, in der der Unterricht mit Fokus auf ein bestimmtes philosophisches Problem gerichtet ist. Zu Beginn der Stunde steht eine Problemfrage, am Ende der Stunde wird diese nach bestimmten Kriterien beantwortet.#en[Vgl. @Beugholt2021_ProblemorientierterPU[S. 117]]
 ]
 
 Es folgen einige standardmäßige Modelle für den Aufbau einer Unterrichtsstunde.
@@ -17,7 +17,7 @@ Es folgen einige standardmäßige Modelle für den Aufbau einer Unterrichtsstund
     #set text(fill: black)
 
     #grid(columns: (1fr, 15%), column-gutter: 1em, [
-        Mit der Einteilung der #ix("Methoden", "Methode") in #ix("sokratisch-aristotelische Kategorien", "Kategorien, sokratisch-aristotelisch"), entfaltet #ix("Martens", "Martens, Ekkehard") das Prinzip seiner Unterrichtsplanung: die #ix("Methodenschlange"). Martens sieht hier die folgende Reihenfolge der philosophischen Methoden als sinnvoll, jedoch nicht als notwendig an.#en[Vgl. E. Martens: Methodik des Ethik- und Philosophie-Unterrichts. Hannover 2003. S. 56.] Die angegebenen Methoden sind die wichtigsten, jedoch nicht die einzigen, die folgende Liste wird als erweiterbar und veränderbar angesehen:#en[Vgl. E. Martens: Methodik des Ethik- und Philosophie-Unterrichts. Hannover 2003. S. 56.]
+        Mit der Einteilung der #ix("Methoden", "Methode") in #ix("sokratisch-aristotelische Kategorien", "Kategorien, sokratisch-aristotelisch"), entfaltet #ix("Martens", "Martens, Ekkehard") das Prinzip seiner Unterrichtsplanung: die #ix("Methodenschlange"). Martens sieht hier die folgende Reihenfolge der philosophischen Methoden als sinnvoll, jedoch nicht als notwendig an.#en[Vgl. @Martens2003_MethodenPU[S. 56]] Die angegebenen Methoden sind die wichtigsten, jedoch nicht die einzigen, die folgende Liste wird als erweiterbar und veränderbar angesehen:#en[Vgl. @Martens2003_MethodenPU[S. 56]]
 
         1. *phänomenologische Methode*: Zuerst wird das philosophische Problem phänomenologisch betrachtet. Die Eindrücke der SuS sind hier von Bedeutung.
 
@@ -30,7 +30,7 @@ Es folgen einige standardmäßige Modelle für den Aufbau einer Unterrichtsstund
         5. *spekulative Methode*: Eigene Lösungsvorschläge und Ideen kommen hinzu.
 
 
-    ], image("mod_methodenschlange.png", height: 3cm)+en[E. Martens: Methodik des Ethik- und Philosophie-Unterrichts. Hannover 2003. S. 57.])
+    ], image("mod_methodenschlange.png", height: 3cm)+en[@Martens2003_MethodenPU[S. 57]])
 ][
     *#ix("Bonbon-Modell"):* #h(1fr) #ix("Sistermann", "Sistermann, Rolf")
     #set text(fill: black)
@@ -52,7 +52,7 @@ Es folgen einige standardmäßige Modelle für den Aufbau einer Unterrichtsstund
 
             Das #ix("Bonbon-Modell") ist nicht nur für einzelne Unterrichtsstunden gedacht, sondern soll sich ebenfalls über mehrere Unterrichtseinheiten erstrecken können.
 
-    ], image("mod_bonbon.png", height: 3.25cm)+en[C. Runtenberg: Philosophiedidaktik. Lehren und Lernen. Paderborn 2016. S. 139.])
+    ], image("mod_bonbon.png", height: 3.25cm)+en[@Runtenberg2016_EPhiD[S. 139]])
 ][
     *#ix("PEST"):*
     #set text(fill: black)
@@ -87,7 +87,7 @@ Es folgen einige standardmäßige Modelle für den Aufbau einer Unterrichtsstund
 
         + *Hinführung:* Was eignet sich als Hinführung?
 
-        #ix("Tim Pörschke", "Pörschke, Tim") empfiehlt eine Erweiterung des Modells, erweitert den Vorschlag damit um eine curriculare Legitimation und Einbettungen anderer didaktischer Konzepte:#en[Vgl. T. Pörschke: Unterrichtsplanung durch backward design. Wie plane ich eine gute Unterrichtsstunde im Fach Philosophie? Ein Leitfaden in sieben Schritten. In: ZDPE 1/2021. S. 112-120.]
+        #ix("Tim Pörschke", "Pörschke, Tim") empfiehlt eine Erweiterung des Modells, erweitert den Vorschlag damit um eine curriculare Legitimation und Einbettungen anderer didaktischer Konzepte:#en[Vgl. @Poerschke2021_BackwardDesign[S. 112-120]]
 
         + *Formulierung des Lernziels:* Anhand des Rahmenplans und dem Thema der Unterrichtsreihe wird ein Lernziel formuliert.
 

@@ -3,7 +3,7 @@
 == #ix("Sozialformen", "Sozialform")
 
 #def("Sozialform")[
-    "Sozialformen regeln die Art und Weise, in der Lehrer und Schüler im Unterricht miteinander kommunizieren und kooperieren."#en[H. Meyer: Leitfaden Unterrichtsvorbereitung. Berlin 2007. S. 41.]
+    "Sozialformen regeln die Art und Weise, in der Lehrer und Schüler im Unterricht miteinander kommunizieren und kooperieren."#en[@Meyer2007_Unterrichtsvorbereitung[S. 41]]
 ]
 
 #table(columns: 2,

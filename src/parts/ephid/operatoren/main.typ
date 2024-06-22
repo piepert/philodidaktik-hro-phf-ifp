@@ -5,7 +5,7 @@
 = Operatoren
 #author[Tristan Pieper]
 
-Die einheitlichen Prüfungsanforderungen für das Abitur im Fach Philosophie legen einheitliche Operatoren für das Fach Philosophie fest.#en[KMK (2019). Beschlüsse der Kultusministerkonferenz: Einheitliche Prüfungsanforderungen in der Abiturprüfung Philosophie. (Fassung vom 16.11.2006). Sekretariat der Ständigen Konferenz der Kultusminister der Länder in der Bundesrepublik Deutschland. https://www.kmk.org/fileadmin/veroeffentlichungen_beschluesse/1989/1989_12_01-EPA-Philosophie.pdf (letzter Zugriff: 26.12.2023). S. 10 ff.] Die Oepratoren fallen unter bestimmte #ix("Anforderungsbereiche", "Anforderungsbereich") und haben somit zum Ziel die #ix("Problemerfassung"), #ix("-bearbeitung", "Problembearbeitung") oder #ix("-verortung", "Problemverortung"). Es ist möglich, dass ein Operator je nach Aufgabenstellung bzw. Bearbeitung der SuS unter mehrere Anforderungsbereiche fallen kann.
+Die einheitlichen Prüfungsanforderungen für das Abitur im Fach Philosophie legen einheitliche Operatoren für das Fach Philosophie fest.#en[Vgl. @KMK2006_EPAPhil[S. 10 ff]] Die Oepratoren fallen unter bestimmte #ix("Anforderungsbereiche", "Anforderungsbereich") und haben somit zum Ziel die #ix("Problemerfassung"), #ix("-bearbeitung", "Problembearbeitung") oder #ix("-verortung", "Problemverortung"). Es ist möglich, dass ein Operator je nach Aufgabenstellung bzw. Bearbeitung der SuS unter mehrere Anforderungsbereiche fallen kann.
 
 // #let ix(..a) = a.pos().first()
 

@@ -2,7 +2,7 @@
 
 == #ix("Dresdner Konsens")
 
-Im #ix("Dresdner Konsens") ist das #ix("pädagogisch-politische Selbstverständnis", "Selbstverständnis, pädagogisch-politisch") wiederzuerkennen: Er besteht aus der Zielsetzung, dass der Philosophieunterricht mündige, kritisch-denkende und urteilsfähige Bürger bilden soll. Der #ix("Dresdner Konsens") setzt sich aus vier Prämissen zusammen:#en[Dresdener Konsens. In: ZDPE 3/2016. S. 106.]
+Im #ix("Dresdner Konsens") ist das #ix("pädagogisch-politische Selbstverständnis", "Selbstverständnis, pädagogisch-politisch") wiederzuerkennen: Er besteht aus der Zielsetzung, dass der Philosophieunterricht mündige, kritisch-denkende und urteilsfähige Bürger bilden soll. Der #ix("Dresdner Konsens") setzt sich aus vier Prämissen zusammen:#en[Vgl. @DresdnerKonsens]
 
 #orange-list[
     *#ix("Stärkung der Urteilskraft", "Stärkung der Urteilskraft", "Urteilskraft"):* #set text(fill: black)

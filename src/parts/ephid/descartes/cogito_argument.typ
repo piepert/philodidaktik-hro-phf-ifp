@@ -1,6 +1,6 @@
 #import "/src/template.typ": *
 
-#let med(page) = en[Vgl. R. Descartes: AT VII. S. #page.]
+#let med(page) = en[Vgl. Descartes, Renè: AT VII. S. #page.]
 
 == #ix("Das cogito-Argument", "cogito-Argument")
 

@@ -4,7 +4,7 @@
 
 #grid(column-gutter: 1em, row-gutter: 1em, columns: 3,
 
-    [*Rekrutierungsfunktion*#en[@Klager2021_Bewertung[S. 4 f.]]],
+    [*Rekrutierungsfunktion*#en[@Klager2021_Bewertung[S. 4 f]]],
     [*Didaktische Funktion*#en[@Klager2021_Bewertung[S. 5]]],
     [*Sozialisierungsfunktion*#en[@Klager2021_Bewertung[S. 5]]],
 

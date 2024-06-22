@@ -1,6 +1,6 @@
 #import "/src/template.typ": *
 
-#let med(page) = en[Vgl. R. Descartes: AT VII. S. #page.]
+#let med(page) = en[Vgl. Descartes, Renè: AT VII. S. #page.]
 
 == #ix("Der methodische Zweifel", "Zweifel, methodisch")
 
@@ -41,37 +41,37 @@ Der methodische Zweifel schreitet in drei Stufen voran:
     ],
 
     [8/9], [
-        - *Woher beziehe ich meine Quellen des Wissens? Wie zuverlässig sind diese?*#en[Vgl. Ministerium für Bildung, Wissenschaft und Kultur des Landes Mecklenburg-Vorpommern (Hg.): Rahmenplan Jahrgangsstufen 7-10. Philosophieren mit Kindern. Erprobungsfassung. Schwerin 2002. S. 28.]
+        - *Woher beziehe ich meine Quellen des Wissens? Wie zuverlässig sind diese?*#en[Vgl. @MBWKMV2002_RP710[S. 28]]
     ], [
         - Sind die Sinne verlässliche Wissensquelen? -- Argument der Sinnestäuschung
     ],
 
     [10], [
-        - *Wege philosophischen Denkens:* Wie gelange ich zu begründeter Einsicht?#en[Vgl. Ministerium für Bildung, Wissenschaft und Kultur des Landes Mecklenburg-Vorpommern (Hg.): Rahmenplan Jahrgangsstufen 7-10. Philosophieren mit Kindern. Erprobungsfassung 2002. S. 34.]
+        - *Wege philosophischen Denkens:* Wie gelange ich zu begründeter Einsicht?#en[Vgl. @MBWKMV2002_RP710[S. 34]]
     ], [
         - #ix("methodischer Zweifel", "Zweifel, methodisch") als weg sicherer Erkenntnis, als Methode des Philosophierens
     ],
 
     [], [
-        - *Regeln logischen Denkens:* Wie urteile und schließe ich korrekt?#en[Vgl. Ministerium für Bildung, Wissenschaft und Kultur des Landes Mecklenburg-Vorpommern (Hg.): Rahmenplan Jahrgangsstufen 7-10. Philosophieren mit Kindern. Erprobungsfassung 2002. S. 34.]
+        - *Regeln logischen Denkens:* Wie urteile und schließe ich korrekt?#en[Vgl. @MBWKMV2002_RP710[S. 34]]
     ], [
         - Wie gut ist die Argumentation im #ix("methodischen Zweifel", "Zweifel, methodisch")
     ],
 
     [], [
-        - *Strategien empirischer Forschung:* Welches Erkenntnisinteresse leitet die Naturwissenschaften?#en[Vgl. Ministerium für Bildung, Wissenschaft und Kultur des Landes Mecklenburg-Vorpommern (Hg.): Rahmenplan Jahrgangsstufen 7-10. Philosophieren mit Kindern. Erprobungsfassung 2002. S. 34.]
+        - *Strategien empirischer Forschung:* Welches Erkenntnisinteresse leitet die Naturwissenschaften?#en[Vgl. @MBWKMV2002_RP710[S. 34]]
     ], [
         - Wie sehr unterscheidet und/oder gleicht sich die Vorgehensweise der Naturwissenschaften mit Descartes #ix("methodischem Zweifel", "Zweifel, methodisch")?
     ],
 
     [11/12], [
-        - *Wissen:* Frage nach der Sicherheit von Wissen/Skepsis#en[Vgl. Ministerium für Bildung, Wissenschaft und Kultur (Hg.): Rahmenplan für die Qualifikationsphase der gymnasialen Oberstufe. Philosophie. Schwerin 2019. S. 12.]
+        - *Wissen:* Frage nach der Sicherheit von Wissen/Skepsis#en[Vgl. @MBWKMV2019_RP1112[S. 12]]
     ], [
         - methodischer Zweifel als Form des radikalen Zweifels; Ziel zur Grundlegung sicheren Wissens
     ],
 
     [], [
-        - *Erkenntnis:* dialektische Auseinandersetzung mit Thesen zur menschlichen Erkenntnis, Rationalismus#en[Vgl. Ministerium für Bildung, Wissenschaft und Kultur (Hg.): Rahmenplan für die Qualifikationsphase der gymnasialen Oberstufe. Philosophie. Schwerin 2019. S. 12.]
+        - *Erkenntnis:* dialektische Auseinandersetzung mit Thesen zur menschlichen Erkenntnis, Rationalismus#en[Vgl. @MBWKMV2019_RP1112[S. 12]]
     ], [
         - Denken und Vernunft als reine Methode der Erkenntnis
     ])
