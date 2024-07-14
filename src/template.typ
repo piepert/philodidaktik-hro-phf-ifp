@@ -476,7 +476,7 @@
 
             Aller\
             Anfang ist... \
-            Klagerrisch \
+            Klagerisch \
             #box(image(width: 100%, "titlepage_image.png"))
 
         ], block(fill: color-orange-light,
@@ -609,7 +609,7 @@
 
 #let make-outline() = {
     v(1em)
-    heading(outlined: false)[Aller Anfang ist... klagerrisch]
+    heading(outlined: false)[Aller Anfang ist... klagerisch]
     v(-1em)
     text(fill: color-orange, tracking: 0.25em, strong(upper[Inhaltsverzeichnis]))
 
@@ -765,7 +765,7 @@
         set text(size: 10pt, fill: color-brown)
 
         h(1fr)
-        strong[Aller Anfang ist... klagerrisch]
+        strong[Aller Anfang ist... klagerisch]
         v(-0.75em)
         line(length: 100%, stroke: 0.5pt + color-blue)
     })
