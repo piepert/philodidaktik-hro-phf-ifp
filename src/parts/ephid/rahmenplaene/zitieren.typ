@@ -11,18 +11,18 @@ Die Zitierweise der Rahmenpläne in Mecklenburg-Vorpommern ist die Folgende und 
     strong[Stufe], strong[Zitierweise],
 
     [1-4], [
-        Ministerium für Bildung, Wissenschaft und Kultur des Landes Mecklenburg-Vorpommern (Hg.): Rahmenplan Grundschule. Philosophieren mit Kindern. Schwerin o.J.
+        @MBWKMV_RPGS
     ],
 
     [5 u. 6], [
-        Ministerium für Bildung, Wissenschaft und Kultur des Landes Mecklenburg-Vorpommern (Hg.): Rahmenplan Jahrgangsstufen 5 und 6. Philosophieren mit Kindern. Schwerin 1996.
+        @MBWKMV1996_RP56
     ],
 
     [7-10], [
-        Ministerium für Bildung, Wissenschaft und Kultur des Landes Mecklenburg-Vorpommern (Hg.): Rahmenplan Jahrgangsstufen 7-10. Philosophieren mit Kindern. Erprobungsfassung. Schwerin 2002.
+        @MBWKMV2002_RP710
     ],
 
     [11 u. 12], [
-        Ministerium für Bildung, Wissenschaft und Kultur des Landes Mecklenburg-Vorpommern (Hg.): Rahmenplan für die Qualifikationsphase der gymnasialen Oberstufe Philosophie. Schwerin 2019.
+        @MBWKMV2019_RP1112
     ],
 )
