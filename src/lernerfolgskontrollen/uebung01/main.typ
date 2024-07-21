@@ -1,5 +1,3 @@
-#import "@preview/tablex:0.0.8": tablex, colspanx, cellx
-
 #import "/src/lernerfolgskontrollen/template.typ": *
 
 #set page(flipped: true)
@@ -46,13 +44,13 @@
   eh: true
 )
 
-#tablex(columns: (1fr, auto),
+#table(columns: (1fr, auto),
     strong[Aufgabe],
     strong[P.],
 
 
-    cellx(fill: black.lighten(80%), strong[A1 -- Zusammenfassen]),
-    cellx(fill: black.lighten(80%), strong[5 P.]),
+    table.cell(fill: black.lighten(80%), strong[A1 -- Zusammenfassen]),
+    table.cell(fill: black.lighten(80%), strong[5 P.]),
     [
         Wesentliche Aspekte sind enthalten.
         - _Ausgangslage_: Es gibt Erkenntnis aus den Sinnen
@@ -71,8 +69,8 @@
     ],
     [\_\_ / 1],
 
-    cellx(fill: black.lighten(80%), strong[A2 -- Erläutern]),
-    cellx(fill: black.lighten(80%), strong[6 P.]),
+    table.cell(fill: black.lighten(80%), strong[A2 -- Erläutern]),
+    table.cell(fill: black.lighten(80%), strong[6 P.]),
     [
         Grund dafür wird genannt:
         - Sinne können täuschen, Gebot der Klugheit
@@ -95,8 +93,8 @@
     ],
     [\_\_ / 2],
 
-    cellx(fill: black.lighten(80%), strong[A3 -- Stellungnehmen]),
-    cellx(fill: black.lighten(80%), strong[5 P.]),
+    table.cell(fill: black.lighten(80%), strong[A3 -- Stellungnehmen]),
+    table.cell(fill: black.lighten(80%), strong[5 P.]),
     [
         Die persönliche Meinung ist erkennbar. Z.B.:
         - Ich finde, dass man den Sinnen durchaus trauen kann.
@@ -116,7 +114,7 @@
     ],
     [\_\_ / 2],
 
-    colspanx(2, cellx(fill: black.lighten(80%))[#v(-0.5em)]),
+    table.cell(colspan: 2, fill: black.lighten(80%), [#v(-0.5em)]),
 
     [], [
         \_\_ / 16

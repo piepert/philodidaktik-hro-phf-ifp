@@ -1,5 +1,3 @@
-#import "@preview/tablex:0.0.8": tablex, hlinex
-
 #import "/src/template.typ": *
 
 = Operatoren
@@ -10,10 +8,11 @@ Die einheitlichen Prüfungsanforderungen für das Abitur im Fach Philosophie leg
 // #let ix(..a) = a.pos().first()
 
 #set par(justify: false)
-#tablex(columns: (20%, auto, auto, auto),
+#table(columns: (20%, auto, auto, auto),
     inset: (top: 10pt, bottom: 10pt, rest: 5pt),
-    auto-vlines: false,
-    auto-hlines: true,
+    stroke: none,
+
+    ..range(0, 20).map(e => table.hline(y: e)),
 
     strong[Operator], strong[AFB], strong[Definition], strong[Beispiele],
 
