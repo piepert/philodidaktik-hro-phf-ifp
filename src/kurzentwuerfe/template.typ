@@ -54,38 +54,7 @@
     ]
 
     par(schedule-context)
-
     line(length: 100%)
-
-    // let definitions = (
-    //     "Motivationsphase": [Die SuS werden intrinsisch motiviert, sich mit einem philosophischen Phänomen auseinanderzusetzen.],
-    //     "Problematisierungsphase": [Die SuS erarbeiten ein Problem, das in der Erarbeitungsphase gelöst werden soll.],
-    //     "Erarbeitungsphase": [Die SuS generieren eine Kompetenz und erarbeiten eine Lösung für das Problem der Stunde.],
-    //     "Sicherungsphase": [Die erarbeiteten Lösungen werden verglichen, reflektiert und kritisiert.],
-    //     "Transferphase": [Die generierte Kompetenz der SuS wird auf einen anderen Sachverhalt angewandt.],
-    //     "Reservephase": [Die generierte Kompetenz der SuS wird auf einen anderen Sachverhalt angewandt.],
-    // )
-
-    // let phases = state("phases_shown", ())
-
-    // show regex("("+definitions.keys().join("|")+")"): it =>  {
-    //     let name = repr(it).replace("[", "").replace("]", "")
-
-    //     locate(loc => {
-    //         if name in phases.at(loc) {
-    //             it + footnote(label("f"+name))
-
-    //         } else {
-    //             it
-    //             [#footnote(strong(it+[: ]) + definitions.at(name)) #label("f"+name)]
-    //         }
-    //     })
-
-    //     phases.update(k => {
-    //         k.push(name)
-    //         k
-    //     })
-    // }
 
     table(columns: (auto, auto, auto, 6cm, auto, auto),
         stroke: none,
