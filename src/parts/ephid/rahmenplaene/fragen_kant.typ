@@ -5,7 +5,7 @@
 Grundlage der Inhalte des Rahmebereiches bilden die vier Kantischen Grundfragen der Philosophie aus Kants Logik-Vorlesung:#ens[Vgl. Kant, Immanuel: Log, AA 9, 25.][Vgl. @MBWKMV1996_RP56[S. 12]][Vgl. @MBWKMV2002_RP710[S. 14]]
 
 #orange-list[
-    *Was kann ich wissen?* #h(1fr) Erkenntnistheorie
+    *Was kann ich wissen?* #h(1fr) Erkenntnistheorie, Metaphysik
     #set text(fill: black)
 
     #strong[Stufe 5/6] \
@@ -23,7 +23,7 @@ Grundlage der Inhalte des Rahmebereiches bilden die vier Kantischen Grundfragen 
     *Stufe 7-10* \
     Wie kann ich handlungsleitende Regeln finden in einer Welt, in der ich Beliebigkeit und Individualisierung erlebe? Andererseits ist mein Aktionsradius auf vielfältige Weise gewachsen.
 ][
-    *Was darf ich hoffen?* #h(1fr) Metaphysik
+    *Was darf ich hoffen?* #h(1fr) Religionsphilosophie
     #set text(fill: black)
 
     *Stufe 5/6* \

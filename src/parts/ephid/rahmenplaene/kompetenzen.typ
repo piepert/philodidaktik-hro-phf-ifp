@@ -53,7 +53,7 @@ Der Unterricht in Mecklenburg-Vorpommern ist kompetenzorientiert. Die Ausbildung
     *fachspezifische #ix("Kompetenzen", "Kompetenz")*#en[Vgl. @MBWKMV2019_RP1112[S. 7. f]] #h(1fr) Stufe 11/12
     #set text(fill: black)
 
-    Für die gymnasiale Oberstufe werden fachspezifische #ix("Kompetenzen", "Kompetenz") als Grundlage für den Philosophieunterricht festgelegt: #ix("Wahrnehmungs- und Deutungskompetenz", "Wahrnehmungskompetenz", "Deutungskompetenz"), #ix("Argumentations- und Urteilskompetenz"), #ix("Dartstellungskompetenz"), #ix("Praktische Kompetenz"). Diese Kompetenzen aggregieren sich zu einer *#ix("Reflexionskompetenz")*. Die philosophischen Reflexionsmethoden sollen gestärkt werden.
+    Für die gymnasiale Oberstufe werden fachspezifische #ix("Kompetenzen", "Kompetenz") als Grundlage für den Philosophieunterricht festgelegt: #ix("Wahrnehmungs- und Deutungskompetenz", "Wahrnehmungskompetenz", "Deutungskompetenz"), #ix("Argumentations- und Urteilskompetenz"), #ix("Darstellungskompetenz"), #ix("Praktische Kompetenz"). Diese Kompetenzen aggregieren sich zu einer *#ix("Reflexionskompetenz")*. Die philosophischen Reflexionsmethoden sollen gestärkt werden.
 
     #grid(columns: 2,
         column-gutter: 1.5em,

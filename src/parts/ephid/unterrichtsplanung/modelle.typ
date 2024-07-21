@@ -73,7 +73,7 @@ Es folgen einige standardmäßige Modelle für den Aufbau einer Unterrichtsstund
     #set text(fill: black)
 
     #grid(columns: (1fr, 15%), column-gutter: 1em, [
-        #ix("Rolf Sistermann", "Sistermann") empfiehlt das #ix("Backward Design", "Backward Design", "PETF") in Verbindung mit seinem Bonbon-Modell als Planungsmethode für eine Unterrichtsstunde. Das Ziel der Unterrichtsstunde wird dabei in den Vordergrund stellt.
+        #ix("Rolf Sistermann", "Sistermann, Rolf") empfiehlt das #ix("Backward Design", "Backward Design", "PETF") in Verbindung mit seinem Bonbon-Modell als Planungsmethode für eine Unterrichtsstunde. Das Ziel der Unterrichtsstunde wird dabei in den Vordergrund stellt.
 
         + *Festigungsphase:* Welche Inhalte sollen gefestigt werden?
 
@@ -103,7 +103,7 @@ Es folgen einige standardmäßige Modelle für den Aufbau einer Unterrichtsstund
 
         + *Transfer:* Für die Weiterarbeit mit den Inhalten werden geeignete Aufgaben für den Wissenstransfer vorbereitet.
 
-        #ix("Backward Design") als Ansatz kann daher mit anderen Methoden für die Planung Unterrichtsstunden kombiniert werden. Es geht hier um eine Anpassung des Prozesses der Planung, nicht um die konkrete Unterrichtsstruktur, die dann von anderen Modellen wie der #ix("Methodenschlage") oder dem #ix("Bonbon-Modell") festgelegt werden. // entfernbar
+        #ix("Backward Design") als Ansatz kann daher mit anderen Methoden für die Planung Unterrichtsstunden kombiniert werden. Es geht hier um eine Anpassung des Prozesses der Planung, nicht um die konkrete Unterrichtsstruktur, die dann von anderen Modellen wie der #ix("Methodenschlange") oder dem #ix("Bonbon-Modell") festgelegt werden. // entfernbar
     ], image("mod_petf.png", height: 1.75cm))
 ]
 

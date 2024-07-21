@@ -24,7 +24,7 @@
     ], [
         - #ix("Wahrnehmungs- und Deutungskompetenz", "Wahrnehmungskompetenz", "Deutungskompetenz")
         - #ix("Argumentations- und Urteilskompetenz", "Argumentationskompetenz", "Urteilskompetenz")
-        - #ix("Darstellungskomptenz")
+        - #ix("Darstellungskompetenz")
         - #ix("Praktische Kompetenz", "Praktische Kompetenz", "Kompetenz, praktische")
 
         #strong[$=>$ #ix("Reflexionskompetenz")]
