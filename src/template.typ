@@ -225,7 +225,6 @@
     for item in state("tasks", ()).final() {
         if item.key == key {
             return link(label(item.origin), [Aufgabe #numbering("A", item.counter)])
-            // return [#link(key, super[#key])]
         }
 
         index += 1
@@ -300,9 +299,9 @@
 
             if name in k {
                 k.at(name).content.push(content)
-                k.at(name).location.push((num, loc))
+                k.at(name).location.push((num, here()))
             } else {
-                k.insert(name, ("content": (content,), location: ((num, loc),)))
+                k.insert(name, ("content": (content,), location: ((num, here()),)))
             }
 
             k
@@ -481,7 +480,7 @@
         k.push((
             page: page-num,
             content: it,
-            "key": key
+            key: key
         ))
 
         k
@@ -716,7 +715,7 @@
         Seite \
         #h(1fr)
         #set text(size: 1.25em)
-        #counter(page).display()]
+        #context counter(page).display()]
 
     }, header: {
         set text(size: 10pt, fill: color-brown)

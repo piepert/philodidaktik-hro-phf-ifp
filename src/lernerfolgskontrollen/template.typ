@@ -48,7 +48,7 @@
 
     grid(columns: (auto, 1fr, auto),
         column-gutter: 1em,
-        strong[A#locate(loc => number-format(c.at(loc).first()))],
+        strong[A#context number-format(c.at(here()).first())],
         content,
         [#points P.]
     )
