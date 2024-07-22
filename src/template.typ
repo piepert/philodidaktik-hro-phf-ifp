@@ -1,4 +1,8 @@
-// #import "@preview/in-dexter:0.0.6": make-index, index
+/*
+Problem: Hin und wieder werden die Labels plötzlich nicht mehr gefunden, sie existieren angeblich nicht. Außerdem konvergiert das Dokument mittlerweile (Typst 0.11.0 (9b001e21)) gar nicht mehr, mit der Fehlermeldung "cannot format citation in isolation". Der KÜK ist absolut kaputt.
+
+Ich weiß absolut nicht, was das Problem mit den links/labels/state-updates ist. Aber es muss gelöst werden. Meine Idee: Es sind zu viele Indizes/Endnote/Aufgaben/..., die verschiedenen Arten haben jeweils einen eigenen State und beeinflussen ihre Positionen gegenseitig, daher kommt es bei jeder Iteration des Compilers zu einem nicht-konvergierenden Layout.
+*/
 
 #let color-orange = rgb("#B85A22")
 #let color-orange-light = rgb("#DD8047")
