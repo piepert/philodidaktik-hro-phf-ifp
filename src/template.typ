@@ -1,9 +1,3 @@
-/*
-Problem: Hin und wieder werden die Labels plötzlich nicht mehr gefunden, sie existieren angeblich nicht. Außerdem konvergiert das Dokument mittlerweile (Typst 0.11.0 (9b001e21)) gar nicht mehr, mit der Fehlermeldung "cannot format citation in isolation". Der KÜK ist absolut kaputt.
-
-Ich weiß absolut nicht, was das Problem mit den links/labels/state-updates ist. Aber es muss gelöst werden. Meine Idee: Es sind zu viele Indizes/Endnote/Aufgaben/..., die verschiedenen Arten haben jeweils einen eigenen State und beeinflussen ihre Positionen gegenseitig, daher kommt es bei jeder Iteration des Compilers zu einem nicht-konvergierenden Layout.
-*/
-
 #let color-orange = rgb("#B85A22")
 #let color-orange-light = rgb("#DD8047")
 #let color-blue = rgb("#94B6D2")
@@ -405,35 +399,6 @@ Ich weiß absolut nicht, was das Problem mit den links/labels/state-updates ist.
     }
 }
 
-// #let important-index-words = (
-//     "Philosophiedidaktik",
-//     ("Kontroverse", "Kontroversen"),
-//     "Martens", "Rehfus", "Rehfus-Martens-Kontroverse",
-//     "Tiedemann", "Gefert", "Tiedemann-Gefert-Konstroverse",
-//     "Lassahn", "Deppe", "Lassahn-Deppe-Kontroverse",
-//     ("Ziel", "Ziels", "Ziele"),
-//     ("Kompetenz", "Kompetenzen"),
-//     "Induktion", "Deduktion", "Abduktion"
-// ).map(e => {
-//     if type(e) == "array" {
-//         let p = ()
-
-//         for i in e {
-//             let l = (:)
-//             l.insert(i, e.at(0))
-//             p.push(l)
-//         }
-
-//         p
-
-//     } else if type(e) == "string" {
-//         let l = (:)
-//         l.insert(e, e)
-
-//         l
-//     }
-// }).flatten()
-
 #let make-title-page() = {
     grid(columns: (25%, 75%), column-gutter: 0.25cm, row-gutter: 0.5cm, [
 
@@ -491,76 +456,26 @@ Ich weiß absolut nicht, was das Problem mit den links/labels/state-updates ist.
         ])
 }
 
-#let add-part(it, s) = context {
-    return none
-
-    let key = "ref-part-"+str(s.at(here()).len())
-    let page-num = here().page()
-
-    [#s.update(k => {
-        if k == none {
-            k = ()
-        }
-
+#let add-outline(it-element, it-body, type) = {
+    state("outline", ()).update(k => {
         k.push((
-            page: page-num,
-            content: it,
-            key: key
+            origin: label("ref-outline-"+str(k.len())),
+            type: type,
+            content: it-body
         ))
 
         k
-    })#label(key)]
-}
+    })
 
-#let add-heading(it, s) = context {
-    return none
-
-    let key = "ref-heading-"+str(s.at(here()).len())
-    let page-num = here().page()
-    let parent = state("parts", ((key: "0-0"),)).at(here()).last().key
-
-    [#s.update(k => {
-        if k == none {
-            k = ()
-        }
-
-        k.push((
-            page: page-num,
-            content: it,
-            "key": key,
-            parent: parent
-        ))
-
-        k
-    })#label(key)]
-}
-
-#let add-subheading(it, s) = context {
-    return none
-
-    let key = "ref-subheading-"+str(s.at(here()).len())
-    let page-num = here().page()
-    let parent = state("headings", ((key: "0-0"),)).at(here()).last().key
-
-    if state("no-subs").at(here()) != none {
-        return
+    context {
+        let origin = label("ref-outline-"+str(state("outline", ()).at(here()).len() - 1))
+        block[#it-body#origin]
     }
-
-    [#s.update(k => {
-        if k == none {
-            k = ()
-        }
-
-        k.push((
-            page: page-num,
-            content: it,
-            "key": "ref-subheading-"+str(k.len()),
-            parent: parent
-        ))
-
-        k
-    })#label(key)]
 }
+
+#let add-part(it) = add-outline(it, it, "part")
+#let add-heading(it) = add-outline(it, it.body, "heading")
+#let add-subheading(it) = add-outline(it, it.body, "subheading")
 
 #let make-part(p, subtitle: none) = {
     pagebreak(to: "odd")
@@ -572,7 +487,8 @@ Ich weiß absolut nicht, was das Problem mit den links/labels/state-updates ist.
 
         {
             set text(size: 4.5em, fill: color-brown)
-            par(p)
+            add-part(p)
+            v(-0.6em)
         }
 
         context {
@@ -587,104 +503,71 @@ Ich weiß absolut nicht, was das Problem mit den links/labels/state-updates ist.
         }
     })
 
-    add-part(p, state("parts", ()))
     pagebreak()
 }
 
-#let make-outline() = {
+#let make-outline() = context {
     v(1em)
     heading(outlined: false)[Aller Anfang ist... klagerisch]
     v(-1em)
     text(fill: color-orange, tracking: 0.25em, strong(upper[Inhaltsverzeichnis]))
 
     show: pad.with(x: 1cm, y: 2cm)
-    context {
-        let arr = ()
-        let after-no-subs-arr = ()
-        let no-subs = false
-        let i = 0
-        let pc = 0 // part counter
 
-        for part in state("parts", ()).final() {
-            pc += 1
-            arr.push(grid.cell(colspan: 2, if pc > 1 { v(1em) }+heading(outlined: false, level: 2)[#numbering("I.", pc) #part.content]))
+    let part-counter = 1
+    let heading-counter = 1
+    let subheading-counter = 1
 
-            for it in state("headings", ()).final() {
-                if it.parent != part.key {
-                    continue
-                }
+    let noheads = false
 
-                i += 1
+    let dotted-underline(n, item) = box(inset: (bottom: 0.25em),
+        stroke: (bottom: (dash: "dotted")),
+        n +
+        link(item.origin, item.content +
+        h(1fr) +
+        str(query(item.origin).first().location().page())))
 
-                // place(move(dy: 0.95em,
-                // line(stroke: (dash: "dotted"),
-                //     length: 100%)))
-
-                if not no-subs {
-                    arr.push([#i.])
-
-                    arr.push(box(inset: (bottom: 2pt), stroke: (bottom: (dash: "dotted")), {
-                        link(label(it.key), box(it.content))
-                        h(1fr)
-                        box[#it.page]
-                    }))
-                } else {
-                    after-no-subs-arr.push(grid.cell(colspan: 2, box(inset: (bottom: 2pt), stroke: (bottom: (dash: "dotted")), {
-                        link(label(it.key), box(it.content))
-                        h(1fr)
-                        box[#it.page]
-                    })))
-                }
-
-                let sub_i = 0
-                let sub_arr = ()
-
-                for sub in state("subheadings", ()).final() {
-                    if sub.parent == it.key {
-                        sub_i += 1
-
-                        sub_arr.push([#i.#sub_i.])
-                        sub_arr.push(box(inset: (bottom: 2pt), stroke: (bottom: (dash: "dotted")), {
-                            link(label(sub.key), box(sub.content))
-                            h(1fr)
-                            box[#sub.page]
-                        }))
-                    }
-                }
-
-                if state("no-subs").final() != none and state("no-subs").final().key == it.key {
-                    arr.push([])
-                    arr.push(grid(columns: 2,
-                        column-gutter: 7pt,
-                        row-gutter: 5pt,
-                        ..sub_arr))
-                    no-subs = true
-
-                } else if sub_arr.len() > 1 {
-                    arr.push([])
-                    arr.push(grid(columns: 2,
-                        column-gutter: 7pt,
-                        row-gutter: 5pt,
-                        ..sub_arr))
-                }
-            }
-
+    for item in state("outline", ()).final() {
+        if item == "noheads" {
+            noheads = true
+            continue
         }
 
+        if noheads {
+            if item.type == "part" {
+                if part-counter > 1 {
+                    v(1em)
+                }
 
-        grid(columns: 2,
-            column-gutter: 5pt,
-            row-gutter: 5pt,
-            ..arr,
-            ..after-no-subs-arr)
+                heading(outlined: false, level: 2)[#numbering("I.", part-counter) #item.content]
+                part-counter += 1
 
-        // if after-no-subs-arr.len() > 0 {
-        //     v(0.5em)
-        //     grid(columns: 1,
-        //         column-gutter: 5pt,
-        //         row-gutter: 5pt,
-        //         ..after-no-subs-arr)
-        // }
+            } else if item.type == "heading" {
+                dotted-underline(none, item)
+            }
+
+            continue
+        }
+
+        if item.type == "part" {
+            if part-counter > 1 {
+                v(1em)
+            }
+
+            heading(outlined: false, level: 2)[#numbering("I.", part-counter) #item.content]
+            part-counter += 1
+
+        } else if item.type == "heading" {
+            pad(y: -0.4em, dotted-underline([#(heading-counter). #h(0.1em)], item))
+
+            heading-counter += 1
+            subheading-counter = 1
+
+        } else if item.type == "subheading" {
+            pad(y: -0.4em, left: 1em, dotted-underline([#(heading-counter - 1).#(subheading-counter). #h(0.1em)], item))
+
+            subheading-counter += 1
+        }
     }
 }
 
@@ -711,18 +594,15 @@ Ich weiß absolut nicht, was das Problem mit den links/labels/state-updates ist.
 }
 
 #let project(body) = {
-    let heads = state("headings", ())
-    let subheads = state("subheadings", ())
-
     set page(margin: 2cm)
 
     set text(font: "Tw Cen MT", size: 12pt, lang: "de")
     set par(justify: true, linebreaks: "optimized", leading: 0.5em)
 
-    show heading.where(level: 1, outlined: true): it => it + add-heading(it, heads)
+    show heading.where(level: 1, outlined: true): it => add-heading(it)
     show heading.where(level: 1): set text(size: 1.75em)
     // show heading.where(level: 2): set block(above: 1.5em)
-    show heading.where(outlined: true, level: 2): it => it + add-subheading(it, subheads) + counter("subheadings").step()
+    show heading.where(outlined: true, level: 2): it => add-subheading(it)
     show heading.where(level: 2): upper
 
     show heading: set par(justify: false)
@@ -732,7 +612,6 @@ Ich weiß absolut nicht, was das Problem mit den links/labels/state-updates ist.
 
     make-title-page()
 
-    // counter(page).update(0)
     set page(margin: (bottom: 3cm, rest: 2cm), footer: {
         set text(size: 10pt, fill: color-brown)
 
@@ -760,7 +639,7 @@ Ich weiß absolut nicht, was das Problem mit den links/labels/state-updates ist.
 
     make-outline()
 
-    show heading.where(level: 1): it => pagebreak(weak: true) + it + counter("subheadings").update(0)
+    show heading.where(level: 1): it => pagebreak(weak: true) + it
 
     // make headings referable
     show ref: it => {
@@ -773,13 +652,10 @@ Ich weiß absolut nicht, was das Problem mit den links/labels/state-updates ist.
 
     body
 
-    context {
-        let e = state("headings", ()).at(here())
-
-        if e.len() > 0 {
-            state("no-subs").update(k => e.last())
-        }
-    }
+    state("outline", ()).update(k => {
+        k.push("noheads")
+        k
+    })
     make-part[Anhang]
 
     make-tasks()
