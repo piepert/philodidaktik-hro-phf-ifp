@@ -1,4 +1,4 @@
-#import "@preview/cetz:0.1.2"
+#import "@preview/cetz:0.2.2"
 #import "/src/template.typ": *
 
 == #ix("Zielformulierung", "Ziel", "Zielformulierung") und #ix("Aufgabenstellungen", "Aufgabenstellung")
@@ -69,8 +69,6 @@ Es gibt einen Zusammenhang zwischen Feinzielen und Aufgabenstellungen: Zu jeder 
 #task[Aufgabenstellung][
     Entwerfen Sie für jeden EPA-Anforderungsbereich je eine Aufgabenstellungen für eine Unterrichtsstunde zum Thema "Das Fremdpsychische in Descartes' _Meditationes de prima philosophia_." für die Sekundarstufe I.
 ][
-    #todo[Lösungsvorschlag erstellen.]
-
     #grid(columns: 2,
         column-gutter: 0.5em,
         row-gutter: 1em,
@@ -87,3 +85,4 @@ Es gibt einen Zusammenhang zwischen Feinzielen und Aufgabenstellungen: Zu jeder 
             #lorem(20)
         ])
 ]
+#todo[Lösungsvorschlag erstellen.]

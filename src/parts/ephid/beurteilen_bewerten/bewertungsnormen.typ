@@ -22,5 +22,5 @@ Das System, nachdem die #ix("Bewertungen", "Bewertung") im Unterricht standardis
 #task[#ix("Bewertungs", "Bewertung", "Bewertungsnorm")-/#ix("Beurteilungsnormen", "Beurteilung", "Beurteilungsnorm")][
     Notieren und erklären Sie drei verschiedene Normen von #ix("Bewertungen", "Bewertung", "Bewertungsnorm")/#ix("Beurteilungen", "Beurteilung", "Beurteilungsnorm") im Philosophieunterricht.
 ][
-    #todo[Lösungsvorschlag erstellen.]
 ]
+#todo[Lösungsvorschlag erstellen.]

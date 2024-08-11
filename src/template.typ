@@ -21,28 +21,34 @@ Ich weiß absolut nicht, was das Problem mit den links/labels/state-updates ist.
     }
 
     context {
-        let num = s.at(here()).keys().len()
+        let num = s.at(here()).at(name, default: (
+            origins: (),
+            content: none)).origins.len()
+        let origin = label("index-"+name+"-" + str(num))
 
-        let index_dict = (
-            x: here().position().x,
-            y: here().position().y,
-            page: here().page(),
-            number: num
-        )
-
-        let lbl = name+"-"+str(index_dict.number)+"-"+repr(index_dict.x)+"-"+repr(index_dict.y)
-
-        [#s.update(k => {
-            if name in k {
-                k.at(name).content.push(content)
-                k.at(name).location.push((num, index_dict))
-            } else {
-                k.insert(name, ("content": (content,), location: ((num, index_dict),)))
-            }
-
-            k
-        })#label(lbl)]
+        [#box[]#origin]
     }
+
+    s.update(k => {
+        let num = k.at(name, default: (
+            origins: (), content: none)).origins.len()
+        let origin = label("index-" +
+            name + "-" +
+            str(num))
+
+        if name in k {
+            k.at(name).content.push(content)
+            k.at(name).origins.push(origin)
+
+        } else {
+            k.insert(name, (
+                content: (content,),
+                origins: (origin,)
+            ))
+        }
+
+        k
+    })
 }
 
 #let make-index(title: none) = {
@@ -66,18 +72,19 @@ Ich weiß absolut nicht, was das Problem mit den links/labels/state-updates ist.
 
             let i = 1
             let e = s.final().at(original)
-            let pages = e.location.map(l => {
-                let lbl = original+"-"+str(l.first())+"-"+repr(l.last().x)+"-"+repr(l.last().y)
-
-                (l.last().page, link(label(lbl), str(l.last().page)))
-            }).dedup(key: k => k.at(0)).map(m => m.at(0))
+            let label-page-list = e.origins.map(e => (e, query(e).first().location().page()))
+            let pages = label-page-list.map(o => {
+                o.last()
+            }).dedup().map(p => {
+                label-page-list.filter(i => i.last() == p).first()
+            })
 
             let page_numbers = []
 
             for p in pages {
-                page_numbers += [#p]
+                page_numbers += [#link(p.first(), str(p.last()))]
 
-                if i < pages.len() {
+                if i < e.origins.len() {
                     page_numbers += [, ]
                 }
 
@@ -120,38 +127,61 @@ Ich weiß absolut nicht, was das Problem mit den links/labels/state-updates ist.
     }).join([])
 }
 
+#let note-note(state-key,
+    key,
+    number-format: numbering.with("1"),
+    wrap-note: k => super(text(fill: color-brown, k))) = context {
+
+    let counter-val = state(state-key, ()).at(here()).len() + 1
+
+    let origin = label(if key != none {
+        key+"-ORIGIN"
+    } else {
+        state-key + "-ORIGIN-" + str(counter-val)
+    })
+
+    let target = label(if key != none {
+        key+"-TARGET"
+    } else {
+        state-key + "-TARGET-" + str(counter-val)
+    })
+
+    [#link(target, wrap-note(number-format(counter(state-key).at(here()).first() + 1)))#origin]
+}
+
+#let note-content(state-key, body, key: none) = {
+    state(state-key, ()).update(k => {
+        let counter-val = k.len() + 1
+
+        k.push((
+            content: body,
+
+            target: if key != none {
+                label(key+"-TARGET")
+            } else {
+                label(state-key + "-TARGET-" + str(counter-val))
+            },
+
+            origin: if key != none {
+                label(key+"-ORIGIN")
+            } else {
+                label(state-key + "-ORIGIN-" + str(counter-val))
+            },
+        ))
+
+        k
+    })
+}
+
 #let add-note(key: none,
     number-format: numbering.with("1"),
     wrap-note: k => super(text(fill: color-brown, k)),
     state-key,
     body) = {
 
-    let s = state(state-key, ())
-
-    context {
-        let counter-val = s.at(here()).len() + 1
-        let key = key
-        let orig-key = state-key + "-ORIGIN-" + str(counter-val)
-        let page-num = here().page()
-
-        if key == none {
-            key = state-key + "-ALT-" + str(counter-val)
-        }
-
-        s.update(k => {
-            k.push((
-                page: page-num,
-                counter: counter-val,
-                "key": key,
-                origin: orig-key,
-                content: body
-            ))
-
-            k
-        })
-
-        [#link(label(key), wrap-note(number-format(s.at(here()).len() + 1)))#label(orig-key)]
-    }
+    note-note(state-key, key, wrap-note: wrap-note, number-format: number-format)
+    note-content(state-key, body, key: key)
+    counter(state-key).step()
 }
 
 #let make-notes(state-key,
@@ -159,6 +189,10 @@ Ich weiß absolut nicht, was das Problem mit den links/labels/state-updates ist.
     pretext: none,
     number-format: numbering.with("1"),
     wrap-note: k => super(text(fill: color-brown, k))) = context {
+
+    // generierung in zwei schritten:
+    // 1. alle mit origin, dadurch werden die neuen origins der endnoten in endnoten generiert
+    // 2. danach alle ohne origin
 
     if title != none {
         heading(title)
@@ -168,41 +202,65 @@ Ich weiß absolut nicht, was das Problem mit den links/labels/state-updates ist.
     // set par(hanging-indent: 1.5em, justify: true)
     set par(justify: true)
 
-    let index = 1
-    let current-page = none
+    let last-page = none
 
-    let arr = none
+    let arr = ([], [])
     let table-arr = ()
 
+    let page-entry-list = (:)
+    let last-items = ()
+
     for item in state(state-key, ()).final() {
-        if current-page != item.page {
-            current-page = item.page
+        let page = -1
+        let index = -1
 
-            if arr != none {
-                table-arr.push(arr)
-            }
-
-            arr = ([], [])
-            arr.at(0) += [S. #current-page]
+        if query(item.origin).len() > 0 {
+            index = counter(state-key).at(item.origin).first() + 1
+            page = query(item.origin).first().location().page()
+        } else {
+            last-items.push(item)
+            continue
         }
 
-        arr.at(1) += block({
-            link(label(item.origin), wrap-note(number-format(index)))
-
-            [#item.content#if item.key != none {
-                label(item.key)
-            }]
+        let content = block({
+            link(item.origin, wrap-note(number-format(index)))
+            [#item.content #item.target]
         })
 
-        index += 1
+        if str(page) in page-entry-list {
+            page-entry-list.at(str(page)).push(content)
+        } else {
+            page-entry-list.insert(str(page), (content,))
+        }
     }
 
-    if arr != none {
+    for page in page-entry-list.keys().map(k => int(k.first())).sorted() {
+        for item-content in page-entry-list.at(str(page), default: ()) {
+            if last-page != page {
+                last-page = page
+
+                if arr != none {
+                    table-arr.push(arr)
+                }
+
+                arr = ([], [])
+                arr.at(0) += [S. #last-page]
+            }
+
+            arr.at(1) += item-content
+        }
+    }
+
+    if arr != ([], []) {
         table-arr.push(arr)
     }
 
     table(columns: 2, row-gutter: 1em, stroke: none, ..table-arr.flatten())
 }
+
+#let en-note(key) = note-note("endnotes", key) + counter("endnotes").step()
+
+#let en-content(key, body) = note-content("endnotes", body, key: key) + counter("endnotes").step()
 
 #let en(key: none, body) = add-note(key: key, "endnotes", body)
 
@@ -221,18 +279,6 @@ Ich weiß absolut nicht, was das Problem mit den links/labels/state-updates ist.
     }
 
     panic("key '"+key+"' not found!")
-}
-
-#let taskref(key) = context {
-    let index = 1
-
-    for item in state("tasks", ()).final() {
-        if item.key == key {
-            return link(label(item.origin), [Aufgabe #numbering("A", item.counter)])
-        }
-
-        index += 1
-    }
 }
 
 #let make-endnotes() = make-notes("endnotes", title: [Anmerkungen])
@@ -271,6 +317,20 @@ Ich weiß absolut nicht, was das Problem mit den links/labels/state-updates ist.
     par(question)
 }
 
+#let taskref(key) = context {
+    let index = 1
+
+    for item in state("tasks", ()).final() {
+        if item.target == label(key+"-TARGET") {
+            return link(item.origin, [Aufgabe #numbering("A", item.counter)])
+        }
+
+        index += 1
+    }
+
+    panic("key '"+key+"' not found!")
+}
+
 #let make-tasks() = {
     make-notes("tasks",
         title: [Lösungsvorschläge],
@@ -279,10 +339,12 @@ Ich weiß absolut nicht, was das Problem mit den links/labels/state-updates ist.
     )
 }
 
-
 #let definition(name, content: none) = {
+
     let s = state("definitions")
     counter("definitions").step()
+
+    return none
 
     if name == none {
         name = repr(lower(content))
@@ -323,7 +385,6 @@ Ich weiß absolut nicht, was das Problem mit den links/labels/state-updates ist.
         definition(key)
         ixs.pos().map(e => index(e)).join([])
     }
-
     #strong[D#text(size: 0.8em)[EF]. #key]#definition(key) -- #body
 ])
 
@@ -459,7 +520,7 @@ Ich weiß absolut nicht, was das Problem mit den links/labels/state-updates ist.
 
                 let headings-after-nosubs = state("headings", ()).final()
                     .map(e => int(e.parent.split("-").last()))
-                    .filter(e => e > int(state("no-subs").final().parent.split("-").last()))
+                    .filter(e => e > int(state("no-subs", (parent: "0-0")).final().parent.split("-").last()))
 
                 // calculate number of headings without those, who are in the last part (no-subs-part, which is tagged)
                 headings.len() - headings-after-nosubs.len()
@@ -473,6 +534,8 @@ Ich weiß absolut nicht, was das Problem mit den links/labels/state-updates ist.
 }
 
 #let add-part(it, s) = context {
+    return none
+
     let key = "ref-part-"+str(s.at(here()).len())
     let page-num = here().page()
 
@@ -492,9 +555,11 @@ Ich weiß absolut nicht, was das Problem mit den links/labels/state-updates ist.
 }
 
 #let add-heading(it, s) = context {
+    return none
+
     let key = "ref-heading-"+str(s.at(here()).len())
     let page-num = here().page()
-    let parent = state("parts").at(here()).last().key
+    let parent = state("parts", ((key: "0-0"),)).at(here()).last().key
 
     [#s.update(k => {
         if k == none {
@@ -513,9 +578,11 @@ Ich weiß absolut nicht, was das Problem mit den links/labels/state-updates ist.
 }
 
 #let add-subheading(it, s) = context {
+    return none
+
     let key = "ref-subheading-"+str(s.at(here()).len())
     let page-num = here().page()
-    let parent = state("headings").at(here()).last().key
+    let parent = state("headings", ((key: "0-0"),)).at(here()).last().key
 
     if state("no-subs").at(here()) != none {
         return
@@ -529,7 +596,7 @@ Ich weiß absolut nicht, was das Problem mit den links/labels/state-updates ist.
         k.push((
             page: page-num,
             content: it,
-            "key": key,
+            "key": "ref-subheading-"+str(k.len()),
             parent: parent
         ))
 
@@ -580,7 +647,7 @@ Ich weiß absolut nicht, was das Problem mit den links/labels/state-updates ist.
         let i = 0
         let pc = 0 // part counter
 
-        for part in state("parts").final() {
+        for part in state("parts", ()).final() {
             pc += 1
             arr.push(grid.cell(colspan: 2, if pc > 1 { v(1em) }+heading(outlined: false, level: 2)[#numbering("I.", pc) #part.content]))
 
@@ -748,13 +815,13 @@ Ich weiß absolut nicht, was das Problem mit den links/labels/state-updates ist.
 
     body
 
-    locate(loc => {
-        let e = state("headings", ()).at(loc)
+    context {
+        let e = state("headings", ()).at(here())
 
         if e.len() > 0 {
             state("no-subs").update(k => e.last())
         }
-    })
+    }
     make-part[Anhang]
 
     make-tasks()

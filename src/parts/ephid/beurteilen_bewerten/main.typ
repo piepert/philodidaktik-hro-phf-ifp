@@ -20,7 +20,7 @@
 #task[Reliabilität von Bewertung][
     Erläutern Sie die #ix("Reliabilität") von Bewertungen an zwei Beispielen des Philosophieunterrichts.
 ][
-    #todo[Lösungsvorschlag erstellen.]
 ]
+#todo[Lösungsvorschlag erstellen.]
 
 #include "beispiel_kurzkontrolle.typ"

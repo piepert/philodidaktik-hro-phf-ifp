@@ -194,8 +194,8 @@ Es folgen einige Beispiele für Methoden des Philosophieunterrichts.
 #task[Methodengruppen nach Martens und Rohbeck][
     Vergleichen Sie die fünf Methodengruppen von Martens (in Anlehnung an Aristoteles) mit den sechs Denkstilen von Rohbeck.
 ][
-    #todo[Lösungsvorschlag erstellen.]
 ]
+#todo[Lösungsvorschlag erstellen.]
 
 #task[Märchen und Fabeln][
     Notieren Sie Chancen und Grenzen des Philosophierens mit Märchen und Fabeln.
@@ -208,5 +208,5 @@ Es folgen einige Beispiele für Methoden des Philosophieunterrichts.
 #task[Neosokratisches Gespräch vs. Inquiry][
     Vergleichen Sie das Neosokratische Gespräch mit der Inquiry.
 ][
-    #todo[Lösungsvorschlag erstellen.]
 ]
+#todo[Lösungsvorschlag erstellen.]
