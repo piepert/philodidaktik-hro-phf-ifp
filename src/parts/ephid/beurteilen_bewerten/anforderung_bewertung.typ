@@ -37,8 +37,8 @@ In der Didaktik des Philosophieunterrichts werden drei Anforderungen an Leistung
 #task[Intersubjektivität][
     Wählen und erläutern Sie eine Fehlerquelle der Intersubjektivität in Leistungsbewertungen an einem Beispiel!
 ][
+    Intersubjektivität in der Leistungsbewertung beschreibt das Kriterium, dass die Bewertung unabhängig der Prüfenden sein sollte. Rechenfehler beim Summieren nach der Punktevergabe sind Fehler, die bei unterschiedlichen Lehrkräften unterschiedlich auftreten können. Werden dieselben Tests von SuS von unterschiedlichen Prüfenden bewertet, so kann, selbst wenn sie komplett gleich bewerten würden, beim Aufsummieren der Punkte unterschiedliche Noten entstehen. Dies macht das Ergebnis der Prüfung abhängig von den Prüfenden. Damit sind sie eine mögliche Fehlerquelle für fehlende Intersubjektivität.
 ]
-#todo[Lösungsvorschlag erstellen.]
 
 #task[Leistungsbewertung][
     Erklären Sie an einem Beispiel, warum die Gruppenarbeit keine geeignete Sozialform für eine Leistungsbewertung ist!
