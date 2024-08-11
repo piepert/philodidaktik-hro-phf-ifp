@@ -188,7 +188,9 @@ Ich weiß absolut nicht, was das Problem mit den links/labels/state-updates ist.
     title: [Anmerkungen],
     pretext: none,
     number-format: numbering.with("1"),
-    wrap-note: k => super(text(fill: color-brown, k))) = context {
+    wrap-all: k => k,
+    wrap-note: k => super(text(fill: color-brown, k)),
+    wrap-content: k => k) = context {
 
     // generierung in zwei schritten:
     // 1. alle mit origin, dadurch werden die neuen origins der endnoten in endnoten generiert
@@ -198,64 +200,20 @@ Ich weiß absolut nicht, was das Problem mit den links/labels/state-updates ist.
         heading(title)
     }
 
+
     pretext
-    // set par(hanging-indent: 1.5em, justify: true)
     set par(justify: true)
 
-    let last-page = none
-
-    let arr = ([], [])
-    let table-arr = ()
-
-    let page-entry-list = (:)
-    let last-items = ()
-
+    let i = 1
     for item in state(state-key, ()).final() {
-        let page = -1
-        let index = -1
+        counter(state-key).update(i)
+        wrap-all(block({
+            link(item.origin, wrap-note(number-format(i)))
+            wrap-content[#item.content#item.target]
+        }))
 
-        if query(item.origin).len() > 0 {
-            index = counter(state-key).at(item.origin).first() + 1
-            page = query(item.origin).first().location().page()
-        } else {
-            last-items.push(item)
-            continue
-        }
-
-        let content = block({
-            link(item.origin, wrap-note(number-format(index)))
-            [#item.content #item.target]
-        })
-
-        if str(page) in page-entry-list {
-            page-entry-list.at(str(page)).push(content)
-        } else {
-            page-entry-list.insert(str(page), (content,))
-        }
+        i += 1
     }
-
-    for page in page-entry-list.keys().map(k => int(k.first())).sorted() {
-        for item-content in page-entry-list.at(str(page), default: ()) {
-            if last-page != page {
-                last-page = page
-
-                if arr != none {
-                    table-arr.push(arr)
-                }
-
-                arr = ([], [])
-                arr.at(0) += [S. #last-page]
-            }
-
-            arr.at(1) += item-content
-        }
-    }
-
-    if arr != ([], []) {
-        table-arr.push(arr)
-    }
-
-    table(columns: 2, row-gutter: 1em, stroke: none, ..table-arr.flatten())
 }
 
 #let en-note(key) = note-note("endnotes", key) + counter("endnotes").step()
@@ -311,7 +269,7 @@ Ich weiß absolut nicht, was das Problem mit den links/labels/state-updates ist.
         wrap-note: k => strong[Aufgabe #k -- #title],
         number-format: numbering.with("A"),
         "tasks",
-        [: ] + title + par(answer))
+        [: ] + title + pad(left: 1.5em, answer))
 
     set par(justify: true)
     par(question)
@@ -826,16 +784,18 @@ Ich weiß absolut nicht, was das Problem mit den links/labels/state-updates ist.
 
     make-tasks()
 
-    make-todos()
-
-    set par(justify: false)
-
     make-endnotes()
+
+    make-todos()
 
     bibliography("bibliography.bib", title: [Literaturverzeichnis], style: "kuek-zitierstil.csl")
 
     heading[Index]
-    columns(3, make-index(title: none))
+    {
+        set par(justify: false)
+        // set text(hyphenate: false)
+        columns(3, make-index(title: none))
+    }
 
     pagebreak(weak: true)
     include "changelog.typ"
