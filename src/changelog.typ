@@ -13,7 +13,7 @@ Da der KÜK noch in Arbeit ist, werden hier die Änderungen jeder Version transp
 == Version 2024-07
 *Hinzugefügt:*
 - Text, fachlich:
-    - #taskref("kritikMartens")
+    // - #taskref("kritikMartens")
     - Definition "ephemere Medien" wieder in geänderter und belegter Form
     - Belege für Sachnorm, individuelle und soziale Bezugsnorm anhand Literatur der pädagogischen Psychologie
     - Sokrates' elenktisches Verfahren in "Historische Standpunkte zur Philosophiedidaktik"

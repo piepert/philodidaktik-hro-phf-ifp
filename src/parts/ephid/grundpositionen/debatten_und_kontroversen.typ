@@ -51,7 +51,7 @@
         ],
 
         align(right)[Philosophie-\ unterricht], [
-            - sollte bildungstheoretisch#en["bildungstheoretisch" meint in diesem Konetext, dass der Philosophieunterricht nicht praktisch, mit einem Fokus auf die Handlung, sondern theoretisch, mit einem Fokus auf das reflexive Denken, stattfinden soll.#en[Vgl. @Rehfus1986_BildungstheoretischerPU[S. 101 ff]]]/identitätstheoretisch#en["identitätstheoretisch" meint in diesem Zusammenhang die Philosophie als Reflexionsmöglichkeit als Ausgang aus eigener Identitätsnot. #en[Vgl. @Rehfus1986_BildungstheoretischerPU[S. 106 ff]]] ausgerichtet sein
+            - sollte bildungstheoretisch#en["bildungstheoretisch" meint in diesem Konetext, dass der Philosophieunterricht nicht praktisch, mit einem Fokus auf die Handlung, sondern theoretisch, mit einem Fokus auf das reflexive Denken, stattfinden soll.#en-note("note-bildungstheoretisch")]#en-content("note-bildungstheoretisch")[Vgl. @Rehfus1986_BildungstheoretischerPU[S. 101 ff]]/identitätstheoretisch#en["identitätstheoretisch" meint in diesem Zusammenhang die Philosophie als Reflexionsmöglichkeit als Ausgang aus eigener Identitätsnot.#en-note("note-identitätstheoretisch")]#en-content("note-identitätstheoretisch")[Vgl. @Rehfus1986_BildungstheoretischerPU[S. 106 ff]] ausgerichtet sein
             - sollte die Probleme der Philosophie zu den Problemen der SuS machen
             - sollte Lernzieltheorie ablehnen
         ], [
@@ -92,8 +92,8 @@
 #task[Diskursive vs. präsentative Formen][
     Kennzeichnen Sie den Unterschied zwischen diskursiven und präsentativen Formen des Philosophierens.
 ][
-    #todo[Lösungsvorschlag erstellen.]
 ]
+#todo[Lösungsvorschlag erstellen.]
 
 #task[Philosophieren mit Kindern][
     Erklären und widerlegen Sie die drei Gegenargumente zum Philosophieren mit Kindern nach Susanne Nordhofen!#en[@Nordhofen1994_PmK[S. 35-46]]

@@ -29,8 +29,8 @@
 #task[Philosophie als Kulturtechnik][
     Erklären Sie warum #ix("Martens", "Martens, Ekkehard") Philosophieren als "Kulturtechnik" bezeichnet!
 ][
-    #todo[Lösungsvorschlag erstellen.]
 ]
+#todo[Lösungsvorschlag erstellen.]
 
 #task[Philosophie als #ix("Kulturtechnik")][
     Erklären Sie, inwiefern sich die Begriffe "genetisch" und "anthropologisch" im Sinne von Philosophie als #ix("Kulturtechnik") widersprechen können!
@@ -38,14 +38,15 @@
     Martens beschreibt die Philosophie im Sinne einer Kultur sowohl als "genetisch" sowie auch als "anthropologisch". Genetisch sei sie in der Hinsicht, dass sie Teil der griechisch-europäischen Kultur ist, da diese Region als das bezeichnet wird, was wir "Philosophie" nennen. Anthropologisch heißt hier, dass die Philosophie in der menschlichen Natur liegt, wie man daran erkennen kann, dass die Philosophie in vielen Kulturen unabhängig voneinander erkannt werden kann, wie etwa in der alt-indischen und alt-chinesischen Kultur.
 
     Fraglich ist, inwiefern sich diese beiden Eigenschaften widersprechen: Wenn die Philosophie genuin europäisch-griechisch ist, ist sie nicht anthropologisch. Wenn sie anthropologisch ist, ist sie nicht genuin europäisch-griechisch. Wie streng die Genese der Philosophie gemeint ist, bleibt ungeklärt. Je nach Interpretation von Martens Bestimmung der Philosophie als Kulturtechnik kann somit ein Widerspruch erkannt werden.
-
-    #todo[Zitate und Indexierung für Aufgabenstellung hinzufügen.]
 ]
+#todo[Zitate und Indexierung für Aufgabenstellung hinzufügen.]
 
 #task(key: "kritikMartens")[Kritik an Martens Ansatz][
-    In Ekkehard Martens Buch "Methodik des Ethik- und Philosophieunterrichts: Philosophieren als elementare Kulturtechnik" wird der dialogisch-pragmatische Ansatz der Philosophie dargestellt. Ein Amazon-Rezensent kritisiert das Buch und Martens Ansatz scharf.#en[Amazon: "Methodik des Ethik- und Philosophieunterrichts: Philosophieren als elementare Kulturtechnik." https://www.amazon.de/Methodik-Ethik-Philosophieunterrichts-Philosophieren-Kulturtechnik/dp/3937223002#customerReviews (letzter Zugriff am 12.05.2024)] Fassen Sie die Kritikpunkte des Rezensenten zusammen, benennen Sie das Selbstverständnis der Philosophie, das durch die Kritik propagiert wird und nehmen Sie beurteilt Stellung in der Debatte!
+    In Ekkehard Martens Buch "Methodik des Ethik- und Philosophieunterrichts: Philosophieren als elementare Kulturtechnik" wird der dialogisch-pragmatische Ansatz der Philosophie dargestellt. Ein Amazon-Rezensent kritisiert das Buch und Martens Ansatz scharf.#en-note("kritikMartens-amazon") Fassen Sie die Kritikpunkte des Rezensenten zusammen, benennen Sie das Selbstverständnis der Philosophie, das durch die Kritik propagiert wird und nehmen Sie beurteilt Stellung in der Debatte!
 
     #image("martens_kritik_amazon.png", width: 100%)
 ][
     #todo[Lösungsvorschlag erstellen.]
+]#en-content("kritikMartens-amazon")[
+    Amazon: "Methodik des Ethik- und Philosophieunterrichts: Philosophieren als elementare Kulturtechnik." https://www.amazon.de/Methodik-Ethik-Philosophieunterrichts-Philosophieren-Kulturtechnik/dp/3937223002#customerReviews (letzter Zugriff am 12.05.2024)
 ]

@@ -1,6 +1,6 @@
 #import "/src/template.typ": *
 
-== #ix("Abbilddidaktik"), #ix("Konstitutionsthese"), #ix("Transformationsthese")
+== #ix("Abbilddidaktik"), #ix("Konstitutionsthese") und #ix("Transformationsthese")
 
 #table(columns: (33.33%, 33.33%, 33.33%),
     stroke: none,
@@ -14,7 +14,7 @@
     ], [
         Die Didaktik wird als konstitutiv#en[konstitutiv: für einen Sachverhalt grundlegend oder notwendig anzusehen] für Philosohie angesehen. Ohne Didaktik ist Philosophie nicht möglich, didaktische Konzepte sind notwendig für das Philosophieren, wie z.B. das Konzept des #ix("Dialogs", "Dialog") bei Platon. Philosophiedidaktik muss selbst philosophisch sein.
     ], [
-        Philosophie und Didaktik sind verschieden. Philosophie soll durch die Didaktik nicht reduziert werden, sondern die Methoden, mit denen philosophiert wird, soll zu den Methoden des Philosophieunterrichts werden. Es soll kein #ix("P4C")#en[#ix("P4C"): auch PfK#en[#ix("PfK"): Philosophie für Kindern], philosophy for children] stattfinden, sondern ein #ix("PwC")#en[#ix("PwC"): auch #ix("PmK")#en[#ix("PmK"): Philosophieren mit Kindern], philosophy with children].
+        Philosophie und Didaktik sind verschieden. Philosophie soll durch die Didaktik nicht reduziert werden, sondern die Methoden, mit denen philosophiert wird, soll zu den Methoden des Philosophieunterrichts werden. Es soll kein #ix("P4C")#en[P4C: philosophy for children, auch "#ix("PfK")"#en-note("pfk-en")]#en-content("pfk-en")[#ix("PwC"): auch #ix("PmK"), philosophy with children] stattfinden, sondern ein #ix("PwC")#en[PwC: philosophy with children, auch "PmK"#en-note("pmk-en")]#en-content("pmk-en")[PmK: Philosophieren mit Kindern].
     ],
 
     [

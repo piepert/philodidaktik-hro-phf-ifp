@@ -110,5 +110,5 @@ Es folgen einige standardmäßige Modelle für den Aufbau einer Unterrichtsstund
 #task[PEST vs. Inquiry][
     Vergleichen Sie den klassischen Aufbau einer Unterrichtsstunde mit der Methode der Inquiry!
 ][
-    #todo[Lösungsvorschlag erstellen.]
 ]
+#todo[Lösungsvorschlag erstellen.]

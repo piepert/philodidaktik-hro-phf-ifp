@@ -1,4 +1,8 @@
-// #import "@preview/in-dexter:0.0.6": make-index, index
+/*
+Problem: Hin und wieder werden die Labels plötzlich nicht mehr gefunden, sie existieren angeblich nicht. Außerdem konvergiert das Dokument mittlerweile (Typst 0.11.0 (9b001e21)) gar nicht mehr, mit der Fehlermeldung "cannot format citation in isolation". Der KÜK ist absolut kaputt.
+
+Ich weiß absolut nicht, was das Problem mit den links/labels/state-updates ist. Aber es muss gelöst werden. Meine Idee: Es sind zu viele Indizes/Endnote/Aufgaben/..., die verschiedenen Arten haben jeweils einen eigenen State und beeinflussen ihre Positionen gegenseitig, daher kommt es bei jeder Iteration des Compilers zu einem nicht-konvergierenden Layout.
+*/
 
 #let color-orange = rgb("#B85A22")
 #let color-orange-light = rgb("#DD8047")
@@ -6,8 +10,7 @@
 #let color-brown = rgb("#775F55")
 
 #let index(name, content: none) = {
-    let s = state("indices")
-    counter("indices").step()
+    let s = state("indices", (:))
 
     if name == none {
         name = repr(lower(content))
@@ -17,52 +20,44 @@
         content = name
     }
 
-    locate(loc => {
-        let num = counter("indices").at(loc).first()
-        let s-length = if s.at(loc) == none {
-            0
-        } else if "content" in s.at(loc) {
-            0
+    context {
+        let num = s.at(here()).at(name, default: (
+            origins: (),
+            content: none)).origins.len()
+        let origin = label("index-"+name+"-" + str(num))
+
+        [#box[]#origin]
+    }
+
+    s.update(k => {
+        let num = k.at(name, default: (
+            origins: (), content: none)).origins.len()
+        let origin = label("index-" +
+            name + "-" +
+            str(num))
+
+        if name in k {
+            k.at(name).content.push(content)
+            k.at(name).origins.push(origin)
+
         } else {
-            s.at(loc).keys().len()
+            k.insert(name, (
+                content: (content,),
+                origins: (origin,)
+            ))
         }
 
-        let index_dict = (
-            x: loc.position().x,
-            y: loc.position().y,
-            page: loc.page(),
-            number: num,
-            length-at: s-length
-        )
-
-        let lbl = name+"-"+str(index_dict.number)+"-"+str(index_dict.length-at)+"-"+repr(index_dict.x)+"-"+repr(index_dict.y)
-
-        [#s.update(k => {
-            if type(k) != "dictionary" {
-                k = (:)
-            }
-
-            if name in k {
-                k.at(name).content.push(content)
-                k.at(name).location.push((num, index_dict))
-            } else {
-                k.insert(name, ("content": (content,), location: ((num, index_dict),)))
-            }
-
-            k
-        })#label(lbl)]
-
-        // [#repr(lbl)#label(lbl)]
+        k
     })
 }
 
 #let make-index(title: none) = {
-    let s = state("indices")
+    let s = state("indices", (:))
 
-    locate(loc => {
+    context {
         let last-first = none
 
-        for item in s.final(loc)
+        for item in s.final()
             .keys()
             .map(e => (e, lower(e)))
             .sorted(key: e => e.at(1)) {
@@ -71,32 +66,25 @@
             let small = item.at(1)
 
             if last-first != small.first() {
-                // if last-first != none {
-                //     v(1em)
-                // }
-
                 last-first = small.first()
-
-                // set text(fill: white)
-                // block(width: 100%, fill: color-blue, inset: 0.5em, upper(upper(last-first)))
                 heading(level: 2, upper(last-first))
             }
 
             let i = 1
-            let e = s.final(loc).at(original)
-            let pages = e.location.map(e => {
-                    // let lbl = original+"-"+repr(e.position().x)+"-"+repr(e.position().y)
-                    let lbl = original+"-"+str(e.first())+"-"+str(e.last().length-at)+"-"+repr(e.last().x)+"-"+repr(e.last().y)
-
-                    (e.last().page, link(label(lbl), str(e.last().page)))
-                }).dedup(key: e => e.at(0)).map(e => e.at(1))
+            let e = s.final().at(original)
+            let label-page-list = e.origins.map(e => (e, query(e).first().location().page()))
+            let pages = label-page-list.map(o => {
+                o.last()
+            }).dedup().map(p => {
+                label-page-list.filter(i => i.last() == p).first()
+            })
 
             let page_numbers = []
 
             for p in pages {
-                page_numbers += [#p]
+                page_numbers += [#link(p.first(), str(p.last()))]
 
-                if i < pages.len() {
+                if i < e.origins.len() {
                     page_numbers += [, ]
                 }
 
@@ -121,9 +109,10 @@
                 ]
             )
         }
-    })
+    }
 }
 
+// todo: only first reference works
 #let ix(b, ..args) = b + if args.pos().len() == 0 {
     if type(b) != "string" {
         panic("expected string, found "+type(b)+".")
@@ -138,149 +127,116 @@
     }).join([])
 }
 
+#let note-note(state-key,
+    key,
+    number-format: numbering.with("1"),
+    wrap-note: k => super(text(fill: color-brown, k))) = context {
+
+    let counter-val = state(state-key, ()).at(here()).len() + 1
+
+    let origin = label(if key != none {
+        key+"-ORIGIN"
+    } else {
+        state-key + "-ORIGIN-" + str(counter-val)
+    })
+
+    let target = label(if key != none {
+        key+"-TARGET"
+    } else {
+        state-key + "-TARGET-" + str(counter-val)
+    })
+
+    [#link(target, wrap-note(number-format(counter(state-key).at(here()).first() + 1)))#origin]
+}
+
+#let note-content(state-key, body, key: none) = {
+    state(state-key, ()).update(k => {
+        let counter-val = k.len() + 1
+
+        k.push((
+            content: body,
+
+            target: if key != none {
+                label(key+"-TARGET")
+            } else {
+                label(state-key + "-TARGET-" + str(counter-val))
+            },
+
+            origin: if key != none {
+                label(key+"-ORIGIN")
+            } else {
+                label(state-key + "-ORIGIN-" + str(counter-val))
+            },
+        ))
+
+        k
+    })
+}
+
 #let add-note(key: none,
     number-format: numbering.with("1"),
     wrap-note: k => super(text(fill: color-brown, k)),
     state-key,
     body) = {
 
-    let counter-key = state-key+"-counter"
-    counter(counter-key).step()
-
-    locate(loc => {
-        let counter-val = counter(counter-key).at(loc).at(0)
-        let key = key
-        let orig-key = state-key + "-ORIGIN-" + str(counter-val) + "-" + str(if state(state-key).at(loc) == none {
-            0
-        } else {
-            state(state-key).at(loc).len()
-        })
-
-        if key == none {
-            key = state-key + "-ALT-" + str(counter-val) + "-" + str(if state(state-key).at(loc) == none {
-                0
-            } else {
-                state(state-key).at(loc).len()
-            })
-        }
-
-        state(state-key).update(k => {
-            if k == none {
-                ((
-                    page: loc.page(),
-                    counter: counter-val,
-                    "key": key,
-                    origin: orig-key,
-                    content: body),
-                )
-            } else {
-                k.push((
-                    page: loc.page(),
-                    counter: counter-val,
-                    "key": key,
-                    origin: orig-key,
-                    content: body
-                ))
-
-                k
-            }
-        })
-
-        let num = state(state-key).at(loc)
-
-        [#link(label(key), wrap-note(number-format(if (num == none) {
-            1
-        } else {
-            num.len() + 1
-        })))#label(orig-key)]
-    })
+    note-note(state-key, key, wrap-note: wrap-note, number-format: number-format)
+    note-content(state-key, body, key: key)
+    counter(state-key).step()
 }
 
 #let make-notes(state-key,
     title: [Anmerkungen],
     pretext: none,
     number-format: numbering.with("1"),
-    wrap-note: k => super(text(fill: color-brown, k))) = locate(loc => {
+    wrap-all: k => k,
+    wrap-note: k => super(text(fill: color-brown, k)),
+    wrap-content: k => k) = context {
+
+    // generierung in zwei schritten:
+    // 1. alle mit origin, dadurch werden die neuen origins der endnoten in endnoten generiert
+    // 2. danach alle ohne origin
 
     if title != none {
         heading(title)
     }
+
+
     pretext
-    // set par(hanging-indent: 1.5em, justify: true)
     set par(justify: true)
 
-    let index = 1
-    let current-page = none
+    let i = 1
+    for item in state(state-key, ()).final() {
+        counter(state-key).update(i)
+        wrap-all(block({
+            link(item.origin, wrap-note(number-format(i)))
+            wrap-content[#item.content#item.target]
+        }))
 
-    let arr = none
-    let table-arr = ()
-
-    if state(state-key).final(loc) == none {
-        return
+        i += 1
     }
+}
 
-    for item in state(state-key).final(loc) {
-        if current-page != item.page {
-            current-page = item.page
+#let en-note(key) = note-note("endnotes", key) + counter("endnotes").step()
 
-            if arr != none {
-                table-arr.push(arr)
-            }
-
-            arr = ([], [])
-            arr.at(0) += [S. #current-page]
-        }
-
-        arr.at(1) += block({
-            link(label(item.origin), wrap-note(number-format(index)))
-
-            [#item.content#if item.key != none {
-                label(item.key)
-            }]
-        })
-
-        index += 1
-    }
-
-    if arr != none {
-        table-arr.push(arr)
-    }
-
-    table(columns: 2, row-gutter: 1em, stroke: none, ..table-arr.flatten())
-})
+#let en-content(key, body) = note-content("endnotes", body, key: key) + counter("endnotes").step()
 
 #let en(key: none, body) = add-note(key: key, "endnotes", body)
 
 #let ens(..args) = args.pos().map(e => en(e)).join(super[,])
 
-#let enref(key) = {
-    locate(loc => {
-        let index = 1
+#let enref(key) = context {
+    let index = 1
 
-        for item in state("endnotes").final(loc) {
-            if item.key == key {
-                return en(item.content)
-                // return [#link(key, super[#key])]
-            }
-
-            index += 1
+    for item in state("endnotes", ()).final() {
+        if item.key == key {
+            return en(item.content)
+            // return [#link(key, super[#key])]
         }
-    })
-}
 
-#let taskref(key) = {
-    locate(loc => {
-        let index = 1
+        index += 1
+    }
 
-        for item in state("tasks").final(loc) {
-            if item.key == key {
-                return link(label(item.origin), [Aufgabe #numbering("A", item.counter)])
-                // return [#link(key, super[#key])]
-            }
-
-            index += 1
-        }
-    })
+    panic("key '"+key+"' not found!")
 }
 
 #let make-endnotes() = make-notes("endnotes", title: [Anmerkungen])
@@ -313,10 +269,24 @@
         wrap-note: k => strong[Aufgabe #k -- #title],
         number-format: numbering.with("A"),
         "tasks",
-        [: ] + title + par(answer))
+        [: ] + title + pad(left: 1.5em, answer))
 
     set par(justify: true)
     par(question)
+}
+
+#let taskref(key) = context {
+    let index = 1
+
+    for item in state("tasks", ()).final() {
+        if item.target == label(key+"-TARGET") {
+            return link(item.origin, [Aufgabe #numbering("A", item.counter)])
+        }
+
+        index += 1
+    }
+
+    panic("key '"+key+"' not found!")
 }
 
 #let make-tasks() = {
@@ -327,10 +297,12 @@
     )
 }
 
-
 #let definition(name, content: none) = {
+
     let s = state("definitions")
     counter("definitions").step()
+
+    return none
 
     if name == none {
         name = repr(lower(content))
@@ -340,8 +312,8 @@
         content = name
     }
 
-    locate(loc => {
-        let num = counter("definitions").at(loc).first()
+    context {
+        let num = counter("definitions").at(here()).first()
         let lbl = name+"-"+str(num)
 
         [#s.update(k => {
@@ -351,14 +323,14 @@
 
             if name in k {
                 k.at(name).content.push(content)
-                k.at(name).location.push((num, loc))
+                k.at(name).location.push((num, here()))
             } else {
-                k.insert(name, ("content": (content,), location: ((num, loc),)))
+                k.insert(name, ("content": (content,), location: ((num, here()),)))
             }
 
             k
         })#label(lbl)]
-    })
+    }
 }
 
 #let def(key, body, ..ixs) = par(hanging-indent: 1.5em, [
@@ -371,70 +343,66 @@
         definition(key)
         ixs.pos().map(e => index(e)).join([])
     }
-
     #strong[D#text(size: 0.8em)[EF]. #key]#definition(key) -- #body
 ])
 
-#let make-definitions(title: none) = {
+#let make-definitions(title: none) = context {
     let s = state("definitions")
+    let last-first = none
 
-    locate(loc => {
-        let last-first = none
+    if s.final() == none {
+        return none
+    }
 
-        if s.final(loc) == none {
-            return none
+    for item in s.final()
+        .keys()
+        .map(e => (e, lower(e)))
+        .sorted(key: e => e.at(1)) {
+
+        let original = item.at(0)
+        let small = item.at(1)
+
+        if last-first != small.first() {
+            // if last-first != none {
+            //     v(1em)
+            // }
+
+            last-first = small.first()
+
+            // set text(fill: white)
+            // block(width: 100%, fill: color-blue, inset: 0.5em, upper(upper(last-first)))
+            heading(level: 2, upper(last-first))
         }
 
-        for item in s.final(loc)
-            .keys()
-            .map(e => (e, lower(e)))
-            .sorted(key: e => e.at(1)) {
+        let e = s.final().at(original)
 
-            let original = item.at(0)
-            let small = item.at(1)
+        grid(columns: (1fr, auto),
+            column-gutter: 0.5em,
+        )[
+            #e.content.dedup().first()
+        ][
+            #let i = 1
+            #let pages = e.location.map(e => {
+                // let lbl = original+"-"+repr(e.position().x)+"-"+repr(e.position().y)
+                let lbl = original+"-"+str(e.first())
+                (e.last().page(), link(label(lbl), str(e.last().page())))
+            }).dedup(key: e => e.at(0)).map(e => e.at(1))
 
-            if last-first != small.first() {
-                // if last-first != none {
-                //     v(1em)
-                // }
+            #for p in pages {
+                p
 
-                last-first = small.first()
-
-                // set text(fill: white)
-                // block(width: 100%, fill: color-blue, inset: 0.5em, upper(upper(last-first)))
-                heading(level: 2, upper(last-first))
-            }
-
-            let e = s.final(loc).at(original)
-
-            grid(columns: (1fr, auto),
-                column-gutter: 0.5em,
-            )[
-                #e.content.dedup().first()
-            ][
-                #let i = 1
-                #let pages = e.location.map(e => {
-                    // let lbl = original+"-"+repr(e.position().x)+"-"+repr(e.position().y)
-                    let lbl = original+"-"+str(e.first())
-                    (e.last().page(), link(label(lbl), str(e.last().page())))
-                }).dedup(key: e => e.at(0)).map(e => e.at(1))
-
-                #for p in pages {
-                    p
-
-                    if i < pages.len() {
-                        [, ]
-                    }
-
-                    if calc.rem(i, 3) == 0 {
-                        [\ ]
-                    }
-
-                    i += 1
+                if i < pages.len() {
+                    [, ]
                 }
-            ]
-        }
-    })
+
+                if calc.rem(i, 3) == 0 {
+                    [\ ]
+                }
+
+                i += 1
+            }
+        ]
+    }
 }
 
 // #let important-index-words = (
@@ -503,79 +471,95 @@
         ], [
 
         ], block(inset: 5pt)[
-            Der KÜK umfasst grundlegende, methodische und inhaltliche Überlebenstipps für das Bestehen der Klausur "Einführung in die Philosophiedidaktik", die Seminarvor- und Nachbereitung und die Prügungsvorbereitung am Institut für Philosophie der Universität Rostock. Die #locate(loc => counter("h1_parts").final(loc).first())-teilige Grundausrüstung richtet sich an alle Lehramtsstudent*innen der Philosophie und soll den Start in das Studium erleichtern. Der KÜK versteht sich prozessorientiert und erlaubt individuelle Ergänzungen. Die zusammengefassten Hinweise sind jedoch für das Lehramtsstudium der Philosophie als wichtig anzusehen. Diese Sammlung ersetzt nicht das Nachfragen und Nachdenken; wenn Inhalte, Formalia oder Methoden unklar erscheinen, sollten Dozent*innen und Kommiliton*innen um Rat gefragt werden.
+            Der KÜK umfasst grundlegende, methodische und inhaltliche Überlebenstipps für das Bestehen der Klausur "Einführung in die Philosophiedidaktik", die Seminarvor- und Nachbereitung und die Prügungsvorbereitung am Institut für Philosophie der Universität Rostock. Die #context {
+                let headings = query(selector(heading.where(
+                    outlined: true,
+                    level: 1)))
+
+                let headings-after-nosubs = state("headings", ()).final()
+                    .map(e => int(e.parent.split("-").last()))
+                    .filter(e => e > int(state("no-subs", (parent: "0-0")).final().parent.split("-").last()))
+
+                // calculate number of headings without those, who are in the last part (no-subs-part, which is tagged)
+                headings.len() - headings-after-nosubs.len()
+            }-teilige Grundausrüstung richtet sich an alle Lehramtsstudent*innen der Philosophie und soll den Start in das Studium erleichtern. Der KÜK versteht sich prozessorientiert und erlaubt individuelle Ergänzungen. Die zusammengefassten Hinweise sind jedoch für das Lehramtsstudium der Philosophie als wichtig anzusehen. Diese Sammlung ersetzt nicht das Nachfragen und Nachdenken; wenn Inhalte, Formalia oder Methoden unklar erscheinen, sollten Dozent*innen und Kommiliton*innen um Rat gefragt werden.
 
             #set text(size: 0.8em)
-            Verantwortung und Betreuung: Gruppe "#box(move(dy: 0.25em, circle(stroke: 0.5pt, radius: 0.6em, move(dx: -0.42em, dy: -0.61em, $phi$)))) Philo lernen" © 2023-2024
+            Verantwortung und Betreuung: Gruppe "#box(move(dy: 0.25em, circle(stroke: 0.5pt, radius: 0.6em, move(dx: -0.42em, dy: -1.15em, $phi$)))) Philo lernen" © 2023-2024
 
             Autor: Tristan Pieper, Version: #datetime.today().display("[year]-[month]")
         ])
 }
 
-#let add-part(it, s) = {
-    locate(loc => {
-        let key = "ref-part-"+str(s.at(loc).len())
+#let add-part(it, s) = context {
+    return none
 
-        [#s.update(k => {
-            if k == none {
-                k = ()
-            }
+    let key = "ref-part-"+str(s.at(here()).len())
+    let page-num = here().page()
 
-            k.push((
-                page: loc.page(),
-                content: it,
-                "key": key
-            ))
-
-            k
-        })#label(key)]
-    })
-}
-
-#let add-heading(it, s) = {
-    locate(loc => {
-        let key = "ref-heading-"+str(s.at(loc).len())
-
-        [#s.update(k => {
-            if k == none {
-                k = ()
-            }
-
-            k.push((
-                page: loc.page(),
-                content: it,
-                "key": key,
-                parent: state("parts").at(loc).last().key
-            ))
-
-            k
-        })#label(key)]
-    })
-}
-
-#let add-subheading(it, s) = {
-    locate(loc => {
-        let key = "ref-subheading-"+str(s.at(loc).len())
-
-        if state("no-subs").at(loc) != none {
-            return
+    [#s.update(k => {
+        if k == none {
+            k = ()
         }
 
-        [#s.update(k => {
-            if k == none {
-                k = ()
-            }
+        k.push((
+            page: page-num,
+            content: it,
+            key: key
+        ))
 
-            k.push((
-                page: loc.page(),
-                content: it,
-                "key": key,
-                parent: state("headings").at(loc).last().key
-            ))
+        k
+    })#label(key)]
+}
 
-            k
-        })#label(key)]
-    })
+#let add-heading(it, s) = context {
+    return none
+
+    let key = "ref-heading-"+str(s.at(here()).len())
+    let page-num = here().page()
+    let parent = state("parts", ((key: "0-0"),)).at(here()).last().key
+
+    [#s.update(k => {
+        if k == none {
+            k = ()
+        }
+
+        k.push((
+            page: page-num,
+            content: it,
+            "key": key,
+            parent: parent
+        ))
+
+        k
+    })#label(key)]
+}
+
+#let add-subheading(it, s) = context {
+    return none
+
+    let key = "ref-subheading-"+str(s.at(here()).len())
+    let page-num = here().page()
+    let parent = state("headings", ((key: "0-0"),)).at(here()).last().key
+
+    if state("no-subs").at(here()) != none {
+        return
+    }
+
+    [#s.update(k => {
+        if k == none {
+            k = ()
+        }
+
+        k.push((
+            page: page-num,
+            content: it,
+            "key": "ref-subheading-"+str(k.len()),
+            parent: parent
+        ))
+
+        k
+    })#label(key)]
 }
 
 #let make-part(p, subtitle: none) = {
@@ -591,16 +575,16 @@
             par(p)
         }
 
-        locate(loc => {
+        context {
             set text(size: 2em, fill: color-brown)
             set text(fill: color-orange)
-            [Abschnitt #numbering("I", state("parts", ()).at(loc).len()+1)]
+            [Abschnitt #numbering("I", state("parts", ()).at(here()).len()+1)]
 
             if subtitle != none {
                 [ -- ]
                 subtitle
             }
-        })
+        }
     })
 
     add-part(p, state("parts", ()))
@@ -614,18 +598,18 @@
     text(fill: color-orange, tracking: 0.25em, strong(upper[Inhaltsverzeichnis]))
 
     show: pad.with(x: 1cm, y: 2cm)
-    locate(loc => {
+    context {
         let arr = ()
         let after-no-subs-arr = ()
         let no-subs = false
         let i = 0
         let pc = 0 // part counter
 
-        for part in state("parts").final(loc) {
+        for part in state("parts", ()).final() {
             pc += 1
             arr.push(grid.cell(colspan: 2, if pc > 1 { v(1em) }+heading(outlined: false, level: 2)[#numbering("I.", pc) #part.content]))
 
-            for it in state("headings").final(loc) {
+            for it in state("headings", ()).final() {
                 if it.parent != part.key {
                     continue
                 }
@@ -655,7 +639,7 @@
                 let sub_i = 0
                 let sub_arr = ()
 
-                for sub in state("subheadings").final(loc) {
+                for sub in state("subheadings", ()).final() {
                     if sub.parent == it.key {
                         sub_i += 1
 
@@ -668,7 +652,7 @@
                     }
                 }
 
-                if state("no-subs").final(loc) != none and state("no-subs").final(loc).key == it.key {
+                if state("no-subs").final() != none and state("no-subs").final().key == it.key {
                     arr.push([])
                     arr.push(grid(columns: 2,
                         column-gutter: 7pt,
@@ -701,7 +685,7 @@
         //         row-gutter: 5pt,
         //         ..after-no-subs-arr)
         // }
-    })
+    }
 }
 
 #let author(name) = {
@@ -711,11 +695,13 @@
     show: strong
 
     // [KÜK -- Hilfe Nr. #counter("kuek-part").display() -- Autor: ]
-    [KÜK -- Hilfe Nr. #locate(loc => str(state("headings").at(loc).len()) + {
-        if counter("subheadings").at(loc).first() > 0 {
+    [KÜK -- Hilfe Nr. #context {
+        str(state("headings").at(here()).len())
+
+        if counter("subheadings").at(here()).first() > 0 {
             [.] + counter("subheadings").display()
         }
-    }) -- Autor: ]
+    } -- Autor: ]
     name
 }
 
@@ -727,7 +713,6 @@
 #let project(body) = {
     let heads = state("headings", ())
     let subheads = state("subheadings", ())
-    // let h1_parts = counter("h1_parts", 1)
 
     set page(margin: 2cm)
 
@@ -759,7 +744,7 @@
         Seite \
         #h(1fr)
         #set text(size: 1.25em)
-        #counter(page).display()]
+        #context counter(page).display()]
 
     }, header: {
         set text(size: 10pt, fill: color-brown)
@@ -777,39 +762,40 @@
 
     show heading.where(level: 1): it => pagebreak(weak: true) + it + counter("subheadings").update(0)
 
-    {
-    //     let words = (:)
-
-    //     for e in important-index-words {
-    //         for k in e.keys() {
-    //             words.insert(k, e.at(k))
-    //         }
-    //     }
-
-    //     show regex("\b("+important-index-words.map(e => e.keys()).flatten().join("|")+")\b"): it => it
-
-    show heading.where(level: 1): it => it + counter("h1_parts").step()
-    body
+    // make headings referable
+    show ref: it => {
+        if it != none and it.element != none and it.element.numbering == none and it.element.supplement == [Abschnitt] {
+            link(it.target, strong[#it.element.body])
+        } else {
+            it
+        }
     }
 
-    locate(loc => {state("no-subs").update(k => {state("headings").at(loc).last()})})
-    make-part[Anhang]
+    body
 
-    // heading[Definitionen]
-    // columns(3, make-definitions(title: none))
+    context {
+        let e = state("headings", ()).at(here())
+
+        if e.len() > 0 {
+            state("no-subs").update(k => e.last())
+        }
+    }
+    make-part[Anhang]
 
     make-tasks()
 
-    make-todos()
-
-    set par(justify: false)
-
     make-endnotes()
 
-    bibliography("bibliography.bib", title: [Literaturhinweise], style: "kuek-zitierstil.csl")
+    make-todos()
+
+    bibliography("bibliography.bib", title: [Literaturverzeichnis], style: "kuek-zitierstil.csl")
 
     heading[Index]
-    columns(3, make-index(title: none))
+    {
+        set par(justify: false)
+        // set text(hyphenate: false)
+        columns(3, make-index(title: none))
+    }
 
     pagebreak(weak: true)
     include "changelog.typ"

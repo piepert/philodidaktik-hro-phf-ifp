@@ -37,8 +37,8 @@ In der Didaktik des Philosophieunterrichts werden drei Anforderungen an Leistung
 #task[Intersubjektivität][
     Wählen und erläutern Sie eine Fehlerquelle der Intersubjektivität in Leistungsbewertungen an einem Beispiel!
 ][
-    #todo[Lösungsvorschlag erstellen.]
 ]
+#todo[Lösungsvorschlag erstellen.]
 
 #task[Leistungsbewertung][
     Erklären Sie an einem Beispiel, warum die Gruppenarbeit keine geeignete Sozialform für eine Leistungsbewertung ist!
