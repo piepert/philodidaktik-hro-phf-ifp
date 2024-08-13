@@ -149,6 +149,7 @@
 
         k.push((
             content: body,
+            counter: counter-val,
 
             target: if key != none {
                 label(key+"-TARGET")
@@ -255,7 +256,7 @@
 }
 
 #let task(key: none, title, question, answer) = {
-    show: block.with(inset: 1em, width: 100%, stroke: color-blue)
+    show: block.with(inset: 1em, width: 100%, stroke: color-blue, breakable: false)
 
     set par(justify: false)
     add-note(
@@ -491,10 +492,11 @@
             v(-0.6em)
         }
 
+        counter("parts").step()
         context {
             set text(size: 2em, fill: color-brown)
             set text(fill: color-orange)
-            [Abschnitt #numbering("I", state("parts", ()).at(here()).len()+1)]
+            [Abschnitt #numbering("I", counter("parts").at(here()).first())]
 
             if subtitle != none {
                 [ -- ]
@@ -554,7 +556,7 @@
                 v(1em)
             }
 
-            heading(outlined: false, level: 2)[#numbering("I.", part-counter) #item.content]
+            link(item.origin, heading(outlined: false, level: 2)[#numbering("I.", part-counter) #item.content])
             part-counter += 1
 
         } else if item.type == "heading" {
@@ -591,6 +593,24 @@
 #let orange-list(..items) = {
     set text(fill: color-orange)
     list(tight: false, indent: 1.5em, marker: [■], ..items)
+}
+
+#let orange-list-with-body(..items) = {
+    let index = 1
+    let body = []
+    let elements = ()
+
+    for e in items.pos() {
+        if calc.even(index) {
+            elements.push(block(text(fill: color-orange, body)) + text(fill: black, e))
+        } else {
+            body = e
+        }
+
+        index += 1
+    }
+
+    orange-list(..elements)
 }
 
 #let project(body) = {

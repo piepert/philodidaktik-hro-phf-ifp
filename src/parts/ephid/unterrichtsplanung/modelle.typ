@@ -12,10 +12,7 @@
 
 Es folgen einige standardmäßige Modelle für den Aufbau einer Unterrichtsstunde.
 
-#orange-list[
-    *#ix("Methodenschlange"):* #h(1fr) #ix("Martens", "Martens, Ekkehard")
-    #set text(fill: black)
-
+#orange-list-with-body[*#ix("Methodenschlange"):* #h(1fr) #ix("Martens", "Martens, Ekkehard")][
     #grid(columns: (1fr, 15%), column-gutter: 1em, [
         Mit der Einteilung der #ix("Methoden", "Methode") in #ix("sokratisch-aristotelische Kategorien", "Kategorien, sokratisch-aristotelisch"), entfaltet #ix("Martens", "Martens, Ekkehard") das Prinzip seiner Unterrichtsplanung: die #ix("Methodenschlange"). Martens sieht hier die folgende Reihenfolge der philosophischen Methoden als sinnvoll, jedoch nicht als notwendig an.#en[Vgl. @Martens2003_MethodenPU[S. 56]] Die angegebenen Methoden sind die wichtigsten, jedoch nicht die einzigen, die folgende Liste wird als erweiterbar und veränderbar angesehen:#en[Vgl. @Martens2003_MethodenPU[S. 56]]
 
@@ -31,10 +28,8 @@ Es folgen einige standardmäßige Modelle für den Aufbau einer Unterrichtsstund
 
 
     ], image("mod_methodenschlange.png", height: 3cm)+en[@Martens2003_MethodenPU[S. 57]])
-][
-    *#ix("Bonbon-Modell"):* #h(1fr) #ix("Sistermann", "Sistermann, Rolf")
-    #set text(fill: black)
 
+][*#ix("Bonbon-Modell"):* #h(1fr) #ix("Sistermann", "Sistermann, Rolf")][
     #grid(columns: (1fr, 15%), column-gutter: 1em, [
             Das #ix("Bonbon-Modell") nach #ix("Sistermann", "Sistermann, Rolf") ist ein Kernmodell für den #ix("problemorientierten", "Problemorientierung") Philosophieunterricht. Es unterscheidet sechs Phasen, die besonders das Interesse und die Probleme der SuS in den Vordergrund stellen und diese dazu anleiten, selbständig Lösungen zu finden, jedoch auch bekannte Positionen mit einbeziehen können. Die sechs Phasen sehen wie folgt aus:#todo[Zitation für Sistermann fehlt, bisher nur unseriöse Quellen/graue Literatur vorhanden.]
 
@@ -53,10 +48,8 @@ Es folgen einige standardmäßige Modelle für den Aufbau einer Unterrichtsstund
             Das #ix("Bonbon-Modell") ist nicht nur für einzelne Unterrichtsstunden gedacht, sondern soll sich ebenfalls über mehrere Unterrichtseinheiten erstrecken können.
 
     ], image("mod_bonbon.png", height: 3.25cm)+en[@Runtenberg2016_EPhiD[S. 139]])
-][
-    *#ix("PEST"):*
-    #set text(fill: black)
 
+][*#ix("PEST"):*][
     #grid(columns: (1fr, 15%), column-gutter: 1em, [
         Das #ix("PEST")-Modell ist ein didaktisches Standardmodell zur Unterrichtsplanung und besteht aus vier Phasen.
 
@@ -68,10 +61,8 @@ Es folgen einige standardmäßige Modelle für den Aufbau einer Unterrichtsstund
 
         + *Transferphase:* In der Transferphase wird das erarbeitete Wissen auf ein neues Beispiel angewendet, um sicherzugehen, dass die gewonnen Fertigkeiten anwendbar sind.
     ], image("mod_pest.png", height: 1.75cm))
-][
-    *#ix("Backward Design") / #ix("PETF"):*  #h(1fr) #ix("Sistermann", "Sistermann, Rolf"), #ix("Pörschke", "Pörschke, Tim")
-    #set text(fill: black)
 
+][*#ix("Backward Design") / #ix("PETF"):*  #h(1fr) #ix("Sistermann", "Sistermann, Rolf"), #ix("Pörschke", "Pörschke, Tim")][
     #grid(columns: (1fr, 15%), column-gutter: 1em, [
         #ix("Rolf Sistermann", "Sistermann, Rolf") empfiehlt das #ix("Backward Design", "Backward Design", "PETF") in Verbindung mit seinem Bonbon-Modell als Planungsmethode für eine Unterrichtsstunde. Das Ziel der Unterrichtsstunde wird dabei in den Vordergrund stellt.
 

@@ -6,20 +6,16 @@ Philosophie ist in einigen Bundesländern immernoch ein Wahl- oder Ersatzfach, o
 
 // + Aufwertung der in der im Philosophieunterricht vermittelten Kompetenzen.
 
-
 #orange-list[
-  *Gleichstellung des Philosophieunterrichts:* #set text(fill: black)
-  Gefordert ist die Gleichstellung des Unterrichtsfaches "Philosophie" mit anderen Unterrichtsfächern.
-
+    *Gleichstellung des Philosophieunterrichts:* #set text(fill: black)
+    Gefordert ist die Gleichstellung des Unterrichtsfaches "Philosophie" mit anderen Unterrichtsfächern.
 ][
-  *Etablierung als Prüfungsfach:* #set text(fill: black)
-  Es soll die Möglichkeit geboten werden, in Philosophie eine Abitur- und jede andere Form der Abschlussprüfung ablegen zu können.
-
+    *Etablierung als Prüfungsfach:* #set text(fill: black)
+    Es soll die Möglichkeit geboten werden, in Philosophie eine Abitur- und jede andere Form der Abschlussprüfung ablegen zu können.
 ][
-  *Aus- und Weiterbildungsverhältnisse:* #set text(fill: black)
-  Die Verhältnisse der Aus- und Weiterbildung für Lehrkräfte soll verbessert werden. Besonderer Schwerpunkt im Lehramtsstudium soll auf die Fachdidaktik und Praxisorientierung gelegt werden.
-
+    *Aus- und Weiterbildungsverhältnisse:* #set text(fill: black)
+    Die Verhältnisse der Aus- und Weiterbildung für Lehrkräfte soll verbessert werden. Besonderer Schwerpunkt im Lehramtsstudium soll auf die Fachdidaktik und Praxisorientierung gelegt werden.
 ][
-  *Anforderung an Lehrkräfte:* #set text(fill: black)
-  Lehrkräfte sollen grundständig Ausgebildet sein, um Philosophieunterricht durchführen zu dürfen.
+    *Anforderung an Lehrkräfte:* #set text(fill: black)
+    Lehrkräfte sollen grundständig Ausgebildet sein, um Philosophieunterricht durchführen zu dürfen.
 ]

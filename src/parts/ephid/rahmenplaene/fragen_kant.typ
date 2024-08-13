@@ -4,37 +4,28 @@
 
 Grundlage der Inhalte des Rahmebereiches bilden die vier Kantischen Grundfragen der Philosophie aus Kants Logik-Vorlesung:#ens[Vgl. Kant, Immanuel: Log, AA 9, 25.][Vgl. @MBWKMV1996_RP56[S. 12]][Vgl. @MBWKMV2002_RP710[S. 14]]
 
-#orange-list[
-    *Was kann ich wissen?* #h(1fr) Erkenntnistheorie, Metaphysik
-    #set text(fill: black)
-
+#orange-list-with-body[*Was kann ich wissen?* #h(1fr) Erkenntnistheorie, Metaphysik][
     #strong[Stufe 5/6] \
     Philosophie untersucht, wie wir uns erkenennd in der Wirklichkeit orientieren können.
 
     #strong[Stufe 7-10] \
     Ist ein sich orientierendes Erkennen der Wirklichkeit möglich, wenn ich unter Überfülle und Spezialisierung leide? Andererseits bereichert mich der ständige Wissenszuwachs.
-][
-    *Was soll ich tun?* #h(1fr) Ethik
-    #set text(fill: black)
 
+][*Was soll ich tun?* #h(1fr) Ethik][
     *Stufe 5/6* \
     Philosophie untersucht, wie der Mensch sein Leben mit sich, mit anderen und mit der Natur regelt.
 
     *Stufe 7-10* \
     Wie kann ich handlungsleitende Regeln finden in einer Welt, in der ich Beliebigkeit und Individualisierung erlebe? Andererseits ist mein Aktionsradius auf vielfältige Weise gewachsen.
-][
-    *Was darf ich hoffen?* #h(1fr) Religionsphilosophie
-    #set text(fill: black)
 
+][*Was darf ich hoffen?* #h(1fr) Religionsphilosophie][
     *Stufe 5/6* \
     Philosophie untersucht das Selbstverständnis des Menschen, das sich im Wissen, Handeln und Hoffen ausprägt.
 
     *Stufe 7-10* \
     Wie finde ich einen grundlegenden und umfassenden Lebensentwurf, wenn es Menschen gibt, die Perspektivlosigkeit und Sinnlosigkeit erfahren? Andererseits habe ich die Chance auf ein langes und erfülltes Leben.
-][
-    *Was ist der Mensch?* #h(1fr) Anthropologie
-    #set text(fill: black)
 
+][*Was ist der Mensch?* #h(1fr) Anthropologie][
     *Stufe 5/6* \
     Philosophie untersucht das Selbstverständnis des Menschen, das sich im Wissen, Handeln und Hoffen ausprägt.
 

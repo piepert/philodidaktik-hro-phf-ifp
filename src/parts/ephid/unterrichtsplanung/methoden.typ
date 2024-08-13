@@ -86,10 +86,7 @@ Für #ix("Methodenvielfalt"), also das Nutzen verschiedener Methoden, sprechen e
 
 Es folgen einige Beispiele für Methoden des Philosophieunterrichts.
 
-#orange-list[
-    *#ix("Gedankenexperiment")* #h(1fr) #ix("Partnerarbeit"), #ix("Frontalvortrag")
-    #set text(fill: black)
-
+#orange-list-with-body[*#ix("Gedankenexperiment")* #h(1fr) #ix("Partnerarbeit"), #ix("Frontalvortrag")][
     In einem #ix("Gedankenexperiment") wird eine fiktive Situation angenommen und mit einer Fragestellung untersucht.
 
     1. *Einbettung:* Die Grundannahmen des Gedankenexperiments werden dargelegt.
@@ -105,20 +102,14 @@ Es folgen einige Beispiele für Methoden des Philosophieunterrichts.
     2. *Prämissen gegeben, selbständige Durchführung:* Ein #ix("Gedankenexperiment") wird selbständig mit gegebenen Prämissen duchgeführt. Es wird eine Situation vorgegeben, die SuS sollen anhand einer Aufgabenstellung eine Problemstellung in dieser Situation beantworten.
 
     3. *Nichts gegeben, eigenes Gedankenexperiment:* Ohne vorhergehende Grundlegungen wird ein eigenes #ix("Gedankenexperiment") konstruiert, eine Problemstellung ausgesucht und der Versuch durchgeführt.
-][
-    *#ix("sokratisches Gespräch", "sokratisches Gespräch", "Gespräch, sokratisch")* #h(1fr) #ix("Frontalvortrag")
-    #set text(fill: black)
 
+][*#ix("sokratisches Gespräch", "sokratisches Gespräch", "Gespräch, sokratisch")* #h(1fr) #ix("Frontalvortrag")][
     Das sokratische Gespräch bezeichnet eine Methode, die mittels der #ix("Mäeutik")#en[Es handelt sich um die sogenannte "#ix("Hebammenkunst")".#todo[Kleine Erläuterung der Hebammenkunst.]] ein manipulatives Gespräch in einem öffentlichen Raum führt, um zu einem der folgenden drei Ergebnisse zu kommen: vollständige *Begriffsklärung*, Erlangen neuer *Erkenntnis* oder *#ix("Aporie")*.
-][
-    *#ix("neosokratisches Gespräch", "neosokratisches Gespräch", "Gespräch, neosokratisch")* #h(1fr) Gruppenarbeit #todo[Belege für das neosokratische Gespräch bei Leonard Nelson fehlen.]
-    #set text(fill: black)
 
+][*#ix("neosokratisches Gespräch", "neosokratisches Gespräch", "Gespräch, neosokratisch")* #h(1fr) Gruppenarbeit #todo[Belege für das neosokratische Gespräch bei Leonard Nelson fehlen.]][
     #ix("Leonard Nelson", "Nelson, Leonard") lehnt das #ix("neosokratische Gespräch", "Gespräch, neosokratisch", "neosokratisches Gespräch") an die ursprüngliche Methode des #ix("sokratischen Gesprächs", "Gespräch, sokratisch", "sokratisches Gespräch") an, im Gegensatz dazu soll sie jedoch nicht manipulativ und für die Teilnehmer gleichberechtigt sein. An einem Tag gibt ein Teilnehmer der Gesprächsgruppe ein Beispiel, worüber die Gruppe diskutieren soll. Es wird über den Tag verteilt so lange diskutiert, bis ein *gemeinsamer Konsens* gefunden wurde. Zusätzlich finden #ix("Meta-", "Metagespräch") und Strategiegespräche statt.
-][
-    *#ix("Inquiry")* #h(1fr) #ix("Gruppenarbeit")
-    #set text(fill: black)
 
+][*#ix("Inquiry")* #h(1fr) #ix("Gruppenarbeit")][
     Neben dem #ix("neosokratischen Gespräch", "neosokratisches Gespräch", "Gespräch, neosokratisch") ist die Inquiry ebenfalls eine Gesprächsmethode für Gruppen. Ausgehend von einem gegebenen Stimulus wird gemeinsam eine Fragestellung erarbeitet, die dann zusammen in der Gruppe beantwortet wird. Im Gegensatz zum #ix("neosokratisches Gespräch", "neosokratisches Gespräch", "Gespräch, neosokratisch") muss *kein gemeinsamer Konsens* erreicht werden. Die Inquiry eignet sich ebenfalls für kurze Gespräche von 45 bis 90 Minuten.
 
     Die Inquiry besteht aus 7 Phasen:#en[Vgl. @Klager2011_Inquiry[S. 44 ff]]
@@ -136,20 +127,18 @@ Es folgen einige Beispiele für Methoden des Philosophieunterrichts.
     6. *Untersuchung:* Aus den SuS wird eine Antwort zufällig ausgewählt, die für alle sichtbar von der Lehrkraft festgehalten und dann Ausgangspunkt der Diskussion wird. Es wird so lange über die Antwort, ihre Gründe und Implikationen sowie die Bedeutung der darin vorkommenden Wörter diskutiert, bis ein gemeinsamer Konsens erreicht wurde oder alle SuS den Gründen für die Zustimmung oder Ablehnung der Antwort zustimmen können.
 
     7. *Metagespräch und Evaluation:* Wird Schritt 6. beendet und keine neue Fragestellung ausgewählt, kommt es zu einem Metagespräch und einer Evaluation der Ergebnisse der Diskussion. Dazu bekommen die SuS wieder Denkzeit. Die Ergebnisse werden schriftlich festgehalten.
-][
-    *#ix("Diskussion")* #h(1fr) #ix("Gruppenarbeit"), #ix("Unterrichtsgespräch")
-][
-    *#ix("Standbild")* #h(1fr) #ix("Gruppenarbeit")
-][
-    *#ix("Collage")* #h(1fr) #ix("Partnerarbeit"), #ix("Gruppenarbeit")
-][
-    *#ix("kreatives Schreiben")* #h(1fr) #ix("Einzalarbeit")
-][
-    *#ix("Essay")* #h(1fr) #ix("Einzalarbeit")
-][
-    *#ix("Textarbeit")* #h(1fr) #ix("Einzalarbeit")
-    #set text(fill: black)
+    
+][*#ix("Diskussion")* #h(1fr) #ix("Gruppenarbeit"), #ix("Unterrichtsgespräch")][
 
+][*#ix("Standbild")* #h(1fr) #ix("Gruppenarbeit")][
+
+][*#ix("Collage")* #h(1fr) #ix("Partnerarbeit"), #ix("Gruppenarbeit")][
+
+][*#ix("kreatives Schreiben")* #h(1fr) #ix("Einzalarbeit")][
+
+][*#ix("Essay")* #h(1fr) #ix("Einzalarbeit")][
+
+][*#ix("Textarbeit")* #h(1fr) #ix("Einzalarbeit")][
     Textarbeit kann auf verschiedene Arten angewandt verwden. Neben einfachem Lesen des Textes (mittels verschiedener Methoden wie *#ix("SQ3R")*) gibt es noch weitere Möglichkeiten, philosophische Texte zu bearbeiten.
 
     Die *#ix("produktionsorientierte Didaktik", "Didaktik, produktionsorientiert", "Produktionsorientierung")* bietet hier einen anderen Blick auf die Arbeit mit Texten:#en[Vgl. @Runtenberg2016_EPhiD[S. 48 ff.]]
