@@ -11,7 +11,7 @@ Feinziele werden formuliert mit der folgenden Formel:
     "SuS" + *Ausbildung einer Kompetenz* + "durch"/"indem" + *EPA-Operator*
 ]
 
-Zur Planung einer zielorientierten Stunde wird das folgende Muster durchlaufen:
+Zur Planung einer #ix("zielorientierten", "Zielorientierung") Stunde wird das folgende Muster durchlaufen:
 
 #align(center, cetz.canvas({
     import cetz.draw: *
