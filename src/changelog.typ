@@ -7,20 +7,22 @@ Da der KÜK noch in Arbeit ist, werden hier die Änderungen jeder Version transp
 - Text, fachlich:
     - Erarbeitung der Inhalte für den SPÜ-Teil
     - Lösungsvorschläge der Aufgaben
-- technisch:
-    - technische Überarbeitung der fehlerhaften und nur eingeschränkt funktionierenden Umsetzung und Verlinkung von Endnoten, Aufgaben und Indexeinträgen
 
-== Version 2024-07
+== Version 2024-08 // naja, mal schauen wann's wirklich rauskommt...
 *Hinzugefügt:*
 - Text, fachlich:
-    // - #taskref("kritikMartens")
+    - #taskref("kritikMartens")
     - Definition "ephemere Medien" wieder in geänderter und belegter Form
     - Belege für Sachnorm, individuelle und soziale Bezugsnorm anhand Literatur der pädagogischen Psychologie
     - Sokrates' elenktisches Verfahren in "Historische Standpunkte zur Philosophiedidaktik"
+    - einige SPÜ Inhalte (erfolgreicher Unterricht, Anforderungen, allgemeine Hinweise, Notfalltipps)
+    - SPÜ-Teil "Nachbereitung" als Todo
+    - Lösung für #taskref("intersubjektivität")
 - gestalterisch, strukturell:
     - Literaturverzeichnis
 - technisch:
     - (automatisch generiertes) Literaturverzeichnis
+    - Anpassungen am Template
 
 *Geändert:*
 - Text, fachlich:
@@ -32,6 +34,8 @@ Da der KÜK noch in Arbeit ist, werden hier die Änderungen jeder Version transp
     - Änderungsverlauf nun genauer und ganz am Ende des Dokuments
 - technisch:
     - Austauschen aller händisch angelegten Literaturverweise durch automatisch erzeugte
+    - technische Überarbeitung der fehlerhaften und nur eingeschränkt funktionierenden Umsetzung und Verlinkung von Endnoten, Aufgaben und Indexeinträgen
+    - aufr. technischer Probleme wurden die Kategorisierung in Seitenzahlen in den Anhängen entfernt, und werden evtl. in späteren Versionen wieder hinzugefügt
 
 // Gelöscht:
 // Sonstiges:
