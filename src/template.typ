@@ -536,6 +536,15 @@
         }
 
         if item.type == "part" {
+            if arr.len() > 0 {
+                grid(columns: 3,
+                    column-gutter: 7pt,
+                    row-gutter: 4pt,
+                    ..arr)
+
+                arr = ()
+            }
+
             arr.push(grid.cell(colspan: 3, v(1em) + link(item.origin, heading(outlined: false, level: 2)[#numbering("I.", part-counter) #item.content])))
             part-counter += 1
 
@@ -548,17 +557,19 @@
 
         } else if item.type == "subheading" and not noheads {
             arr.push(grid.cell[])
-            arr.push(grid.cell([#(heading-counter - 1).#subheading-counter]))
+            arr.push(grid.cell([#(heading-counter - 1).#subheading-counter.]))
             arr.push(grid.cell(dotted-underline(item)))
 
             subheading-counter += 1
         }
     }
 
-    grid(columns: 3,
-        column-gutter: 1pt,
-        row-gutter: 4pt,
-        ..arr)
+    if arr.len() > 0 {
+        grid(columns: 3,
+            column-gutter: 7pt,
+            row-gutter: 4pt,
+            ..arr)
+    }
 }
 
 #let author(name) = {
