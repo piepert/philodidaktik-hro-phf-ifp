@@ -514,17 +514,17 @@
     v(-1em)
     text(fill: color-orange, tracking: 0.25em, strong(upper[Inhaltsverzeichnis]))
 
-    show: pad.with(x: 1cm, y: 2cm)
+    show: pad.with(x: 1cm, y: 1.6cm)
 
     let part-counter = 1
     let heading-counter = 1
     let subheading-counter = 1
 
     let noheads = false
+    let arr = ()
 
-    let dotted-underline(n, item) = box(inset: (bottom: 0.25em),
+    let dotted-underline(item) = box(inset: (bottom: 0.25em),
         stroke: (bottom: (dash: "dotted")),
-        n +
         link(item.origin, item.content +
         h(1fr) +
         str(query(item.origin).first().location().page())))
@@ -535,42 +535,30 @@
             continue
         }
 
-        if noheads {
-            if item.type == "part" {
-                if part-counter > 1 {
-                    v(1em)
-                }
-
-                heading(outlined: false, level: 2)[#numbering("I.", part-counter) #item.content]
-                part-counter += 1
-
-            } else if item.type == "heading" {
-                dotted-underline(none, item)
-            }
-
-            continue
-        }
-
         if item.type == "part" {
-            if part-counter > 1 {
-                v(1em)
-            }
-
-            link(item.origin, heading(outlined: false, level: 2)[#numbering("I.", part-counter) #item.content])
+            arr.push(grid.cell(colspan: 3, v(1em) + link(item.origin, heading(outlined: false, level: 2)[#numbering("I.", part-counter) #item.content])))
             part-counter += 1
 
         } else if item.type == "heading" {
-            pad(y: -0.4em, dotted-underline([#(heading-counter). #h(0.1em)], item))
+            arr.push(grid.cell(colspan: 1, [#(heading-counter).]))
+            arr.push(grid.cell(colspan: 2, dotted-underline(item)))
 
             heading-counter += 1
             subheading-counter = 1
 
-        } else if item.type == "subheading" {
-            pad(y: -0.4em, left: 1em, dotted-underline([#(heading-counter - 1).#(subheading-counter). #h(0.1em)], item))
+        } else if item.type == "subheading" and not noheads {
+            arr.push(grid.cell[])
+            arr.push(grid.cell([#(heading-counter - 1).#subheading-counter]))
+            arr.push(grid.cell(dotted-underline(item)))
 
             subheading-counter += 1
         }
     }
+
+    grid(columns: 3,
+        column-gutter: 1pt,
+        row-gutter: 4pt,
+        ..arr)
 }
 
 #let author(name) = {
