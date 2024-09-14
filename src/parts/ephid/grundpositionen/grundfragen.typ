@@ -2,7 +2,7 @@
 
 == Grundfragen Philosophiedidaktik
 
-#orange-list-with-body[*#ix("Legitimationsfrage"):*][
+#orange-list-with-body(parred: false)[*#ix("Legitimationsfrage"):*][
     (Wie) ist der Philosophieunterricht zu rechtfertigen? Warum sollte man philosophieren dürfen oder sogar müssen?
 
     #ix("Martens", "Martens, Ekkehard") antwortet auf die Frage wie folgt: Der Philosophieunterricht vermittelt Kompetenzen, die SuS zu autonomen und mündigen Personen machen. Damit soll er den SuS helfen, Teil des modernen wissenschaftlich-technischen Diskurses zu werden. Philosophieunterricht ermöglicht es erst, statt autoritären Vorgaben nachzugehen, selbst zu denken.#en[Vgl. @Martens2003_MethodenPU[S. 34 ff]]

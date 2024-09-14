@@ -2,7 +2,7 @@
 
 == #ix("Debatten", "Debatte") und #ix("Kontroversen", "Kontroverse")
 
-#orange-list-with-body[*#ix("Lassahn-Deppe-Kontroverse", "Lassahn-Deppe-Kontroverse", "Lassahn, Rudolf", "Deppe, Wolfgang")*][
+#orange-list-with-body(parred: false)[*#ix("Lassahn-Deppe-Kontroverse", "Lassahn-Deppe-Kontroverse", "Lassahn, Rudolf", "Deppe, Wolfgang")*][
     Sollten die Probleme und Fragen von SuS zu den Problemen der Philosophie werden oder umgekehrt?
 
     #ix("Rudolf Lassahn", "Lassahn, Rudolf") ist der Meinung, dass die aktuellen gesellschaftlichen und politischen Fragestellungen der SuS kanonischen Philosophietexten vorzuziehen ist.#en[Vgl. @Lassahn1972_Aktualitaet[S. 16]] #ix("Wolfgang Deppe", "Deppe, Wolfgang") kritisiert diese Auffassung: seiner Meinung nach ist eine reine Konzentration auf aktuelle Fragestellungen insofern schwierig, als dass man sie erst durch die traditionellen Primärtexte komplett verstehen könne.#en[Vgl. @Lassahn1972_PUBegruendung[S. 49]]

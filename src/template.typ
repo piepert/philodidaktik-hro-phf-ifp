@@ -589,19 +589,31 @@
     name
 }
 
+#let make-orange = text.with(fill: color-orange)
+
 #let orange-list(..items) = {
     set text(fill: color-orange)
     list(tight: false, indent: 1.5em, marker: [■], ..items)
 }
 
-#let orange-list-with-body(..items) = {
+#let orange-list-with-body(parred: true, ..items) = {
     let index = 1
     let body = []
     let elements = ()
-
+    
     for e in items.pos() {
         if calc.even(index) {
-            elements.push(block(text(fill: color-orange, body)) + text(fill: black, e))
+            let obody = text(fill: color-orange, body)
+
+            elements.push({
+                if parred {
+                    block(obody)
+                } else {
+                    obody
+                }
+
+                text(fill: black, e)
+            })
         } else {
             body = e
         }
