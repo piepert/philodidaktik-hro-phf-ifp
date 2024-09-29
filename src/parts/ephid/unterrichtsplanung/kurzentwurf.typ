@@ -1,6 +1,6 @@
 #import "/src/template.typ": *
 
-== #ix("Plan für eine Unterrichtsstunde", "Plan für eine Unterrichtsstunde", "Unterrichtsplan")
+== #ix("Plan für eine Unterrichtsstunde", "Plan für eine Unterrichtsstunde", "Unterrichtsplan") <ephid-unterrichtsplanung>
 
 In der Einführungsveranstaltung für die Philosophiedidaktik wird ein tabellarischer Aufbau zur Planung eines Unterrichtskurzentwurfes vorgeschlagen.
 
@@ -45,5 +45,5 @@ Zu jedem Grobentwurf gehört ein *Thema*, ein *Grobziel*, eine *Liste an Feinzie
 
 Sie finden auf den drei folgenden Seiten ein Beispiel für einen #ix("Plan für eine Unterrichtsstunde", "Plan für eine Unterrichtsstunde", "Unterrichtsplan") zum Thema #ix("Erkenntnistheorie") und #ix("Descartes", "Descartes, René")' #ix("cogito-Argument"), das formal den Anforderungen der Klausur entspricht.
 
-
+<ephid-plan-descartes>
 #include "/src/kurzentwuerfe/uebung01/main.typ"
