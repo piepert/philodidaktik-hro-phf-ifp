@@ -7,27 +7,27 @@ In der SPÜ werden Sie sehr wahrscheinlich Noten in Form von Lernerfolgskontroll
 Für eine bestimmte Form der Bewertung wird wahrscheinlich der klassische "Test" sehr attraktiv sein. Behalten Sie jedoch im Hinterkopf, dass dies nicht die einzige und auch nicht die beste Prüfungsform sein muss! Die *Lektüre von Peter von Ruthendorf und Donat Schmidt* ist hilfreich, um Bewertungsmatrizen und Hinweise für verschiedene Formen der Leistungsmessung zu erhalten.#en[@SchmidtRuthendorf2017_PhilosophierenMessen] Sie können dabei auch Hilfsmittel zulassen, wie etwa die eigenen Aufzeichnungen, je nach Form der Leistungsmessung.
 
 #orange-list-with-body[*Schriftliche Formen*][
-    - klassischer Test
-    - Schriftlicher Dialog
-    - Leserbriefe
-    - Portfolio
-    - Multiple-Choice
-    - Essay
-    - Karikaturanalyse
-    - Lexikonartikel
+    - klassischer #ix("Test", "Leistungskontrolle, schriftlich")
+    - #ix("Schriftlicher Dialog", "Dialog, schriftlich")
+    - #ix("Leserbrief")
+    - #ix("Portfolio")
+    - #ix("Multiple-Choice")
+    - #ix("Essay")
+    - #ix("Karikaturanalyse")
+    - #ix("Lexikonartikel")
     - ...
 
 ][*Mündliche und interaktive Formen*][
-    - klassische mündliche Prüfung (Aus Zeitgründen für die SPÜ wahrscheinlich ungeeignet!)
-    - Debatten und Dispute
-    - Präsentation, Vortrag, Refarat
-    - Sokratisches Gespräch
-    - Rollenspiel
+    - klassische #ix("mündliche Prüfung", "Leistungskontrolle, mündlich") (Aus Zeitgründen für die SPÜ wahrscheinlich ungeeignet!)
+    - #ix("Debatten", "Debatte") und #ix("Dispute", "Disput")
+    - #ix("Präsentation"), #ix("Vortrag"), #ix("Refarat")
+    - #ix("Sokratisches Gespräch")
+    - #ix("Rollenspiel")
     - ...
 
 ][*Präsentative Formen*][
-    - Collage, Plakat
-    - Standbild
+    - #ix("Collage"), #ix("Plakat")
+    - #ix("Standbild")
     - ...
 ]
 

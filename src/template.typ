@@ -80,7 +80,7 @@
             for p in pages {
                 page_numbers += [#link(p.first(), str(p.last()))]
 
-                if i < e.origins.len() {
+                if i < pages.len() {
                     page_numbers += [, ]
                 }
 
