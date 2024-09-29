@@ -3,6 +3,8 @@
 #let color-blue = rgb("#94B6D2")
 #let color-brown = rgb("#775F55")
 
+#let refpage(label) = link(label, context counter(page).at(label).first())
+
 #let index(name, content: none) = {
     let s = state("indices", (:))
 
