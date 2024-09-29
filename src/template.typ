@@ -669,6 +669,18 @@
         }
     }
 
+    let abbreviations = ("z. B.", "Z. B.", "D. h.", "d. h.", "d. i.", "o. ä.", "o. J.", "o. A.")
+    show regex(abbreviations.join("|")
+        .replace(" ", "")
+        .replace(".", "\.")): it => {
+
+        let res = abbreviations.filter(e => [#e.replace(" ", "")] == it)
+
+        if res.len() > 0 {
+            res.first().split(" ").join(" ")
+        }
+    }
+
     body
 
     state("outline", ()).update(k => {
