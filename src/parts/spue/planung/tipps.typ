@@ -5,7 +5,7 @@
 
 + Sprechen Sie mit...
 
-    - ... ihren Kommilitonen, um neue Ideen und Unterstützung zu bekommen. *Gemeinsames Brainstormen rettet Leben!*
+    - ... ihren Mitstudierenden, um neue Ideen und Unterstützung zu bekommen. *Gemeinsames Brainstormen rettet Leben!*
     - ... ihren Dozenten, wenn Sie Probleme haben, Lektüre zu finden.
     - ... der Person, die sie prüft, wenn Sie zeitliche Probleme und Planungsschwierigkeiten haben.
 
