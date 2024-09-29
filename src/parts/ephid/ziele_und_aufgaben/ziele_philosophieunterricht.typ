@@ -11,7 +11,7 @@
     + Was ist der Mensch?
 
 ][*Weisheit*][
-    Zum Erreichen der Weisheit stellt #ix("Kant", "Kant, Immanuel") die drei folgenden, dorthin führenden, Maximen auf:
+    Zum Erreichen der Weisheit stellt #ix("Kant", "Kant, Immanuel") die drei folgenden, dorthin führenden, Maximen auf:#en[Vgl. Kant, Immanuel: Kants gesammelte Schriften. Hrsg. von der königlich preussischen Akademie der Wissenschaften. Berlin 1900 ff. S. 201.]
 
     + Selbstdenken
     + sich an die Stelle eines anderen denken

@@ -6,3 +6,4 @@
 #show: project.with()
 
 #include "parts/ephid/ephid.typ"
+#include "parts/spue/spue.typ"

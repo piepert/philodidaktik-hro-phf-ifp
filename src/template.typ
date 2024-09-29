@@ -3,6 +3,8 @@
 #let color-blue = rgb("#94B6D2")
 #let color-brown = rgb("#775F55")
 
+#let refpage(label) = link(label, context counter(page).at(label).first())
+
 #let index(name, content: none) = {
     let s = state("indices", (:))
 
@@ -78,7 +80,7 @@
             for p in pages {
                 page_numbers += [#link(p.first(), str(p.last()))]
 
-                if i < e.origins.len() {
+                if i < pages.len() {
                     page_numbers += [, ]
                 }
 
@@ -448,7 +450,7 @@
 
                 // calculate number of headings without those, who are in the last part (no-subs-part, which is tagged)
                 headings.len() - headings-after-nosubs.len()
-            }-teilige Grundausrüstung richtet sich an alle Lehramtsstudent*innen der Philosophie und soll den Start in das Studium erleichtern. Der KÜK versteht sich prozessorientiert und erlaubt individuelle Ergänzungen. Die zusammengefassten Hinweise sind jedoch für das Lehramtsstudium der Philosophie als wichtig anzusehen. Diese Sammlung ersetzt nicht das Nachfragen und Nachdenken; wenn Inhalte, Formalia oder Methoden unklar erscheinen, sollten Dozent*innen und Kommiliton*innen um Rat gefragt werden.
+            }-teilige Grundausrüstung richtet sich an alle Lehramtsstudent*innen der Philosophie und soll den Start in das Studium erleichtern. Der KÜK versteht sich prozessorientiert und erlaubt individuelle Ergänzungen. Die zusammengefassten Hinweise sind jedoch für das Lehramtsstudium der Philosophie als wichtig anzusehen. Diese Sammlung ersetzt nicht das Nachfragen und Nachdenken; wenn Inhalte, Formalia oder Methoden unklar erscheinen, sollten Dozierenden und Mitstudierenden um Rat gefragt werden.
 
             #set text(size: 0.8em)
             Verantwortung und Betreuung: Gruppe "#box(move(dy: 0.25em, circle(stroke: 0.5pt, radius: 0.6em, move(dx: -0.42em, dy: -1.15em, $phi$)))) Philo lernen" © 2023-2024
@@ -678,6 +680,18 @@
             link(it.target, strong[#it.element.body])
         } else {
             it
+        }
+    }
+
+    let abbreviations = ("z. B.", "Z. B.", "D. h.", "d. h.", "d. i.", "o. ä.", "o. J.", "o. A.")
+    show regex(abbreviations.join("|")
+        .replace(" ", "")
+        .replace(".", "\.")): it => {
+
+        let res = abbreviations.filter(e => [#e.replace(" ", "")] == it)
+
+        if res.len() > 0 {
+            res.first().split(" ").join(" ")
         }
     }
 
