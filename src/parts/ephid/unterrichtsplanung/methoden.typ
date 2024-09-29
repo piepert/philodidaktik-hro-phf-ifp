@@ -31,7 +31,7 @@ Methoden bilden also das "Wie?" des Unterrichts und finden auf drei verschiedene
         - Gedankenexperiment
         - Inquiry
     ], [
-        Unter "Mikromethodik" versteht man die Inszenierungstechniken des Unterrichts und Operatoren. Sie bilden kleinste Verhaltensweisen und Strukturen des Unterrichts. Darunter fallen:
+        Unter "Mikromethodik" versteht man die Inszenierungstechniken des Unterrichts und #ix("Operatoren", "Operator"). Sie bilden kleinste Verhaltensweisen und Strukturen des Unterrichts. Darunter fallen:
 
         - Blickkontakt
         - Antworten

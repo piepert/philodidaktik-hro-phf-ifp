@@ -1,9 +1,9 @@
 #import "/src/template.typ": *
 
-= Operatoren
+= #ix("Operatoren", "Operator")
 #author[Tristan Pieper]
 
-Die einheitlichen Prüfungsanforderungen für das Abitur im Fach Philosophie legen einheitliche Operatoren für das Fach Philosophie fest.#en[Vgl. @KMK2006_EPAPhil[S. 10 ff]] Die Oepratoren fallen unter bestimmte #ix("Anforderungsbereiche", "Anforderungsbereich") und haben somit zum Ziel die #ix("Problemerfassung"), #ix("-bearbeitung", "Problembearbeitung") oder #ix("-verortung", "Problemverortung"). Es ist möglich, dass ein Operator je nach Aufgabenstellung bzw. Bearbeitung der SuS unter mehrere Anforderungsbereiche fallen kann.
+Die einheitlichen Prüfungsanforderungen für das Abitur im Fach Philosophie legen einheitliche #ix("Operatoren", "Operator") für das Fach Philosophie fest.#en[Vgl. @KMK2006_EPAPhil[S. 10 ff]] Die Oepratoren fallen unter bestimmte #ix("Anforderungsbereiche", "Anforderungsbereich") und haben somit zum Ziel die #ix("Problemerfassung"), #ix("-bearbeitung", "Problembearbeitung") oder #ix("-verortung", "Problemverortung"). Es ist möglich, dass ein #ix("Operator") je nach Aufgabenstellung bzw. Bearbeitung der SuS unter mehrere Anforderungsbereiche fallen kann.
 
 // #let ix(..a) = a.pos().first()
 
@@ -14,7 +14,7 @@ Die einheitlichen Prüfungsanforderungen für das Abitur im Fach Philosophie leg
 
     ..range(0, 20).map(e => table.hline(y: e)),
 
-    strong[Operator], strong[AFB], strong[Definition], strong[Beispiele],
+    strong[#ix("Operator")], strong[AFB], strong[Definition], strong[Beispiele],
 
     [
         Analysieren
