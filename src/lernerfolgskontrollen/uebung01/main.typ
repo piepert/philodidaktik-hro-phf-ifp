@@ -18,7 +18,7 @@
 
     \3. Alles nämlich, was ich bisher am ehesten für wahr gehalten habe, verdanke ich den Sinnen oder der Vermittlung der Sinne. Nun aber bin ich dahintergekommen, daß diese uns bisweilen täuschen, und es ist ein Gebot der Klugheit, denen niemals ganz zu trauen, die uns auch nur einmal getäuscht haben.
 
-    \4. Indessen -- mögen uns auch die Sinne mit Bezug auf zu kleine und entfernte Gegenstände bisweilen täuschen, so gibt es doch am Ende sehr vieles andere, woran man gar nicht zweifeln kann, wenngleich es aus denselben Quellen geschöpft ist; so z. B. daß ich jetzt hier bin, daß ich, mit meinem Winterrock angetan, am Kamin sitze, daß ich dieses Papier mit den Händen betaste und ähnliches; vollends daß diese Hände selbst, daß überhaupt mein ganzer Körper da ist, wie könnte man mir das abstreiten? [...]
+    \4. Indessen -- mögen uns auch die Sinne mit Bezug auf zu kleine und entfernte Gegenstände bisweilen täuschen, so gibt es doch am Ende sehr vieles andere, woran man gar nicht zweifeln kann, wenngleich es aus denselben Quellen geschöpft ist; so z.B. daß ich jetzt hier bin, daß ich, mit meinem Winterrock angetan, am Kamin sitze, daß ich dieses Papier mit den Händen betaste und ähnliches; vollends daß diese Hände selbst, daß überhaupt mein ganzer Körper da ist, wie könnte man mir das abstreiten? [...]
 ][
     Rene Descartes: _Meditationes de prima philosophia._ AT VII. S. 18 f.
 ]
