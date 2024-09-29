@@ -34,7 +34,7 @@
 #task[Kompetenz][
     Definieren Sie den Kompetenzbegriff nach Weinert!
 ][
-
+    Kompetenzen sind die bei Individuen verfügbaren oder durch sie erlernbaren kognitiven Fähigkeiten, um bestimmte Probleme zu lösen, sowie die damit verbundenen motivationalen, volitionalen und sozialen Bereitschaften und Fähigkeiten, um die Problemlösungen in variablen Situationen erfolgreich und verantwortungsvoll nutzen zu können.
 ]
 
 #task[Qualitätskriterien der PhiD][
@@ -42,7 +42,7 @@
     Erlangung von Weisheit auf. Nennen und erläutern Sie diese knapp in Hinblick auf
     Qualitätskriterien von Philosophieunterricht.
 ][
-    #ix("Kant", "Kant, Immanuel") stellt drei Maximen auf:#en[Vgl. Kant, Immanuel: Kants gesammelte Schriften. Hrsg. von der königlich preussischen Akademie der Wissenschaften. Berlin 1900ff. S. 201.]
+    #ix("Kant", "Kant, Immanuel") stellt drei Maximen auf:// #en[Vgl. Kant, Immanuel: Kants gesammelte Schriften. Hrsg. von der königlich preussischen Akademie der Wissenschaften. Berlin 1900 ff. S. 201.] // en in Aufgaben geht immernoch nicht
 
     + selbst denken
     + sich an die Stelle des Anderen denken
