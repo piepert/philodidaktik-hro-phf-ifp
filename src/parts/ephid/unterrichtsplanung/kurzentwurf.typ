@@ -21,7 +21,7 @@ In den Spalten werden folgende Dinge dargestellt:
 
 + *Lehrerverhalten (geplant):* Aufgabenstellungen und Tätigkeiten der Lehrperson
 
-+ *Schülerverhalten (erwartet):* Erwartungshorizont der Aufgaben
++ *Schülerverhalten (erwartet):* #ix("Erwartungshorizont") der Aufgaben
 
 + *Methoden/Sozialformen:* angewendete Methoden und Benennung der genutzten Sozialform
 
