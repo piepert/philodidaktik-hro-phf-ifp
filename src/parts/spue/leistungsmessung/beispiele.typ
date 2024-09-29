@@ -1,5 +1,7 @@
 #import "/src/template.typ": *
 
-== Beispiele
+== Beispiel: Schriftlicher Dialog
 
-#todo[]
+Im Folgenden finden Sie ein Beispiel für eine Leistungsmessung in Form eines schriftlichen Dialogs.
+
+#include "/src/lernerfolgskontrollen/spue01/main.typ"
