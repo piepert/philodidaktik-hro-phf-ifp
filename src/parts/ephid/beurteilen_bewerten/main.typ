@@ -16,11 +16,4 @@
 #include "funktionen_leistungspruefung.typ"
 #include "anforderung_bewertung.typ"
 #include "bedeutung_schulnoten.typ"
-
-#task[Reliabilität von Bewertung][
-    Erläutern Sie die #ix("Reliabilität") von Bewertungen an zwei Beispielen des Philosophieunterrichts.
-][
-]
-#todo[Lösungsvorschlag erstellen.]
-
 #include "beispiel_kurzkontrolle.typ"

@@ -83,11 +83,17 @@
     In der #ix("Debatte um die Aktualität von Unterrichtsinhalten") geht es um die Aktualität von Unterrichtsinhalten. #ix("Rudolf Lassahn", "Lassahn, Rudolf") vertritt die Meinung, dass nur ein starker Bezug auf aktuelle Themen im Unterricht angewandt werden dürfe, jedoch keine kanonischen Texte. #ix("Wolfgang Deppe", "Deppe, Wolfgang") hält dem entgegen, dass diese Position zu radikal sei und eine versteifte Position auf nur-kanonisch oder nur-aktuell nicht zielführend ist. Ich schließe mich #ix("Wolfgang Deppe", "Deppe, Wolfgang") an und bin der Meinung, dass aktuelle Themen anlässe für das Philosophieren mit Kindern sein könnten, anders herum können jedoch auch kanonische Texte auf aktuelle Themen bezogen werden. Aktuelle Themen bieten einen Bezug auf die Lebenswirklichkeit der SuS und sind daher sinnvoll zum Wecken intrinischer Motivation oder als Transferprozesse, jedoch sind kanonische Texte daher nicht auszuschließen.
 ]
 
-#task[Diskursive vs. präsentative Formen][
-    Kennzeichnen Sie den Unterschied zwischen diskursiven und präsentativen Formen des Philosophierens.
+#task(key: "langer-diskursiv-präsentativ")[Diskursive vs. präsentative Formen][
+    Erklären Sie den Unterschied zwischen diskursiven und präsentativen Formen des Philosophierens.
 ][
+    Nach Susanne Langer können als Weiterentwicklung von Ernst Cassierers "Philosophie der Symbolischen Formen" diskursive von präsentative Symbole unterschieden werden.
+
+    Diskursive Symbole sind diejenigen sprachlichen Ausdrücke, deren Bedeutung meist konventionell klar festgelegt ist. Sie stellen ihre Sachverhalte linear dar. Nacheinander wird ein diskursives Zeichen nach dem nächsten Verarbeitet: Das Subjekt kommt über das Zeichen zum durch das Zeichen ausgedrückten Objekt. So stehen die Zeichenketten "der Mond" oder "Luna" stellvertretend für den Mond und sind diskursive Symbole.
+
+    Präsentative Symbole dagegen können sich, z.B. eben im Falle von Bildern, simultan darstellen, d.h. alles auf einmal. Ein Bild ist im Gegensatz zu einem Text -- sofern es nicht verdeckt ist -- immer im Ganzen zu sehen. Auch das Bild erzeugt eine Vorstellung im Kopf der Betrachtenden und hat somit eine Bedeutung. Daher können neben diskursiven Symbole, auch präsentative Symbole Bedeutungen haben. Im Gegensatz zu Präsentative lässt sich laut Langer diese Bedeutung nicht auf die Bestandteile des Bildes reduzieren. "der Mond" hat auch ohne den Satz "Der Mond ist aufgegangen." eine Bedeutung, ein Schatten jedoch ohne das Bild laut Langer nicht. Damit lassen sich auch keine Einzelbestandteile und kein "Vokabular" für präsentative Symbole anfertigen.
+
+    Philosophieren in diskursiver Form ist also dasjenige, welches sich den diskursiven Symbolen bereichert -- Texten, Sprache im Allgemeinen. Sie ist linear, relativ sicher deutbar und lässt sich in kleinere bedeutungsvolle Bestandteile zerlegen. Philosophieren in symbolischer Form dagegen macht sich andere Wege zum Sammeln und Vermitteln von Eindrücken zunutze, etwa Philosophieren mittels Bildern und Filmen. Die Symbole können nicht-linear und nicht-reduzierbar sein, sie sind vieldeutig und damit sind präsentative Formen des Philosophierens grundlegend anders als diskursive Formen des Philosophierens.
 ]
-#todo[Lösungsvorschlag erstellen.]
 
 #task[Philosophieren mit Kindern][
     Erklären und widerlegen Sie die drei Gegenargumente zum Philosophieren mit Kindern nach Susanne Nordhofen!#en[@Nordhofen1994_PmK[S. 35-46]]
