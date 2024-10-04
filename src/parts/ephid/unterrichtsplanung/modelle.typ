@@ -12,8 +12,9 @@
 
 Es folgen einige standardmäßige Modelle für den Aufbau einer Unterrichtsstunde.
 
-#orange-list-with-body[*#ix("Methodenschlange"):* #h(1fr) #ix("Martens", "Martens, Ekkehard")][
-    #grid(columns: (1fr, 15%), column-gutter: 1em, [
+#show grid.cell.where(x: 1): set align(right)
+#orange-list-with-body[*#ix("Methodenschlange"):*#en[@Martens2003_MethodenPU[S. 55-58]] #h(1fr) #ix("Martens", "Martens, Ekkehard")][
+    #grid(columns: (1fr, 10%), column-gutter: 1em, [
         Mit der Einteilung der #ix("Methoden", "Methode") in #ix("sokratisch-aristotelische Kategorien", "Kategorien, sokratisch-aristotelisch"), entfaltet #ix("Martens", "Martens, Ekkehard") das Prinzip seiner Unterrichtsplanung: die #ix("Methodenschlange"). Martens sieht hier die folgende Reihenfolge der philosophischen Methoden als sinnvoll, jedoch nicht als notwendig an.#en[Vgl. @Martens2003_MethodenPU[S. 56]] Die angegebenen Methoden sind die wichtigsten, jedoch nicht die einzigen, die folgende Liste wird als erweiterbar und veränderbar angesehen:#en[Vgl. @Martens2003_MethodenPU[S. 56]]
 
         1. *phänomenologische Methode*: Zuerst wird das philosophische Problem phänomenologisch betrachtet. Die Eindrücke der SuS sind hier von Bedeutung.
@@ -30,7 +31,7 @@ Es folgen einige standardmäßige Modelle für den Aufbau einer Unterrichtsstund
     ], image("mod_methodenschlange.png", height: 3cm)+en[@Martens2003_MethodenPU[S. 57]])
 
 ][*#ix("Bonbon-Modell"):* #h(1fr) #ix("Sistermann", "Sistermann, Rolf")][
-    #grid(columns: (1fr, 15%), column-gutter: 1em, [
+    #grid(columns: (1fr, 10%), column-gutter: 1em, [
             Das #ix("Bonbon-Modell") nach #ix("Sistermann", "Sistermann, Rolf") ist ein Kernmodell für den #ix("problemorientierten", "Problemorientierung") Philosophieunterricht. Es unterscheidet sechs Phasen, die besonders das Interesse und die Probleme der SuS in den Vordergrund stellen und diese dazu anleiten, selbständig Lösungen zu finden, jedoch auch bekannte Positionen mit einbeziehen können. Die sechs Phasen sehen wie folgt aus:#todo[Zitation für Sistermann fehlt, bisher nur unseriöse Quellen/graue Literatur vorhanden.]
 
             1. *Hinführung:* Das Interesse der SuS wird als Grundlegung für folgende Phasen aktiviert, ein geeignetes philosophisches Problem wird herausgestellt.
@@ -49,8 +50,8 @@ Es folgen einige standardmäßige Modelle für den Aufbau einer Unterrichtsstund
 
     ], image("mod_bonbon.png", height: 3.25cm)+en[@Runtenberg2016_EPhiD[S. 139]])
 
-][*#ix("PEST"):*][
-    #grid(columns: (1fr, 15%), column-gutter: 1em, [
+][*#ix("PEST"):*#en[Vgl. @Klager2016_SpielAlsWeltzugang[S. 302-309]] #h(1fr) #ix("Klager", "Klager, Christian")][
+    #grid(columns: (1fr, 10%), column-gutter: 1em, [
         Das #ix("PEST")-Modell ist ein didaktisches Standardmodell zur Unterrichtsplanung und besteht aus vier Phasen.
 
         + *Problematisierungsphase:* In der Problematisierungsphase wird das Thema der Stunde motiviert, durch die SuS erarbeitet und kontrovers dargestellt.
@@ -62,8 +63,8 @@ Es folgen einige standardmäßige Modelle für den Aufbau einer Unterrichtsstund
         + *Transferphase:* In der Transferphase wird das erarbeitete Wissen auf ein neues Beispiel angewendet, um sicherzugehen, dass die gewonnen Fertigkeiten anwendbar sind.
     ], image("mod_pest.png", height: 1.75cm))
 
-][*#ix("Backward Design") / #ix("PETF"):*  #h(1fr) #ix("Sistermann", "Sistermann, Rolf"), #ix("Pörschke", "Pörschke, Tim")][
-    #grid(columns: (1fr, 15%), column-gutter: 1em, [
+][*#ix("Backward Design") / #ix("PETF"):*#en[@Poerschke2021_BackwardDesign]  #h(1fr) #ix("Sistermann", "Sistermann, Rolf"), #ix("Pörschke", "Pörschke, Tim")][
+    #grid(columns: (1fr, 10%), column-gutter: 1em, [
         #ix("Rolf Sistermann", "Sistermann, Rolf") empfiehlt das #ix("Backward Design", "Backward Design", "PETF") in Verbindung mit seinem Bonbon-Modell als Planungsmethode für eine Unterrichtsstunde. Das Ziel der Unterrichtsstunde wird dabei in den Vordergrund stellt.
 
         + *Festigungsphase:* Welche Inhalte sollen gefestigt werden?
@@ -98,8 +99,10 @@ Es folgen einige standardmäßige Modelle für den Aufbau einer Unterrichtsstund
     ], image("mod_petf.png", height: 1.75cm))
 ]
 
-#task[PEST vs. Inquiry][
-    Vergleichen Sie den klassischen Aufbau einer Unterrichtsstunde mit der Methode der Inquiry!
+#task(key: "pest-vs-inquiry")[PEST vs. Inquiry][
+    Vergleichen Sie den klassischen Aufbau einer Unterrichtsstunde nach dem PEST-Modell mit der Methode der Inquiry!
 ][
+    Das klassiche PEST-Modell beginnt mit einer Problematisierung, in der das Thema der Stunde motiviert und als Problem durch die SuS erarbeitet wird. Danach folgt die Erarbeitungsphase, in der es gelöst und in der Sicherungsphase verglichen und festgehalten wird. In der abschließenden Transferphase wird das erlangte Wissen auf einen neuen Sachverhalt angewandt.
+
+    Die Inquiry hat im Gegensatz zum PEST-Modell sieben statt vier Phasen, jedoch lassen sich diese sieben Phasen teilweise in das PEST-Modell übersetzen: Die ersten vier Phasen -- das Geben des Stimulus, das Stellen philosophischen Fragen, das Sammeln dieser und die Auswahl der Frage -- lässt sich als Problematisierung im PEST-Modell sehen, da hier das Problem aufgeworfen und zur Bearbeitung ausgewählt wird. Die darauffolgende Denkzeit und Untersuchung als fünfte und sechste Phase, welche im PEST-Modell die Bearbeitungsphase darstellen. Das Metagespräch und die Evaluation sind wie eine Sicherung, besonders das schriftliche Festhalten dieser ist eine typische Form der Sicherung. Was fehlt, wäre die anschließende Transferphase, die in der Grundform der Inquiry nicht gegeben ist. Durch eine anschließende Aufgabe wäre diese jedoch auch gegeben und die Inquiry könnte eine vollwertige Unterrichtsstunde im PEST-Modell dartellen.
 ]
-#todo[Lösungsvorschlag erstellen.]

@@ -2,13 +2,11 @@
 
 == #ix("Debatten", "Debatte") und #ix("Kontroversen", "Kontroverse")
 
-#orange-list-with-body(parred: false)[*#ix("Lassahn-Deppe-Kontroverse", "Lassahn-Deppe-Kontroverse", "Lassahn, Rudolf", "Deppe, Wolfgang")*][
-    Sollten die Probleme und Fragen von SuS zu den Problemen der Philosophie werden oder umgekehrt?
+#orange-list-with-body[*#ix("Lassahn-Deppe-Kontroverse", "Lassahn-Deppe-Kontroverse", "Lassahn, Rudolf", "Deppe, Wolfgang"):* #text(fill: black)[Sollten die Probleme und Fragen von SuS zu den Problemen der Philosophie werden oder umgekehrt?]][
 
     #ix("Rudolf Lassahn", "Lassahn, Rudolf") ist der Meinung, dass die aktuellen gesellschaftlichen und politischen Fragestellungen der SuS kanonischen Philosophietexten vorzuziehen ist.#en[Vgl. @Lassahn1972_Aktualitaet[S. 16]] #ix("Wolfgang Deppe", "Deppe, Wolfgang") kritisiert diese Auffassung: seiner Meinung nach ist eine reine Konzentration auf aktuelle Fragestellungen insofern schwierig, als dass man sie erst durch die traditionellen Primärtexte komplett verstehen könne.#en[Vgl. @Lassahn1972_PUBegruendung[S. 49]]
 
-][*#ix("Rehfus-Martens-Kontroverse", "Rehfus-Martens-Kontroverse", "Martens, Ekkehard", "Rehfus, Wulff D."):*][
-    Welche Ziele hat Philosophieunterricht und wie sieht ein guter Philosophieunterricht aus?
+][*#ix("Rehfus-Martens-Kontroverse", "Rehfus-Martens-Kontroverse", "Martens, Ekkehard", "Rehfus, Wulff D."):* #text(fill: black)[Welche Ziele hat Philosophieunterricht und wie sieht ein guter Philosophieunterricht aus?]][
 
     #ix("Ekkehard Martens", "Martens, Ekkehard") ist Vertreter der #ix("Konstitutionsthese") der Philosophiedidaktik und der Meinung, dass diese notwendig dem Menschen innewohnt, unabhängig von Ort (Schule, Universität, ...) und Alter (Kind, Jugendlich, Erwachsen). Er spricht von der Philosophie als "#ix("Kulturtechnik")". Seine bevorzugte Vorgehensweise ist die des #ix(["induktiven Entdeckens"], "Induktion") in Form einer #ix("dialogisch-pragmatischen Methode", "Methode, dialogisch-pragmatisch"), bei der die SuS Probleme selbständig lösen, ohne ein großes Fundament aus traditionellen philosophischen Theorien. Im Mittelpunkt steht der philosophische Dialog und die thematischen Interessen der SuS, wonach der Philosophieunterricht ausgerichtet werden soll.
 
@@ -56,10 +54,8 @@
             - sollte die Probleme der SuS zum Zentrum des Philosophieunterrichts machen
         ])
 
-][*#ix("Tiedemann-Gefert-Kontroverse", "Tiedemann-Gefert-Kontroverse", "Tiedemann, Markus", "Gefert, Christian")*][
-    Sind #ix("präsentativ-symbolische", "Form, präsentativ-symbolisch") und/oder #ix("diskursive", "Form, diskursiv") Formen adäquate und genuin philosophische Medien/Methoden des Philosophierens?
-
-    Mit #ix("präsentativ-symbolischen Formen", "Form, präsentativ-symbolisch") ist die von #ix("Susanne K. Langer", "Langer, Susanne K.") weiterentwickelte Theorie von #ix("Ernst Cassierers", "Cassirer, Ernst") #ix("symbolischen Formen", "Form, symbolisch"). Die grundlegende Errungenschaft ist, dass Philosophieren nach #ix("Cassirer", "Cassirer, Ernst") und #ix("Langer", "Langer, Susanne K.") nicht mehr nur an Sprache gebunden ist (textuell durch z.B. #ix("Essays", "Essay") und verbal z.B. durch #ix("Dialoge", "Dialog, mündlich")), sondern Menschen Medien ebenfalls Bedeutung zuweisen können, die nicht sprachlich ausgedrückt werden kann. Der Unterschied zwischen diesen #ix("diskursiven", "Form, diskursiv") und #ix("präsentativen", "Form, präsentativ-symbolisch") Formen ist Teil der #ix("Tiedemann-Gefert-Kontroverse"). #ix("Gefert", "Gefert, Christian") behauptet, dass #ix("präsentativ-symbolische Formen", "Form, präsentativ-symbolisch") Teil des Philosophierens sein können. Die Idee ist, dass die Frage "Was bedeutet das?" für die Philosophie grundlegend ist. #ix("Tiedemann", "Tiedemann, Markus") hält dem entgegen, dass Menschen eventuell in #ix("präsentativ-symbolischen Formen", "Form, präsentativ-symbolisch") denken können, aber diese nicht für die Philosophie geeignet sind.#en[Vgl. @Runtenberg2016_EPhiD[S. 42]]
+][*#ix("Tiedemann-Gefert-Kontroverse", "Tiedemann-Gefert-Kontroverse", "Tiedemann, Markus", "Gefert, Christian")* #text(fill: black)[Sind #ix("präsentativ-symbolische", "Form, präsentativ-symbolisch") und/oder #ix("diskursive", "Form, diskursiv") Formen adäquate und genuin philosophische Medien/Methoden des Philosophierens?]][
+    Mit #ix("präsentativ-symbolischen Formen", "Form, präsentativ-symbolisch") ist die von #ix("Susanne K. Langer", "Langer, Susanne K.") weiterentwickelte Theorie von #ix("Ernst Cassierers", "Cassirer, Ernst") #ix("symbolischen Formen", "Form, symbolisch"). Die grundlegende Errungenschaft ist, dass Philosophieren nach #ix("Cassirer", "Cassirer, Ernst") und #ix("Langer", "Langer, Susanne K.") nicht mehr nur an Sprache gebunden ist (textuell durch z.B. Essays und verbal z.B. durch Dialoge), sondern Menschen Medien ebenfalls Bedeutung zuweisen können, die nicht sprachlich ausgedrückt werden kann. Der Unterschied zwischen diesen #ix("diskursiven", "Form, diskursiv") und #ix("präsentativen", "Form, präsentativ-symbolisch") Formen ist Teil der #ix("Tiedemann-Gefert-Kontroverse"). #ix("Gefert", "Gefert, Christian") behauptet, dass #ix("präsentativ-symbolische Formen", "Form, präsentativ-symbolisch") Teil des Philosophierens sein können. Die Idee ist, dass die Frage "Was bedeutet das?" für die Philosophie grundlegend ist. #ix("Tiedemann", "Tiedemann, Markus") hält dem entgegen, dass Menschen eventuell in #ix("präsentativ-symbolischen Formen", "Form, präsentativ-symbolisch") denken können, aber diese nicht für die Philosophie geeignet sind.#en[Vgl. @Runtenberg2016_EPhiD[S. 42]]
 
 ][*#ix("Philosophieren mit Kindern", "Philosophieren mit Kindern", "PmK", "PwC") -- möglich oder unmöglich?*#en[Vgl. @Nordhofen1994_PmK[S. 35-46]]][
     Kinder können nicht philosophieren, denn ...
@@ -83,11 +79,17 @@
     In der #ix("Debatte um die Aktualität von Unterrichtsinhalten") geht es um die Aktualität von Unterrichtsinhalten. #ix("Rudolf Lassahn", "Lassahn, Rudolf") vertritt die Meinung, dass nur ein starker Bezug auf aktuelle Themen im Unterricht angewandt werden dürfe, jedoch keine kanonischen Texte. #ix("Wolfgang Deppe", "Deppe, Wolfgang") hält dem entgegen, dass diese Position zu radikal sei und eine versteifte Position auf nur-kanonisch oder nur-aktuell nicht zielführend ist. Ich schließe mich #ix("Wolfgang Deppe", "Deppe, Wolfgang") an und bin der Meinung, dass aktuelle Themen anlässe für das Philosophieren mit Kindern sein könnten, anders herum können jedoch auch kanonische Texte auf aktuelle Themen bezogen werden. Aktuelle Themen bieten einen Bezug auf die Lebenswirklichkeit der SuS und sind daher sinnvoll zum Wecken intrinischer Motivation oder als Transferprozesse, jedoch sind kanonische Texte daher nicht auszuschließen.
 ]
 
-#task[Diskursive vs. präsentative Formen][
-    Kennzeichnen Sie den Unterschied zwischen diskursiven und präsentativen Formen des Philosophierens.
+#task(key: "langer-diskursiv-präsentativ")[Diskursive vs. präsentative Formen][
+    Erklären Sie den Unterschied zwischen diskursiven und präsentativen Formen des Philosophierens.
 ][
+    Nach Susanne Langer können als Weiterentwicklung von Ernst Cassierers "Philosophie der Symbolischen Formen" diskursive von präsentative Symbole unterschieden werden.
+
+    Diskursive Symbole sind diejenigen sprachlichen Ausdrücke, deren Bedeutung meist konventionell klar festgelegt ist. Sie stellen ihre Sachverhalte linear dar. Nacheinander wird ein diskursives Zeichen nach dem nächsten Verarbeitet: Das Subjekt kommt über das Zeichen zum durch das Zeichen ausgedrückten Objekt. So stehen die Zeichenketten "der Mond" oder "Luna" stellvertretend für den Mond und sind diskursive Symbole.
+
+    Präsentative Symbole dagegen können sich, z.B. eben im Falle von Bildern, simultan darstellen, d.h. alles auf einmal. Ein Bild ist im Gegensatz zu einem Text -- sofern es nicht verdeckt ist -- immer im Ganzen zu sehen. Auch das Bild erzeugt eine Vorstellung im Kopf der Betrachtenden und hat somit eine Bedeutung. Daher können neben diskursiven Symbole, auch präsentative Symbole Bedeutungen haben. Im Gegensatz zu Präsentative lässt sich laut Langer diese Bedeutung nicht auf die Bestandteile des Bildes reduzieren. "der Mond" hat auch ohne den Satz "Der Mond ist aufgegangen." eine Bedeutung, ein Schatten jedoch ohne das Bild laut Langer nicht. Damit lassen sich auch keine Einzelbestandteile und kein "Vokabular" für präsentative Symbole anfertigen.
+
+    Philosophieren in diskursiver Form ist also dasjenige, welches sich den diskursiven Symbolen bereichert -- Texten, Sprache im Allgemeinen. Sie ist linear, relativ sicher deutbar und lässt sich in kleinere bedeutungsvolle Bestandteile zerlegen. Philosophieren in symbolischer Form dagegen macht sich andere Wege zum Sammeln und Vermitteln von Eindrücken zunutze, etwa Philosophieren mittels Bildern und Filmen. Die Symbole können nicht-linear und nicht-reduzierbar sein, sie sind vieldeutig und damit sind präsentative Formen des Philosophierens grundlegend anders als diskursive Formen des Philosophierens.
 ]
-#todo[Lösungsvorschlag erstellen.]
 
 #task[Philosophieren mit Kindern][
     Erklären und widerlegen Sie die drei Gegenargumente zum Philosophieren mit Kindern nach Susanne Nordhofen!#en[@Nordhofen1994_PmK[S. 35-46]]

@@ -195,8 +195,7 @@
 
     if title != none {
         heading(title)
-    }
-
+    } 
 
     pretext
     set par(justify: true)
@@ -264,7 +263,7 @@
     add-note(
         key: key,
         wrap-note: k => strong[Aufgabe #k -- #title],
-        number-format: numbering.with("A"),
+        number-format: numbering.with("1"),
         "tasks",
         [: ] + title + pad(left: 1.5em, answer))
 
@@ -277,7 +276,7 @@
 
     for item in state("tasks", ()).final() {
         if item.target == label(key+"-TARGET") {
-            return link(item.origin, [Aufgabe #numbering("A", item.counter)])
+            return link(item.origin, [Aufgabe #numbering("1", item.counter)])
         }
 
         index += 1
@@ -290,7 +289,7 @@
     make-notes("tasks",
         title: [Lösungsvorschläge],
         wrap-note: k => strong[Lösung für #k],
-        number-format: numbering.with("A")
+        number-format: numbering.with("1")
     )
 }
 
@@ -331,7 +330,6 @@
 }
 
 #let def(key, body, ..ixs) = par(hanging-indent: 1.5em, [
-    #place(dx: -1.5em, dy: -0.25em, text(size: 2em, fill: red, strong[!]))
 
     #if (ixs.pos().len() == 0) {
         definition(key)
@@ -340,7 +338,7 @@
         definition(key)
         ixs.pos().map(e => index(e)).join([])
     }
-    #strong[D#text(size: 0.8em)[EF]. #key]#definition(key) -- #body
+    #strong[D#text(size: 0.8em)[EF].#box(place(left, dx: -3.5em, dy: -1em, text(size: 2em, fill: red, strong[!]))) #key]#definition(key) -- #body
 ])
 
 #let make-definitions(title: none) = context {

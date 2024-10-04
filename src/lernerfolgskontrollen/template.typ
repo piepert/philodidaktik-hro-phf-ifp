@@ -29,6 +29,7 @@
     v(1em)
 
     set par(justify: true)
+    counter("lek-tasks").update(0)
     body
 }
 
@@ -44,7 +45,7 @@
 }
 
 #let task(points, content, number-format: n => numbering("1", n)) = {
-    let c = counter("tasks")
+    let c = counter("lek-tasks")
     c.step()
 
     grid(columns: (auto, 1fr, auto),

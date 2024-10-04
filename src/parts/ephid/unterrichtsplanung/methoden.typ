@@ -40,12 +40,12 @@ Methoden bilden also das "Wie?" des Unterrichts und finden auf drei verschiedene
     ])
 
 
-Methoden lassen sich nach einigen Autoren in unterschiedliche Kategorien einteilen.
+Die philosophischen Makromethoden, mit denen philosophiert wird, können dabei nach #ix("Rohbeck", "Rohbeck, Johannes") und #ix("Martens", "Martens, Ekkehard") in je unterschiedliche Kategorien eingeteilt werden. Einiges überschneidet sich, in beiden Einteilungen kommen die Phänomenologie, Hermeneutik, Dialektik und Analytik als eigene #ix("Kategorie", "Kategorien, sokratisch-aristotelisch") bzw. #ix("Denkrichtung", "Denkstil", "Denkrichtung") vor. #ix("Martens", "Martens, Ekkehard") hat im Gegensatz zu #ix("Rohbeck", "Rohbeck, Johannes") noch die Spekulation, Rohbeck im Gegensatz zu Martens den #ix("Konstruktivismus") und die #ix("Dekonstruktion").
 
 #table(columns: (50% - 1em, 50% - 1em),
     stroke: none,
     column-gutter: 2em,
-    [*#ix("sokratisch-aristotelische Kategorien", "Kategorien, sokratisch-aristotelisch")*\ nach #ix("Martens", "Martens, Ekkehard")] + ens[Vgl. @Martens2003_MethodenPU[S. 54-56]][Vgl. @Steenblock2002_EPhiD[S. 134-136]][Vgl. @Runtenberg2016_EPhiD[S. 79 f]],
+    [*#ix("sokratisch-aristotelische Kategorien", "Kategorien, sokratisch-aristotelisch")*\ nach #ix("Martens", "Martens, Ekkehard")] + ens[Vgl. @Martens2003_MethodenPU[S. 48-58]][Vgl. @Steenblock2002_EPhiD[S. 134-136]][Vgl. @Runtenberg2016_EPhiD[S. 79 f]],
 
     [*#ix("Denkrichtungen", "Denkrichtung", "Denkstil")*\ nach #ix("Rohbeck", "Rohbeck, Johannes")] + ens[Vgl. @Rohbeck2008_EPhiD[S. 77-88]][Vgl. @Steenblock2002_EPhiD[S. 133 f]][Vgl. @Runtenberg2016_EPhiD[S. 77 f]],
 
@@ -56,7 +56,7 @@ Methoden lassen sich nach einigen Autoren in unterschiedliche Kategorien einteil
 
         + _analytische Methoden:_ zentrale Argumente und Begriffe herausstellen und prüfen
 
-        + _dialektische Methoden:_ in einem münglichen Dialog das Problem zu einem Dilemma machen und Pro und Contra beschreiben
+        + _dialektische Methoden:_ in einem Dialog das Problem zu einem Dilemma machen und Pro und Contra beschreiben
 
         + _spekulative Methoden:_ Phantasien, neue Einfälle und Ideen spielerisch erproben
 
@@ -69,7 +69,7 @@ Methoden lassen sich nach einigen Autoren in unterschiedliche Kategorien einteil
         + Hermeneutik
         + Dekonstruktion
 
-        #ix("Rohbecks", "Rohbeck, Johannes") #ix("Denkrichtungen", "Denkrichtung", "Denkstil") versuchen aus den Ansätzen der Arbeitsweisen der größten philosophischen Strömungen neue Methoden für den Philosophieunterricht zu machen.
+        #ix("Rohbecks", "Rohbeck, Johannes") #ix("Denkrichtungen", "Denkrichtung", "Denkstil") versuchen aus den Ansätzen der Arbeitsweisen der größten philosophischen Strömungen inhaltliche Richtungen für den Philosophieunterricht zu transformieren. Die Methoden der Philosophie werden damit durch *#ix("Transformation")* die Methoden des Philosophieunterrichts.
     ])
 
 #def("Methodenvielfalt")[
@@ -130,9 +130,9 @@ Es folgen einige Beispiele für Methoden des Philosophieunterrichts.
 
 ][*#ix("Diskussion")* #h(1fr) #ix("Gruppenarbeit"), #ix("Unterrichtsgespräch")][
 
-][*#ix("Standbild")* #h(1fr) #ix("Gruppenarbeit")][
+][*#ix("Standbild")* #h(1fr) #ix("Einzelarbeit"), #ix("Partnerarbeit"), #ix("Gruppenarbeit")][
 
-][*#ix("Collage")* #h(1fr) #ix("Partnerarbeit"), #ix("Gruppenarbeit")][
+][*#ix("Collage")* #h(1fr) #ix("Einzelarbeit"), #ix("Partnerarbeit"), #ix("Gruppenarbeit")][
 
 ][*#ix("kreatives Schreiben")* #h(1fr) #ix("Einzalarbeit")][
 
@@ -170,21 +170,27 @@ Es folgen einige Beispiele für Methoden des Philosophieunterrichts.
     + *produktive Veränderung eines Originaltextes:* Der Originaltext wird von den SuS transformiert, etwa indem er für eine andere Zeit geschrieben wird, an einen speziellen Adressaten, der Stil verändert, eine aktualisierte oder Gegenfasstung geschrieben wird.
 ]
 
-#task[Methoden nach Martens][
+#task(key: "methoden-martens")[Methoden nach Martens][
     Nennen und erläutern Sie die fünf von Martens zusammengestellten Methoden des integrativen (sokratisch-aristotelischen) Methodenparadigmas.
 ][
-    - *hermeneutische Methoden*:
-    - *dialektische Methoden*:
-    - *phänomenologische Methoden*:
-    - *analytische Methoden*:
-    - *spekulative Methoden*:
+    - *phänomenologische Methode*: Die phänomenologische Methode steht für den Ausgangspunkt einer philosophischen Untersuchung beginnend von einer anschaulichen, sinnlichen Erfahrung oder einem erfahrenen Bruch in der Umwelt oder Gesellschaft. Wahrnehmungen werden umfassend und differenziert beschrieben.
+
+    - *hermeneutische Methode*: Die vorherigen ins Spiel gebrachten Erfahrungen oder verschiedener Lehrmeinungen werden nun gedeutet, die genaue Vorstellung und Interpretation, wie diese zu verstehen sind, werden erforscht und offengelegt.
+
+    - *analytische Methode*: Es kommt zu einer begrifflichen und argumentativen Differenzierung der ausformulierten Deutungen der unterschiedlichen Positionen. Sie werden untersucht und analysiert, Grundannahmen werden hervorgehoben und argumentativ abgewogen. Widersprüche werden aufgedeckt, Definitionen geprüft.
+
+    - *dialektische Methode*: Die analysierten Positionen werden zugespitzt und Dialogangebote wahrgenommen, um Pro und Contra der Positionen hervorzuheben und zu diskutieren.
+
+    - *spekulative Methode*: Die spekulative Methode ist das Einbeziehen von und das Arbeiten mit kreativen und spekulativen Einfällen und Hypothesen.
 ]
 
-#task[Methodengruppen nach Martens und Rohbeck][
+#task(key: "martens-vs-rohbeck")[Methodengruppen nach Martens und Rohbeck][
     Vergleichen Sie die fünf Methodengruppen von Martens (in Anlehnung an Aristoteles) mit den sechs Denkstilen von Rohbeck.
 ][
+    Martens orientiert sich an der philosophischen Vorgehensweise von Sokrates und Aristoteles, woraus die Methodenschlange entsteht. Rohbeck dagegen versucht die gängigen Strömungen der Philosophie in praktisch anwendbare Verfahren zu transformieren.
+
+    Beide teilen sich hermeneutsische, phänomenologische, dialektische und analytische Ansätze. Im Gegensatz zu Martens bezieht Rohbeck jedoch auch Konstruktivismus und Dekonstruktion ein, während Martens die spekulative Methode verwendet. Rohbeck hat eine besondere Sichtweise auf die Zusammenhänge zwischen den einzelnen Methoden: Martens betrachtet diese getrennt, wenn auch kombinierbar, Rohbeck hingegen sieht einige von anderen abhängig bzw. eng miteinander verknüpft: analytische Philosophie und Konstruktivismus, da beide sich um eine möglichst eindeutige Sprache bemühen und Argumente betrachten; Hermeneutik und Dekonstruktion, da beide den Sinn eines Textes erst im Leser erzeugt sehen; Hermeneutik und Phänomenologie, da beide versuchen, Prozesse des Verstehens und Deutens transparent zu machen; und schließlich Dialektik und Phänomenologie, da beide versuchen, die scheinbaren Selbstverständlichkeiten des Lebens aufzudecken.
 ]
-#todo[Lösungsvorschlag erstellen.]
 
 #task[Märchen und Fabeln][
     Notieren Sie Chancen und Grenzen des Philosophierens mit Märchen und Fabeln.

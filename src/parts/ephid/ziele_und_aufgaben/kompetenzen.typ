@@ -31,10 +31,10 @@
     ]
 )
 
-#task[Kompetenz][
+#task(key: "kompetenzbegriff-weinert")[Kompetenz][
     Definieren Sie den Kompetenzbegriff nach Weinert!
 ][
-    Kompetenzen sind die bei Individuen verfügbaren oder durch sie erlernbaren kognitiven Fähigkeiten, um bestimmte Probleme zu lösen, sowie die damit verbundenen motivationalen, volitionalen und sozialen Bereitschaften und Fähigkeiten, um die Problemlösungen in variablen Situationen erfolgreich und verantwortungsvoll nutzen zu können.
+    Kompetenzen sind kognitive Fähigkeiten, um bestimmte Probleme zu lösen, sowie die damit verbundenen motivationalen, volitionalen und sozialen Bereitschaften und Fähigkeiten, um die Problemlösungen in variablen Situationen erfolgreich und verantwortungsvoll nutzen zu können.
 ]
 
 #task[Qualitätskriterien der PhiD][

@@ -66,7 +66,7 @@ Es gibt einen Zusammenhang zwischen #ix("Feinzielen", "Feinziel") und Aufgabenst
     + Die SuS erwerben Argumentations- und Urteilskompetenz, indem Sie eine philosophische Problemreflexion zu Descartes' Wachsbeispiel durchführen.
 ]
 
-#task[Aufgabenstellung][
+#task(key: "drei-aufgabenstellungen")[Aufgabenstellung][
     Entwerfen Sie für jeden EPA-Anforderungsbereich je eine Aufgabenstellungen für eine Unterrichtsstunde zum Thema "Das Fremdpsychische in Descartes' _Meditationes de prima philosophia_." für die Sekundarstufe I.
 ][
     #grid(columns: 2,
@@ -74,15 +74,14 @@ Es gibt einen Zusammenhang zwischen #ix("Feinzielen", "Feinziel") und Aufgabenst
         row-gutter: 1em,
 
         [AFB I:], [
-            #lorem(20)
+            Geben Sie die drei Stufen von Descartes' methodischem Zweifel in eigenen Worten wieder!
         ],
 
         [AFB II:], [
-            #lorem(20)
+            Erörtern Sie ein Problem der Erkenntnis aus der Wahrnehmung, das Descartes aufwirft!
         ],
 
         [AFB III:], [
-            #lorem(20)
+            Diskutieren Sie Descartes' Position zum Problem des Fremdpsychischen!
         ])
 ]
-#todo[Lösungsvorschlag erstellen.]
