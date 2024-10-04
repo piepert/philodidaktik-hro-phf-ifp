@@ -23,7 +23,7 @@
     + als *Handwerkskunst* ist Philosophieren nicht rein mechanisch
     + als *Materialkunde* ist sie nicht rein technisch, ebenfalls hilft eine breite Wissensbasis über die Philosophiegeschichte zur Begriffseinordnung beim Philosophieren
     + ist nicht von ihrem *Träger* (dem Philosophierenden) ablösbar
-    + Philosophieren ist *elementar* für humane Lebensgestaltung
+    + Philosophieren ist in drei Hinsichten *elementar*, (1.) grundlegend als Rechenschaftsabgabe über Grundannahmen des Denkens, (2.) in Hinsicht fachlicher Grundlagen Voraussetzungslos möglich und (3.) für humane Lebensgestaltung und rationale Verständigung unverzichtbar
 ]
 
 #task[Philosophie als Kulturtechnik][
