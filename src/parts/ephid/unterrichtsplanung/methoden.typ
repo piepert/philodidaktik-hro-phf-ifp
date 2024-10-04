@@ -40,12 +40,12 @@ Methoden bilden also das "Wie?" des Unterrichts und finden auf drei verschiedene
     ])
 
 
-Methoden lassen sich nach einigen Autoren in unterschiedliche Kategorien einteilen.
+Die philosophischen Makromethoden, mit denen philosophiert wird, können dabei nach #ix("Rohbeck", "Rohbeck, Johannes") und #ix("Martens", "Martens, Ekkehard") in je unterschiedliche Kategorien eingeteilt werden. Einiges überschneidet sich, in beiden Einteilungen kommen die Phänomenologie, Hermeneutik, Dialektik und Analytik als eigene #ix("Kategorie", "Kategorien, sokratisch-aristotelisch") bzw. #ix("Denkrichtung", "Denkstil", "Denkrichtung") vor. #ix("Martens", "Martens, Ekkehard") hat im Gegensatz zu #ix("Rohbeck", "Rohbeck, Johannes") noch die Spekulation, Rohbeck im Gegensatz zu Martens den #ix("Konstruktivismus") und die #ix("Dekonstruktion").
 
 #table(columns: (50% - 1em, 50% - 1em),
     stroke: none,
     column-gutter: 2em,
-    [*#ix("sokratisch-aristotelische Kategorien", "Kategorien, sokratisch-aristotelisch")*\ nach #ix("Martens", "Martens, Ekkehard")] + ens[Vgl. @Martens2003_MethodenPU[S. 54-56]][Vgl. @Steenblock2002_EPhiD[S. 134-136]][Vgl. @Runtenberg2016_EPhiD[S. 79 f]],
+    [*#ix("sokratisch-aristotelische Kategorien", "Kategorien, sokratisch-aristotelisch")*\ nach #ix("Martens", "Martens, Ekkehard")] + ens[Vgl. @Martens2003_MethodenPU[S. 48-58]][Vgl. @Steenblock2002_EPhiD[S. 134-136]][Vgl. @Runtenberg2016_EPhiD[S. 79 f]],
 
     [*#ix("Denkrichtungen", "Denkrichtung", "Denkstil")*\ nach #ix("Rohbeck", "Rohbeck, Johannes")] + ens[Vgl. @Rohbeck2008_EPhiD[S. 77-88]][Vgl. @Steenblock2002_EPhiD[S. 133 f]][Vgl. @Runtenberg2016_EPhiD[S. 77 f]],
 
@@ -56,7 +56,7 @@ Methoden lassen sich nach einigen Autoren in unterschiedliche Kategorien einteil
 
         + _analytische Methoden:_ zentrale Argumente und Begriffe herausstellen und prüfen
 
-        + _dialektische Methoden:_ in einem münglichen Dialog das Problem zu einem Dilemma machen und Pro und Contra beschreiben
+        + _dialektische Methoden:_ in einem Dialog das Problem zu einem Dilemma machen und Pro und Contra beschreiben
 
         + _spekulative Methoden:_ Phantasien, neue Einfälle und Ideen spielerisch erproben
 
@@ -69,7 +69,7 @@ Methoden lassen sich nach einigen Autoren in unterschiedliche Kategorien einteil
         + Hermeneutik
         + Dekonstruktion
 
-        #ix("Rohbecks", "Rohbeck, Johannes") #ix("Denkrichtungen", "Denkrichtung", "Denkstil") versuchen aus den Ansätzen der Arbeitsweisen der größten philosophischen Strömungen neue Methoden für den Philosophieunterricht zu machen.
+        #ix("Rohbecks", "Rohbeck, Johannes") #ix("Denkrichtungen", "Denkrichtung", "Denkstil") versuchen aus den Ansätzen der Arbeitsweisen der größten philosophischen Strömungen inhaltliche Richtungen für den Philosophieunterricht zu transformieren. Die Methoden der Philosophie werden damit durch *#ix("Transformation")* die Methoden des Philosophieunterrichts.
     ])
 
 #def("Methodenvielfalt")[
