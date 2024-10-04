@@ -3,7 +3,7 @@
 == #ix("Medien", "Medien", "Medium")
 
 #def("Medien", [
-    Medien sind Träger und Halter von Informationen.
+    Medien sind Träger und Vermittler von Informationen.
 ])
 
 Medien sind vielfältig und können im Unterricht verschiedene Aufgaben erfüllen. Unter anderem könnte man sie wie folgt einteilen:

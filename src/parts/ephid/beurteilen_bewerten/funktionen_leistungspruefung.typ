@@ -13,7 +13,7 @@
 
         - *Diagnose:* Prüfungen ermöglichen es, den Stand der Qualifikation der SuS zu erheben.
 
-        - *Platzierung:* die SuS können nach ihren Ergebnissen in eine Rangfolge gebracht wwerden.
+        - *Platzierung:* die SuS können nach ihren Ergebnissen in eine Rangfolge gebracht werden.
 
         - *Selektion:* Prüfungen öffnen oder verschließen Zugänge zu Berufen und/oder weiterführender Ausbildung.
     ], [
