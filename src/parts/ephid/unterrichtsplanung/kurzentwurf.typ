@@ -1,6 +1,6 @@
 #import "/src/template.typ": *
 
-== #ix("Plan für eine Unterrichtsstunde", "Plan für eine Unterrichtsstunde", "Unterrichtsplan")
+== #ix("Plan für eine Unterrichtsstunde", "Plan für eine Unterrichtsstunde", "Unterrichtsplan") <ephid-unterrichtsplanung>
 
 In der Einführungsveranstaltung für die Philosophiedidaktik wird ein tabellarischer Aufbau zur Planung eines Unterrichtskurzentwurfes vorgeschlagen.
 
@@ -21,7 +21,7 @@ In den Spalten werden folgende Dinge dargestellt:
 
 + *Lehrerverhalten (geplant):* Aufgabenstellungen und Tätigkeiten der Lehrperson
 
-+ *Schülerverhalten (erwartet):* Erwartungshorizont der Aufgaben
++ *Schülerverhalten (erwartet):* #ix("Erwartungshorizont") der Aufgaben
 
 + *Methoden/Sozialformen:* angewendete Methoden und Benennung der genutzten Sozialform
 
@@ -41,9 +41,9 @@ Im Standardmodell #ix("PEST") werden für den Kurzentwurf in tabellarischer Form
 
 + *Reserve/Hausaufgaben:* Falls die vorherigen Phasen schneller beendet wurden als geplant, kann eine Reserve weitere Übungen beinhalten und alternativ zur Übung als Hausaufgabe aufgegeben werden.
 
-Zu jedem Grobentwurf gehört ein *Thema*, ein *Grobziel*, eine *Liste an Feinzielen*, die in der Stunde erreicht werden soll. Die Stunde wird in den Kontext einer Unterrichtsreihe eingereiht. Die gewählten Kompetenzen müssen für die Klassenstufe und die Menge der Inhalte auf die Länge der Stunde angepasst werden.
+Zu jedem Grobentwurf gehört ein *Thema*, ein *#ix("Grobziel")*, eine *Liste an #ix("Feinzielen", "Feinziel")*, die in der Stunde erreicht werden soll. Die Stunde wird in den Kontext einer Unterrichtsreihe eingereiht. Die gewählten Kompetenzen müssen für die Klassenstufe und die Menge der Inhalte auf die Länge der Stunde angepasst werden.
 
 Sie finden auf den drei folgenden Seiten ein Beispiel für einen #ix("Plan für eine Unterrichtsstunde", "Plan für eine Unterrichtsstunde", "Unterrichtsplan") zum Thema #ix("Erkenntnistheorie") und #ix("Descartes", "Descartes, René")' #ix("cogito-Argument"), das formal den Anforderungen der Klausur entspricht.
 
-
+<ephid-plan-descartes>
 #include "/src/kurzentwuerfe/uebung01/main.typ"

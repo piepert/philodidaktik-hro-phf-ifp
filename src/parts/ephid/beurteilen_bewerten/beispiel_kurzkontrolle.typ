@@ -1,7 +1,7 @@
 #import "/src/template.typ": *
 
 == Bewertung durch Bewertungsmatrizen
-Bewertungsmatrizen sind Erwartungshorizonte, die eine standardisierte Möglichkeit für die Kontrolle eines Produkts von SuS darstellen. Durch Sie wird für etwa eine Lernerfolgskontrolle oder Klausur ein allgemeiner Maßstab festgelegt, er an alle SuS angelegt wird.
+Bewertungsmatrizen sind #ix("Erwartungshorizonte", "Erwartungshorizont"), die eine standardisierte Möglichkeit für die Kontrolle eines Produkts von SuS darstellen. Durch Sie wird für etwa eine Lernerfolgskontrolle oder Klausur ein allgemeiner Maßstab festgelegt, er an alle SuS angelegt wird.
 
 Das Vorgehen ist folgendes:
 
@@ -13,7 +13,7 @@ Das Vorgehen ist folgendes:
 
 Die Bewertung der #ix("Anforderungsbereiche", "Anforderungsbereich") findet unterschiedlich gewichtet statt. Wenn in einer Leistungsüberprüfung 100% der Punkte erreichbar sind, dann sind davon 30% für den #ix("Anforderungsbereich") I, 40% für den #ix("Anforderungsbereich") II und wiederum 30% für den #ix("Anforderungsbereich") III gedacht.
 
-Auf der folgenden Seite finden Sie eine Lernerfolgskontrolle inklusive eines Erwartungshorizontes, der durch eine Bewertungsmatrix beschrieben wird.
+Auf der folgenden Seite finden Sie eine Lernerfolgskontrolle inklusive eines #ix("Erwartungshorizontes", "Erwartungshorizont"), der durch eine Bewertungsmatrix beschrieben wird.
 #pagebreak(weak: true)
 #include "/src/lernerfolgskontrollen/uebung01/main.typ"
 #pagebreak(weak: true)

@@ -8,7 +8,7 @@ Jeder #ix("Unterrichtsplanung") geht eine #ix("Zielformulierung") voraus. Erst Z
 Feinziele werden formuliert mit der folgenden Formel:
 
 #align(center)[
-    "SuS" + *Ausbildung einer Kompetenz* + "durch"/"indem" + *EPA-Operator*
+    "SuS" + *Ausbildung einer Kompetenz* + "durch"/"indem" + *#ix("EPA-Operator", "Operator")*
 ]
 
 Zur Planung einer #ix("zielorientierten", "Zielorientierung") Stunde wird das folgende Muster durchlaufen:
@@ -39,7 +39,7 @@ Zur Planung einer #ix("zielorientierten", "Zielorientierung") Stunde wird das fo
     line(r, s, mark: (end: ">"))
 }))
 
-Es gibt einen Zusammenhang zwischen Feinzielen und Aufgabenstellungen: Zu jeder Aufgabenstellung muss es im Unterichtsentwurf auch ein Feinziel geben. Die dazugehörige Aufgabenstellung muss den EPA-Operator des Feinziels übernehmen, wie etwa hier für den Philosophieunterricht einer 10. Klasse:
+Es gibt einen Zusammenhang zwischen #ix("Feinzielen", "Feinziel") und Aufgabenstellungen: Zu jeder Aufgabenstellung muss es im Unterichtsentwurf auch ein #ix("Feinziel", "Feinziel") geben. Die dazugehörige Aufgabenstellung muss den #ix("EPA-Operator", "Operator") des #ix("Feinziels", "Feinziel") übernehmen, wie etwa hier für den Philosophieunterricht einer 10. Klasse:
 
 #table(columns: 2, stroke: none)[
     #show: align.with(right)

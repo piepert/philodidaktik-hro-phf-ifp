@@ -6,29 +6,27 @@ Da der KÜK noch in Arbeit ist, werden hier die Änderungen jeder Version transp
 *Die nächsten Ziele:*
 
 - Text, fachlich:
-    - Erarbeitung der Inhalte für den SPÜ-Teil
     - Lösungsvorschläge der Aufgaben
 
-== Version 2024-08 // naja, mal schauen wann's wirklich rauskommt...
-
+== Version 2024-10 // naja, mal schauen wann's wirklich rauskommt...
 *Hinzugefügt:*
 
 - Text, fachlich:
     - Definition "ephemere Medien" wieder in geänderter und belegter Form
     - Belege für Sachnorm, individuelle und soziale Bezugsnorm anhand Literatur der pädagogischen Psychologie
     - Sokrates' elenktisches Verfahren in "Historische Standpunkte zur Philosophiedidaktik"
-    - einige SPÜ Inhalte (erfolgreicher Unterricht, Anforderungen, allgemeine Hinweise, Notfalltipps)
-    - SPÜ-Teil "Nachbereitung" als Todo
+    - SPÜ-Teil
     - neue #taskref("kritikMartens") und #taskref("bub-normen")
     - Lösung für #taskref("langer-diskursiv-präsentativ"), #taskref("kritikMartens"), #taskref("kompetenzbegriff-weinert"), #taskref("drei-aufgabenstellungen"), #taskref("methoden-martens"), #taskref("martens-vs-rohbeck"), #taskref("pest-vs-inquiry"), #taskref("bub-normen"), #taskref("intersubjektivität"), #taskref("philosophie-ersatzfach")
     - Hinweise für die Klausur
-
+    
 - gestalterisch, strukturell:
     - Literaturverzeichnis
 
 - technisch:
     - (automatisch generiertes) Literaturverzeichnis
     - Anpassungen am Template
+    - automatisch halbe Leerzeichen zwischen Abkürzungen wie "z.B.", "o.ä.", etc.
 
 *Geändert:*
 

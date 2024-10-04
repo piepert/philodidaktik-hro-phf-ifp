@@ -1,6 +1,7 @@
 #let project(
     topic: none,
     eh: false,
+    stufe: 12,
     body
 ) = {
     set par(justify: false)
@@ -11,7 +12,7 @@
         align(left)[
             #set text(size: 0.75em)
             Philosophie: Erkenntnistheorie \
-            Klasse 12
+            Klasse #stufe
         ],
 
         align(center + horizon, strong[

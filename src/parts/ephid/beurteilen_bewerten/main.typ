@@ -1,7 +1,6 @@
 #import "/src/template.typ": *
 
-= #ix("Beurteilen", "Beurteilung") und #ix("Bewerten", "Bewertung")
-#author[Tristan Pieper]
+= #ix("Beurteilen", "Beurteilung") und #ix("Bewerten", "Bewertung") <ephid-bub>
 
 *#ix("Beurteilung")* und *#ix("Bewertung")* im Philosophieunterricht stellen zwei verschiedene Arten der #ix("Leistungsauswertung") im Unterricht dar. Während eine #ix("Bewertung") eine Benotung in Form einer #ix("vorformulierten Wertung", "Wertung, vorformuliert") ist, stellt eine #ix("Beurteilung") eine #ix("differenzierte, verbale Einschätzung", "Einschätzung, differenziert, verbal") dar. Am Ende der Bewertung steht also eine Einordnung in ein vordefinietes Raster, während bei einer Beurteilung die Einschätzung wesentlich individueller ausfällt.
 

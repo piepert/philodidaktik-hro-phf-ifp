@@ -31,7 +31,7 @@ Methoden bilden also das "Wie?" des Unterrichts und finden auf drei verschiedene
         - Gedankenexperiment
         - Inquiry
     ], [
-        Unter "Mikromethodik" versteht man die Inszenierungstechniken des Unterrichts und Operatoren. Sie bilden kleinste Verhaltensweisen und Strukturen des Unterrichts. Darunter fallen:
+        Unter "Mikromethodik" versteht man die Inszenierungstechniken des Unterrichts und #ix("Operatoren", "Operator"). Sie bilden kleinste Verhaltensweisen und Strukturen des Unterrichts. Darunter fallen:
 
         - Blickkontakt
         - Antworten
@@ -78,11 +78,11 @@ Die philosophischen Makromethoden, mit denen philosophiert wird, können dabei n
 
 Für #ix("Methodenvielfalt"), also das Nutzen verschiedener Methoden, sprechen einige Gründe:
 
-1. *philosophisch:* Die Philosophie ist heterogen, sie selbst deckt viele Bereiche ab und macht sich verschiedene Methoden zu Nutze, daher sollte der Philosophieunterricht dementsprechend heterogen sein.
+1. *philosophisch:* Die Philosophie ist #ix("heterogen", "Heterogenität der Philosophie"), d.h. vielfältig, sie selbst deckt viele Bereiche ab und macht sich verschiedene Methoden zu Nutze, daher sollte der Philosophieunterricht dementsprechend heterogen sein.
 
-2. *pädagogisch:* Die SuS sind heterogen, d.h. sie haben unterschiedliche Persönlichkeiten und Interessen. Verschiedene Methoden können unterschiedlich gut für verschiedene SuS funktionieren.
+2. *pädagogisch:* Die SuS sind #ix("heterogen", "Heterogenität der SuS"), d.h. sie haben unterschiedliche Persönlichkeiten und Interessen. Verschiedene Methoden können unterschiedlich gut für verschiedene SuS funktionieren.
 
-3. *didaktisch:* Zugriff auf die Philosophie → dafür sorgen, dass die SuS verschiedene Zugangsmöglichkeiten zur Philosophie haben (weil beide Heterogenität)
+3. *didaktisch:* Zugriff auf die Philosophie → dafür sorgen, dass die SuS verschiedene Zugangsmöglichkeiten zur Philosophie haben, weil beide #ix("heterogen", "Heterogenität der SuS", "Heterogenität der Philosophie") sind.
 
 Es folgen einige Beispiele für Methoden des Philosophieunterrichts.
 
@@ -158,7 +158,7 @@ Es folgen einige Beispiele für Methoden des Philosophieunterrichts.
     Diese Verfahren sollen dabei in drei Schritten stattfinden:
 
     1. das Produkt herstellen,
-    2. das Vor- und Gegenüberstellen in einer Lerngruppe und
+    2. das Vor- und Gegenüberstellen in einer #ix("Lerngruppe") und
     3. Rückbezug auf den Originaltext.
 
     Denkbare Methoden sind:
