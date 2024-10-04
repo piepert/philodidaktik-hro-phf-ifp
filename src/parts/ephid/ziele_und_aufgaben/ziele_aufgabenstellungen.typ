@@ -85,4 +85,3 @@ Es gibt einen Zusammenhang zwischen Feinzielen und Aufgabenstellungen: Zu jeder 
             Diskutieren Sie Descartes' Position zum Problem des Fremdpsychischen!
         ])
 ]
-#todo[Lösungsvorschlag erstellen.]

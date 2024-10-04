@@ -170,21 +170,27 @@ Es folgen einige Beispiele für Methoden des Philosophieunterrichts.
     + *produktive Veränderung eines Originaltextes:* Der Originaltext wird von den SuS transformiert, etwa indem er für eine andere Zeit geschrieben wird, an einen speziellen Adressaten, der Stil verändert, eine aktualisierte oder Gegenfasstung geschrieben wird.
 ]
 
-#task[Methoden nach Martens][
+#task(key: "methoden-martens")[Methoden nach Martens][
     Nennen und erläutern Sie die fünf von Martens zusammengestellten Methoden des integrativen (sokratisch-aristotelischen) Methodenparadigmas.
 ][
-    - *hermeneutische Methoden*:
-    - *dialektische Methoden*:
-    - *phänomenologische Methoden*:
-    - *analytische Methoden*:
-    - *spekulative Methoden*:
+    - *phänomenologische Methode*: Die phänomenologische Methode steht für den Ausgangspunkt einer philosophischen Untersuchung beginnend von einer anschaulichen, sinnlichen Erfahrung oder einem erfahrenen Bruch in der Umwelt oder Gesellschaft. Wahrnehmungen werden umfassend und differenziert beschrieben.
+
+    - *hermeneutische Methode*: Die vorherigen ins Spiel gebrachten Erfahrungen oder verschiedener Lehrmeinungen werden nun gedeutet, die genaue Vorstellung und Interpretation, wie diese zu verstehen sind, werden erforscht und offengelegt.
+
+    - *analytische Methode*: Es kommt zu einer begrifflichen und argumentativen Differenzierung der ausformulierten Deutungen der unterschiedlichen Positionen. Sie werden untersucht und analysiert, Grundannahmen werden hervorgehoben und argumentativ abgewogen. Widersprüche werden aufgedeckt, Definitionen geprüft.
+
+    - *dialektische Methode*: Die analysierten Positionen werden zugespitzt und Dialogangebote wahrgenommen, um Pro und Contra der Positionen hervorzuheben und zu diskutieren.
+
+    - *spekulative Methode*: Die spekulative Methode ist das Einbeziehen von und das Arbeiten mit kreativen und spekulativen Einfällen und Hypothesen.
 ]
 
-#task[Methodengruppen nach Martens und Rohbeck][
+#task(key: "martens-vs-rohbeck")[Methodengruppen nach Martens und Rohbeck][
     Vergleichen Sie die fünf Methodengruppen von Martens (in Anlehnung an Aristoteles) mit den sechs Denkstilen von Rohbeck.
 ][
+    Martens orientiert sich an der philosophischen Vorgehensweise von Sokrates und Aristoteles, woraus die Methodenschlange entsteht. Rohbeck dagegen versucht die gängigen Strömungen der Philosophie in praktisch anwendbare Verfahren zu transformieren.
+
+    Beide teilen sich hermeneutsische, phänomenologische, dialektische und analytische Ansätze. Im Gegensatz zu Martens bezieht Rohbeck jedoch auch Konstruktivismus und Dekonstruktion ein, während Martens die spekulative Methode verwendet. Rohbeck hat eine besondere Sichtweise auf die Zusammenhänge zwischen den einzelnen Methoden: Martens betrachtet diese getrennt, wenn auch kombinierbar, Rohbeck hingegen sieht einige von anderen abhängig bzw. eng miteinander verknüpft: analytische Philosophie und Konstruktivismus, da beide sich um eine möglichst eindeutige Sprache bemühen und Argumente betrachten; Hermeneutik und Dekonstruktion, da beide den Sinn eines Textes erst im Leser erzeugt sehen; Hermeneutik und Phänomenologie, da beide versuchen, Prozesse des Verstehens und Deutens transparent zu machen; und schließlich Dialektik und Phänomenologie, da beide versuchen, die scheinbaren Selbstverständlichkeiten des Lebens aufzudecken.
 ]
-#todo[Lösungsvorschlag erstellen.]
 
 #task[Märchen und Fabeln][
     Notieren Sie Chancen und Grenzen des Philosophierens mit Märchen und Fabeln.

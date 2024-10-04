@@ -99,8 +99,10 @@ Es folgen einige standardmäßige Modelle für den Aufbau einer Unterrichtsstund
     ], image("mod_petf.png", height: 1.75cm))
 ]
 
-#task[PEST vs. Inquiry][
-    Vergleichen Sie den klassischen Aufbau einer Unterrichtsstunde mit der Methode der Inquiry!
+#task(key: "pest-vs-inquiry")[PEST vs. Inquiry][
+    Vergleichen Sie den klassischen Aufbau einer Unterrichtsstunde nach dem PEST-Modell mit der Methode der Inquiry!
 ][
+    Das klassiche PEST-Modell beginnt mit einer Problematisierung, in der das Thema der Stunde motiviert und als Problem durch die SuS erarbeitet wird. Danach folgt die Erarbeitungsphase, in der es gelöst und in der Sicherungsphase verglichen und festgehalten wird. In der abschließenden Transferphase wird das erlangte Wissen auf einen neuen Sachverhalt angewandt.
+
+    Die Inquiry hat im Gegensatz zum PEST-Modell sieben statt vier Phasen, jedoch lassen sich diese sieben Phasen teilweise in das PEST-Modell übersetzen: Die ersten vier Phasen -- das Geben des Stimulus, das Stellen philosophischen Fragen, das Sammeln dieser und die Auswahl der Frage -- lässt sich als Problematisierung im PEST-Modell sehen, da hier das Problem aufgeworfen und zur Bearbeitung ausgewählt wird. Die darauffolgende Denkzeit und Untersuchung als fünfte und sechste Phase, welche im PEST-Modell die Bearbeitungsphase darstellen. Das Metagespräch und die Evaluation sind wie eine Sicherung, besonders das schriftliche Festhalten dieser ist eine typische Form der Sicherung. Was fehlt, wäre die anschließende Transferphase, die in der Grundform der Inquiry nicht gegeben ist. Durch eine anschließende Aufgabe wäre diese jedoch auch gegeben und die Inquiry könnte eine vollwertige Unterrichtsstunde im PEST-Modell dartellen.
 ]
-#todo[Lösungsvorschlag erstellen.]
