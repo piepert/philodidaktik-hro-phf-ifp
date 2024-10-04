@@ -21,7 +21,7 @@
     + *legitimatorisch*: zur Kritikfähigkeit, Persönlichkeitsbildung und demokratischen Erziehung
 ][
     + als *Handwerkskunst* ist Philosophieren nicht rein mechanisch
-    + als *Materialkunde* ist sie nicht rein-technisch, ebenfalls hilft eine breite Wissensbasis zum Philosophieren
+    + als *Materialkunde* ist sie nicht rein technisch, ebenfalls hilft eine breite Wissensbasis über die Philosophiegeschichte zur Begriffseinordnung beim Philosophieren
     + ist nicht von ihrem *Träger* (dem Philosophierenden) ablösbar
     + Philosophieren ist *elementar* für humane Lebensgestaltung
 ]

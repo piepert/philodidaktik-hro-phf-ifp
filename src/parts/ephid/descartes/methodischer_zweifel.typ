@@ -4,9 +4,7 @@
 
 == #ix("Der methodische Zweifel", "Zweifel, methodisch")
 
-Der #ix("methodische Zweifel", "Zweifel, methodisch") wird in der ersten #ix("Meditation", "Meditationes de prima philosophia") beschrieben. Grundlage ist #ix("Descartes", "Descartes, René")' Versuch, sein bisher als sicher geltendes Wissen auf den Prüfstand zu stellen und eine für die Wissenschaft geeignete Grundlage zu finden.#med[17] Die Methode zur Untersuchung ist der radikale, methodische Zweifel: Alles, was zweifelbar ist, soll entfallen.#med[18]
-
-Der methodische Zweifel schreitet in drei Stufen voran:
+Der #ix("methodische Zweifel", "Zweifel, methodisch") wird in der ersten #ix("Meditation", "Meditationes de prima philosophia") beschrieben. Grundlage ist #ix([Descartes'], "Descartes, René") Versuch, sein bisher als sicher geltendes Wissen auf den Prüfstand zu stellen und eine für die Wissenschaft geeignete Grundlage zu finden.#med[17] Die Methode zur Untersuchung ist der radikale, methodische Zweifel: Alles, was zweifelbar ist, soll entfallen.#med[18] Der methodische Zweifel schreitet in drei Stufen voran:
 
 1. *#ix("Argument der Sinnestäuschung"):*#med[18] Die Außenwelt ist real, aber der Zugang über die Sinne ist zweifelhaft. Optische Täuschungen offenbaren nicht immer das, wie die Welt wirklich ist. Da die Welt existiert und die Sinne uns nicht imer täuschen, können wir trotzdem Zugang zur Außenwelt erhalten. Also scheint die Welt und die empirischen Wissenschaften unzweifelbar.
 

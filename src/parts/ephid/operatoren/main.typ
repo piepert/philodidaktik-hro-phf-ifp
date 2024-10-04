@@ -123,7 +123,7 @@ Die einheitlichen Prüfungsanforderungen für das Abitur im Fach Philosophie leg
     ], [
         - ein Konzept in seinen wesentlichen Grundzügen erarbeiten und darstellen
     ], [
-        Entwerfen Sie einen eigenen Diskussionsbeitrag zur Frage der möglichen Ligitimität des #ix("methodischen Zweifels", "Zweifel, methodisch")!
+        Entwerfen Sie einen eigenen Diskussionsbeitrag zur Frage der möglichen Legitimität des #ix("methodischen Zweifels", "Zweifel, methodisch")!
     ],
 
     [
@@ -206,7 +206,7 @@ Die einheitlichen Prüfungsanforderungen für das Abitur im Fach Philosophie leg
     ], [
         - einen (gedanklichen) Zusammenhang in eigenen Worten nachvollziehen
     ], [
-        Geben Sie die drei Stufen von #ix("Descartes", "Descartes, René")' #ix("methodischen Zweifel", "Zweifel, methodisch") in eigenen Worten wieder!
+        Geben Sie die drei Stufen von #ix("Descartes", "Descartes, René")' #ix("methodischem Zweifel", "Zweifel, methodisch") in eigenen Worten wieder!
     ],
 
     [

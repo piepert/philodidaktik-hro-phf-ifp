@@ -2,13 +2,11 @@
 
 == #ix("Debatten", "Debatte") und #ix("Kontroversen", "Kontroverse")
 
-#orange-list-with-body[*#ix("Lassahn-Deppe-Kontroverse", "Lassahn-Deppe-Kontroverse", "Lassahn, Rudolf", "Deppe, Wolfgang")*][
-    Sollten die Probleme und Fragen von SuS zu den Problemen der Philosophie werden oder umgekehrt?
+#orange-list-with-body[*#ix("Lassahn-Deppe-Kontroverse", "Lassahn-Deppe-Kontroverse", "Lassahn, Rudolf", "Deppe, Wolfgang"):* #text(fill: black)[Sollten die Probleme und Fragen von SuS zu den Problemen der Philosophie werden oder umgekehrt?]][
 
     #ix("Rudolf Lassahn", "Lassahn, Rudolf") ist der Meinung, dass die aktuellen gesellschaftlichen und politischen Fragestellungen der SuS kanonischen Philosophietexten vorzuziehen ist.#en[Vgl. @Lassahn1972_Aktualitaet[S. 16]] #ix("Wolfgang Deppe", "Deppe, Wolfgang") kritisiert diese Auffassung: seiner Meinung nach ist eine reine Konzentration auf aktuelle Fragestellungen insofern schwierig, als dass man sie erst durch die traditionellen Primärtexte komplett verstehen könne.#en[Vgl. @Lassahn1972_PUBegruendung[S. 49]]
 
-][*#ix("Rehfus-Martens-Kontroverse", "Rehfus-Martens-Kontroverse", "Martens, Ekkehard", "Rehfus, Wulff D."):*][
-    Welche Ziele hat Philosophieunterricht und wie sieht ein guter Philosophieunterricht aus?
+][*#ix("Rehfus-Martens-Kontroverse", "Rehfus-Martens-Kontroverse", "Martens, Ekkehard", "Rehfus, Wulff D."):* #text(fill: black)[Welche Ziele hat Philosophieunterricht und wie sieht ein guter Philosophieunterricht aus?]][
 
     #ix("Ekkehard Martens", "Martens, Ekkehard") ist Vertreter der #ix("Konstitutionsthese") der Philosophiedidaktik und der Meinung, dass diese notwendig dem Menschen innewohnt, unabhängig von Ort (Schule, Universität, ...) und Alter (Kind, Jugendlich, Erwachsen). Er spricht von der Philosophie als "#ix("Kulturtechnik")". Seine bevorzugte Vorgehensweise ist die des #ix(["induktiven Entdeckens"], "Induktion") in Form einer #ix("dialogisch-pragmatischen Methode", "Methode, dialogisch-pragmatisch"), bei der die SuS Probleme selbständig lösen, ohne ein großes Fundament aus traditionellen philosophischen Theorien. Im Mittelpunkt steht der philosophische Dialog und die thematischen Interessen der SuS, wonach der Philosophieunterricht ausgerichtet werden soll.
 
@@ -56,9 +54,7 @@
             - sollte die Probleme der SuS zum Zentrum des Philosophieunterrichts machen
         ])
 
-][*#ix("Tiedemann-Gefert-Kontroverse", "Tiedemann-Gefert-Kontroverse", "Tiedemann, Markus", "Gefert, Christian")*][
-    Sind #ix("präsentativ-symbolische", "Form, präsentativ-symbolisch") und/oder #ix("diskursive", "Form, diskursiv") Formen adäquate und genuin philosophische Medien/Methoden des Philosophierens?
-
+][*#ix("Tiedemann-Gefert-Kontroverse", "Tiedemann-Gefert-Kontroverse", "Tiedemann, Markus", "Gefert, Christian")* #text(fill: black)[Sind #ix("präsentativ-symbolische", "Form, präsentativ-symbolisch") und/oder #ix("diskursive", "Form, diskursiv") Formen adäquate und genuin philosophische Medien/Methoden des Philosophierens?]][
     Mit #ix("präsentativ-symbolischen Formen", "Form, präsentativ-symbolisch") ist die von #ix("Susanne K. Langer", "Langer, Susanne K.") weiterentwickelte Theorie von #ix("Ernst Cassierers", "Cassirer, Ernst") #ix("symbolischen Formen", "Form, symbolisch"). Die grundlegende Errungenschaft ist, dass Philosophieren nach #ix("Cassirer", "Cassirer, Ernst") und #ix("Langer", "Langer, Susanne K.") nicht mehr nur an Sprache gebunden ist (textuell durch z.B. Essays und verbal z.B. durch Dialoge), sondern Menschen Medien ebenfalls Bedeutung zuweisen können, die nicht sprachlich ausgedrückt werden kann. Der Unterschied zwischen diesen #ix("diskursiven", "Form, diskursiv") und #ix("präsentativen", "Form, präsentativ-symbolisch") Formen ist Teil der #ix("Tiedemann-Gefert-Kontroverse"). #ix("Gefert", "Gefert, Christian") behauptet, dass #ix("präsentativ-symbolische Formen", "Form, präsentativ-symbolisch") Teil des Philosophierens sein können. Die Idee ist, dass die Frage "Was bedeutet das?" für die Philosophie grundlegend ist. #ix("Tiedemann", "Tiedemann, Markus") hält dem entgegen, dass Menschen eventuell in #ix("präsentativ-symbolischen Formen", "Form, präsentativ-symbolisch") denken können, aber diese nicht für die Philosophie geeignet sind.#en[Vgl. @Runtenberg2016_EPhiD[S. 42]]
 
 ][*#ix("Philosophieren mit Kindern", "Philosophieren mit Kindern", "PmK", "PwC") -- möglich oder unmöglich?*#en[Vgl. @Nordhofen1994_PmK[S. 35-46]]][
