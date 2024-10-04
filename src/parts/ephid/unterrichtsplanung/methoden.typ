@@ -127,12 +127,12 @@ Es folgen einige Beispiele für Methoden des Philosophieunterrichts.
     6. *Untersuchung:* Aus den SuS wird eine Antwort zufällig ausgewählt, die für alle sichtbar von der Lehrkraft festgehalten und dann Ausgangspunkt der Diskussion wird. Es wird so lange über die Antwort, ihre Gründe und Implikationen sowie die Bedeutung der darin vorkommenden Wörter diskutiert, bis ein gemeinsamer Konsens erreicht wurde oder alle SuS den Gründen für die Zustimmung oder Ablehnung der Antwort zustimmen können.
 
     7. *Metagespräch und Evaluation:* Wird Schritt 6. beendet und keine neue Fragestellung ausgewählt, kommt es zu einem Metagespräch und einer Evaluation der Ergebnisse der Diskussion. Dazu bekommen die SuS wieder Denkzeit. Die Ergebnisse werden schriftlich festgehalten.
-    
+
 ][*#ix("Diskussion")* #h(1fr) #ix("Gruppenarbeit"), #ix("Unterrichtsgespräch")][
 
-][*#ix("Standbild")* #h(1fr) #ix("Gruppenarbeit")][
+][*#ix("Standbild")* #h(1fr) #ix("Einzelarbeit"), #ix("Partnerarbeit"), #ix("Gruppenarbeit")][
 
-][*#ix("Collage")* #h(1fr) #ix("Partnerarbeit"), #ix("Gruppenarbeit")][
+][*#ix("Collage")* #h(1fr) #ix("Einzelarbeit"), #ix("Partnerarbeit"), #ix("Gruppenarbeit")][
 
 ][*#ix("kreatives Schreiben")* #h(1fr) #ix("Einzalarbeit")][
 
