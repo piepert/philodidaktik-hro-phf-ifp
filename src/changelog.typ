@@ -19,7 +19,7 @@ Da der KÜK noch in Arbeit ist, werden hier die Änderungen jeder Version transp
     - neue #taskref("kritikMartens") und #taskref("bub-normen")
     - Lösung für #taskref("langer-diskursiv-präsentativ"), #taskref("kritikMartens"), #taskref("kompetenzbegriff-weinert"), #taskref("drei-aufgabenstellungen"), #taskref("methoden-martens"), #taskref("martens-vs-rohbeck"), #taskref("pest-vs-inquiry"), #taskref("bub-normen"), #taskref("intersubjektivität"), #taskref("philosophie-ersatzfach")
     - Hinweise für die Klausur
-    
+
 - gestalterisch, strukturell:
     - Literaturverzeichnis
 
@@ -52,6 +52,9 @@ Da der KÜK noch in Arbeit ist, werden hier die Änderungen jeder Version transp
 
 // Gelöscht:
 // Sonstiges:
+
+*Bekannte Fehler:*
+    - falsche Seitennummerierung ab Index, Lösung hat hohe Priorität, jedoch bisher grundlegend keine Idee für eine Lösung vorhanden
 
 == Version 2024-04
 
