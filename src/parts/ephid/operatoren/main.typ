@@ -25,7 +25,7 @@ Die einheitlichen Prüfungsanforderungen für das Abitur im Fach Philosophie leg
         - explizite und implizite Prämissen, Denkvoraussetzungen und Thesen werden erfassen und fomulieren
         - Begründungszusammenhäne und intendierte Folgerungen klären
     ], [
-        Analysieren Sie den folgenden Ausschnitt aus #ix("Descartes", "Descartes, René")' erster Meditation!
+        Analysieren Sie den folgenden Ausschnitt aus #ix([Descartes'], "Descartes, René") erster Meditation!
 
         Analysieren Sie Picassos Bild "Guernica"!
     ],
@@ -38,9 +38,9 @@ Die einheitlichen Prüfungsanforderungen für das Abitur im Fach Philosophie leg
     ], [
         - explizit kritische Stellungnahme entwickeln auf Grundlage ausgewiesener Kriterien
     ], [
-        Setzen Sie sich kritisch mit #ix("Descartes", "Descartes, René")' #ix("Wachsbeispiel") auseinander!
+        Setzen Sie sich kritisch mit #ix([Descartes'], "Descartes, René") #ix("Wachsbeispiel") auseinander!
 
-        Diskutieren Sie #ix("Descartes", "Descartes, René")' Position zum #ix("Fremdpsychischen", "Fremdpsychisches")!
+        Diskutieren Sie #ix([Descartes'], "Descartes, René") Position zum #ix("Fremdpsychischen", "Fremdpsychisches")!
     ],
 
     [
@@ -50,7 +50,7 @@ Die einheitlichen Prüfungsanforderungen für das Abitur im Fach Philosophie leg
     ], [
         - hinsichtlich der Ursachen und Folgerungen schlüssige Zusammenhänge ausführlich und differenziert darlegen
     ], [
-        Begründen Sie Ihre Auffassung zur Anwendbarkeit von #ix("Desartes", "Descartes, René")' #ix("methodischem Zweifel", "Zweifel, methodisch") mit Blick auf mögliche Konsequenzen im Alltag!
+        Begründen Sie Ihre Auffassung zur Anwendbarkeit von #ix([Descartes'], "Descartes, René") #ix("methodischem Zweifel", "Zweifel, methodisch") mit Blick auf mögliche Konsequenzen im Alltag!
     ],
 
     [
@@ -62,7 +62,7 @@ Die einheitlichen Prüfungsanforderungen für das Abitur im Fach Philosophie leg
     ], [
         Beschreiben Sie die wesentlichen Elemente Ihrer präsentativen Gestaltung!
 
-        Beschreiben Sie den Versuch, den #ix("Descartes", "Descartes, René")' in den ersten beiden Meditationen unternimmt!
+        Beschreiben Sie den Versuch, den #ix([Descartes'], "Descartes, René") in den ersten beiden Meditationen unternimmt!
     ],
 
     [
@@ -74,7 +74,7 @@ Die einheitlichen Prüfungsanforderungen für das Abitur im Fach Philosophie leg
     ], [
         Beurteilen Sie die Plausibilität der vorliegenden erkenntnistheoretischen Positionen!
 
-        Beurteilen Sie, ob #ix("Descartes", "Descartes, René")' #ix("Wachsbeispiel") als Modell für das Wiedererkennen derselben Sachen benutzt werden kann!
+        Beurteilen Sie, ob #ix([Descartes'], "Descartes, René") #ix("Wachsbeispiel") als Modell für das Wiedererkennen derselben Sachen benutzt werden kann!
     ],
 
     [
@@ -84,7 +84,7 @@ Die einheitlichen Prüfungsanforderungen für das Abitur im Fach Philosophie leg
     ], [
         - einen Zusammenhang strukturiert und sachlich formulieren
     ], [
-        *AFB I:* Stellen Sie #ix("Descartes", "Descartes, René")' Argumentationsstruktur des cogito-Arguments dar!
+        *AFB I:* Stellen Sie #ix([Descartes'], "Descartes, René") Argumentationsstruktur des cogito-Arguments dar!
 
         *AFB II:* Stellen Sie die wesentlichen Aspekte der rationalistischen Auffassung von #ix("Descartes", "Descartes, René") und der empiristischen Auffassung von Locke vergleichend dar!
     ],
@@ -113,7 +113,7 @@ Die einheitlichen Prüfungsanforderungen für das Abitur im Fach Philosophie leg
     ], [
         - mit eigenständigen Erläuterungen in einen bekannten Kontext einfügen
     ], [
-        Ordnen Sie #ix("Descartes", "Descartes, René")' #ix("Wachsbeispiel") in seine Meditationen ein!
+        Ordnen Sie #ix([Descartes'], "Descartes, René") #ix("Wachsbeispiel") in seine Meditationen ein!
     ],
 
     [
@@ -154,7 +154,7 @@ Die einheitlichen Prüfungsanforderungen für das Abitur im Fach Philosophie leg
     ], [
         - etwas Neues oder nicht eplizit Formuliertes durch Schlussfolgerungen aus etwas Bekanntem herleiten
     ], [
-        Erschließen Sie mögliche Konsequenzen aus #ix("Descartes", "Descartes, René")' cogito-Argument als Grundlage des Erkenntnisgewinns!
+        Erschließen Sie mögliche Konsequenzen aus #ix([Descartes'], "Descartes, René") cogito-Argument als Grundlage des Erkenntnisgewinns!
     ],
 
     [
@@ -176,7 +176,7 @@ Die einheitlichen Prüfungsanforderungen für das Abitur im Fach Philosophie leg
     ], [
         - Zusammenhänge unter vorgegebenen oder selbst gewählten Gesichtspunkten begründen
     ], [
-        Setzen Sie #ix("Descartes", "Descartes, René")' Traumargument in Beziehung mit der letzten Szene aus dem Film "Inception"!
+        Setzen Sie #ix([Descartes'], "Descartes, René") Traumargument in Beziehung mit der letzten Szene aus dem Film "Inception"!
     ],
 
     [
@@ -186,7 +186,7 @@ Die einheitlichen Prüfungsanforderungen für das Abitur im Fach Philosophie leg
     ], [
         - eine explizit persönliche Einschätzung eines Problems oder einer gegebenen Problemstellung differenziert erarbeiten
     ], [
-        Nehmen Sie begründet Stellung zu der #ix("Descartes", "Descartes, René")' These, dass der Satz "Ich bin, ich existiere" immer dann wahr ist, wenn man ihn denkt oder ausspricht.
+        Nehmen Sie begründet Stellung zu der #ix([Descartes'], "Descartes, René") These, dass der Satz "Ich bin, ich existiere" immer dann wahr ist, wenn man ihn denkt oder ausspricht.
     ],
 
     [
@@ -206,7 +206,7 @@ Die einheitlichen Prüfungsanforderungen für das Abitur im Fach Philosophie leg
     ], [
         - einen (gedanklichen) Zusammenhang in eigenen Worten nachvollziehen
     ], [
-        Geben Sie die drei Stufen von #ix("Descartes", "Descartes, René")' #ix("methodischem Zweifel", "Zweifel, methodisch") in eigenen Worten wieder!
+        Geben Sie die drei Stufen von #ix([Descartes'], "Descartes, René") #ix("methodischem Zweifel", "Zweifel, methodisch") in eigenen Worten wieder!
     ],
 
     [
@@ -216,6 +216,6 @@ Die einheitlichen Prüfungsanforderungen für das Abitur im Fach Philosophie leg
     ], [
         - wesentliche Aspekte (des Materials) in eigenen Worten strukturiert und komprimiert wiedergeben
     ], [
-        Fassen Sie #ix("Descartes", "Descartes, René")' Argumente in eigenen Worten zusammen!
+        Fassen Sie #ix([Descartes'], "Descartes, René") Argumente in eigenen Worten zusammen!
     ]
 )

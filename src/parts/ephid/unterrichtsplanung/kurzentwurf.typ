@@ -43,7 +43,7 @@ Im Standardmodell #ix("PEST") werden für den Kurzentwurf in tabellarischer Form
 
 Zu jedem Grobentwurf gehört ein *Thema*, ein *#ix("Grobziel")*, eine *Liste an #ix("Feinzielen", "Feinziel")*, die in der Stunde erreicht werden soll. Die Stunde wird in den Kontext einer Unterrichtsreihe eingereiht. Die gewählten Kompetenzen müssen für die Klassenstufe und die Menge der Inhalte auf die Länge der Stunde angepasst werden.
 
-Sie finden auf den drei folgenden Seiten ein Beispiel für einen #ix("Plan für eine Unterrichtsstunde", "Plan für eine Unterrichtsstunde", "Unterrichtsplan") zum Thema #ix("Erkenntnistheorie") und #ix("Descartes", "Descartes, René")' #ix("cogito-Argument"), das formal den Anforderungen der Klausur entspricht.
+Sie finden auf den drei folgenden Seiten ein Beispiel für einen #ix("Plan für eine Unterrichtsstunde", "Plan für eine Unterrichtsstunde", "Unterrichtsplan") zum Thema #ix("Erkenntnistheorie") und #ix([Descartes'], "Descartes, René") #ix("cogito-Argument"), das formal den Anforderungen der Klausur entspricht.
 
 <ephid-plan-descartes>
 #include "/src/kurzentwuerfe/uebung01/main.typ"

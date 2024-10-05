@@ -95,7 +95,7 @@ Es folgen einige Beispiele für Methoden des Philosophieunterrichts.
 
     3. *Beantwortung der Fragestellung:* Das Experiment wird durchgeführt und die Fragestellung gemäß der gegebenen Prämissen beantwortet.
 
-    #ix("Helmut Engels", "Engels, Helmut") nimmt für das #ix("Gedankenexperiment") an, dass es auf drei #ix("didaktischen Niveaustufen", "Stufen, didaktische") durchgeführt werden könne:#en[Vgl. @Engels2004_Gedankenexperiment[S. 186 ff]]
+    #ix("Helmut Engels", "Engels, Helmut") nimmt für das #ix("Gedankenexperiment") an, dass es auf drei #ix("didaktischen Niveaustufen", "Stufen, didaktisch") durchgeführt werden könne:#en[Vgl. @Engels2004_Gedankenexperiment[S. 186 ff]]
 
     1. *Alles gegeben, Interpretation:* Das Gedankenexperiment wird von den SuS gelesen, interpretiert und kritisiert. Die Funktion des ausgewählten #ix("Gedankenexperiments", "Gedankenexperiment") soll klar werden und. Die These, die durch das #ix("Gedankenexperiment") vom Autor vertreten wird, soll kritisch geprüft werden. Sind die Mittel des #ix("Gedankenexperiments", "Gedankenexperiment") wirklich genug, um das zu zeigen, was der Autor zeigen will?
 
