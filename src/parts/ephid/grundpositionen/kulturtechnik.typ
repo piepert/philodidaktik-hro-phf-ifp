@@ -68,7 +68,7 @@
     Besonders unangenehm ist es, dass hier die Meinung, die sich die SuS erarbeiten, delegitimiert wird. Was heute für die SuS wichtig sein soll, entscheiden die "berühmten Philosophen" -- da werden sich die SuS aber kräftig bedanken. Wer auch immer nur Kant, Descartes, Platon oer Fichte als Authorität über die aktuellen Probleme und Fragestellungen der SuS hebt, versagt Ihnen jedes vom "traditionellen" Weg abkommende Fragen und somit auch die Möglichkeit, neue Philosophen auszubilden, die einmal zu den "berühmten Philosophen" gehören könnten, die der Rezensent hier hervorhebt. Kant ist nicht berühmt, weil er Kant ist, sondern weil er gute, revolutionäre oder aufschlussreiche Ideen hatte. Das Autoritätsargument der "berühmten Philosophen" ist hier komplett fehl am Platz. Wie sollte Sokrates guter Philosoph werden, wenn er Kant vorher gar nicht lesen konnte?
 
     Das esoterische Selbstverständnis der Philosophie, in Verbindung mit "Philosophie für Kinder" statt "Philosophieren mit Kindern" ist für das Bildungsideal des kompetenten Menschen schädlich und nicht förderlich. Niemand leugnet, dass ein Grundwissen über Debatten und allgemeinen philosophiegeschichtlichen Wissens hilfreich und förderlich ist, sogar grundlegend für viele Erkenntnisse in der Philosophie sein kann, doch ist sie aus psychologischen und didaktischen Gründen nicht als alleiniger Unerrichtsinhalt wünschenswert. Das Wiedergeben von philosophiegeschichtlichen Fakten ist nicht Philosophieren.
-
-    Letzten Endes fällt die Rezension doch unter ihre eigene Kritik -- es handelt sich zwar sicher nicht "Bullshit", aber dennoch ist es bloß "Laberei". Wahrlich schrecklich, dass _alle_ eine Meinung haben können!
+    
+    // Letzten Endes fällt die Rezension doch unter ihre eigene Kritik -- es handelt sich zwar sicher nicht "Bullshit", aber dennoch ist es bloß "Laberei". Wahrlich schrecklich, dass _alle_ eine Meinung haben können!
 
 ]
