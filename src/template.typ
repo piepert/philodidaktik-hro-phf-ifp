@@ -47,64 +47,65 @@
     })
 }
 
-#let make-index(title: none) = {
+#let make-index(title: none) = context {
     let s = state("indices", (:))
+    let last-first = none
 
-    context {
-        let last-first = none
+    for item in s.final()
+        .keys()
+        .map(e => (e, lower(e.replace("Ü", "u")
+            .replace("Ä", "a")
+            .replace("Ö", "o")
+            .replace("ü", "u")
+            .replace("ö", "o")
+            .replace("ä", "a"))))
+        .sorted(key: e => e.at(1)) {
 
-        for item in s.final()
-            .keys()
-            .map(e => (e, lower(e)))
-            .sorted(key: e => e.at(1)) {
+        let original = item.at(0)
+        let small = item.at(1)
 
-            let original = item.at(0)
-            let small = item.at(1)
-
-            if last-first != small.first() {
-                last-first = small.first()
-                heading(level: 2, upper(last-first))
-            }
-
-            let i = 1
-            let e = s.final().at(original)
-            let label-page-list = e.origins.map(e => (e, query(e).first().location().page()))
-            let pages = label-page-list.map(o => {
-                o.last()
-            }).dedup().map(p => {
-                label-page-list.filter(i => i.last() == p).first()
-            })
-
-            let page_numbers = []
-
-            for p in pages {
-                page_numbers += [#link(p.first(), str(p.last()))]
-
-                if i < pages.len() {
-                    page_numbers += [, ]
-                }
-
-                if calc.rem(i, 3) == 0 {
-                    page_numbers += [\ ]
-                }
-
-                i += 1
-            }
-
-            block(stroke: (bottom: 1pt + color-blue),
-                inset: (bottom: 0.5em),
-                grid(columns: (1fr, auto),
-                    column-gutter: 0.5em,
-                )[
-                    #set text(hyphenate: true)
-                    #e.content.dedup().first()
-                ][
-                    #show: align.with(right)
-                    #set text(size: 1em)
-                    #page_numbers
-                ]
-            )
+        if last-first != small.first() {
+            last-first = small.first()
+            heading(level: 2, upper(last-first))
         }
+
+        let i = 1
+        let e = s.final().at(original)
+        let label-page-list = e.origins.map(e => (e, query(e).first().location().page()))
+        let pages = label-page-list
+            .map(o => o.last())
+            .dedup()
+            .map(p => label-page-list.filter(i => i.last() == p).first())
+
+        let page_numbers = []
+
+        for p in pages {
+            page_numbers += [#link(p.first(), str(p.last()))]
+
+            if i < pages.len() {
+                page_numbers += [, ]
+            }
+
+            if calc.rem(i, 3) == 0 {
+                page_numbers += [\ ]
+            }
+
+            i += 1
+        }
+
+        block(stroke: (bottom: 1pt + color-blue),
+            inset: (bottom: 0.5em),
+            grid(columns: (1fr, auto),
+                column-gutter: 0.5em,
+            )[
+                #set text(hyphenate: true)
+                #e.content.dedup().first()
+            ][
+                #show: align.with(right)
+                #set text(size: 1em)
+                #page_numbers
+            ]
+        )
     }
 }
 
@@ -195,7 +196,7 @@
 
     if title != none {
         heading(title)
-    } 
+    }
 
     pretext
     set par(justify: true)
@@ -482,14 +483,12 @@
     pagebreak(to: "odd")
 
     align(horizon, {
-        show par: set block(below: 0.5em)
-        set par(justify: false)
+        set par(spacing: 0.5em, justify: false)
         show: align.with(horizon)
 
         {
             set text(size: 4.5em, fill: color-brown)
             add-part(p)
-            v(-0.6em)
         }
 
         counter("parts").step()
@@ -600,7 +599,7 @@
     let index = 1
     let body = []
     let elements = ()
-    
+
     for e in items.pos() {
         if calc.even(index) {
             let obody = text(fill: color-orange, body)
@@ -654,7 +653,8 @@
         Seite \
         #h(1fr)
         #set text(size: 1.25em)
-        #context counter(page).display()]
+        #context counter(page).display()
+        ]
 
     }, header: {
         set text(size: 10pt, fill: color-brown)
