@@ -55,6 +55,7 @@ Es gibt einen Zusammenhang zwischen #ix("Feinzielen", "Feinziel") und Aufgabenst
     #underline[Fassen] Sie Descartes' erste Meditation in Form eines Abstracts #underline[zusammen]!
 ]
 
+Einige Didaktiker kritisieren die "#emph[Indem]isierung" der Unterrichtsziele, doch sie bietet einen Vorteil für zwei verschiedene Phasen der Unterrichtsdurchführung: bei der Planung und bei der Auswertung. In der Planungsphase ist nach der Festlegung der auszubildenden Kompetenz durch die Verbindung mit dem Weg, der nach dem "indem" beschrieben wird, klar, wie dieses Ziel erreicht werden soll. Andersherum gilt für die Auswertungsphase nach der Unterrichtsstunde ein Kriterium, anhand dessen man zeigen kann, dass das Ziel adressiert und die Kompetenz entwickelt wurde, sollte man die zugehörige Aufgabe ausgeführt haben.
 
 #task[Feinziele][
     Entwerfen Sie drei Feinziele für eine Unterrichtsstunde zum Thema "Das Wachsbeispiel in Descartes' _Meditationes de prima philosophia_." in der Sekundarstufe II.
