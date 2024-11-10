@@ -109,6 +109,8 @@ Es folgen einige Beispiele für Methoden des Philosophieunterrichts.
 ][*#ix("neosokratisches Gespräch", "neosokratisches Gespräch", "Gespräch, neosokratisch")* #h(1fr) Gruppenarbeit #todo[Belege für das neosokratische Gespräch bei Leonard Nelson fehlen.]][
     #ix("Leonard Nelson", "Nelson, Leonard") lehnt das #ix("neosokratische Gespräch", "Gespräch, neosokratisch", "neosokratisches Gespräch") an die ursprüngliche Methode des #ix("sokratischen Gesprächs", "Gespräch, sokratisch", "sokratisches Gespräch") an, im Gegensatz dazu soll sie jedoch nicht manipulativ und für die Teilnehmer gleichberechtigt sein. An einem Tag gibt ein Teilnehmer der Gesprächsgruppe ein Beispiel, worüber die Gruppe diskutieren soll. Es wird über den Tag verteilt so lange diskutiert, bis ein *gemeinsamer Konsens* gefunden wurde. Zusätzlich finden #ix("Meta-", "Metagespräch") und Strategiegespräche statt.
 
+    "Sokratische Methode im weitesten Sinne wird praktiziert, wo und wann immer Menschen durch gemeinsames Erwägen von Gründen der Wahrheit in einer Frage näherzukommen suchen. [...] Sokratisch würde ich ein Gespräch nennen, in dem [dieses Bestreben] nicht nur sporadisch auftritt, sondern durchgängig das Gespräch bestimmt; ein Gespräch, in dem durchgängig ein gemeinsames Erwägen von Gründen stattfindet."#en[@Heckmann2018_DasSokratischeGespräch[S. 19.]]
+
 ][*#ix("Inquiry")* #h(1fr) #ix("Gruppenarbeit")][
     Neben dem #ix("neosokratischen Gespräch", "neosokratisches Gespräch", "Gespräch, neosokratisch") ist die Inquiry ebenfalls eine Gesprächsmethode für Gruppen. Ausgehend von einem gegebenen Stimulus wird gemeinsam eine Fragestellung erarbeitet, die dann zusammen in der Gruppe beantwortet wird. Im Gegensatz zum #ix("neosokratischen Gespräch", "neosokratisches Gespräch", "Gespräch, neosokratisch") muss *kein gemeinsamer Konsens* erreicht werden. Die Inquiry eignet sich ebenfalls für kurze Gespräche von 45 bis 90 Minuten.
 
@@ -200,7 +202,7 @@ Es folgen einige Beispiele für Methoden des Philosophieunterrichts.
     Es ist jedoch nicht zu vergessen, dass Märchen irrationale Geschichten sind und unrealistische Hoffnungen vermitteln können. Außerdem können Märchen grausam sein, was der Zielgruppe entsprechend berücksichtigt werden sollte.
 ]
 
-#task[Neosokratisches Gespräch vs. Inquiry][
+#task(key: "neosokr-ges-vs-inquiry")[Neosokratisches Gespräch vs. Inquiry][
     Vergleichen Sie das Neosokratische Gespräch mit der Inquiry.
 ][
 ]
