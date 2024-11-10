@@ -289,7 +289,7 @@
 #let make-tasks() = {
     make-notes("tasks",
         title: [Lösungsvorschläge],
-        wrap-note: k => strong[Lösung für #k],
+        wrap-note: k => strong[Lösungsvorschlag für #k],
         number-format: numbering.with("1")
     )
 }
