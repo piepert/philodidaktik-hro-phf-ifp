@@ -55,5 +55,5 @@ In der Didaktik des Philosophieunterrichts werden drei Anforderungen an Leistung
 
     Etwas anderes wäre ein schriftlicher Test, jedoch werden die Aufgabenstellungen vor dem Test mündlich angesagt. Durch Unaufmerksamkeit der SuS kommt es in einigen Fällen zur Übernahme falscher Aufgabenstellungen und damit Punktverlusten.
 
-    Diese Beispiele beziehen sich auf Situationen, in der eine Leistung erfasst wird. Diese muss der Leistung entpsrechend angemessen sein und die Grundlagen bieten, sodass die Geprüften nicht in der Erbringung ihrer Leistung behindert werden.
+    Diese Beispiele beziehen sich auf Situationen, in der eine Leistung erfasst wird. Diese muss der Leistung entsprechend angemessen sein und die Grundlagen bieten, sodass die Geprüften nicht in der Erbringung ihrer Leistung behindert werden.
 ]

@@ -1,6 +1,6 @@
 #import "/src/template.typ": *
 
-== Grundfragen Philosophiedidaktik
+== Grundfragen der Philosophiedidaktik
 
 #orange-list-with-body(parred: false)[*#ix("Legitimationsfrage"):*][
     (Wie) ist der Philosophieunterricht zu rechtfertigen? Warum sollte man philosophieren dürfen oder sogar müssen?
@@ -15,7 +15,7 @@
 ][*#ix("Inhaltsfrage"):*][
     Was soll unterrichtet werden? Was macht der Philosophieunterricht zu seinem Gegenstand? Wie kann man diesen Gegenstand rechtfertigen?
 
-    Unter diese Frage fällt unter anderem die #ix("Lassahn-Deppe-Kontroverse"): Wie viel Einfluss dürfen die SuS auf den Inhalt des Philosophieunterrichts haben? Wie viel der traditionellen philosophischen Positionen soll unterrichtet werden? Auch dieser Punkt ist eng an die #ix("Wesensfrage") und das #ix("Selbstverständnis der Philosophie") gekoppelt. Ein #ix("pädagogisch-politisches Selbstverständnis", "Selbstverständnis, pädagogisch-politisch") wählt eventuell andere Schwerpunkte aus anderen Gründen wählen als mit dem #ix("esoterischem Selbstverständnis", "Selbstverständnis, esoterisch").
+    Unter diese Frage fällt unter anderem die #ix("Lassahn-Deppe-Kontroverse"): Wie viel Einfluss dürfen die SuS auf den Inhalt des Philosophieunterrichts haben? Wie viel der traditionellen philosophischen Positionen soll unterrichtet werden? Auch dieser Punkt ist eng an die #ix("Wesensfrage") und das #ix("Selbstverständnis der Philosophie") gekoppelt. Ein pädagogisch-politisches Selbstverständnis#ix(" ", "Selbstverständnis, pädagogisch-politisch")besitzt eventuell andere Schwerpunkte aus anderen Gründen wählen als mit dem #ix("esoterischem Selbstverständnis", "Selbstverständnis, esoterisch").
 
 ][*#ix("Methodenfrage"):*][
     Mit welchen Methoden soll der Philosophieunterricht stattfinden?

@@ -22,7 +22,7 @@ Medien sind vielfältig und können im Unterricht verschiedene Aufgaben erfülle
     [Gegenstände]
     ).map(e => strong(e)),
 
-    [Textauszüge],      [Tagelbilder],  [Bilder],       [Musik], [Statuen],
+    [Textauszüge],      [Tafelbilder],  [Bilder],       [Musik], [Statuen],
     [Schulbücher],      [Schemata],     [Karikaturen],  [Tonaufnahme], [Denkmäler],
     [Populärliteratur], [Diagramme],    [Kurzvideos],   [Hörspiele], [Modelle],
     [Gedichte],         [],             [Filme],        [Hörbücher], [],

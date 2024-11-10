@@ -19,7 +19,7 @@
     ], [
         - *Gliederung:* Prüfungen können die Lernzeiträume strukturieren.
 
-        - *Orientierung* Prüfungen sind Anlass, sich ein genaues Bild über die Ausbildungsziel, -inhalte und -niveaus zu machen.
+        - *Orientierung* Prüfungen sind Anlass, sich ein genaues Bild über die Ausbildungsziele, -inhalte und -niveaus zu machen.
 
         - *Evaluation:* Prüfungen helfen die Qualität der Ausbildung und den jeweiligen Bildungs- und #ix("Kompetenzstand", "Kompetenz") zu informieren.
 

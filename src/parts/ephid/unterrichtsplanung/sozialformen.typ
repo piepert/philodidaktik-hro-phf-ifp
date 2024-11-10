@@ -16,7 +16,7 @@
 ][
     *Partnerarbeit (PA)* #h(1fr) 2 SuS
 
-    Zwei SuS erarbeiten gemeinsam Aufgaben. Die Lehrkraft versteht sich auch hier als Berater, jedoch auch als Moderator, der -- bis auf Zwischenstandsfragen -- nicht stark in die Arbeit eingreifen sollte.
+    Zwei SuS bearbeiten gemeinsam Aufgaben. Die Lehrkraft versteht sich auch hier als Berater, jedoch auch als Moderator, der -- bis auf Zwischenstandsfragen -- nicht stark in die Arbeit eingreifen sollte.
 ][
     *Gruppenarbeit (GA)* #h(1fr) mehr als 3 SuS
 

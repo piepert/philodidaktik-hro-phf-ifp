@@ -4,7 +4,7 @@
 
 == Das #ix("Fremdpsychische", "Fremdpsychisches")
 
-Im Wachsbeispiel gibt es die folgende Passage: "[W]enn ich nicht zufälligerweise vom Fenster auf der Straße vorübergehende Menschen gesehen hätte, von denen ich üblicherweise nicht weniger [...] sage, dass ich sie sehe. Was aber sehe ich außer Hüten und Kleidern, unter denen sich Automaten verbergen könnten?"#en[Descartes, Renè. AT VII. S. 32.] Dort kann das folgende Problem gefunden werden: Gibt es Bewusstsein außer mein eigenes? Kann ich beweisen, dass es Bewusstsein außer men eigenes gibt?
+Im Wachsbeispiel gibt es die folgende Passage: "[W]enn ich nicht zufälligerweise vom Fenster auf der Straße vorübergehende Menschen gesehen hätte, von denen ich üblicherweise nicht weniger [...] sage, dass ich sie sehe. Was aber sehe ich außer Hüten und Kleidern, unter denen sich Automaten verbergen könnten?"#en[Descartes, Renè. AT VII. S. 32.] Dort kann das folgende Problem gefunden werden: Gibt es Bewusstsein außer mein eigenes? Kann ich beweisen, dass es Bewusstsein außer meinem eigenen gibt?
 
 #set par(justify: false)
 #grid(columns: (10%, 45%, 45%).map(e => e - 1.5em),

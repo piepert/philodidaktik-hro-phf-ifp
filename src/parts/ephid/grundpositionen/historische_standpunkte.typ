@@ -27,7 +27,7 @@
     ],
 
     "#6 Hegel": [
-        #ix("", "Hegel, Georg W. F.")Die Philosophie wird deduktiv gelernt, durch die Methode des _verstehenden Nachvollzugs_. Bereits bestehende Inhalte klassischer Philosophen müssen erlernt und nachvollzogen werden. Die Primärmethode des Philosophieunterrichts ist der Lehrervortrag, der die philosophischen Inhalte vermittelt. Es um das Erlernen formaler Denkfähigkeiten anhand klassischer Positionen zur Auseinandersetzung mit philosophischen Themen.#en[Vgl. @Runtenberg2016_EPhiD[S. 23 ff]]
+        #ix("", "Hegel, Georg W. F.")Die Philosophie wird deduktiv gelernt, durch die Methode des _verstehenden Nachvollzugs_. Bereits bestehende Inhalte klassischer Philosophen müssen erlernt und nachvollzogen werden. Die Primärmethode des Philosophieunterrichts ist der Lehrervortrag, der die philosophischen Inhalte vermittelt. Es geht um das Erlernen formaler Denkfähigkeiten anhand klassischer Positionen zur Auseinandersetzung mit philosophischen Themen.#en[Vgl. @Runtenberg2016_EPhiD[S. 23 ff]]
     ],
 
     "#7 Nietzsche": [

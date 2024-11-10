@@ -61,7 +61,7 @@ Der Unterricht in Mecklenburg-Vorpommern ist kompetenzorientiert. Die Ausbildung
         ], [
             *#ix("Argumentations- und Urteilskompetenz")*
 
-            ... meint, Begriffe und philosophische Argumente sowie ihre Konsequenzen erschließen, wiedergeben, vergleichen, kritisch zu prüfen und bewerten zu können. Die SuS können selbständige zu begründeten Urteilen kommen.
+            ... meint, Begriffe und philosophische Argumente sowie ihre Konsequenzen erschließen, wiedergeben, vergleichen, kritisch zu prüfen und bewerten zu können. Die SuS können selbständig zu begründeten Urteilen kommen.
         ], [
             *#ix("Darstellungskompetenz")*
 

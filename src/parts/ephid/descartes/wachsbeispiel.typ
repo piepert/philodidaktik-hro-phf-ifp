@@ -3,7 +3,7 @@
 #let med(page) = en[Vgl. Descartes, Renè: AT VII. S. #page.]
 == #ix("Das Wachsbeispiel", "Wachsbeispiel")
 
-Auf das #ix("cogito-Argument") folgt die Untersuchung eines Stückchen Wachses. #ix("Descartes", "Descartes, René") erklärt daraufhin, dass er das Wachs nur durch seinen Geist wahrnimmt. Das erkenne man daraus, dass die empirischen Eigenschaften des Wachses sich verändern können und trotzdem dasselbe Wachs als dasselbe erkannt werden kann.#med[30] Er folgert, dass egal wie er seine Umwelt, die Körper um ihn herum -- wofür das Wachs stellvertretend steht --, wahrnimmt, er selbst nicht weniger existieren kann.#med[33]
+Auf das #ix("cogito-Argument") folgt die Untersuchung eines Stückchen Wachses. #ix("Descartes", "Descartes, René") erklärt daraufhin, dass er das Wachs nur durch seinen Geist wahrnimmt. Das erkenne man daran, dass die empirischen Eigenschaften des Wachses sich verändern können und trotzdem dasselbe Wachs als dasselbe erkannt werden kann.#med[30] Er folgert, dass egal wie er seine Umwelt, die Körper um ihn herum -- wofür das Wachs stellvertretend steht --, wahrnimmt, er selbst nicht weniger existieren kann.#med[33]
 
 #set par(justify: false)
 #grid(columns: (10%, 45%, 45%).map(e => e - 1.5em),

@@ -40,7 +40,7 @@ Methoden bilden also das "Wie?" des Unterrichts und finden auf drei verschiedene
     ])
 
 
-Die philosophischen Makromethoden, mit denen philosophiert wird, können dabei nach #ix("Rohbeck", "Rohbeck, Johannes") und #ix("Martens", "Martens, Ekkehard") in je unterschiedliche Kategorien eingeteilt werden. Einiges überschneidet sich, in beiden Einteilungen kommen die Phänomenologie, Hermeneutik, Dialektik und Analytik als eigene #ix("Kategorie", "Kategorien, sokratisch-aristotelisch") bzw. #ix("Denkrichtung", "Denkstil", "Denkrichtung") vor. #ix("Martens", "Martens, Ekkehard") hat im Gegensatz zu #ix("Rohbeck", "Rohbeck, Johannes") noch die Spekulation, Rohbeck im Gegensatz zu Martens den #ix("Konstruktivismus") und die #ix("Dekonstruktion").
+Die philosophischen Makromethoden, mit denen philosophiert wird, können dabei nach #ix("Rohbeck", "Rohbeck, Johannes") und #ix("Martens", "Martens, Ekkehard") in je unterschiedliche Kategorien eingeteilt werden. Einiges überschneidet sich, in beiden Einteilungen kommen die Phänomenologie, Hermeneutik, Dialektik und Analytik als eigene #ix("Kategorie", "Kategorien, sokratisch-aristotelisch")bzw. #ix("Denkrichtung", "Denkstil", "Denkrichtung") vor. Bei #ix("Martens", "Martens, Ekkehard") ist im Gegensatz zu #ix("Rohbeck", "Rohbeck, Johannes") noch die #ix("Spekulation"), bei Rohbeck sind im Gegensatz zu Martens der #ix("Konstruktivismus") und die #ix("Dekonstruktion") zu finden.
 
 #table(columns: (50% - 1em, 50% - 1em),
     stroke: none,
@@ -82,7 +82,7 @@ Für #ix("Methodenvielfalt"), also das Nutzen verschiedener Methoden, sprechen e
 
 2. *pädagogisch:* Die SuS sind #ix("heterogen", "Heterogenität der SuS"), d.h. sie haben unterschiedliche Persönlichkeiten und Interessen. Verschiedene Methoden können unterschiedlich gut für verschiedene SuS funktionieren.
 
-3. *didaktisch:* Zugriff auf die Philosophie → dafür sorgen, dass die SuS verschiedene Zugangsmöglichkeiten zur Philosophie haben, weil beide #ix("heterogen", "Heterogenität der SuS", "Heterogenität der Philosophie") sind.
+3. *didaktisch:* Der Zugriff auf die Philosophie kann heterogen stattfinden. Die Lehrperson muss dafür sorgen, dass die SuS verschiedene Zugangsmöglichkeiten zur Philosophie haben, weil beide #ix("heterogen", "Heterogenität der SuS", "Heterogenität der Philosophie") sind.
 
 Es folgen einige Beispiele für Methoden des Philosophieunterrichts.
 
@@ -110,21 +110,21 @@ Es folgen einige Beispiele für Methoden des Philosophieunterrichts.
     #ix("Leonard Nelson", "Nelson, Leonard") lehnt das #ix("neosokratische Gespräch", "Gespräch, neosokratisch", "neosokratisches Gespräch") an die ursprüngliche Methode des #ix("sokratischen Gesprächs", "Gespräch, sokratisch", "sokratisches Gespräch") an, im Gegensatz dazu soll sie jedoch nicht manipulativ und für die Teilnehmer gleichberechtigt sein. An einem Tag gibt ein Teilnehmer der Gesprächsgruppe ein Beispiel, worüber die Gruppe diskutieren soll. Es wird über den Tag verteilt so lange diskutiert, bis ein *gemeinsamer Konsens* gefunden wurde. Zusätzlich finden #ix("Meta-", "Metagespräch") und Strategiegespräche statt.
 
 ][*#ix("Inquiry")* #h(1fr) #ix("Gruppenarbeit")][
-    Neben dem #ix("neosokratischen Gespräch", "neosokratisches Gespräch", "Gespräch, neosokratisch") ist die Inquiry ebenfalls eine Gesprächsmethode für Gruppen. Ausgehend von einem gegebenen Stimulus wird gemeinsam eine Fragestellung erarbeitet, die dann zusammen in der Gruppe beantwortet wird. Im Gegensatz zum #ix("neosokratisches Gespräch", "neosokratisches Gespräch", "Gespräch, neosokratisch") muss *kein gemeinsamer Konsens* erreicht werden. Die Inquiry eignet sich ebenfalls für kurze Gespräche von 45 bis 90 Minuten.
+    Neben dem #ix("neosokratischen Gespräch", "neosokratisches Gespräch", "Gespräch, neosokratisch") ist die Inquiry ebenfalls eine Gesprächsmethode für Gruppen. Ausgehend von einem gegebenen Stimulus wird gemeinsam eine Fragestellung erarbeitet, die dann zusammen in der Gruppe beantwortet wird. Im Gegensatz zum #ix("neosokratischen Gespräch", "neosokratisches Gespräch", "Gespräch, neosokratisch") muss *kein gemeinsamer Konsens* erreicht werden. Die Inquiry eignet sich ebenfalls für kurze Gespräche von 45 bis 90 Minuten.
 
     Die Inquiry besteht aus 7 Phasen:#en[Vgl. @Klager2011_Inquiry[S. 44 ff]]
 
     1. *Geben des Stimulus:* Die Lehrkraft gibt einen Stimulus, der die SuS dazu anregen soll, ein philosophisches Problembewusstsein zu entwickeln.
 
-    2. *Stellen philosophischer Fragen:* Die SuS stellen philosophische Frage, deren Kriterien#en[Kriterien für erkenntnisleitende Fragen laut dem MÜK S. 2: offen und problematisch, präzise, beantwortbar, systematisch und verknüpft.] vorher festgelegt wurden.
+    2. *Stellen philosophischer Fragen:* Die SuS stellen Frage, deren Kriterien#en[Kriterien für erkenntnisleitende Fragen laut dem MÜK S. 2: offen und problematisch, präzise, beantwortbar, systematisch und verknüpft.] vorher festgelegt wurden.
 
     3. *Sammeln der Fragen:* Die Lehrkraft sammelt die gestellten Fragen.
 
     4. *Auswahl einer Frage:* Eine Frage wird für die folgende Diskussion ausgewählt, z.B. durch das Zufallsprinzip oder durch eine Mehrheitsabstimmung.
 
-    5. *Denkzeit:* Die SuS erhalten Denkzeit um sich schriftlich zur Frage zu Positionieren und eine erste Begründung anzuführen.
+    5. *Denkzeit:* Die SuS erhalten Denkzeit um sich schriftlich zur Frage zu positionieren und eine erste Begründung anzuführen.
 
-    6. *Untersuchung:* Aus den SuS wird eine Antwort zufällig ausgewählt, die für alle sichtbar von der Lehrkraft festgehalten und dann Ausgangspunkt der Diskussion wird. Es wird so lange über die Antwort, ihre Gründe und Implikationen sowie die Bedeutung der darin vorkommenden Wörter diskutiert, bis ein gemeinsamer Konsens erreicht wurde oder alle SuS den Gründen für die Zustimmung oder Ablehnung der Antwort zustimmen können.
+    6. *Untersuchung:* Aus den durch die SuS gegebenen Antworten wird eine zufällig ausgewählt, die für alle sichtbar von der Lehrkraft festgehalten und dann Ausgangspunkt der Diskussion wird. Es wird so lange über die Antwort, ihre Gründe und Implikationen sowie die Bedeutung der darin vorkommenden Wörter diskutiert, bis ein gemeinsamer Konsens erreicht wurde oder alle SuS den Gründen für die Zustimmung oder Ablehnung der Antwort zustimmen können.
 
     7. *Metagespräch und Evaluation:* Wird Schritt 6. beendet und keine neue Fragestellung ausgewählt, kommt es zu einem Metagespräch und einer Evaluation der Ergebnisse der Diskussion. Dazu bekommen die SuS wieder Denkzeit. Die Ergebnisse werden schriftlich festgehalten.
 
@@ -145,7 +145,7 @@ Es folgen einige Beispiele für Methoden des Philosophieunterrichts.
 
     1. ein Text ist ein handwerkliches Produkt
     2. Lesende sind Koproduzenten, durch Lesen und Verstehen wird etwas Neues geschaffen
-    3. Textverstehen ist ein kreativer, d.h. eine Art von problemlösender, Prozess
+    3. Textverstehen ist ein kreativer, d.h. eine Art von problemlösender Prozess
 
     #ix("Produktionsorientiert-didaktiktische Pfade", "Didaktik, produktionsorientiert", "Produktionsorientierung") versetzen die SuS in die Rolle von Produzenten: zu einem bestimmten Medium (nicht nur für Text), soll etwas neues von den SuS hergestellt werden. Darunter fallen:
 
@@ -167,7 +167,7 @@ Es folgen einige Beispiele für Methoden des Philosophieunterrichts.
 
     + *Rezeption eines modifizierten Textes:* Die Lehrkraft modifiziert (durch z.B. Auslassungen wichtiger Wörter/Sätze für die Argumentation) die Texte, was die SuS dazu bringt, zum Verständnis die Textvorlage intensiv lesen zu müssen.
 
-    + *produktive Veränderung eines Originaltextes:* Der Originaltext wird von den SuS transformiert, etwa indem er für eine andere Zeit geschrieben wird, an einen speziellen Adressaten, der Stil verändert, eine aktualisierte oder Gegenfasstung geschrieben wird.
+    + *produktive Veränderung eines Originaltextes:* Der Originaltext wird von den SuS transformiert, etwa indem er für eine andere Zeit geschrieben wird, an einen speziellen Adressaten, der Stil verändert, eine aktualisierte oder Gegenfassung geschrieben wird.
 ]
 
 #task(key: "methoden-martens")[Methoden nach Martens][
@@ -195,7 +195,7 @@ Es folgen einige Beispiele für Methoden des Philosophieunterrichts.
 #task[Märchen und Fabeln][
     Notieren Sie Chancen und Grenzen des Philosophierens mit Märchen und Fabeln.
 ][
-    Märchen können als Motivation für den Einstieg in den Unterricht benutzt werden. Bei der Auseinadersetzung können sie als Auflockerung oder Veranschaulichung eines philosophischen Problems verwendet werden. Zum Abschluss eines Themas können Märchen benutzt werden, um auf eine kreative Art und Weise philosophieren zu üben. Unabhängig vom Zeitpunkt können sie als selbständige Texte mit Sichten aufspezielle philosophische Probleme benutzt werden.
+    Märchen können als Motivation für den Einstieg in den Unterricht benutzt werden. Bei der Auseinadersetzung können sie als Auflockerung oder Veranschaulichung eines philosophischen Problems verwendet werden. Zum Abschluss eines Themas können Märchen benutzt werden, um auf eine kreative Art und Weise im Philosophieren zu üben. Unabhängig vom Zeitpunkt können sie als selbständige Texte mit Sichten auf spezielle philosophische Probleme benutzt werden.
 
     Es ist jedoch nicht zu vergessen, dass Märchen irrationale Geschichten sind und unrealistische Hoffnungen vermitteln können. Außerdem können Märchen grausam sein, was der Zielgruppe entsprechend berücksichtigt werden sollte.
 ]

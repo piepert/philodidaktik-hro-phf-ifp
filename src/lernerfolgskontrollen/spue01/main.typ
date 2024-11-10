@@ -79,7 +79,7 @@ Maja, ein Vertreterin der Mesoteslehre, bekommt das Gespräch zwischen den beide
     ],
     [\_\_ / 2],
 
-    table.cell(fill: black.lighten(80%), strong[Inhaltliches -- Diskussin/Argumentation]),
+    table.cell(fill: black.lighten(80%), strong[Inhaltliches -- Diskussion/Argumentation]),
     table.cell(fill: black.lighten(80%), strong[6 P.]),
     [
         Die bearbeiteten Thesen werden durch Argumente kritisch geprüft. Argumente bleiben nicht "im leeren Raum", sondern die Gesprächspartner reagieren darauf.

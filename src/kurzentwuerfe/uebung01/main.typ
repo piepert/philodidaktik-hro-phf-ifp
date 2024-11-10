@@ -4,7 +4,7 @@
     title-lesson: "Descartes' cogito-Argument",
     title-series: "Erkenntnistheorie",
     justification: [
-        Gemäß der Themen des Rahmenplans für die 9. Klasse sollen die SuS hier im Themenbereich 1 Bedingungen der Möglichkeit der Selbsterkenntnis erkennen und reflektieren.#footnote[Vgl. Ministerium für Bildung, Wissenschaft und Kultur des Landes Mecklenburg-Vorpommern (Hg.): Rahmenplan Jahrgangsstufen 7--10. Philosophieren mit Kindern. Erprobungsfassung. Schwerin 2002. S. 25] Der Rahmenplan füllt 60% der Unterrichtszeit verbindlichen Inhalte, weitere Zeit kann von der Lehrkraft zur Festigung und Vertiefung benutzt werden.#footnote[Vgl. Ministerium für Bildung, Wissenschaft und Kultur des Landes Mecklenburg-Vorpommern (Hg.): Rahmenplan Jahrgangsstufen 7--10. Philosophieren mit Kindern. Erprobungsfassung. Schwerin 2002. S. 8.] Das Behandeln von Descartes' cogito-Argument wird hier als Vertiefung zur Grundlegenden Frage nach der Erkenntnis eines Selbst verstanden.
+        Gemäß der Themen des Rahmenplans für die 9. Klasse sollen die SuS hier im Themenbereich 1 Bedingungen der Möglichkeit der Selbsterkenntnis erkennen und reflektieren.#footnote[Vgl. Ministerium für Bildung, Wissenschaft und Kultur des Landes Mecklenburg-Vorpommern (Hg.): Rahmenplan Jahrgangsstufen 7--10. Philosophieren mit Kindern. Erprobungsfassung. Schwerin 2002. S. 25] Der Rahmenplan füllt 60% der Unterrichtszeit mit verbindlichen Inhalten, weitere Zeit kann von der Lehrkraft zur Festigung und Vertiefung benutzt werden.#footnote[Vgl. Ministerium für Bildung, Wissenschaft und Kultur des Landes Mecklenburg-Vorpommern (Hg.): Rahmenplan Jahrgangsstufen 7--10. Philosophieren mit Kindern. Erprobungsfassung. Schwerin 2002. S. 8.] Das Behandeln von Descartes' cogito-Argument wird hier als Vertiefung zur Grundlegenden Frage nach der Erkenntnis eines Selbst verstanden.
     ],
     time: [90 min],
     main-objective: [Die Schüler setzen sich kritisch mit Descartes' cogito-Argument auseinander.],
@@ -99,7 +99,7 @@
     // #task[Präsentieren Sie Ihr Ergebnis vor der Klasse! #todo[(Kein EPA-Operator, trotzdem okay?)]]
 ][
     - ein Großteil der oben genannten Punkte wird abgedeckt
-    - die erarbeiteten Inhalte wird kohärent vorgetragen
+    - die erarbeiteten Inhalte werden kohärent vorgetragen
     - die Vortragsweise ist akkustisch verständlich
 ][
     Schülervortrag

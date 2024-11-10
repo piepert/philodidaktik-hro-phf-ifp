@@ -73,15 +73,15 @@ Es gibt einen Zusammenhang zwischen #ix("Feinzielen", "Feinziel") und Aufgabenst
         column-gutter: 0.5em,
         row-gutter: 1em,
 
-        [AFB I:], [
+        [AB I:], [
             Geben Sie die drei Stufen von Descartes' methodischem Zweifel in eigenen Worten wieder!
         ],
 
-        [AFB II:], [
+        [AB II:], [
             Erörtern Sie ein Problem der Erkenntnis aus der Wahrnehmung, das Descartes aufwirft!
         ],
 
-        [AFB III:], [
+        [AB III:], [
             Diskutieren Sie Descartes' Position zum Problem des Fremdpsychischen!
         ])
 ]

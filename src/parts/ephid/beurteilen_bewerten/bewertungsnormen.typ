@@ -22,7 +22,7 @@ Das System, nachdem die #ix("Bewertungen", "Bewertung") im Unterricht standardis
 #task(key: "bub-normen")[#ix("Bewertungsnorm", "Bewertung", "Bewertungsnorm") I][
     Notieren und erklären Sie drei verschiedene Normen von #ix("Bewertungen", "Bewertung", "Bewertungsnorm")/#ix("Beurteilungen", "Beurteilung", "Beurteilungsnorm") im Philosophieunterricht. // Nennen Sie je eine Situation, in der die verschiedene Normen von Vorteil sind!
 ][
-    Als Bewertungsnormen unterscheiden wir die individuelle, soziale und sachliche Bezugsnorm. Jede legt einen anderen Vergleichswert für die Leistung an: die individuelle das Individuum und seine eigene Entwicklung im zeitlichen Längsschnitt, die soziale die umliegende Bezugsgruppe (die Klasse) im interindividuellen Querschnitt und zuletzt die Sachnorm ein vorher festgelegter Maßstab.
+    Als Bewertungsnormen unterscheiden wir die individuelle, soziale und sachliche Bezugsnorm. Jede legt einen anderen Vergleichswert für die Leistung an: die individuelle das Individuum und seine eigene Entwicklung im zeitlichen Längsschnitt, die soziale die umliegende Bezugsgruppe (die Klasse) im interindividuellen Querschnitt und zuletzt die Sachnorm einen vorher festgelegter Maßstab.
 
     // Die individuelle Bezugsnorm ist dort von Vorteil, wo SuS, die sich selbst als besonders leistungsschwach wahrnehmen (unabhängig davon, ob sie es tatsächlich sind) oder fehlendes fachliches Selbstwertgefühl aufzeigen. Dadurch konzentrieren sich die SuS auf ihre eigene Leistungsentwicklung und da guter Unterricht eine Kompetenzentwicklung anstoßen soll, können Sie die eigene Entwicklung aktiv nachvollziehen.
 

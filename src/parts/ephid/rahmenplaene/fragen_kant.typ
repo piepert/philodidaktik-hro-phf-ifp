@@ -30,7 +30,7 @@ Grundlage der Inhalte des Rahmebereiches bilden die vier Kantischen Grundfragen 
     Philosophie untersucht das Selbstverständnis des Menschen, das sich im Wissen, Handeln und Hoffen ausprägt.
 
     *Stufe 7-10* \
-    Lohnt es sich nach dem Selbstverständnis des Menschen zu fragen angesichts von Missachtung und Manipulierbarkeit, die ich erfahre und sehe? Andererseits ist die Sicht auf den Menschen komplex und differenziert geworden -- das gilt auch für mich.
+    Lohnt es sich nach dem Selbstverständnis des Menschen zu fragen, angesichts von Missachtung und Manipulierbarkeit, die ich erfahre und sehe? Andererseits ist die Sicht auf den Menschen komplex und differenziert geworden -- das gilt auch für mich.
 ]
 
 In der Oberstufe werden die vier #ix("kantischen Fragen", "Kantische Fragen") als Grundlage zur Erörterung der philosophischen Einzeldisziplinen verwendet.#en[Vgl. @MBWKMV2019_RP1112[S. 11]]

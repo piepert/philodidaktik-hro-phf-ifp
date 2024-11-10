@@ -2,7 +2,7 @@
 
 == #ix("Philosophischer Unterricht", "Unterricht, philosophisch")
 
-Die Religionsphilosophie und das Fach "Religion" sind für einige Studierende schwer zu trennen. Was macht eine religionsphilosophische Unterrichtseinheit eigentlich _philosophsich_? In der Einheit "Gottesbegriffe"#en[Vgl. @MBWKMV2002_RP710[S. 25]] reicht es etwa nicht, verschiedene Gotteskonzeptionen zu erarbeiten -- dieser Inhalt zählt wohl eher in den Religions- oder Sachkundeunterricht. Wie läuft man nicht in der SPÜ gefahr, eine Sachkundestunde zu halten?
+Die Religionsphilosophie und das Fach "Religion" sind für einige Studierende schwer zu trennen. Was macht eine religionsphilosophische Unterrichtseinheit eigentlich _philosophsich_? In der Einheit "Gottesbegriffe"#en[Vgl. @MBWKMV2002_RP710[S. 25]] reicht es etwa nicht, verschiedene Gotteskonzeptionen zu erarbeiten -- dieser Inhalt zählt wohl eher in den Religions- oder Sachkundeunterricht. Wie läuft man nicht in der SPÜ Gefahr, eine Sachkundestunde zu halten?
 
 Eine Stunde gehört dann zum Fach Philosophie, wenn sie sich an die gegebenen Spezifikationen des Rahmenplans hält, oder sich mit den Inhalten und Methoden der Philosophie generell beschäftigt. Die Rahmenpläne sagen dazu folgendes:
 

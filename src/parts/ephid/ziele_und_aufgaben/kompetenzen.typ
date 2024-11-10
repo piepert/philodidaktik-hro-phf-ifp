@@ -13,8 +13,8 @@
 #table(columns: (50%, 50%),
     stroke: none,
 
-    strong[#ix("Fachübergreifend", "Kompetenzen, fachübergreifend"),\ Klasse 5-10],
-    strong[#ix("Fachspezifisch Philosophie", "Kompetenzen, fachspezifisch für Philosophie"),\ #ix("Sekundarstufe II", "Oberstufe, gymnasial")], [
+    strong[#ix("Fachübergreifende Kompetenz", "Kompetenzen, fachübergreifend"),\ Klasse 5-10],
+    strong[#ix("Fachspezifische Kompetenz", "Kompetenzen, fachspezifisch für Philosophie"),\ #ix("Sekundarstufe II", "Oberstufe, gymnasial")], [
         - #ix("Sozialkompetenz")
         - #ix("Selbstkompetenz")
         - #ix("Methodenkompetenz")
@@ -34,7 +34,7 @@
 #task(key: "kompetenzbegriff-weinert")[Kompetenz][
     Definieren Sie den Kompetenzbegriff nach Weinert!
 ][
-    Kompetenzen sind kognitive Fähigkeiten, um bestimmte Probleme zu lösen, sowie die damit verbundenen motivationalen, volitionalen und sozialen Bereitschaften und Fähigkeiten, um die Problemlösungen in variablen Situationen erfolgreich und verantwortungsvoll nutzen zu können.
+    Kompetenzen sind nach Weinert kognitive Fähigkeiten, um bestimmte Probleme zu lösen, sowie die damit verbundenen motivationalen, volitionalen und sozialen Bereitschaften und Fähigkeiten, um die Problemlösungen in variablen Situationen erfolgreich und verantwortungsvoll nutzen zu können.
 ]
 
 #task[Qualitätskriterien der PhiD][
@@ -42,15 +42,14 @@
     Erlangung von Weisheit auf. Nennen und erläutern Sie diese knapp in Hinblick auf
     Qualitätskriterien von Philosophieunterricht.
 ][
-    #ix("Kant", "Kant, Immanuel") stellt drei Maximen auf:// #en[Vgl. Kant, Immanuel: Kants gesammelte Schriften. Hrsg. von der königlich preussischen Akademie der Wissenschaften. Berlin 1900 ff. S. 201.] // en in Aufgaben geht immernoch nicht
-
+    Kant stellt drei Maximen auf:
     + selbst denken
     + sich an die Stelle des Anderen denken
     + mit sich selbst einstimmig zu denken
 
-    Das "selbst denken" ist der Grundsatz des "#ix("Philosophieren mit Kindern", "Philosophieren mit Kindern", "PmK", "PwC")" statt "#ix("Philosophie für Kinder", "Philosophie für Kinder", "PfK", "P4C")". Es geht darum, die Kinder zum Philosophieren zu bringen. Als Qualitätskriterium kann es wie folgt formuliert werden: Der Philosophieunterricht bringt die SuS dazu, selbständig und aktiv zu philosophieren.
+    Das "selbst denken" ist der Grundsatz des "Philosophieren mit Kindern" statt "Philosophie für Kinder". Es geht darum, die Kinder zum Philosophieren zu bringen. Als Qualitätskriterium kann es wie folgt formuliert werden: Der Philosophieunterricht bringt die SuS dazu, selbständig und aktiv zu philosophieren.
 
-    Mit #ix("Kants", "Kant, Immanuel") "sich an die Stelle des Anderen denken" ist gemeint, über den eigenen Horizont hinausblicken und die Positionen anderer erfassen zu können. Der Philosophieunterricht muss die SuS dazu bringen, sich mit anderen Meinungen auseinandersetzen zu können.
+    Mit Kants "sich an die Stelle des Anderen denken" ist gemeint, über den eigenen Horizont hinauszublicken und die Positionen anderer erfassen zu können. Der Philosophieunterricht muss die SuS dazu bringen, sich mit anderen Meinungen auseinandersetzen zu können.
 
     Das letzte Gebot, das "mit sich selbst einstimmig zu denken" heißt im Bezug auf den Philosophieunterricht, die Kinder dazu anzuregen, sich aus einem diversen Bild eine eigene Meinung bilden zu können. Es geht darum, die Argumentationen und Perspektiven anderer einbeziehen zu können, diese abzuwägen und zu einem begründeten Urteil kommen zu können. Als Qualitätskriterium könnte man es so auslegen: Der Philosophieunterricht bringt die SuS dazu, eine Meinung fällen und diese begründen zu können.
 ]

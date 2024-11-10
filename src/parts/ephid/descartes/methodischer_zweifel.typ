@@ -6,7 +6,7 @@
 
 Der #ix("methodische Zweifel", "Zweifel, methodisch") wird in der ersten #ix("Meditation", "Meditationes de prima philosophia") beschrieben. Grundlage ist #ix([Descartes'], "Descartes, René") Versuch, sein bisher als sicher geltendes Wissen auf den Prüfstand zu stellen und eine für die Wissenschaft geeignete Grundlage zu finden.#med[17] Die Methode zur Untersuchung ist der radikale, methodische Zweifel: Alles, was zweifelbar ist, soll entfallen.#med[18] Der methodische Zweifel schreitet in drei Stufen voran:
 
-1. *#ix("Argument der Sinnestäuschung"):*#med[18] Die Außenwelt ist real, aber der Zugang über die Sinne ist zweifelhaft. Optische Täuschungen offenbaren nicht immer das, wie die Welt wirklich ist. Da die Welt existiert und die Sinne uns nicht imer täuschen, können wir trotzdem Zugang zur Außenwelt erhalten. Also scheint die Welt und die empirischen Wissenschaften unzweifelbar.
+1. *#ix("Argument der Sinnestäuschung"):*#med[18] Die Außenwelt ist real, aber der Zugang über die Sinne ist zweifelhaft. Optische Täuschungen offenbaren nicht immer das, wie die Welt wirklich ist. Da die Welt existiert und die Sinne uns nicht immer täuschen, können wir trotzdem Zugang zur Außenwelt erhalten. Also scheint die Welt und die empirischen Wissenschaften unzweifelbar.
 
 2. *#ix("Traumargument"):*#med[18 f] Die Außenwelt und alle empirischen Wissenschaften sind zweifelhaft, die Welt könnte z.B. nur ein Traum sein. Trotzdem gelten auch in einem Traum die Gesetze der Mathematik und Geometrie. Also scheint die Geometrie und Mathematik unzweifelbar.
 
@@ -25,7 +25,7 @@ Der #ix("methodische Zweifel", "Zweifel, methodisch") wird in der ersten #ix("Me
     ],
 
     [], [
-        - *Verbindlichkeit der eigenen Wahrnehmung*: Ergibt die Addition Wahrnehmungserfahrungen ein sicheres Bild der Wirklichkeit?#en[Vgl. @MBWKMV1996_RP56[S. 15]]
+        - *Verbindlichkeit der eigenen Wahrnehmung*: Ergibt die Addition von Wahrnehmungserfahrungen ein sicheres Bild der Wirklichkeit?#en[Vgl. @MBWKMV1996_RP56[S. 15]]
     ], [
         - methodischer Zweifel als Projekt sicherer Erkenntnis, Ablehnung des Empirismus im Argument der Sinnestäuschung
     ],
@@ -41,19 +41,19 @@ Der #ix("methodische Zweifel", "Zweifel, methodisch") wird in der ersten #ix("Me
     [8/9], [
         - *Woher beziehe ich meine Quellen des Wissens? Wie zuverlässig sind diese?*#en[Vgl. @MBWKMV2002_RP710[S. 28]]
     ], [
-        - Sind die Sinne verlässliche Wissensquelen? -- Argument der Sinnestäuschung
+        - Sind die Sinne verlässliche Wissensquellen? -- Argument der Sinnestäuschung
     ],
 
     [10], [
         - *Wege philosophischen Denkens:* Wie gelange ich zu begründeter Einsicht?#en[Vgl. @MBWKMV2002_RP710[S. 34]]
     ], [
-        - #ix("methodischer Zweifel", "Zweifel, methodisch") als weg sicherer Erkenntnis, als Methode des Philosophierens
+        - #ix("methodischer Zweifel", "Zweifel, methodisch") als Weg sicherer Erkenntnis, als Methode des Philosophierens
     ],
 
     [], [
         - *Regeln logischen Denkens:* Wie urteile und schließe ich korrekt?#en[Vgl. @MBWKMV2002_RP710[S. 34]]
     ], [
-        - Wie gut ist die Argumentation im #ix("methodischen Zweifel", "Zweifel, methodisch")
+        - Wie gut ist die Argumentation im #ix("methodischen Zweifel", "Zweifel, methodisch")?
     ],
 
     [], [

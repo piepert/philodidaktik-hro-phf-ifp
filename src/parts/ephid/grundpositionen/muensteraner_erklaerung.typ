@@ -2,7 +2,7 @@
 
 == #ix("Münsteraner Erklärung")
 
-Philosophie ist in einigen Bundesländern immernoch ein Wahl- oder Ersatzfach, obwohl die Kompetenzen, die mit Hilfe philosophischer Arbeit gewonnen werden, für das moderne Leben aktuell und wichtig sind. In der #ix("Münsteraner Erklärung")#en[@MuensteranerErklaerung] werden aus diesem Grund folgende Forderungen gestellt:
+Philosophie ist in einigen Bundesländern immer noch ein Wahl- oder Ersatzfach, obwohl die Kompetenzen, die mit Hilfe philosophischer Arbeit gewonnen werden, für das moderne Leben aktuell und wichtig sind. In der #ix("Münsteraner Erklärung")#en[@MuensteranerErklaerung] werden aus diesem Grund folgende Forderungen gestellt:
 
 // + Aufwertung der in der im Philosophieunterricht vermittelten Kompetenzen.
 

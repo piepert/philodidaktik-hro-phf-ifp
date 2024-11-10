@@ -5,9 +5,9 @@
 
 + Sprechen Sie mit...
 
-    - ... ihren Mitstudierenden, um neue Ideen und Unterstützung zu bekommen. *Gemeinsames Brainstormen rettet Leben!*
-    - ... ihren Dozenten, wenn Sie Probleme haben, Lektüre zu finden.
-    - ... der Person, die sie prüft, wenn Sie zeitliche Probleme und Planungsschwierigkeiten haben.
+    - ... Ihren Mitstudierenden, um neue Ideen und Unterstützung zu bekommen. *Gemeinsames Brainstormen rettet Leben!*
+    - ... Ihren Dozenten, wenn Sie Probleme haben, Lektüre zu finden.
+    - ... der Person, die Sie prüft, wenn Sie zeitliche Probleme und Planungsschwierigkeiten haben.
 
 + Rechnen Sie mit mind. 1 Woche intensiver Arbeit für den schriftlichen Langentwurf. Darin ist *nicht* die Ideenfindung für die Unterrichtsstunde enthalten.
 + Benutzen Sie vorgestellte Planungsmethoden für den Unterricht, arbeiten Sie diese Schritt für Schritt ab.

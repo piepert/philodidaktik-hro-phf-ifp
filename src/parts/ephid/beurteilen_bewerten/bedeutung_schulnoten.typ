@@ -20,7 +20,7 @@
     ],
 
     [4], [ausreichend], [
-        Die Leistung #underline[entspricht im Ganzen noch den Anforderungen], aber wird jedoch durch Fehler und inhaltliche Lücken beeinträchtigt.
+        Die Leistung #underline[entspricht im Ganzen noch den Anforderungen], wird jedoch durch Fehler und inhaltliche Lücken beeinträchtigt.
     ],
 
     [5], [mangelhaft], [
