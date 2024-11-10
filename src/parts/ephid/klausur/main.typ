@@ -6,7 +6,7 @@
 
 + Üben Sie mittels Karteikarten o.ä. die Grundbegriffe, Konzepte und Strömungen der Philosophiedidaktik.
 
-+ Bearbeiten Sie die freiwilligen Hausaufgaben aus dem Seminar.
++ Bearbeiten Sie die freiwilligen Hausaufgaben aus dem Seminar und *holen Sie sich Feedback*.
 
 + Vertiefen Sie Ihr Wissen, indem Sie die Zusatzlektüre lesen.
 
