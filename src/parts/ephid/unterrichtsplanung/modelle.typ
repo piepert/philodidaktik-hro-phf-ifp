@@ -56,7 +56,7 @@ Es folgen einige standardmäßige Modelle für den Aufbau einer Unterrichtsstund
 
         + *Problematisierungsphase:* In der Problematisierungsphase wird das Thema der Stunde motiviert, durch die SuS erarbeitet und kontrovers dargestellt.
 
-        + *Erarbeitungsphase:* Nachdem das Problem herausgestellt wurde, wird es durch die SuS inhaltlich bearbeitet und Kompetenzen werden generiert.
+        + *Erarbeitungsphase:* Nachdem das Problem herausgestellt wurde, wird es durch die SuS inhaltlich bearbeitet.
 
         + *Sicherungsphase:* Die Sicherungsphase ermöglicht es den SuS die Inhalte zu vergleichen und zu festigen.
 
