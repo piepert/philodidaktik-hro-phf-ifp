@@ -11,7 +11,7 @@ Das Vorgehen ist folgendes:
 
 + *Bepunktung:* Die höchste Niveaustufe legt die Maximalpunktzahl fest, es folgt eine Abstufung der anderen Niveaustufen.
 
-Die Bewertung der #ix("Anforderungsbereiche", "Anforderungsbereich") findet unterschiedlich gewichtet statt. Wenn in einer Leistungsüberprüfung 100% der Punkte erreichbar sind, dann sind davon 30% für den #ix("Anforderungsbereich") I, 40% für den #ix("Anforderungsbereich") II und wiederum 30% für den #ix("Anforderungsbereich") III gedacht.
+Die Bewertung der #ix("Anforderungsbereiche", "Anforderungsbereich") findet unterschiedlich gewichtet statt. Wenn in einer Leistungsüberprüfung 100% der Punkte erreichbar sind, dann sind davon 30% für den #ix("Anforderungsbereich") I, 40% für den #ix("Anforderungsbereich") II und wiederum 30% für den #ix("Anforderungsbereich") III gedacht.#en[Vgl. @KMK2006_EPAPhil[S. 9]]
 
 Auf der folgenden Seite finden Sie eine Lernerfolgskontrolle inklusive eines #ix("Erwartungshorizontes", "Erwartungshorizont"), der durch eine Bewertungsmatrix beschrieben wird.
 #pagebreak(weak: true)

@@ -2,7 +2,7 @@
 
 == Grundlage: Die vier #ix("Kantischen Fragen", "Kantische Fragen")
 
-Grundlage der Inhalte des Rahmebereiches bilden die vier Kantischen Grundfragen der Philosophie aus Kants Logik-Vorlesung:#ens[Vgl. Kant, Immanuel: Log, AA 9, 25.][Vgl. @MBWKMV1996_RP56[S. 12]][Vgl. @MBWKMV2002_RP710[S. 14]]
+Grundlage der Inhalte des Rahmenplans bilden die vier Kantischen Grundfragen der Philosophie aus Kants Logik-Vorlesung:#ens[Vgl. @Kant1923_Logik[S. 25]][Vgl. @MBWKMV1996_RP56[S. 12]][Vgl. @MBWKMV2002_RP710[S. 14]]
 
 #orange-list-with-body[*Was kann ich wissen?* #h(1fr) Erkenntnistheorie, Metaphysik][
     #strong[Stufe 5/6] \
