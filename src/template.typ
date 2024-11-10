@@ -513,7 +513,7 @@
     v(-1em)
     text(fill: color-orange, tracking: 0.25em, strong(upper[Inhaltsverzeichnis]))
 
-    show: pad.with(x: 1cm, y: 1.6cm)
+    show: pad.with(x: 1cm, y: 1.5cm)
 
     let part-counter = 1
     let heading-counter = 1
