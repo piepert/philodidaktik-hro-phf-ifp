@@ -10,7 +10,7 @@ Bewertungen im Phosophieunterricht werden verschiedene Sachen unterstellt. "#ix(
 
 ][*Leistungsprüfungen sind keine Machtinstrumente:*#en[Vgl. @Klager2021_Bewertung[S. 4 f]]][
     #set text(fill: black)
-    Leistungsüberprüfungen haben verschiedene Funktionen, für die sie eingesetzt werden. Siehe dazu den entsprechenden Abschnitt.
+    Leistungsüberprüfungen haben verschiedene Funktionen, für die sie eingesetzt werden. Siehe dazu den entsprechenden Abschnitt. Ein Machtinstrument zu sein oder sie als Bestrafung einzusetzen ist jedoch keine der Funktionen.
 
 ][*#ix("Hausaufgaben"), #ix("Mitarbeit", "Mitarbeitsbewertung") und #ix("Gruppenarbeit", "Gruppenarbeitsbewertung") sind nicht bewertbar:*#en[Vgl. @Klager2021_Bewertung[S. 5]]][
     #set text(fill: black)
@@ -18,7 +18,7 @@ Bewertungen im Phosophieunterricht werden verschiedene Sachen unterstellt. "#ix(
 
 ][*Philosophieren ist bewertbar:*#en[Vgl. @Klager2021_Bewertung[S. 5]]][
     #set text(fill: black)
-    Philosophie wird nicht bewertet, sondern methodisch-adäquates Philosophieren anhand der Anforderungen der EPA im Fach Philosophie. Die EPA bieten standardisierte, konkrete Operationen, die die SuS ausführen können sollen und deren Produkt bewertet werden kann. Es werden keine Meinungsäußerungen bewertet, sondern die korrekte Anwendung methodischer Prozesse und Formen.
+    Philosophie wird nicht bewertet, sondern methodisch-adäquates Philosophieren anhand der Anforderungen der #ix("EPA") im Fach Philosophie. Die #ix("EPA") bieten standardisierte, konkrete Operationen, die die SuS ausführen können sollen und deren Produkt bewertet werden kann. Es werden keine Meinungsäußerungen bewertet, sondern die korrekte Anwendung methodischer Prozesse und Formen.
 
 ][*Nicht nur Tests und Klausuren sind Leistungsprüfungen:*#en[Vgl. @Klager2021_Bewertung[S. 5 f]]][
     #set text(fill: black)
