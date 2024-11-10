@@ -3,7 +3,7 @@
 = #ix("Operatoren", "Operator")
 #author[Tristan Pieper]
 
-Die einheitlichen Prüfungsanforderungen für das Abitur im Fach Philosophie legen einheitliche #ix("Operatoren", "Operator") für das Fach Philosophie fest.#en[Vgl. @KMK2006_EPAPhil[S. 10 ff]] Die Oepratoren fallen unter bestimmte #ix("Anforderungsbereiche", "Anforderungsbereich") und haben somit zum Ziel die #ix("Problemerfassung"), #ix("-bearbeitung", "Problembearbeitung") oder #ix("-verortung", "Problemverortung"). Es ist möglich, dass ein #ix("Operator") je nach Aufgabenstellung bzw. Bearbeitung der SuS unter mehrere Anforderungsbereiche fallen kann.
+Die einheitlichen Prüfungsanforderungen für das Abitur im Fach Philosophie legen einheitliche #ix("Operatoren", "Operator") für das Fach Philosophie fest.#en[Vgl. @KMK2006_EPAPhil[S. 10 ff]] Die #ix("Operatoren", "Operator") fallen unter bestimmte #ix("Anforderungsbereiche", "Anforderungsbereich") und haben somit zum Ziel die #ix("Problemerfassung"), #ix("-bearbeitung", "Problembearbeitung") oder #ix("-verortung", "Problemverortung"). Es ist möglich, dass ein #ix("Operator") je nach Aufgabenstellung bzw. Bearbeitung der SuS unter mehrere Anforderungsbereiche fallen kann.
 
 // #let ix(..a) = a.pos().first()
 
@@ -14,7 +14,7 @@ Die einheitlichen Prüfungsanforderungen für das Abitur im Fach Philosophie leg
 
     ..range(0, 20).map(e => table.hline(y: e)),
 
-    strong[#ix("Operator")], strong[AFB], strong[Definition], strong[Beispiele],
+    strong[#ix("Operator")], strong[AB], strong[Definition], strong[Beispiele],
 
     [
         Analysieren
@@ -84,9 +84,9 @@ Die einheitlichen Prüfungsanforderungen für das Abitur im Fach Philosophie leg
     ], [
         - einen Zusammenhang strukturiert und sachlich formulieren
     ], [
-        *AFB I:* Stellen Sie #ix([Descartes'], "Descartes, René") Argumentationsstruktur des cogito-Arguments dar!
+        *AB I:* Stellen Sie #ix([Descartes'], "Descartes, René") Argumentationsstruktur des cogito-Arguments dar!
 
-        *AFB II:* Stellen Sie die wesentlichen Aspekte der rationalistischen Auffassung von #ix("Descartes", "Descartes, René") und der empiristischen Auffassung von Locke vergleichend dar!
+        *AB II:* Stellen Sie die wesentlichen Aspekte der rationalistischen Auffassung von #ix("Descartes", "Descartes, René") und der empiristischen Auffassung von Locke vergleichend dar!
     ],
 
     [
@@ -164,9 +164,9 @@ Die einheitlichen Prüfungsanforderungen für das Abitur im Fach Philosophie leg
     ], [
         - einen konzeptionellen Beitrag nach ausgewiesenen Kriterien ausführlich und differenziert erarbeiten
     ], [
-        *AFB II:* Gestalten Sie eine Einleitung für ein philosophisches Essay mit dem Thema "Wie beeinflussen optische Täuschungen unsere Möglichkeit zur sicheren Erkenntnis aus den Sinnen?"
+        *AB II:* Gestalten Sie eine Einleitung für ein philosophisches Essay mit dem Thema "Wie beeinflussen optische Täuschungen unsere Möglichkeit zur sicheren Erkenntnis aus den Sinnen?"
 
-        *AFB III:* Gestalten Sie einen Text für ein Flugblatt zum Thema "Ungewissheit", das sich auf verschiedene philosophische Positionen bezieht und Ihre eigene Position verdeutlicht.
+        *AB III:* Gestalten Sie einen Text für ein Flugblatt zum Thema "Ungewissheit", das sich auf verschiedene philosophische Positionen bezieht und Ihre eigene Position verdeutlicht.
     ],
 
     [
@@ -186,7 +186,7 @@ Die einheitlichen Prüfungsanforderungen für das Abitur im Fach Philosophie leg
     ], [
         - eine explizit persönliche Einschätzung eines Problems oder einer gegebenen Problemstellung differenziert erarbeiten
     ], [
-        Nehmen Sie begründet Stellung zu der #ix([Descartes'], "Descartes, René") These, dass der Satz "Ich bin, ich existiere" immer dann wahr ist, wenn man ihn denkt oder ausspricht.
+        Nehmen Sie begründet Stellung zu #ix([Descartes'], "Descartes, René") These, dass der Satz "Ich bin, ich existiere" immer dann wahr ist, wenn man ihn denkt oder ausspricht.
     ],
 
     [
@@ -196,7 +196,7 @@ Die einheitlichen Prüfungsanforderungen für das Abitur im Fach Philosophie leg
     ], [
         - nach vorgegebenen oder selbst gewählten philosophischen Aspekten Unterschiede, Ähnlichkeiten und Gemeinsamkeiten ermitteln und darstellen
     ], [
-        Vergleichen Sie die Positionen von #ix("Descartes", "Descartes, René") und Lockes in Bezug auf die Verlässlichkeit der Sinne!
+        Vergleichen Sie die Positionen von #ix("Descartes", "Descartes, René") und Locke in Bezug auf die Verlässlichkeit der Sinne!
     ],
 
     [
