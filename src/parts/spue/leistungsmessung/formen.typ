@@ -2,7 +2,7 @@
 
 == Formen der Leistungsmessung
 
-In der SPÜ werden Sie sehr wahrscheinlich Noten in Form von Lernerfolgskontrollen gewinnen müssen. Erinnern Sie sich an den Prinzipien auf S. #refpage(<ephid-bub>) ff.! Formulieren Sie nur Aufgaben, die Sich mit Hilfe der generierten Kompetenzen aus Ihren Unterrichtszielen lösen lassen. Erstellen Sie danach für jede Aufgabe eine Bewertungsmatrix inklusive einer Beispiellösung.
+In der SPÜ werden Sie sehr wahrscheinlich Noten in Form von Lernerfolgskontrollen gewinnen müssen. Erinnern Sie sich an den Prinzipien auf S. #refpage(<ephid-bub>) ff.! Formulieren Sie nur Aufgaben, die sich mit Hilfe der verbesserten Kompetenzen aus Ihren Unterrichtszielen lösen lassen. Erstellen Sie danach für jede Aufgabe eine Bewertungsmatrix inklusive einer Beispiellösung.
 
 Für eine bestimmte Form der Bewertung wird wahrscheinlich der klassische "Test" sehr attraktiv sein. Behalten Sie jedoch im Hinterkopf, dass dies nicht die einzige und auch nicht die beste Prüfungsform sein muss! Die *Lektüre von Peter von Ruthendorf und Donat Schmidt* ist hilfreich, um Bewertungsmatrizen und Hinweise für verschiedene Formen der Leistungsmessung zu erhalten.#en[@SchmidtRuthendorf2017_PhilosophierenMessen] Sie können dabei auch Hilfsmittel zulassen, wie etwa die eigenen Aufzeichnungen, je nach Form der Leistungsmessung.
 

@@ -2,9 +2,18 @@
 
 == #ix("Sequenzplanung")
 
-Eine Sequenzplanung spezifiziert, wie viele Unterrichtseinheiten einer gegebenen Länge sich mit welcher Thematik auseinandergesetzt wird. Es werden Richtziele genannt, die über die geplante Sequenz behandelt werden sollen. Die Thematik der Sequenz sollte -- genauso wie jede Unterrichtsstunde -- angemessen motiviert werden. Eine Sequenz "Gottesbegriffe" könnte etwa wie folgt aussehen:
+Eine Sequenzplanung (auch "Einheitenplanung") spezifiziert, wie viele Unterrichtsstunden einer gegebenen Länge sich mit welcher Thematik auseinandergesetzt wird. Es werden Richtziele genannt, die über die geplante Sequenz behandelt werden sollen. Die Thematik der Sequenz sollte -- genauso wie jede Unterrichtsstunde -- angemessen motiviert werden. Eine Sequenz "Gottesbegriffe" könnte etwa wie folgt aussehen:
 
-#[
+#block(stroke: 1pt + black, inset: 1em)[
+    #text(size: 0.75em)[
+        Universität Rostock, Institut für Philosophie #h(0.5fr) Sequenzplanung \
+        Schulpraktische Übung zum Philosophieren mit Kindern #h(0.5fr) [Namen der Lehrpersonen] \
+        [Dozent*in] #h(0.5fr) [Datum] \
+        [Schule], [Klasse] #h(0.5fr) \
+    ]
+
+    #align(center, text(size: 1.25em, strong[Sequenzplanung]))
+
     #show grid.cell.where(x: 0): align.with(right)
 
     #grid(
@@ -20,11 +29,11 @@ Eine Sequenzplanung spezifiziert, wie viele Unterrichtseinheiten einer gegebenen
             Die SuS setzen sich kritisch mit der Frage nach Gott und verschiedenen Gottesbegriffen auseinander.
         ],
 
-        strong[Anzahl der Unterrichtseinheiten:], [
+        strong[Anzahl der Unterrichtsstunden:], [
             6
         ],
 
-        strong[Dauer einer Unterrichtseinheit:], [
+        strong[Dauer einer Unterrichtsstunde:], [
             45min
         ]
     )
