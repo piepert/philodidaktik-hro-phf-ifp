@@ -32,5 +32,5 @@ Das System, nachdem die #ix("Bewertungen", "Bewertung") im Unterricht standardis
 #task(key: "bub-sachnorm")[#ix("Bewertungsnorm", "Bewertung", "Bewertungsnorm") II][
     Ordnen Sie die Bewertung mittels Bewertungsmatrizen begründet in eine der drei Normen ein!
 ][
-    Die Bewertung mittels Bewertungsmatrizen vergleicht die Leistung der SuS mit vorher festgelegten Kriterien, damit ist die verwendete Norm eine Sachnorm.
+    Die Bewertung mittels Bewertungsmatrizen vergleicht die Leistung der SuS mit vorher festgelegten Kriterien, damit ist die verwendete Norm eine Sachnorm. Es ist keine Individualnorm, da die Entwicklung des Individuums nicht Teil der Bewertung ist und ist keine Sozialnorm, da das Individuum nicht mit dem bestehenden Querschnitt verglichen wird.
 ]
