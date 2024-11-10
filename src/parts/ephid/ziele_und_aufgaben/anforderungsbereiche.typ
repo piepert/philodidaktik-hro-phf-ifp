@@ -1,24 +1,20 @@
 #import "/src/template.typ": *
 
 == #ix("Anforderungsbereiche", "Anforderungsbereich")
-Die Anforderungsbereiche sind durch die EPA festgelegt und erklären, in welchen Dimensionen die Aufgaben des Philosophieunterrichts stattfinden sollen:#en[@KMK2006_EPAPhil]
+Die Anforderungsbreiche sind laut #ix("EPA") von den Dimensionen der #ix("philosophischen Problemreflexion")unterschieden, alle Anforderungsbereiche können in jeder Dimension der philosophischen Problemreflexion relevant werden.#en[Vgl. @KMK2006_EPAPhil[S. 9]]
 
-#orange-list-with-body[*Anforderungsbereich I -- Problemerfassung*][
-    Das philosophische Problem wird erkannt und die Schwerpunkte für die folgende Bearbeitung charakterisiert. Das Problem wird begrifflich bestimmt und systematisch eingeordnet und abgegrenzt. Liegt ein präsentatives Material vor, ist eine Interpretation des Materials vorzunehmen und das philosophische Problem diskursiv zu formulieren. Die Form der Präsentation ist -- sofern die SuS freie Entscheidung hatten -- zu begründen.
+#table(columns: (33.33%, 33.33%, 33.33%),
+    stroke: none,
 
-][*Anforderungsbereich II -- Problembearbeitung*][
-    Die philosophischen Argumente und der Argumentationsgang werden untersucht und reflektiert. Die Form der Argumentation oder Präsentation sind mit einzubeziehen. Wird die Aufgabe präsentativ bearbeitet, muss sich das Produkt plausibel und transparent auf die philosophische Idee beziehen. Das präsentative Produkt kann um Kommentare erweitert werden.
+    strong[#ix("Anforderungsbereich") I],
+    strong[#ix("Anforderungsbereich") II],
+    strong[#ix("Anforderungsbereich") III],
 
-][*Anforderungsbereich III -- Problemverortung*][
-    Es erfolgt eine Positionierung der SuS, in der der Problemkontext auf den eigenen Standpunkt bezogen wird. Dazu kommen additiv#en[additiv: Wenn A, B, und C additiv auftreten, treten sie alle zusammen auf.] oder alternativ#en[alternativ: Wenn A, B, und C alternativ auftreten, tritt mindestens eins von ihnen auf.]:
+    [Inhalte, Methoden und Gedanken des Materials, des Unterrichts und bereits besprochenem werden reproduziert und für die Problemreflexion genutzt.],
 
-    - eine Beurteilung des Problems
-    - eine resümierende Stellungnahme
-    - eine Neubestimmung des Problems
-    - Perspektiven zur weiteren Bearbeitung
-    - eine Modifikation erörterter Positionen
-    - die Reflexion des präsentativen Bearbeitungsprozesses
-    - ...
-]
+    [Entweder wird für die Problemreflexion unbekanntes Material mit erlernten Prozessen aus dem Unterricht verknüpft oder es wird sich mit bekanntem Material unter einer vorher nicht im Unterricht behandelten Fragestellung auseinandergesetzt.],
 
-Der dritte Anforderungsbereich kann die anderen beiden beinhalten.
+    [Inhaltlich und methodisch muss das philosophische Problem selbständig reflektiert werden.]
+)
+
+Eine Prüfungsaufgabe besteht nach den #ix("EPA") aus allen Anforderungsbereichen, wobei der Anforderungsbereich II mit 40% am höchsten gewichtet werden soll, jedoch auch die anderen beiden Anforderungsbereiche I und III mit je 30% berücksichtigt werden.#en[Vgl. @KMK2006_EPAPhil[S. 9]]
