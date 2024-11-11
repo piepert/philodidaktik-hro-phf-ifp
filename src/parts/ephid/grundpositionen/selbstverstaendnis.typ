@@ -1,6 +1,6 @@
 #import "/src/template.typ": *
 
-== #ix("Selbstverständnis der Philosophie")
+== #ix("Selbstverständnis der Philosophie") <ephid-selbstverständnis-der-philosophie>
 
 #orange-list-with-body()[#ix(strong[esoterisches Selbstverständnis], "Selbstverständnis, esoterisch") #h(1fr) #ix("Heraklit"), #ix("Nietzsche", "Nietzsche, Friedrich W.")][
     Das #ix("esoterische Selbstverständnis", "Selbstverständnis, esoterisch") der Philosophie versteht sie als von dem Alltag getrennt, die Lebenswelt ist eine sinnlose oder sogar schädliche Ablenkung. Das gemeine Volk aus Nicht-Philosophen wird abgewertet und der Philosoph bleibt für sich allein. Diese Art der Philosophie richtet sich nur an Gleichgesinnte und Fachleute. Die Philosophie ist ein einsames Projekt der Selbsterkenntnis.

@@ -4,6 +4,7 @@
 #let color-brown = rgb("#775F55")
 
 #let refpage(label) = link(label, context counter(page).at(label).first())
+#let refheading(label) = link(label, context query(label).first().body)
 
 #let index(name, content: none) = {
     let s = state("indices", (:))

@@ -1,6 +1,6 @@
 #import "/src/template.typ": *
 
-== Grundfragen der Philosophiedidaktik
+== Grundfragen der Philosophiedidaktik <ephid-grundfragen-der-philosophiedidaktik>
 
 #orange-list-with-body(parred: false)[*#ix("Legitimationsfrage"):*][
     (Wie) ist der Philosophieunterricht zu rechtfertigen? Warum sollte man philosophieren dürfen oder sogar müssen?

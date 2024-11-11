@@ -1,6 +1,6 @@
 #import "/src/template.typ": *
 
-== #ix("Anforderungsbereiche", "Anforderungsbereich")
+== #ix("Anforderungsbereiche", "Anforderungsbereich") <ephid-anforderungsbereiche>
 Die Anforderungsbreiche sind laut #ix("EPA") von den Dimensionen der #ix("philosophischen Problemreflexion")unterschieden, alle Anforderungsbereiche können in jeder Dimension der philosophischen Problemreflexion relevant werden.#en[Vgl. @KMK2006_EPAPhil[S. 9]]
 
 #table(columns: (33.33%, 33.33%, 33.33%),

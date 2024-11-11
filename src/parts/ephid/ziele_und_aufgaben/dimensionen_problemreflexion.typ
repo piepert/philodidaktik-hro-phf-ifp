@@ -1,6 +1,6 @@
 #import "/src/template.typ": *
 
-== #ix("Dimensionen der philosophischen Problemreflexion")
+== #ix("Dimensionen der philosophischen Problemreflexion") <ephid-dimensionen-problemreflexion>
 Philosophieren ist ein Reflexionsprozess. Zur Grundlegung mit der Auseinandersetzung bei der philosophischen Reflexion über ein vorliegendes Material werden in den #ix("EPA") die folgenden Dimensionen der Problemreflexion unterschieden:#en[Vgl. @KMK2006_EPAPhil[S. 7 f]]
 
 #orange-list-with-body[*Problemerfassung*][

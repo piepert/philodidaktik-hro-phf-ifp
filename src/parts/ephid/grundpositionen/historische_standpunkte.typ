@@ -1,6 +1,6 @@
 #import "/src/template.typ": *
 
-== Historische Standpunkte zur Philosophiedidaktik
+== Historische Standpunkte zur Philosophiedidaktik <ephid-historische-standpunkte>
 
 // Es folgen einige historische Grundpositionen, die jeweils zwei Dinge derjenigen Vertreter charakterisieren sollen: zuerst den Philosphiebegriff und darauf folgend eine didaktische Grundhaltung. Die didaktische Grundhaltung kann ein thematischer und/oder methodischer Schwerpunkt sein.
 // Von der Antike bis zur Moderne sind die folgenden Philosophie- und Philosophiedidaktikbegriffe vertreten:#en[Vgl. @Runtenberg2016_EPhiD[S. 18 ff]]
