@@ -3,7 +3,7 @@
 = #ix("Operatoren", "Operator")
 #author[Tristan Pieper]
 
-Die einheitlichen Prüfungsanforderungen für das Abitur im Fach Philosophie legen einheitliche #ix("Operatoren", "Operator") für das Fach Philosophie fest.#en[Vgl. @KMK2006_EPAPhil[S. 10 ff]] Die #ix("Operatoren", "Operator") fallen unter bestimmte #ix("Anforderungsbereiche", "Anforderungsbereich") und haben somit zum Ziel die #ix("Problemerfassung"), #ix("-bearbeitung", "Problembearbeitung") oder #ix("-verortung", "Problemverortung"). Es ist möglich, dass ein #ix("Operator") je nach Aufgabenstellung bzw. Bearbeitung der SuS unter mehrere Anforderungsbereiche fallen kann.
+Die einheitlichen Prüfungsanforderungen für das Abitur im Fach Philosophie legen einheitliche #ix("Operatoren", "Operator") für das Fach Philosophie fest.#en[Vgl. @KMK2006_EPAPhil[S. 10 ff]] Die #ix("Operatoren", "Operator") fallen unter bestimmte #ix("Anforderungsbereiche", "Anforderungsbereich") und haben zum Ziel die #ix("Problemerfassung"), #ix("-bearbeitung", "Problembearbeitung") oder #ix("-verortung", "Problemverortung"). Es ist möglich, dass ein #ix("Operator") je nach Aufgabenstellung bzw. Bearbeitung der SuS unter mehrere Anforderungsbereiche fallen kann.
 
 // #let ix(..a) = a.pos().first()
 
