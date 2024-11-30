@@ -1,14 +1,32 @@
 #import "@preview/cetz:0.2.2"
 #import "/src/template.typ": *
 
-== #ix("Zielformulierung", "Ziel", "Zielformulierung") und #ix("Aufgabenstellungen", "Aufgabenstellung")
+== #ix("Zielformulierung", "Ziel", "Zielformulierung") und #ix("Aufgabenstellungen", "Aufgabenstellung") <ephid-ziele-aufgabenstellungen>
 
-Jeder #ix("Unterrichtsplanung") geht eine #ix("Zielformulierung") voraus. Erst Ziele ermöglichen es nach der Unterrichtsstunde zu beurteilen, ob der Unterricht erfolgreich war, und machen es möglich, den Unterricht #ix("auszuwerten", "Unterrichtsauswertung"). Bei der #ix("Zielsetzung") für den Unterricht wird zwischen *#ix("Grob-", "Grobziel")* und *#ix("Feinzielen", "Feinziel")* unterschieden. In der #ix("Unterrichtsplanung") beschreiben *#ix("Grobziele", "Grobziel")* das Ziel einer gesamten Unterrichtsstunde und *#ix("Feinziele", "Feinziel")* die einzelnen Absichten, die mit den Aufgabenstellungen im Unterricht erreicht werden sollen.
+Jeder #ix("Unterrichtsplanung") geht eine #ix("Zielformulierung") voraus, denn "Lernziele [bezeichnen] die gewünschte inhaltlich-unterrichtliche Ausrichtung"#en[@Lehner2019_Didaktik[S. 104]]. Erst Ziele ermöglichen es nach der Unterrichtsstunde zu beurteilen, ob der Unterricht erfolgreich war, und machen es möglich, den Unterricht #ix("", "Unterrichtsauswertung")auszuwerten. Bei der #ix("Zielsetzung") für den Unterricht wird zwischen *#ix("Richt-", "Richtziel")*, *#ix("Grob-", "Grobziel")* und *#ix("Feinzielen", "Feinziel")* unterschieden. In der #ix("Unterrichtsplanung") beschreiben *#ix("Richtziele", "Richtziel")* das allgemeine Ziel einer gesamten Unterrichtseinheit, *#ix("Grobziele", "Grobziel")* das Ziel einer gesamten Unterrichtsstunde und *#ix("Feinziele", "Feinziel")* die einzelnen Absichten, die mit den Aufgabenstellungen im Unterricht erreicht werden sollen.#en[Vgl. @Lehner2019_Didaktik[S. 105 f]]
 
-Feinziele werden formuliert mit der folgenden Formel:
+#orange-list-with-body[Richtziele][
+    Richtziele müssen nicht operationalisiert sein, d.h. sie müsse nicht mit Hilfe von #ix("", "Operator")EPA-Operatoren formuliert werden. Sie stützen sich direkt auf den Rahmenplan#en[Vgl. @Lehner2019_Didaktik[S. 105]] und beschreiben allgemeine Fähigkeiten und Fertigkeiten, die erreicht werden sollen. Richtziele beziehen sich auf eine gesamte Unterrichtseinheit bzw. Sequenz. Beispiele können sein:
+    - Die SuS sind in der Lage, eine philosophische Geisteshaltung in verschiedenen philosophischen Formen einzunehmen, die Philosophie zu charakterisieren und ihre Verknüpftheit aufzuzeigen.#en[Vgl. @MBWKMV2019_RP1112[S. 10 f]]
+    - Die SuS setzen sich kritisch mit der Frage nach Gott und verschiedenen Gottesbegriffen auseinander.#en[Vgl. @MBWKMV2002_RP710[S. 31 f]]
+    - Die SuS sind in der Lage, verschiedene Begriffe von Wissen und Verfahren der Wissensaneignung zu beschreiben und setzen sich dialektisch mit den Thesen des Rationalismus, Empirismus und Kritizismus des zur menschichen Erkenntnis auseinander.#en[Vgl. @MBWKMV2019_RP1112[S. 12]]
 
-#align(center)[
-    "SuS" + *Ausbildung einer Kompetenz* + "durch"/"indem" + *#ix("EPA-Operator", "Operator")*
+][Grobziele][
+    Grobziele können *operationalisiert* sein, sie sind jedoch nicht kompetenzorientiert. Die Ausbildung einzelner Kompetenzen wird erst in den Feinzielen beschrieben. Grobziele beschreiben das Ziel einer gesamten Unterrichtsstunde. Z.B.:
+    - Die SuS setzen sich kritisch mit den drei Stufen Descartes' methodischen Zweifels auseinander.
+    - Die SuS lernen Gottesbeweise als Möglichkeit zu empirischen Beweisformen kennen, besonders anhand des Inhaltes des kosmologischen Gottesbeweises.
+
+][Feinziele][
+    Feinziele sind *operationalisiert* und *kompetenzorientiert*. Sie geben konkrete und nachprüfbare Ergebnissetzungen für den Unterricht an. Daher werden Feinziele mit der folgenden Formel formuliert:
+
+    #align(center)[
+        "SuS" + *Ausbildung einer Kompetenz* + "durch"/"indem" + *#ix("EPA-Operator", "Operator")*
+    ]
+
+    Beispiele könnten sein:
+    - Die SuS verbessern ihre Methodenkompetenz, indem Sie zu Descartes' erster Meditation ein Exzerpt mit einer geeigneten Leitfrage gestalten.
+    - Die SuS verbessern ihre Sachkompetenz, indem Sie Descartes' drei Stufen des methodischen Zweifels in eigenen Worten wiedergeben.
+
 ]
 
 Zur Planung einer #ix("zielorientierten", "Zielorientierung") Stunde wird das folgende Muster durchlaufen:
