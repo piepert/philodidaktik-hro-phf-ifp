@@ -94,9 +94,7 @@ Eine Sequenzplanung (auch "Einheitenplanung") spezifiziert, wie viele Unterricht
         ], [
             Einführung: Gottesbegriffe
         ], [
-            vorher Test,\
-            restl. Zeit: etwa 20 min.
-
+            Stunde hat nur 20 min.,
             Mindmap zu "Gott"
         ],
 
@@ -155,3 +153,5 @@ Eine Sequenzplanung (auch "Einheitenplanung") spezifiziert, wie viele Unterricht
         ],
     )
 ]
+
+Standardmäßig wird in der Spalte "Thema" das Stundenthema genannt, in "Bemerkung" die dazugehörige philosophische Leitfrage, die bearbeitet werden soll, wie auch konkrete Hinweise für die Stunde. In diesem Beispiel wurde beides vereint: Das Thema ist eine philosophische Leitfrage, in den Bemerkungen wurden hier nur organisatorische Umstände aufgezählt.
