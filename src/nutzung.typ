@@ -40,8 +40,10 @@ Die Zusatzelemente des KÜKs bieten weitere Informationen und Belege. Außerdem 
 
 Der KÜK ist nicht abgeschlossen. Auch für die bisher erarbeiteten Inhalte gibt es noch zu ergänzende Themengebiete. Hauptsächlich handelt es sich dabei um fehlende Lösungsvorschläge zu Aufgabenbeispielen. Um Stellen zu markieren, die ergänzt werden müssen, werden fettgedruckte, rote, hochgestellte, eingeklammerte römische Zahlen verwendet. Sie funktionieren sonst wie Anmerkungen, mit einem eigenen Verzeichnis am Ende des KÜKs.
 
+Einen Link zur jeweils neusten Version des KÜKs erhalten Sie auf der folgenden Seite.
+
 == Versionierung
 
 Da der KÜK kein abgeschlossenes Werk ist und auch weiterhin daran gearbeitet werden soll, muss sichergestellt werden, dass die unterschiedlichen Versionen des KÜK gut erkannt und die neuste Version leicht auffindbar ist. Die Version ist auf dem Deckblat notiert und setzt sich aus dem Veröffentlichungsjahr und -monat zusammen. Dieses Dokument ist die *Version #(str(datetime.today().year())+"-"+if datetime.today().month() < 9 { "0" } else { "" } +str(datetime.today().month()))*.
 
-Die aktuellste Version dieses Dokuments finden Sie immer hier: #strong(link("https://piepert.github.io/philodidaktik-hro-phf-ifp/KÜK.pdf")). Eine archivierte Version dieser Datei finden Sie unter #strong(link("https://piepert.github.io/philodidaktik-hro-phf-ifp/KÜK-"+str(datetime.today().year())+"-"+if datetime.today().month() < 9 { "0" } else { "" } +str(datetime.today().month())+".pdf")).
+Die aktuellste Version dieses Dokuments finden Sie immer hier: #strong(link("https://piepert.github.io/philodidaktik-hro-phf-ifp/KÜK.pdf")). Eine archivierte Version der vorliegenden Datei finden Sie unter #strong(link("https://piepert.github.io/philodidaktik-hro-phf-ifp/KÜK-"+str(datetime.today().year())+"-"+if datetime.today().month() < 9 { "0" } else { "" } +str(datetime.today().month())+".pdf")).
