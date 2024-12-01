@@ -70,6 +70,7 @@ Da der KÜK noch in Arbeit ist, werden hier die Änderungen jeder Version transp
 // Sonstiges:
 
 *Bekannte Fehler:*
+
     - falsche Seitennummerierung ab Index, Lösung hat hohe Priorität, jedoch bisher grundlegend keine Idee für eine Lösung vorhanden
 
 == Version 2024-04
