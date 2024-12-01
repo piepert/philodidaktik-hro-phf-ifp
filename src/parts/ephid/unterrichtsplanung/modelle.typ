@@ -32,7 +32,7 @@ Es folgen einige standardmäßige Modelle für den Aufbau einer Unterrichtsstund
 
 ][*#ix("Bonbon-Modell"):* #h(1fr) #ix("Sistermann", "Sistermann, Rolf")][
     #grid(columns: (1fr, 10%), column-gutter: 1em, [
-            Das #ix("Bonbon-Modell") nach #ix("Sistermann", "Sistermann, Rolf") ist ein Kernmodell für den #ix("problemorientierten", "Problemorientierung") Philosophieunterricht. Es unterscheidet sechs Phasen, die besonders das Interesse und die Probleme der SuS in den Vordergrund stellen und diese dazu anleiten, selbständig Lösungen zu finden, jedoch auch bekannte Positionen mit einbeziehen können. Die sechs Phasen sehen wie folgt aus:#todo[Zitation für Sistermann fehlt, bisher nur unseriöse Quellen/graue Literatur vorhanden.]
+            Das #ix("Bonbon-Modell") nach #ix("Sistermann", "Sistermann, Rolf") ist ein Kernmodell für den #ix("problemorientierten", "Problemorientierung") Philosophieunterricht. Es unterscheidet sechs Phasen, die besonders das Interesse und die Probleme der SuS in den Vordergrund stellen und diese dazu anleiten, selbständig Lösungen zu finden, jedoch auch bekannte Positionen mit einbeziehen können. Die sechs Phasen sehen wie folgt aus:#ens[Vgl. @Sistermann2005_KommunismusOderSozialeGerechtigkeit[S. 26]][Vgl. @Sistermann2008_UnterrichtenNachDemBonbonModell[S. 302 ff]]
 
             1. *Hinführung:* Das Interesse der SuS wird als Grundlegung für folgende Phasen aktiviert, ein geeignetes philosophisches Problem wird herausgestellt.
 
