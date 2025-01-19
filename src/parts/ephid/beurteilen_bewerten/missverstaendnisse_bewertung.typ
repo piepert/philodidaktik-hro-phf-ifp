@@ -2,7 +2,7 @@
 
 == Missverständnisse der Leistungsbewertung <ephid-missverständisse-der-leistungsbewertung>
 
-Bewertungen im Phosophieunterricht werden verschiedene Sachen unterstellt. "#ix("Bewertung")" und "#ix("Beurteilung")" werden verwechselt, Philosophie wird als "unbewertbar" bezeichnet, bestimmte Beurteilungsformen werden abgelehnt. Auf einige dieser Unterstellungen kann wie folgt geantwortet werden:
+Bewertungen im Philosophieunterricht werden verschiedene Sachen unterstellt. "#ix("Bewertung")" und "#ix("Beurteilung")" werden verwechselt, Philosophie wird als "unbewertbar" bezeichnet, bestimmte Beurteilungsformen werden abgelehnt. Auf einige dieser Unterstellungen kann wie folgt geantwortet werden:
 
 #orange-list-with-body[*Noten sind keine Beurteilung:*#en[Vgl. @Klager2021_Bewertung[S. 4]]][
     #set text(fill: black)

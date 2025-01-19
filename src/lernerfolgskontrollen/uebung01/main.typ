@@ -30,7 +30,7 @@
 ])
 
 #task(6, [
-    Erläutern Sie an je einem eigenen Beispielen, welche Gründe Descartes für eine Ablehnung der Erkenntnis aus der Sinneswahrnehmung hervorbringt und welche dagegen sprechen können!
+    Erläutern Sie an je einem eigenen Beispielen welche Gründe Descartes für eine Ablehnung der Erkenntnis aus der Sinneswahrnehmung hervorbringt und welche dagegen sprechen können!
 ])
 
 #task(5, [
@@ -77,7 +77,7 @@
     ],
     [\_\_ / 1],
     [
-        Grund degegen wird genannt:
+        Grund dagegen wird genannt:
         - Sinneswahrnehmungen finden aber statt und können nicht einfach ignoriert werden, Zweifel sollte berechtigt sein
         - evtl. eigene, da nicht genau in Aufgabenstellung beschrieben
     ],

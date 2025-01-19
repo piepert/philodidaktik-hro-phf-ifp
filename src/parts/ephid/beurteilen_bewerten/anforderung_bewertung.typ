@@ -16,7 +16,7 @@ In der Didaktik des Philosophieunterrichts werden drei Anforderungen an Leistung
     [
         Ein valider Test erfasst tatsächlich das, was auch geprüft werden soll.
 
-        Fachdidaktisch gilt der Vorsatz, dass nur nur #ix("Kompetenzen", "Kompetenz") geprüft werden sollen, deren Ausbildung vorher Teil des Unterrichtsprozesses war. Dinge, die nicht zum Fachunterricht gehören, sollen nicht Teil von Prüfungen des Faches sein.
+        Fachdidaktisch gilt der Vorsatz, dass nur #ix("Kompetenzen", "Kompetenz") geprüft werden sollen, deren Ausbildung vorher Teil des Unterrichtsprozesses war. Dinge, die nicht zum Fachunterricht gehören, sollen nicht Teil von Prüfungen des Faches sein.
     ], [
         Die Reliabilität bezeichnet, wie sicher und frei von Messfehlern ein Ergebnis ist. Reliabilität kann etwa auf Folgendes Bezug nehmen:
 
