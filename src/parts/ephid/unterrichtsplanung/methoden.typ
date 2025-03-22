@@ -199,7 +199,7 @@ Es folgen einige Beispiele für Methoden des Philosophieunterrichts.
 #task[Märchen und Fabeln][
     Notieren Sie Chancen und Grenzen des Philosophierens mit Märchen und Fabeln.
 ][
-    Märchen können als Motivation für den Einstieg in den Unterricht benutzt werden. Bei der Auseinadersetzung können sie als Auflockerung oder Veranschaulichung eines philosophischen Problems verwendet werden. Zum Abschluss eines Themas können Märchen benutzt werden, um auf eine kreative Art und Weise im Philosophieren zu üben. Unabhängig vom Zeitpunkt können sie als selbständige Texte mit Sichten auf spezielle philosophische Probleme benutzt werden.
+    Märchen können als Motivation für den Einstieg in den Unterricht benutzt werden. Bei der Auseinandersetzung können sie als Auflockerung oder Veranschaulichung eines philosophischen Problems verwendet werden. Zum Abschluss eines Themas können Märchen benutzt werden, um auf eine kreative Art und Weise im Philosophieren zu üben. Unabhängig vom Zeitpunkt können sie als selbständige Texte mit Sichten auf spezielle philosophische Probleme benutzt werden.
 
     Es ist jedoch nicht zu vergessen, dass Märchen irrationale Geschichten sind und unrealistische Hoffnungen vermitteln können. Außerdem können Märchen grausam sein, was der Zielgruppe entsprechend berücksichtigt werden sollte.
 ]
