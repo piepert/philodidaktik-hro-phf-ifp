@@ -6,123 +6,82 @@
 #let refpage(label) = link(label, context counter(page).at(label).first())
 #let refheading(label) = link(label, context query(label).first().body)
 
-#let index(name, content: none) = {
-    let s = state("indices", (:))
-
-    if name == none {
-        name = repr(lower(content))
-    }
-
-    if content == none {
-        content = name
-    }
-
-    context {
-        let num = s.at(here()).at(name, default: (
-            origins: (),
-            content: none)).origins.len()
-        let origin = label("index-"+name+"-" + str(num))
-
-        [#box[]#origin]
-    }
-
-    s.update(k => {
-        let num = k.at(name, default: (
-            origins: (), content: none)).origins.len()
-        let origin = label("index-" +
-            name + "-" +
-            str(num))
-
-        if name in k {
-            k.at(name).content.push(content)
-            k.at(name).origins.push(origin)
-
-        } else {
-            k.insert(name, (
-                content: (content,),
-                origins: (origin,)
-            ))
-        }
-
-        k
-    })
-}
-
-#let make-index(title: none) = context {
-    let s = state("indices", (:))
-    let last-first = none
-
-    for item in s.final()
-        .keys()
-        .map(e => (e, lower(e.replace("Ü", "u")
-            .replace("Ä", "a")
-            .replace("Ö", "o")
-            .replace("ü", "u")
-            .replace("ö", "o")
-            .replace("ä", "a"))))
-        .sorted(key: e => e.at(1)) {
-
-        let original = item.at(0)
-        let small = item.at(1)
-
-        if last-first != small.first() {
-            last-first = small.first()
-            heading(level: 2, upper(last-first))
-        }
-
-        let i = 1
-        let e = s.final().at(original)
-        let label-page-list = e.origins.map(e => (e, query(e).first().location().page()))
-        let pages = label-page-list
-            .map(o => o.last())
-            .dedup()
-            .map(p => label-page-list.filter(i => i.last() == p).first())
-
-        let page_numbers = []
-
-        for p in pages {
-            page_numbers += [#link(p.first(), str(p.last()))]
-
-            if i < pages.len() {
-                page_numbers += [, ]
-            }
-
-            if calc.rem(i, 3) == 0 {
-                page_numbers += [\ ]
-            }
-
-            i += 1
-        }
-
-        block(stroke: (bottom: 1pt + color-blue),
-            inset: (bottom: 0.5em),
-            grid(columns: (1fr, auto),
-                column-gutter: 0.5em,
-            )[
-                #set text(hyphenate: true)
-                #e.content.dedup().first()
-            ][
-                #show: align.with(right)
-                #set text(size: 1em)
-                #page_numbers
-            ]
-        )
-    }
-}
+#let index(name) = [#metadata((entry: name))<index>]
 
 // todo: only first reference works
 #let ix(b, ..args) = b + if args.pos().len() == 0 {
-    if type(b) != "string" {
-        panic("expected string, found "+type(b)+".")
+    if type(b) != str {
+        panic("expected string, found "+str(type(b))+".")
     }
 
     index(b)
 } else {
-    args.pos().map(e => if type(e) != "string" {
-        panic("expected string, found "+type(e)+".")
+    args.pos().map(e => if type(e) != str {
+        panic("expected string, found "+str(type(e))+".")
     } else {
         index(e)
     }).join([])
+}
+
+#let make-index(title: none) = context {
+    let s = query(<index>)
+    let last-first = none
+    let last-word = none
+
+    let pages = ()
+    let pages-values = ()
+    let entry
+
+    for item in s.map(e => (e, lower(e.value.entry.replace("Ü", "ue")
+            .replace("Ä", "ae")
+            .replace("Ö", "oe")
+            .replace("ü", "ue")
+            .replace("ö", "oe")
+            .replace("ä", "ae")
+            .replace("ß", "ss"))))
+        .sorted(key: e => e.at(1)) {
+
+        let item = item.at(0)
+        let loc = item.location()
+        let pv = counter(page).at(loc).first() // page value
+
+        entry = item.value.entry
+
+        if last-word != none and last-word != entry {
+            [
+                #set par(spacing: 0.5em)
+                #block(sticky: true, last-word)
+
+                #set text(size: 0.75em, fill: color-brown)
+                #block(grid(columns: (auto, 1fr), column-gutter: 0.5em)[#h(1.5em) --- ][S. #pages.join[, ]])
+            ]
+
+            pages-values = (pv, )
+            pages = (link(loc.position(), [#pv]), )
+            last-word = entry
+
+        } else {
+            if pv not in pages-values {
+                pages-values.push(pv)
+                pages.push(link(loc.position(), [#pv]))
+            }
+
+            last-word = entry
+        }
+
+        if last-first != lower(entry.first()) {
+            last-first = lower(entry.first())
+            heading(level: 2, last-first)
+        }
+    }
+
+    [
+        #set par(spacing: 0.5em)
+        #block(sticky: true, last-word)
+
+        #set text(size: 0.75em, fill: color-brown)
+        #block(grid(columns: (auto, 1fr), column-gutter: 0.5em)[#h(1.5em) --- ][S. #pages.join[, ]])
+    ]
 }
 
 #let note-note(state-key,
