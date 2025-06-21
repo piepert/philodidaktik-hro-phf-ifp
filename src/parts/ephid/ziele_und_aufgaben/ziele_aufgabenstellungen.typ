@@ -1,4 +1,4 @@
-#import "@preview/cetz:0.2.2"
+#import "@preview/cetz:0.3.4"
 #import "/src/template.typ": *
 
 == #ix("Zielformulierung", "Ziel", "Zielformulierung") und #ix("Aufgabenstellungen", "Aufgabenstellung") <ephid-ziele-aufgabenstellungen>
@@ -31,21 +31,13 @@ Jeder #ix("Unterrichtsplanung") geht eine #ix("Zielformulierung") voraus, denn "
 
 Zur Planung einer #ix("zielorientierten", "Zielorientierung") Stunde wird das folgende Muster durchlaufen:
 
-#align(center, cetz.canvas({
+#figure(block(height: 2.3cm, cetz.canvas({
     import cetz.draw: *
-
-    content((0, 0))[
-        + Erfassung des *Ist-Standes*
-        + Festlegung eines *Soll-Standes*, durch eine *Zielsetzung*
-        + *Maßnahmenplanung* zur Erreichung des Soll-Standes
-        + *Durchführung* der Maßnahmen
-        + *Kontrolle* der Zielerrichung
-    ]
 
     let x1 = 1
     let x2 = 6
-    let y1 = -1.05
-    let y2 = 1
+    let y1 = -0.85
+    let y2 = 1.2
 
     let p = (x1, y1)
     let q = (x2, y1)
@@ -55,7 +47,16 @@ Zur Planung einer #ix("zielorientierten", "Zielorientierung") Stunde wird das fo
     line(p, q)
     line(q, r)
     line(r, s, mark: (end: ">"))
-}))
+
+    content((0, 0), block[
+        + Erfassung des *Ist-Standes*
+        + Festlegung eines *Soll-Standes*, durch eine *Zielsetzung*
+        + *Maßnahmenplanung* zur Erreichung des Soll-Standes
+        + *Durchführung* der Maßnahmen
+        + *Kontrolle* der Zielerrichung
+    ])
+
+})))
 
 Es gibt einen Zusammenhang zwischen #ix("Feinzielen", "Feinziel") und Aufgabenstellungen: Zu jeder Aufgabenstellung muss es im Unterichtsentwurf auch ein #ix("Feinziel", "Feinziel") geben. Die dazugehörige Aufgabenstellung muss den #ix("EPA-Operator", "Operator") des #ix("Feinziels", "Feinziel") übernehmen, wie etwa hier für den Philosophieunterricht einer 10. Klasse:
 

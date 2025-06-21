@@ -35,25 +35,22 @@
     ]
 
     line(length: 100%)
-    par[
+    [
         *Klasse:* #class,
         *Zeit:* #time,
         *Datum:* #the-date
-    ]
 
-    par[
         *Thema der Unterrichtsreihe:* #title-series \
         *Thema der Unterrichtsstunde:* #title-lesson
 
         *Begründung der Themenwahl:* #justification
-    ]
 
-    par[
         *Grobziel:* #main-objective \
         *Feinziele:* #list(..fine-objectives)
+
+        #schedule-context
     ]
 
-    par(schedule-context)
     line(length: 100%)
 
     table(columns: (auto, auto, auto, 6cm, auto, auto),
