@@ -87,9 +87,9 @@
 #let note-note(state-key,
     key,
     number-format: numbering.with("1"),
-    wrap-note: k => super(text(fill: color-brown, k))) = context {
+    wrap-note: k => super(text(fill: color-brown, k))) = counter(state-key).step() + context {
 
-    let counter-val = state(state-key, ()).at(here()).len() + 1
+    let counter-val = state(state-key, ()).at(here()).len()
 
     let origin = label(if key != none {
         key+"-ORIGIN"
@@ -103,33 +103,10 @@
         state-key + "-TARGET-" + str(counter-val)
     })
 
-    [#link(target, wrap-note(number-format(counter(state-key).at(here()).first() + 1)))#origin]
+    [#link(target, wrap-note(number-format(counter(state-key).at(here()).first())))#origin]
 }
 
-#let note-content(state-key, body, key: none) = {
-    state(state-key, ()).update(k => {
-        let counter-val = k.len() + 1
-
-        k.push((
-            content: body,
-            counter: counter-val,
-
-            target: if key != none {
-                label(key+"-TARGET")
-            } else {
-                label(state-key + "-TARGET-" + str(counter-val))
-            },
-
-            origin: if key != none {
-                label(key+"-ORIGIN")
-            } else {
-                label(state-key + "-ORIGIN-" + str(counter-val))
-            },
-        ))
-
-        k
-    })
-}
+#let note-content(state-key, body, key: none) = [#metadata((content: body, key: key))#label(state-key)]
 
 #let add-note(key: none,
     number-format: numbering.with("1"),
@@ -139,7 +116,6 @@
 
     note-note(state-key, key, wrap-note: wrap-note, number-format: number-format)
     note-content(state-key, body, key: key)
-    counter(state-key).step()
 }
 
 #let make-notes(state-key,
@@ -150,10 +126,6 @@
     wrap-note: k => super(text(fill: color-brown, k)),
     wrap-content: k => k) = context {
 
-    // generierung in zwei schritten:
-    // 1. alle mit origin, dadurch werden die neuen origins der endnoten in endnoten generiert
-    // 2. danach alle ohne origin
-
     if title != none {
         heading(title)
     }
@@ -162,35 +134,35 @@
     set par(justify: true)
 
     let i = 1
-    for item in state(state-key, ()).final() {
+    for item in query(label(state-key)) {
         counter(state-key).update(i)
         wrap-all(block({
-            link(item.origin, wrap-note(number-format(i)))
-            wrap-content[#item.content#item.target]
+            box(link(item.location(), wrap-note(number-format(i))))
+            wrap-content[#item.value.content#if item.value.key != none {
+                label(item.value.key+"-TARGET")
+            } else {
+                label(state-key + "-TARGET-" + str(counter(state-key).at(item.location()).first() - 1))
+            }]
         }))
 
         i += 1
     }
 }
 
-#let en-note(key) = note-note("endnotes", key) + counter("endnotes").step()
+#let en-note(key) = note-note("endnotes", key)
 
-#let en-content(key, body) = note-content("endnotes", body, key: key) + counter("endnotes").step()
+#let en-content(key, body) = note-content("endnotes", body, key: key)
 
 #let en(key: none, body) = add-note(key: key, "endnotes", body)
 
 #let ens(..args) = args.pos().map(e => en(e)).join(super[,])
 
 #let enref(key) = context {
-    let index = 1
-
-    for item in state("endnotes", ()).final() {
-        if item.key == key {
-            return en(item.content)
+    for item in query(label("endnotes")) {
+        if item.value.key == key {
+            return en(item.value.content)
             // return [#link(key, super[#key])]
         }
-
-        index += 1
     }
 
     panic("key '"+key+"' not found!")
@@ -229,18 +201,14 @@
         [: ] + title + pad(left: 1.5em, answer))
 
     set par(justify: true)
-    par(question)
+    question
 }
 
 #let taskref(key) = context {
-    let index = 1
-
-    for item in state("tasks", ()).final() {
-        if item.target == label(key+"-TARGET") {
-            return link(item.origin, [Aufgabe #numbering("1", item.counter)])
+    for item in query(label("tasks")) {
+        if item.value.key == key {
+            return link(item.location(), [Aufgabe #numbering("1", ..counter("tasks").at(item.location()))])
         }
-
-        index += 1
     }
 
     panic("key '"+key+"' not found!")
@@ -255,11 +223,10 @@
 }
 
 #let definition(name, content: none) = {
-
     let s = state("definitions")
     counter("definitions").step()
 
-    return none
+    return // none
 
     if name == none {
         name = repr(lower(content))
@@ -290,7 +257,8 @@
     }
 }
 
-#let def(key, body, ..ixs) = par(hanging-indent: 1.5em, [
+#let def(key, body, ..ixs) = [
+    #set par(hanging-indent: 1.5em)
 
     #if (ixs.pos().len() == 0) {
         definition(key)
@@ -300,7 +268,7 @@
         ixs.pos().map(e => index(e)).join([])
     }
     #strong[D#text(size: 0.8em)[EF].#box(place(left, dx: -3.5em, dy: -1em, text(size: 2em, fill: red, strong[!]))) #key]#definition(key) -- #body
-])
+]
 
 #let make-definitions(title: none) = context {
     let s = state("definitions")
