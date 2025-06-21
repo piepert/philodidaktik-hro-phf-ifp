@@ -12,6 +12,18 @@ Da der KÜK noch in Arbeit ist, werden hier die Änderungen jeder Version transp
 - technisch:
     - Seitennummerierung im Index korrigieren (Ursache des Fehlers unklar)
 
+== Version IN-ENTWICKLUNG
+
+- Text, fachlich:
+    - genauere Einteilung von Methodenebenen aus allgemeindidaktischer Sicht nach Meyer und Sicht der Philosophiedidaktik
+
+- gestalterisch, strukturell:
+    - Fußnoten: Anführungszeichen am Anfang nun automatisch korrekt unten gesetzt
+    - Index: Anpassung des Stils
+
+- technisch:
+    - Untersuche Lösungen für fehlerhafte Seitennummerierung und nicht-konvergierendes Verhalten des Dokuments (`states` soweit wie möglich durch `metadata(...)<...>` austauschen)
+
 == Version 2024-12
 *Hinzugefügt:*
 

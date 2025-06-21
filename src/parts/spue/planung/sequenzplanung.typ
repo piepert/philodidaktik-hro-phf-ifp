@@ -41,14 +41,14 @@ Eine Sequenzplanung (auch "Einheitenplanung") spezifiziert, wie viele Unterricht
     #let c = counter("no")
 
     #show table.cell.where(y: 0): strong
-    #show table.cell.where(x: 0): it => locate(loc => {
+    #show table.cell.where(x: 0): it => context {
 
-        if c.at(loc).first() > 0 {
+        if c.at(here()).first() > 0 {
             block(inset: 5pt, c.display())
         } else {
             it
         }
-    }) + c.step()
+    } + c.step()
 
     #show table.cell.where(x: 0): strong
 

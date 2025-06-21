@@ -46,7 +46,7 @@
         ],
 
         align(right)[Philosophie-\ unterricht], [
-            - sollte bildungstheoretisch#en["bildungstheoretisch" meint in diesem Konetext, dass der Philosophieunterricht nicht praktisch, mit einem Fokus auf die Handlung, sondern theoretisch, mit einem Fokus auf das reflexive Denken, stattfinden soll.#en-note("note-bildungstheoretisch")]#en-content("note-bildungstheoretisch")[Vgl. @Rehfus1986_BildungstheoretischerPU[S. 101 ff]]/identitätstheoretisch#en[#box(place(hide["]))"identitätstheoretisch" meint in diesem Zusammenhang die Philosophie als Reflexionsmöglichkeit als Ausgang aus eigener Identitätsnot.#en-note("note-identitätstheoretisch")]#en-content("note-identitätstheoretisch")[Vgl. @Rehfus1986_BildungstheoretischerPU[S. 106 ff]] ausgerichtet sein
+            - sollte bildungstheoretisch#en["bildungstheoretisch" meint in diesem Kontext, dass der Philosophieunterricht nicht praktisch, mit einem Fokus auf die Handlung, sondern theoretisch, mit einem Fokus auf das reflexive Denken, stattfinden soll.#en-note("note-bildungstheoretisch")]#en-content("note-bildungstheoretisch")[Vgl. @Rehfus1986_BildungstheoretischerPU[S. 101 ff]]/identitätstheoretisch#en[#box(place(hide["]))"identitätstheoretisch" meint in diesem Zusammenhang die Philosophie als Reflexionsmöglichkeit als Ausgang aus eigener Identitätsnot.#en-note("note-identitätstheoretisch")]#en-content("note-identitätstheoretisch")[Vgl. @Rehfus1986_BildungstheoretischerPU[S. 106 ff]] ausgerichtet sein
             - sollte die Probleme der Philosophie zu den Problemen der SuS machen
             - sollte Lernzieltheorie ablehnen
         ], [
@@ -70,7 +70,7 @@
 
     + *#ix("Sprachargument"):* ... ihnen fehlt der Wortschatz der philosophischen Fachsprache, um ihre Ideen ausdrücken zu können.
 
-        Philosophie ist schwer ohne Fachsprache zu denken, genau dies greift die Debatte auf. Kindern fehlt die akademisch-sprachliche Grundlage zum Philosophieren, sie sind sprachlich eingeschränkt und können ihre Gedanken aufgrund lexikalischer und grammatischer Mängel nur eingeschränkt ausdrücken. Lehnt man die Möglichkeit über #ix("präsentativ-symbolische Formen", "Form, präsentativ-symbolisch") zu philosophieren ab, schränkt man die Möglichkeit des Philosophierens mit Kindern stark ein. Versteht man unter Philosophie die Suche nach der Wahrheit, so ist im Gegensatz zu diskursiv-verbalen Formen fraglich, inwiefern #ix("präsentativ-symbolische Formen", "Form, präsentativ-symbolisch") einen Wahrheitsanspruch darstellen können. Es wird etwa behauptet, dass etwa ein Bild nicht "wahr" oder "falsch" sein kann.#en[#todo[Beleg in Primärquelle fehlt.]]
+        Philosophie ist schwer ohne Fachsprache zu denken, genau dies greift die Debatte auf. Kindern fehlt die akademisch-sprachliche Grundlage zum Philosophieren, sie sind sprachlich eingeschränkt und können ihre Gedanken aufgrund lexikalischer und grammatischer Mängel nur eingeschränkt ausdrücken. Lehnt man die Möglichkeit über #ix("präsentativ-symbolische Formen", "Form, präsentativ-symbolisch") zu philosophieren ab, schränkt man die Möglichkeit des Philosophierens mit Kindern stark ein. Versteht man unter Philosophie die Suche nach der Wahrheit, so ist im Gegensatz zu diskursiv-verbalen Formen fraglich, inwiefern #ix("präsentativ-symbolische Formen", "Form, präsentativ-symbolisch") einen Wahrheitsanspruch darstellen können. Es wird etwa behauptet, dass etwa ein Bild nicht "wahr" oder "falsch" sein kann.#todo[Beleg in Primärquelle fehlt.]
 ]
 
 #task[Lassahn-Deppe-Kontroverse][

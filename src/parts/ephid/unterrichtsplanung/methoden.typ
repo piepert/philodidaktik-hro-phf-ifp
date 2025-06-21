@@ -8,7 +8,7 @@
 
 #ix("Methode", "Unterrichtsmethode") und #ix("Sozialformen", "Sozialform") sind voneinander abzugrenzen. Die #ix("Methoden", "Methode", "Unterrichtsmethode") des Unterrichts können bestimmte #ix("Sozialformen", "Sozialform") voraussetzen, allein mit #ix("Sozialform") kann jedoch keine inhaltliche Auseinandersetzung stattfinden. Ein Inhalt kann nur #ix("methodisch", "Methode", "Unterrichtsmethode") erarbeitet werden. Während #ix("Sozialformen", "Sozialform") also den sozialen Aspekt -- wer arbeitet, die "soziale Instanz" -- besprechen, besprechen #ix("Methoden", "Methode") die Form der Erarbeitung, die die soziale Instanz ausführt.
 
-Methoden bilden also das "Wie?" des Unterrichts und finden auf drei verschiedenen Ebenen statt:#en[Vgl. @Meyer2007_Unterrichtsvorbereitung[S. 45 ff]]
+Methoden bilden also das "Wie?" des Unterrichts und werden teilweise in drei Ebenen eingeteilt: die Makro-, Meso- und Mikroebene. Dabei kann man zwei Perspektiven auf diese Methoden einnehmen -- die der allgemeinen Didaktik und die der Philosophiedidaktik. Meyer etwa unterteilt sie wie folgt:#en[Vgl. @Meyer2007_Unterrichtsvorbereitung[S. 45 ff]]
 
 #grid(column-gutter: 2em,
     row-gutter: 1em,
@@ -39,8 +39,33 @@ Methoden bilden also das "Wie?" des Unterrichts und finden auf drei verschiedene
         - Vormachen, Zeigen
     ])
 
+Daneben die *philosophischen Makromethoden*:
 
-Die philosophischen Makromethoden, mit denen philosophiert wird, können dabei nach #ix("Rohbeck", "Rohbeck, Johannes") und #ix("Martens", "Martens, Ekkehard") in je unterschiedliche Kategorien eingeteilt werden. Einiges überschneidet sich, in beiden Einteilungen kommen die Phänomenologie, Hermeneutik, Dialektik und Analytik als eigene #ix("Kategorie", "Kategorien, sokratisch-aristotelisch")bzw. #ix("Denkrichtung", "Denkstil", "Denkrichtung") vor. Bei #ix("Martens", "Martens, Ekkehard") ist im Gegensatz zu #ix("Rohbeck", "Rohbeck, Johannes") noch die #ix("Spekulation"), bei Rohbeck sind im Gegensatz zu Martens der #ix("Konstruktivismus") und die #ix("Dekonstruktion") zu finden.
+#grid(column-gutter: 2em,
+    row-gutter: 1em,
+    columns: (1fr,)*3,
+    strong[Makroebene], strong[Mesoebene], strong[Mikroebene],
+
+    [
+        - Phänomenologie
+        - Hermeneutik
+        - Dialektik
+        - Analytische Philosophie
+        - Konstruktivismus
+        - Dekonstruktion
+        - ...
+    ], [
+        #todo[???]
+
+        - Schaubild
+        - Dilemmadiskussion
+        - Gedankenexperiment
+        - Inquiry
+    ], [
+        #todo[???]
+    ])
+
+Diese philosophischen Makromethoden, mit denen philosophiert wird, können dabei nach #ix("Rohbeck", "Rohbeck, Johannes") und #ix("Martens", "Martens, Ekkehard") in je unterschiedliche Kategorien eingeteilt werden. Einiges überschneidet sich, in beiden Einteilungen kommen die Phänomenologie, Hermeneutik, Dialektik und Analytik als eigene #ix("Kategorie", "Kategorien, sokratisch-aristotelisch")bzw. #ix("Denkrichtung", "Denkstil", "Denkrichtung") vor. Bei #ix("Martens", "Martens, Ekkehard") ist im Gegensatz zu #ix("Rohbeck", "Rohbeck, Johannes") noch die #ix("Spekulation"), bei Rohbeck sind im Gegensatz zu Martens der #ix("Konstruktivismus") und die #ix("Dekonstruktion") zu finden.
 
 #table(columns: (50% - 1em, 50% - 1em),
     stroke: none,
@@ -103,7 +128,7 @@ Es folgen einige Beispiele für Methoden des Philosophieunterrichts.
 
     3. *Nichts gegeben, eigenes Gedankenexperiment:* Ohne vorhergehende Grundlegungen wird ein eigenes #ix("Gedankenexperiment") konstruiert, eine Problemstellung ausgesucht und der Versuch durchgeführt.
 
-][*#ix("sokratisches Gespräch", "sokratisches Gespräch", "Gespräch, sokratisch")* #h(1fr) #ix("Frontalvortrag")][
+][*#ix("sokratisches Gespräch", "sokratisches Gespräch", "Gespräch, sokratisch")* #h(1fr) #ix("Frontalvortrag")/#ix("Unterrichtsgespräch")][
     Das sokratische Gespräch bezeichnet eine Methode, die mittels der #ix("Mäeutik")#en[Es handelt sich um die sogenannte "#ix("Hebammenkunst")".#todo[Kleine Erläuterung der Hebammenkunst.]] ein manipulatives Gespräch in einem öffentlichen Raum führt, um zu einem der folgenden drei Ergebnisse zu kommen: vollständige *Begriffsklärung*, Erlangen neuer *Erkenntnis* oder *#ix("Aporie")*.
 
 ][*#ix("neosokratisches Gespräch", "neosokratisches Gespräch", "Gespräch, neosokratisch")* #h(1fr) Gruppenarbeit][

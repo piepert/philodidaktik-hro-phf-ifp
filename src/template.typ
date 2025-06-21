@@ -6,131 +6,90 @@
 #let refpage(label) = link(label, context counter(page).at(label).first())
 #let refheading(label) = link(label, context query(label).first().body)
 
-#let index(name, content: none) = {
-    let s = state("indices", (:))
-
-    if name == none {
-        name = repr(lower(content))
-    }
-
-    if content == none {
-        content = name
-    }
-
-    context {
-        let num = s.at(here()).at(name, default: (
-            origins: (),
-            content: none)).origins.len()
-        let origin = label("index-"+name+"-" + str(num))
-
-        [#box[]#origin]
-    }
-
-    s.update(k => {
-        let num = k.at(name, default: (
-            origins: (), content: none)).origins.len()
-        let origin = label("index-" +
-            name + "-" +
-            str(num))
-
-        if name in k {
-            k.at(name).content.push(content)
-            k.at(name).origins.push(origin)
-
-        } else {
-            k.insert(name, (
-                content: (content,),
-                origins: (origin,)
-            ))
-        }
-
-        k
-    })
-}
-
-#let make-index(title: none) = context {
-    let s = state("indices", (:))
-    let last-first = none
-
-    for item in s.final()
-        .keys()
-        .map(e => (e, lower(e.replace("Ü", "u")
-            .replace("Ä", "a")
-            .replace("Ö", "o")
-            .replace("ü", "u")
-            .replace("ö", "o")
-            .replace("ä", "a"))))
-        .sorted(key: e => e.at(1)) {
-
-        let original = item.at(0)
-        let small = item.at(1)
-
-        if last-first != small.first() {
-            last-first = small.first()
-            heading(level: 2, upper(last-first))
-        }
-
-        let i = 1
-        let e = s.final().at(original)
-        let label-page-list = e.origins.map(e => (e, query(e).first().location().page()))
-        let pages = label-page-list
-            .map(o => o.last())
-            .dedup()
-            .map(p => label-page-list.filter(i => i.last() == p).first())
-
-        let page_numbers = []
-
-        for p in pages {
-            page_numbers += [#link(p.first(), str(p.last()))]
-
-            if i < pages.len() {
-                page_numbers += [, ]
-            }
-
-            if calc.rem(i, 3) == 0 {
-                page_numbers += [\ ]
-            }
-
-            i += 1
-        }
-
-        block(stroke: (bottom: 1pt + color-blue),
-            inset: (bottom: 0.5em),
-            grid(columns: (1fr, auto),
-                column-gutter: 0.5em,
-            )[
-                #set text(hyphenate: true)
-                #e.content.dedup().first()
-            ][
-                #show: align.with(right)
-                #set text(size: 1em)
-                #page_numbers
-            ]
-        )
-    }
-}
+#let index(name) = [#metadata((entry: name))<index>]
 
 // todo: only first reference works
 #let ix(b, ..args) = b + if args.pos().len() == 0 {
-    if type(b) != "string" {
-        panic("expected string, found "+type(b)+".")
+    if type(b) != str {
+        panic("expected string, found "+str(type(b))+".")
     }
 
     index(b)
 } else {
-    args.pos().map(e => if type(e) != "string" {
-        panic("expected string, found "+type(e)+".")
+    args.pos().map(e => if type(e) != str {
+        panic("expected string, found "+str(type(e))+".")
     } else {
         index(e)
     }).join([])
 }
 
+#let make-index(title: none) = context {
+    let s = query(<index>)
+    let last-first = none
+    let last-word = none
+
+    let pages = ()
+    let pages-values = ()
+    let entry
+
+    for item in s.map(e => (e, lower(e.value.entry.replace("Ü", "ue")
+            .replace("Ä", "ae")
+            .replace("Ö", "oe")
+            .replace("ü", "ue")
+            .replace("ö", "oe")
+            .replace("ä", "ae")
+            .replace("ß", "ss"))))
+        .sorted(key: e => e.at(1)) {
+
+        let item = item.at(0)
+        let loc = item.location()
+        let pv = counter(page).at(loc).first() // page value
+
+        entry = item.value.entry
+
+        if last-word != none and last-word != entry {
+            [
+                #set par(spacing: 0.5em)
+                #block(sticky: true, last-word)
+
+                #set text(size: 0.75em, fill: color-brown)
+                #block(grid(columns: (auto, 1fr), column-gutter: 0.5em)[#h(1.5em) --- ][S. #pages.join[, ]])
+            ]
+
+            pages-values = (pv, )
+            pages = (link(loc.position(), [#pv]), )
+            last-word = entry
+
+        } else {
+            if pv not in pages-values {
+                pages-values.push(pv)
+                pages.push(link(loc.position(), [#pv]))
+            }
+
+            last-word = entry
+        }
+
+        if last-first != lower(entry.first()) {
+            last-first = lower(entry.first())
+            heading(level: 2, last-first)
+        }
+    }
+
+    [
+        #set par(spacing: 0.5em)
+        #block(sticky: true, last-word)
+
+        #set text(size: 0.75em, fill: color-brown)
+        #block(grid(columns: (auto, 1fr), column-gutter: 0.5em)[#h(1.5em) --- ][S. #pages.join[, ]])
+    ]
+}
+
 #let note-note(state-key,
     key,
     number-format: numbering.with("1"),
-    wrap-note: k => super(text(fill: color-brown, k))) = context {
+    wrap-note: k => super(text(fill: color-brown, k))) = counter(state-key).step() + context {
 
-    let counter-val = state(state-key, ()).at(here()).len() + 1
+    let counter-val = state(state-key, ()).at(here()).len()
 
     let origin = label(if key != none {
         key+"-ORIGIN"
@@ -144,33 +103,10 @@
         state-key + "-TARGET-" + str(counter-val)
     })
 
-    [#link(target, wrap-note(number-format(counter(state-key).at(here()).first() + 1)))#origin]
+    [#link(target, wrap-note(number-format(counter(state-key).at(here()).first())))#origin]
 }
 
-#let note-content(state-key, body, key: none) = {
-    state(state-key, ()).update(k => {
-        let counter-val = k.len() + 1
-
-        k.push((
-            content: body,
-            counter: counter-val,
-
-            target: if key != none {
-                label(key+"-TARGET")
-            } else {
-                label(state-key + "-TARGET-" + str(counter-val))
-            },
-
-            origin: if key != none {
-                label(key+"-ORIGIN")
-            } else {
-                label(state-key + "-ORIGIN-" + str(counter-val))
-            },
-        ))
-
-        k
-    })
-}
+#let note-content(state-key, body, key: none) = [#metadata((content: body, key: key))#label(state-key)]
 
 #let add-note(key: none,
     number-format: numbering.with("1"),
@@ -180,7 +116,6 @@
 
     note-note(state-key, key, wrap-note: wrap-note, number-format: number-format)
     note-content(state-key, body, key: key)
-    counter(state-key).step()
 }
 
 #let make-notes(state-key,
@@ -191,10 +126,6 @@
     wrap-note: k => super(text(fill: color-brown, k)),
     wrap-content: k => k) = context {
 
-    // generierung in zwei schritten:
-    // 1. alle mit origin, dadurch werden die neuen origins der endnoten in endnoten generiert
-    // 2. danach alle ohne origin
-
     if title != none {
         heading(title)
     }
@@ -203,35 +134,35 @@
     set par(justify: true)
 
     let i = 1
-    for item in state(state-key, ()).final() {
+    for item in query(label(state-key)) {
         counter(state-key).update(i)
         wrap-all(block({
-            link(item.origin, wrap-note(number-format(i)))
-            wrap-content[#item.content#item.target]
+            box(link(item.location(), wrap-note(number-format(i))))
+            wrap-content[#item.value.content#if item.value.key != none {
+                label(item.value.key+"-TARGET")
+            } else {
+                label(state-key + "-TARGET-" + str(counter(state-key).at(item.location()).first() - 1))
+            }]
         }))
 
         i += 1
     }
 }
 
-#let en-note(key) = note-note("endnotes", key) + counter("endnotes").step()
+#let en-note(key) = note-note("endnotes", key)
 
-#let en-content(key, body) = note-content("endnotes", body, key: key) + counter("endnotes").step()
+#let en-content(key, body) = note-content("endnotes", body, key: key)
 
 #let en(key: none, body) = add-note(key: key, "endnotes", body)
 
 #let ens(..args) = args.pos().map(e => en(e)).join(super[,])
 
 #let enref(key) = context {
-    let index = 1
-
-    for item in state("endnotes", ()).final() {
-        if item.key == key {
-            return en(item.content)
+    for item in query(label("endnotes")) {
+        if item.value.key == key {
+            return en(item.value.content)
             // return [#link(key, super[#key])]
         }
-
-        index += 1
     }
 
     panic("key '"+key+"' not found!")
@@ -270,18 +201,14 @@
         [: ] + title + pad(left: 1.5em, answer))
 
     set par(justify: true)
-    par(question)
+    question
 }
 
 #let taskref(key) = context {
-    let index = 1
-
-    for item in state("tasks", ()).final() {
-        if item.target == label(key+"-TARGET") {
-            return link(item.origin, [Aufgabe #numbering("1", item.counter)])
+    for item in query(label("tasks")) {
+        if item.value.key == key {
+            return link(item.location(), [Aufgabe #numbering("1", ..counter("tasks").at(item.location()))])
         }
-
-        index += 1
     }
 
     panic("key '"+key+"' not found!")
@@ -296,11 +223,10 @@
 }
 
 #let definition(name, content: none) = {
-
     let s = state("definitions")
     counter("definitions").step()
 
-    return none
+    return // none
 
     if name == none {
         name = repr(lower(content))
@@ -331,7 +257,8 @@
     }
 }
 
-#let def(key, body, ..ixs) = par(hanging-indent: 1.5em, [
+#let def(key, body, ..ixs) = [
+    #set par(hanging-indent: 1.5em)
 
     #if (ixs.pos().len() == 0) {
         definition(key)
@@ -341,7 +268,7 @@
         ixs.pos().map(e => index(e)).join([])
     }
     #strong[D#text(size: 0.8em)[EF].#box(place(left, dx: -3.5em, dy: -1em, text(size: 2em, fill: red, strong[!]))) #key]#definition(key) -- #body
-])
+]
 
 #let make-definitions(title: none) = context {
     let s = state("definitions")
@@ -460,20 +387,27 @@
 }
 
 #let add-outline(it-element, it-body, type) = {
-    state("outline", ()).update(k => {
-        k.push((
-            origin: label("ref-outline-"+str(k.len())),
-            type: type,
-            content: it-body
-        ))
+    // state("outline", ()).update(k => {
+    //     k.push((
+    //         origin: label("ref-outline-"+str(k.len())),
+    //         type: type,
+    //         content: it-body
+    //     ))
 
-        k
-    })
+    //     k
+    // })
 
-    context {
-        let origin = label("ref-outline-"+str(state("outline", ()).at(here()).len() - 1))
-        block[#it-body#origin]
-    }
+    [#metadata((
+        type: type,
+        content: it-body
+    ))<outline>]
+
+    block(it-body)
+
+    // context {
+    //     let origin = label("ref-outline-"+str(state("outline", ()).at(here()).len() - 1))
+    //     block[#it-body#origin]
+    // }
 }
 
 #let add-part(it) = add-outline(it, it, "part")
@@ -483,34 +417,27 @@
 #let make-part(p, subtitle: none) = {
     pagebreak(to: "odd")
 
-    align(horizon, {
-        set par(spacing: 0.5em, justify: false)
-        show: align.with(horizon)
+    set par(spacing: 0.5em, justify: false)
+    set align(horizon)
 
-        {
-            set text(size: 4.5em, fill: color-brown)
-            add-part(p)
-        }
+    text(size: 4.5em, fill: color-brown, add-part(p))
 
-        counter("parts").step()
-        context {
-            set text(size: 2em, fill: color-brown)
-            set text(fill: color-orange)
-            [Abschnitt #numbering("I", counter("parts").at(here()).first())]
+    counter("parts").step()
 
-            if subtitle != none {
-                [ -- ]
-                subtitle
-            }
-        }
-    })
+    set text(size: 2em, fill: color-orange)
+    [Abschnitt #context numbering("I", counter("parts").at(here()).first())]
+
+    if subtitle != none {
+        [ -- ]
+        subtitle
+    }
 
     pagebreak()
 }
 
 #let make-outline() = context {
     v(1em)
-    heading(outlined: false)[Aller Anfang ist... klagerisch]
+    [#heading(outlined: false)[Aller Anfang ist... klagerisch]<the-outline>]
     v(-1em)
     text(fill: color-orange, tracking: 0.25em, strong(upper[Inhaltsverzeichnis]))
 
@@ -523,13 +450,16 @@
     let noheads = false
     let arr = ()
 
-    let dotted-underline(item) = box(inset: (bottom: 0.25em),
+    let dotted-underline(item, loc) = box(inset: (bottom: 0.25em),
         stroke: (bottom: (dash: "dotted")),
-        link(item.origin, item.content +
+        link(loc, item.content +
         h(1fr) +
-        str(query(item.origin).first().location().page())))
+        str(loc.page())))
 
-    for item in state("outline", ()).final() {
+    for item in query(label("outline")) {
+        let loc = item.location()
+        let item = item.value
+
         if item == "noheads" {
             noheads = true
             continue
@@ -545,12 +475,12 @@
                 arr = ()
             }
 
-            arr.push(grid.cell(colspan: 3, v(1em) + link(item.origin, heading(outlined: false, level: 2)[#numbering("I.", part-counter) #item.content])))
+            arr.push(grid.cell(colspan: 3, v(1em) + link(loc, heading(outlined: false, level: 2)[#numbering("I.", part-counter) #item.content])))
             part-counter += 1
 
         } else if item.type == "heading" {
             arr.push(grid.cell(colspan: 1, [#(heading-counter).]))
-            arr.push(grid.cell(colspan: 2, dotted-underline(item)))
+            arr.push(grid.cell(colspan: 2, dotted-underline(item, loc)))
 
             heading-counter += 1
             subheading-counter = 1
@@ -558,7 +488,7 @@
         } else if item.type == "subheading" and not noheads {
             arr.push(grid.cell[])
             arr.push(grid.cell([#(heading-counter - 1).#subheading-counter.]))
-            arr.push(grid.cell(dotted-underline(item)))
+            arr.push(grid.cell(dotted-underline(item, loc)))
 
             subheading-counter += 1
         }
@@ -649,7 +579,7 @@
         line(length: 100%, stroke: 0.5pt + color-blue)
 
         v(-0.75em)
-        [KÜK -- Institut für Philosophie -- © 2023-2024
+        [#link(<the-outline>, [KÜK]) -- Institut für Philosophie -- © 2023--#datetime.today().display("[year]")
         #h(1fr)
         Seite \
         #h(1fr)
@@ -696,10 +626,7 @@
 
     body
 
-    state("outline", ()).update(k => {
-        k.push("noheads")
-        k
-    })
+    [#metadata("noheads")<outline>]
     make-part[Anhang]
 
     make-tasks()
