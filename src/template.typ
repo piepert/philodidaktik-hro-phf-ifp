@@ -417,20 +417,22 @@
 #let make-part(p, subtitle: none) = {
     pagebreak(to: "odd")
 
-    set par(spacing: 0.5em, justify: false)
-    set align(horizon)
+    block(height: 100%, {
+        set par(spacing: 0.5em, justify: false)
+        set align(horizon)
 
-    text(size: 4.5em, fill: color-brown, add-part(p))
+        text(size: 4.5em, fill: color-brown, add-part(p))
 
-    counter("parts").step()
+        counter("parts").step()
 
-    set text(size: 2em, fill: color-orange)
-    [Abschnitt #context numbering("I", counter("parts").at(here()).first())]
+        set text(size: 2em, fill: color-orange)
+        [Abschnitt #context numbering("I", counter("parts").at(here()).first())]
 
-    if subtitle != none {
-        [ -- ]
-        subtitle
-    }
+        if subtitle != none {
+            [ -- ]
+            subtitle
+        }
+    })
 
     pagebreak()
 }
