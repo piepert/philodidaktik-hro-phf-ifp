@@ -437,7 +437,7 @@
 
 #let make-outline() = context {
     v(1em)
-    heading(outlined: false)[Aller Anfang ist... klagerisch]
+    [#heading(outlined: false)[Aller Anfang ist... klagerisch]<the-outline>]
     v(-1em)
     text(fill: color-orange, tracking: 0.25em, strong(upper[Inhaltsverzeichnis]))
 
@@ -579,7 +579,7 @@
         line(length: 100%, stroke: 0.5pt + color-blue)
 
         v(-0.75em)
-        [KÜK -- Institut für Philosophie -- © 2023-2024
+        [#link(<the-outline>, [KÜK]) -- Institut für Philosophie -- © 2023--#datetime.today().display("[year]")
         #h(1fr)
         Seite \
         #h(1fr)
