@@ -387,20 +387,27 @@
 }
 
 #let add-outline(it-element, it-body, type) = {
-    state("outline", ()).update(k => {
-        k.push((
-            origin: label("ref-outline-"+str(k.len())),
-            type: type,
-            content: it-body
-        ))
+    // state("outline", ()).update(k => {
+    //     k.push((
+    //         origin: label("ref-outline-"+str(k.len())),
+    //         type: type,
+    //         content: it-body
+    //     ))
 
-        k
-    })
+    //     k
+    // })
 
-    context {
-        let origin = label("ref-outline-"+str(state("outline", ()).at(here()).len() - 1))
-        block[#it-body#origin]
-    }
+    [#metadata((
+        type: type,
+        content: it-body
+    ))<outline>]
+
+    block(it-body)
+
+    // context {
+    //     let origin = label("ref-outline-"+str(state("outline", ()).at(here()).len() - 1))
+    //     block[#it-body#origin]
+    // }
 }
 
 #let add-part(it) = add-outline(it, it, "part")
@@ -410,27 +417,20 @@
 #let make-part(p, subtitle: none) = {
     pagebreak(to: "odd")
 
-    align(horizon, {
-        set par(spacing: 0.5em, justify: false)
-        show: align.with(horizon)
+    set par(spacing: 0.5em, justify: false)
+    set align(horizon)
 
-        {
-            set text(size: 4.5em, fill: color-brown)
-            add-part(p)
-        }
+    text(size: 4.5em, fill: color-brown, add-part(p))
 
-        counter("parts").step()
-        context {
-            set text(size: 2em, fill: color-brown)
-            set text(fill: color-orange)
-            [Abschnitt #numbering("I", counter("parts").at(here()).first())]
+    counter("parts").step()
 
-            if subtitle != none {
-                [ -- ]
-                subtitle
-            }
-        }
-    })
+    set text(size: 2em, fill: color-orange)
+    [Abschnitt #context numbering("I", counter("parts").at(here()).first())]
+
+    if subtitle != none {
+        [ -- ]
+        subtitle
+    }
 
     pagebreak()
 }
@@ -450,13 +450,16 @@
     let noheads = false
     let arr = ()
 
-    let dotted-underline(item) = box(inset: (bottom: 0.25em),
+    let dotted-underline(item, loc) = box(inset: (bottom: 0.25em),
         stroke: (bottom: (dash: "dotted")),
-        link(item.origin, item.content +
+        link(loc, item.content +
         h(1fr) +
-        str(query(item.origin).first().location().page())))
+        str(loc.page())))
 
-    for item in state("outline", ()).final() {
+    for item in query(label("outline")) {
+        let loc = item.location()
+        let item = item.value
+
         if item == "noheads" {
             noheads = true
             continue
@@ -472,12 +475,12 @@
                 arr = ()
             }
 
-            arr.push(grid.cell(colspan: 3, v(1em) + link(item.origin, heading(outlined: false, level: 2)[#numbering("I.", part-counter) #item.content])))
+            arr.push(grid.cell(colspan: 3, v(1em) + link(loc, heading(outlined: false, level: 2)[#numbering("I.", part-counter) #item.content])))
             part-counter += 1
 
         } else if item.type == "heading" {
             arr.push(grid.cell(colspan: 1, [#(heading-counter).]))
-            arr.push(grid.cell(colspan: 2, dotted-underline(item)))
+            arr.push(grid.cell(colspan: 2, dotted-underline(item, loc)))
 
             heading-counter += 1
             subheading-counter = 1
@@ -485,7 +488,7 @@
         } else if item.type == "subheading" and not noheads {
             arr.push(grid.cell[])
             arr.push(grid.cell([#(heading-counter - 1).#subheading-counter.]))
-            arr.push(grid.cell(dotted-underline(item)))
+            arr.push(grid.cell(dotted-underline(item, loc)))
 
             subheading-counter += 1
         }
@@ -623,10 +626,7 @@
 
     body
 
-    state("outline", ()).update(k => {
-        k.push("noheads")
-        k
-    })
+    [#metadata("noheads")<outline>]
     make-part[Anhang]
 
     make-tasks()
