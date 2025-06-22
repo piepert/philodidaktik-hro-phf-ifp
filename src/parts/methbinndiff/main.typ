@@ -2,7 +2,7 @@
 
 #make-part([Methodenvielfalt und Binnendifferenzierung], subtitle: [Der Realität der Lerngruppe gerecht werden])
 
-#include "binnendifferenzierung-individualisierung/main.typ"
+#include "grundbegriffe/main.typ"
 #include "außerschulische-lernorte/main.typ"
 #include "bilder-fotos/main.typ"
 #include "filme-comics/main.typ"
