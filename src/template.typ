@@ -149,9 +149,11 @@
     }
 }
 
+#let en-step(i) = counter("endnotes").update(k => k + i)
+
 #let en-note(key) = note-note("endnotes", key)
 
-#let en-content(key, body) = note-content("endnotes", body, key: key)
+#let en-content(key, body) = note-content("endnotes", body, key: key) + en-step(1)
 
 #let en(key: none, body) = add-note(key: key, "endnotes", body)
 
