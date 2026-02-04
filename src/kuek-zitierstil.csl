@@ -98,21 +98,23 @@
         </choose>
       </if>
       <else>
-        <choose>
-          <if variable="volume">
-            <group delimiter=" ">
-              <number variable="volume" form="long-ordinal" text-case="capitalize-first"/>
-              <text term="volume" form="short" text-case="capitalize-first"/>
-            </group>
-          </if>
-          <else>
-            <group>
-              <number variable="number-of-volumes" form="numeric"/>
-              <text term="volume" form="short" prefix=" " plural="true"/>
-            </group>
-          </else>
-        </choose>
-        <text macro="edition"/>
+        <group delimiter=" ">
+          <choose>
+            <if variable="volume">
+              <group delimiter=" ">
+                <number variable="volume" form="ordinal" text-case="capitalize-first"/>
+                <text term="volume" form="short" text-case="capitalize-first"/>
+              </group>
+            </if>
+            <else>
+              <group>
+                <number variable="number-of-volumes" form="numeric"/>
+                <text term="volume" form="short" prefix=" " plural="true"/>
+              </group>
+            </else>
+          </choose>
+          <text macro="edition"/>
+        </group>
       </else>
     </choose>
   </macro>
@@ -127,7 +129,13 @@
         </date>
       </if>
       <else>
-        <text term="no date"/>
+        <choose>
+          <if match="any" type="webpage">
+          </if>
+          <else>
+            <text term="no date"/>
+          </else>
+        </choose>
       </else>
     </choose>
   </macro>
@@ -193,9 +201,36 @@
         </group>
     </group>
   </macro>
+  <macro name="complete-citation-without-articlepage">
+    <group suffix=". " delimiter=": ">
+        <text macro="author"/>
+        <text variable="title"/>
+    </group>
+    <group delimiter=". " suffix=".">
+        <group delimiter=" ">
+          <text macro="container-title"/>
+          <text macro="editor" suffix="."/>
+          <choose>
+              <if type="article-journal">
+                <text macro="volume-edition"/>
+              </if>
+              <else>
+                <group delimiter=" ">
+                  <text macro="volume-edition"/>
+                  <text macro="publisher"/>
+                  <text macro="issued" prefix=""/>
+                </group>
+              </else>
+          </choose>
+        </group>
+        <group delimiter=". ">
+          <text macro="access"/>
+        </group>
+    </group>
+  </macro>
   <citation et-al-min="4" et-al-use-first="3" disambiguate-add-names="true">
     <layout suffix=".">
-      <text macro="complete-citation"/>
+      <text macro="complete-citation-without-articlepage"/>
       <text macro="point-locators-subsequent"/>
     </layout>
   </citation>

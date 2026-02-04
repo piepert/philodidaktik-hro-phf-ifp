@@ -6,7 +6,7 @@ Die Religionsphilosophie und das Fach "Religion" sind für einige Studierende sc
 
 Eine Stunde gehört dann zum Fach Philosophie, wenn sie sich an die gegebenen Spezifikationen des Rahmenplans hält, oder sich mit den Inhalten und Methoden der Philosophie generell beschäftigt. Die Rahmenpläne sagen dazu folgendes:
 
-- *Stufen 5-10*: "Der Unterricht im Fach Philosophieren mit Kindern strebt eine Einheit der Methodik philosophischen Denkens und der Methodik des Unterrichts an. In diesem Sinne bilden Lehrer und Schüler eine Untersuchungsgemeinschaft."#ens[@MBWKMV1996_RP56[S. 11]][@MBWKMV2002_RP710[S. 13.]]
+- *Stufen 5-10*: "Der Unterricht im Fach Philosophieren mit Kindern strebt eine Einheit der Methodik philosophischen Denkens und der Methodik des Unterrichts an. In diesem Sinne bilden Lehrer und Schüler eine Untersuchungsgemeinschaft."#ens[@MBWKMV1996_RP56[S. 11]][@MBWKMV2002_RP710[S. 13]]
 
 - *Stufe 11 und 12:* #(sym.quote.low.double)Zum einen kann sich das Unterrichtsfach an der Fachwissenschaft Philosophie, zum anderen an Verfahren innerhalb der Gesamttätigkeit Philosophieren -- Staunen, Wundern, Zweifeln, Infragestellen -- orientieren. [...] Der Kern der Philosophie besteht im Philosophieren, der Tätigkeit des philosophischen Denkens, der philosophischen Kritik und Reflexion.
 
