@@ -16,7 +16,7 @@
     #table(columns: (auto, 0.5fr, 0.5fr),
         stroke: none,
 
-        [], strong[#ix("Rehfus", "Rehfus, Wulff D.")]+en[Vgl. @Rehfus1986_BildungstheoretischerPU], strong[#ix("Martens", "Martens, Ekkehard")]+en[E. Martens: Philosophieren als Kulturtechnik. In: ders.: Methodik des Ethik- und Philosophieunterrichts. Hannover 2003. S. 30 ff.],
+        [], strong[#ix("Rehfus", "Rehfus, Wulff D.")]+en[Vgl. @Rehfus1986_BildungstheoretischerPU], strong[#ix("Martens", "Martens, Ekkehard")]+en[@Martens2003_MethodenPU[S. 30 ff]],
 
         align(right)[Philosophie], [
             - ist nicht didaktisch sondern argumentativ in sich selbst
