@@ -21,13 +21,13 @@ Ausgehend vom #ix("methodischen Zweifel", "Zweifel, methodisch") setzt #ix("Desc
     [8/9], align(center + horizon)[/], align(center + horizon)[/],
 
     [10], [
-        - *Regeln logischen Denkens:* Wie urteile und schließe ich korrekt?#en[Vgl. @MBWKMV2002_RP710[S. 34.]]
+        - *Regeln logischen Denkens:* Wie urteile und schließe ich korrekt?#en[Vgl. @MBWKMV2002_RP710[S. 34]]
     ], [
         - Ist das #ix("cogito-Argument") gültig, schlüssig und/oder rein intuitiv?
     ],
 
     [11/12], [
-        - *Erkenntnis:* dialektische Auseinandersetzung mit Thesen zur menschlichen Erkenntnis, Rationalismus#en[Vgl. @MBWKMV2019_RP1112[S. 12.]]
+        - *Erkenntnis:* dialektische Auseinandersetzung mit Thesen zur menschlichen Erkenntnis, Rationalismus#en[Vgl. @MBWKMV2019_RP1112[S. 12]]
     ], [
         - Denken und Vernunft als reine Methode der Erkenntnis
     ])

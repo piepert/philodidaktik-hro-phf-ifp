@@ -44,6 +44,10 @@ Einen Link zur jeweils neusten Version des KÜKs erhalten Sie auf der folgenden 
 
 == Versionierung
 
-Da der KÜK kein abgeschlossenes Werk ist und auch weiterhin daran gearbeitet werden soll, muss sichergestellt werden, dass die unterschiedlichen Versionen des KÜK gut erkannt und die neuste Version leicht auffindbar ist. Die Version ist auf dem Deckblat notiert und setzt sich aus dem Veröffentlichungsjahr und -monat zusammen. Dieses Dokument ist die *Version #(str(datetime.today().year())+"-"+if datetime.today().month() < 9 { "0" } else { "" } +str(datetime.today().month()))*.
+#let kük-version = str(datetime.today().year())+"-"+if datetime.today().month() < 9 { "0" } else { "" } +str(datetime.today().month())
 
-Die aktuellste Version dieses Dokuments finden Sie immer hier: #strong(link("https://piepert.github.io/philodidaktik-hro-phf-ifp/KÜK.pdf")). Eine archivierte Version der vorliegenden Datei finden Sie unter #strong(link("https://piepert.github.io/philodidaktik-hro-phf-ifp/KÜK-"+str(datetime.today().year())+"-"+if datetime.today().month() < 9 { "0" } else { "" } +str(datetime.today().month())+".pdf")).
+Da der KÜK kein abgeschlossenes Werk ist und auch weiterhin daran gearbeitet werden soll, muss sichergestellt werden, dass die unterschiedlichen Versionen des KÜK gut erkannt und die neuste Version leicht auffindbar ist. Die Version ist auf dem Deckblat notiert und setzt sich aus dem Veröffentlichungsjahr und -monat zusammen. Dieses Dokument ist die *Version #kük-version*.
+
+Die aktuellste Version dieses Dokuments finden Sie immer hier: #strong(link("https://piepert.github.io/philodidaktik-hro-phf-ifp/KUEK.pdf")). Eine archivierte Version der vorliegenden Datei finden Sie unter #strong(link("https://piepert.github.io/philodidaktik-hro-phf-ifp/KUEK-"+kük-version+".pdf")).
+
+Eine Liste aller Versionen finden Sie hier: #strong(link("https://github.com/piepert/philodidaktik-hro-phf-ifp")).
