@@ -1,6 +1,6 @@
 #import "/src/template.typ": *
 
-#make-part([Methodenvielfalt und Binnendifferenzierung], subtitle: [Der Realität der Lerngruppe gerecht werden])
+#make-part([Methodenvielfalt und Binnendifferenzierung], subtitle: [Der Realität der Lerngruppe gerecht werden], l: "methodenvielfalt-und-binnendifferenzierung")
 
 #include "grundbegriffe/main.typ"
 #include "außerschulische-lernorte/main.typ"

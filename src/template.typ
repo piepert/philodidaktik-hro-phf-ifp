@@ -3,6 +3,38 @@
 #let color-blue = rgb("#94B6D2")
 #let color-brown = rgb("#775F55")
 
+#let meth-section(title, body) = {
+    terms(terms.item(title, box(height: 0.5em, width: 1fr, align(horizon, line(length: 100%))) + linebreak() + body))
+}
+
+#let add-outline(it-element, it-body, type) = {
+    // state("outline", ()).update(k => {
+    //     k.push((
+    //         origin: label("ref-outline-"+str(k.len())),
+    //         type: type,
+    //         content: it-body
+    //     ))
+
+    //     k
+    // })
+
+    [#metadata((
+        type: type,
+        content: it-body
+    ))<outline>]
+
+    block(it-body)
+
+    // context {
+    //     let origin = label("ref-outline-"+str(state("outline", ()).at(here()).len() - 1))
+    //     block[#it-body#origin]
+    // }
+}
+
+#let add-part(it) = add-outline(it, it, "part")
+#let add-heading(it) = add-outline(it, it.body, "heading")
+#let add-subheading(it) = add-outline(it, it.body, "subheading")
+
 #let refpage(label) = link(label, context counter(page).at(label).first())
 #let refheading(label) = link(label, context query(label).first().body)
 
@@ -122,12 +154,13 @@
     title: [Anmerkungen],
     pretext: none,
     number-format: numbering.with("1"),
+    wrap-title: k => heading(k),
     wrap-all: k => k,
     wrap-note: k => super(text(fill: color-brown, k)),
     wrap-content: k => k) = context {
 
     if title != none {
-        heading(title)
+        wrap-title(title)
     }
 
     pretext
@@ -168,7 +201,25 @@
     panic("key '"+key+"' not found!")
 }
 
-#let make-endnotes() = make-notes("endnotes", title: [Anmerkungen])
+#let make-endnotes() = make-notes("endnotes",
+    title: [Anmerkungen],
+
+    wrap-title: body => {
+        show: figure.with(placement: top, scope: "parent")
+        show: box.with(width: 100%)
+        set text(size: 1.75em, fill: color-brown)
+        set text(size: 1.75em, hyphenate: false)
+        set par(justify: false)
+        set align(left)
+        add-heading(heading(body))
+    },
+
+    wrap-all: body => {
+        set par(spacing: 0.75em)
+        set text(size: 0.75em)
+        body
+    }
+)
 
 #let todo(key: none, body) = add-note(
     key: key,
@@ -386,35 +437,7 @@
         ])
 }
 
-#let add-outline(it-element, it-body, type) = {
-    // state("outline", ()).update(k => {
-    //     k.push((
-    //         origin: label("ref-outline-"+str(k.len())),
-    //         type: type,
-    //         content: it-body
-    //     ))
-
-    //     k
-    // })
-
-    [#metadata((
-        type: type,
-        content: it-body
-    ))<outline>]
-
-    block(it-body)
-
-    // context {
-    //     let origin = label("ref-outline-"+str(state("outline", ()).at(here()).len() - 1))
-    //     block[#it-body#origin]
-    // }
-}
-
-#let add-part(it) = add-outline(it, it, "part")
-#let add-heading(it) = add-outline(it, it.body, "heading")
-#let add-subheading(it) = add-outline(it, it.body, "subheading")
-
-#let make-part(p, subtitle: none) = {
+#let make-part(p, l: none, subtitle: none) = {
     pagebreak(to: "odd")
 
     block(height: 100%, {
@@ -435,6 +458,10 @@
     })
 
     pagebreak()
+
+    if l != none {
+       [#metadata((type: "part", title: p))#label(l)]
+    }
 }
 
 #let make-outline() = context {
@@ -607,7 +634,9 @@
 
     // make headings referable
     show ref: it => {
-        if it != none and it.element != none and it.element.numbering == none and it.element.supplement == [Abschnitt] {
+        if it.element != none and it.element.at("value", default: none) != none {
+            link(it.target, strong[#it.element.value.title])
+        } else if it != none and it.element != none and it.element.numbering == none and it.element.supplement == [Abschnitt] {
             link(it.target, strong[#it.element.body])
         } else {
             it
@@ -633,7 +662,10 @@
 
     make-tasks()
 
-    make-endnotes()
+    {
+        set page(columns: 2)
+        make-endnotes()
+    }
 
     make-todos()
 

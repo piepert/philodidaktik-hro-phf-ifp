@@ -109,7 +109,7 @@ Für #ix("Methodenvielfalt"), also das Nutzen verschiedener Methoden, sprechen e
 
 3. *didaktisch:* Der Zugriff auf die Philosophie kann heterogen stattfinden. Die Lehrperson muss dafür sorgen, dass die SuS verschiedene Zugangsmöglichkeiten zur Philosophie haben, weil beide #ix("heterogen", "Heterogenität der SuS", "Heterogenität der Philosophie") sind.
 
-Es folgen einige Beispiele für Methoden des Philosophieunterrichts.
+Es folgen einige Beispiele für Methoden des Philosophieunterrichts. Für Details, siehe den Abschnitt zu @methodenvielfalt-und-binnendifferenzierung.
 
 #orange-list-with-body[*#ix("Gedankenexperiment")* #h(1fr) #ix("Partnerarbeit"), #ix("Frontalvortrag")][
     In einem #ix("Gedankenexperiment") wird eine fiktive Situation angenommen und mit einer Fragestellung untersucht.
@@ -132,7 +132,7 @@ Es folgen einige Beispiele für Methoden des Philosophieunterrichts.
     Das sokratische Gespräch bezeichnet eine Methode, die mittels der #ix("Mäeutik")#en[Es handelt sich um die sogenannte "#ix("Hebammenkunst")".#todo[Kleine Erläuterung der Hebammenkunst.]] ein manipulatives Gespräch in einem öffentlichen Raum führt, um zu einem der folgenden drei Ergebnisse zu kommen: vollständige *Begriffsklärung*, Erlangen neuer *Erkenntnis* oder *#ix("Aporie")*.
 
 ][*#ix("neosokratisches Gespräch", "neosokratisches Gespräch", "Gespräch, neosokratisch")* #h(1fr) Gruppenarbeit][
-    "Sokratische Methode im weitesten Sinne wird praktiziert, wo und wann immer Menschen durch gemeinsames Erwägen von Gründen der Wahrheit in einer Frage näherzukommen suchen. [...] Sokratisch würde ich ein Gespräch nennen, in dem [dieses Bestreben] nicht nur sporadisch auftritt, sondern durchgängig das Gespräch bestimmt; ein Gespräch, in dem durchgängig ein gemeinsames Erwägen von Gründen stattfindet."#en[@Heckmann2018_DasSokratischeGespräch[S. 19.]]
+    "Sokratische Methode im weitesten Sinne wird praktiziert, wo und wann immer Menschen durch gemeinsames Erwägen von Gründen der Wahrheit in einer Frage näherzukommen suchen. [...] Sokratisch würde ich ein Gespräch nennen, in dem [dieses Bestreben] nicht nur sporadisch auftritt, sondern durchgängig das Gespräch bestimmt; ein Gespräch, in dem durchgängig ein gemeinsames Erwägen von Gründen stattfindet."#en[@Heckmann2018_DasSokratischeGespräch[S. 19]]
 
     #ix("Leonard Nelson", "Nelson, Leonard") und #ix("Gustav Heckmann", "Heckmann, Gustav") lehnen das #ix("neosokratische Gespräch", "Gespräch, neosokratisch", "neosokratisches Gespräch") an die ursprüngliche Methode des #ix("sokratischen Gesprächs", "Gespräch, sokratisch", "sokratisches Gespräch") an, im Gegensatz dazu soll für die Teilnehmer gleichberechtigt statt manipulativ, langatmig oder sogar ergebnislos zu sein.#en[Vgl. @Nelson1932_DieSokratischeMethode[S. 18 f]] Nelson konzentriert sich mit der neosokratischen Methode auf die positiven Aspekte des sokratischen Gespräches, d.i. die lebendige Gesprächsführung. Das lebendige Gespräch zwinge einen dazu, nachzudenken um seine Gedanken formulieren und auf Einwände eingehen zu können.#en[Vgl. @Nelson1932_DieSokratischeMethode[S. 23]] Sie müsse außerdem Bezug zum Alltag herstellen#en[Vgl. @Nelson1932_DieSokratischeMethode[S. 23 f]] und dürfe die Entscheidungsfindung der SuS nicht durch die Meinungen und Urteile des Lehrers beeinflussen#ens[Vgl. @Nelson1932_DieSokratischeMethode[S. 30]][Vgl. @Heckmann2018_DasSokratischeGespräch[S. 24]].
 
@@ -141,6 +141,7 @@ Es folgen einige Beispiele für Methoden des Philosophieunterrichts.
 ][*#ix("Inquiry")* #h(1fr) #ix("Gruppenarbeit")][
     Neben dem #ix("neosokratischen Gespräch", "neosokratisches Gespräch", "Gespräch, neosokratisch") ist die Inquiry ebenfalls eine Gesprächsmethode für Gruppen. Ausgehend von einem gegebenen Stimulus wird gemeinsam eine Fragestellung erarbeitet, die dann zusammen in der Gruppe beantwortet wird. Im Gegensatz zum #ix("neosokratischen Gespräch", "neosokratisches Gespräch", "Gespräch, neosokratisch") muss *kein gemeinsamer Konsens* erreicht werden. Die Inquiry eignet sich ebenfalls für kurze Gespräche von 45 bis 90 Minuten.
 
+    /*
     Die Inquiry besteht aus 7 Phasen:#en[Vgl. @Klager2011_Inquiry[S. 44 ff]]
 
     1. *Geben des Stimulus:* Die Lehrkraft gibt einen Stimulus, der die SuS dazu anregen soll, ein philosophisches Problembewusstsein zu entwickeln.
@@ -156,6 +157,7 @@ Es folgen einige Beispiele für Methoden des Philosophieunterrichts.
     6. *Untersuchung:* Aus den durch die SuS gegebenen Antworten wird eine zufällig ausgewählt, die für alle sichtbar von der Lehrkraft festgehalten und dann Ausgangspunkt der Diskussion wird. Es wird so lange über die Antwort, ihre Gründe und Implikationen sowie die Bedeutung der darin vorkommenden Wörter diskutiert, bis ein gemeinsamer Konsens erreicht wurde oder alle SuS den Gründen für die Zustimmung oder Ablehnung der Antwort zustimmen können.
 
     7. *Metagespräch und Evaluation:* Wird Schritt 6. beendet und keine neue Fragestellung ausgewählt, kommt es zu einem Metagespräch und einer Evaluation der Ergebnisse der Diskussion. Dazu bekommen die SuS wieder Denkzeit. Die Ergebnisse werden schriftlich festgehalten.
+    */
 
 ][*#ix("Diskussion")* #h(1fr) #ix("Gruppenarbeit"), #ix("Unterrichtsgespräch")][
 
@@ -170,7 +172,7 @@ Es folgen einige Beispiele für Methoden des Philosophieunterrichts.
 ][*#ix("Textarbeit")* #h(1fr) #ix("Einzalarbeit")][
     Textarbeit kann auf verschiedene Arten angewandt verwden. Neben einfachem Lesen des Textes (mittels verschiedener Methoden wie *#ix("SQ3R")*) gibt es noch weitere Möglichkeiten, philosophische Texte zu bearbeiten.
 
-    Die *#ix("produktionsorientierte Didaktik", "Didaktik, produktionsorientiert", "Produktionsorientierung")* bietet hier einen anderen Blick auf die Arbeit mit Texten:#en[Vgl. @Runtenberg2016_EPhiD[S. 48 ff.]]
+    Die *#ix("produktionsorientierte Didaktik", "Didaktik, produktionsorientiert", "Produktionsorientierung")* bietet hier einen anderen Blick auf die Arbeit mit Texten:#en[Vgl. @Runtenberg2016_EPhiD[S. 48 ff]]
 
     1. ein Text ist ein handwerkliches Produkt
     2. Lesende sind Koproduzenten, durch Lesen und Verstehen wird etwas Neues geschaffen
