@@ -3,8 +3,17 @@
 #let color-blue = rgb("#94B6D2")
 #let color-brown = rgb("#775F55")
 
+#let meth-subsection(body) = block(sticky: true, body) + v(-0.65em)
+
 #let meth-section(title, body) = {
-    terms(terms.item(title, box(height: 0.5em, width: 1fr, align(horizon, line(length: 100%))) + linebreak() + body))
+    block(sticky: true, {
+        strong(title)
+        h(0.5em)
+        box(height: 0.5em, width: 1fr, align(horizon, line(length: 100%)))
+    })
+
+    show: pad.with(left: 1em, top: -0.5em)
+    body
 }
 
 #let add-outline(it-element, it-body, type) = {
@@ -23,7 +32,8 @@
         content: it-body
     ))<outline>]
 
-    block(it-body)
+    // block(it-element)
+    // it-element
 
     // context {
     //     let origin = label("ref-outline-"+str(state("outline", ()).at(here()).len() - 1))
@@ -448,7 +458,7 @@
             }-teilige Grundausrüstung richtet sich an alle Lehramtsstudent*innen der Philosophie und soll den Start in das Studium erleichtern. Der KÜK versteht sich prozessorientiert und erlaubt individuelle Ergänzungen. Die zusammengefassten Hinweise sind jedoch für das Lehramtsstudium der Philosophie als wichtig anzusehen. Diese Sammlung ersetzt nicht das Nachfragen und Nachdenken; wenn Inhalte, Formalia oder Methoden unklar erscheinen, sollten Dozierenden und Mitstudierenden um Rat gefragt werden.
 
             #set text(size: 0.8em)
-            Verantwortung und Betreuung: Gruppe "#box(move(dy: 0.25em, circle(stroke: 0.5pt, radius: 0.6em, move(dx: -0.42em, dy: -1.15em, $phi$)))) Philo lernen" © 2023-2024
+            Verantwortung und Betreuung: Gruppe "#box(move(dy: 0.25em, circle(stroke: 0.5pt, radius: 0.6em, move(dx: -0.42em, dy: -0.62em, $phi$)))) Philo lernen" © 2023-2024
 
             Autor: Tristan Pieper, Version: #datetime.today().display("[year]-[month]")
         ])
@@ -461,7 +471,8 @@
         set par(spacing: 0.5em, justify: false)
         set align(horizon)
 
-        text(size: 4.5em, fill: color-brown, add-part(p))
+        add-part(p)
+        text(size: 4.5em, fill: color-brown, block(p))
 
         counter("parts").step()
 
@@ -484,7 +495,7 @@
 #let make-outline() = context {
     v(1em)
     [#heading(outlined: false)[Aller Anfang ist... klagerisch]<the-outline>]
-    v(-1em)
+    v(-0.5em)
     text(fill: color-orange, tracking: 0.25em, strong(upper[Inhaltsverzeichnis]))
 
     show: pad.with(x: 1cm, y: 1.5cm)
@@ -606,16 +617,16 @@
     set text(font: "Tw Cen MT", size: 12pt, lang: "de")
     set par(justify: true, linebreaks: "optimized", leading: 0.5em)
 
-    show heading.where(level: 1, outlined: true): it => add-heading(it)
-    show heading.where(level: 1): set text(size: 1.75em)
+    set enum(numbering: "1.", indent: 1.5em)
+
     // show heading.where(level: 2): set block(above: 1.5em)
-    show heading.where(outlined: true, level: 2): it => add-subheading(it)
+    show heading: set par(justify: false, leading: 0.25em)
+    show heading: set text(fill: color-brown, size: 1.25em, weight: "regular")
+    show heading.where(level: 1): set text(size: 1.5em)
+    show heading.where(level: 1): it => pagebreak(weak: true) + it
     show heading.where(level: 2): upper
 
-    show heading: set par(justify: false)
-    show heading: set text(fill: color-brown, size: 1.25em, weight: "regular")
-
-    set enum(numbering: "1.", indent: 1.5em)
+    show quote.where(block: true): set block(above: 1em, below: 1em)
 
     make-title-page()
 
@@ -625,7 +636,7 @@
         line(length: 100%, stroke: 0.5pt + color-blue)
 
         v(-0.75em)
-        [#link(<the-outline>, [KÜK]) -- Institut für Philosophie -- © 2023--#datetime.today().display("[year]")
+        [#link(<the-outline>, [KÜK]) -- Institut für Philopsophie -- © 2023--#datetime.today().display("[year]")
         #h(1fr)
         Seite \
         #h(1fr)
@@ -647,7 +658,9 @@
 
     make-outline()
 
-    show heading.where(level: 1): it => pagebreak(weak: true) + it
+    show heading.where(level: 1, outlined: true): it => add-heading(it) + it
+    show heading.where(outlined: true, level: 2): it => add-subheading(it) + it
+
 
     // make headings referable
     show ref: it => {
@@ -655,12 +668,14 @@
             link(it.target, strong[#it.element.value.title])
         } else if it != none and it.element != none and it.element.numbering == none and it.element.supplement == [Abschnitt] {
             link(it.target, strong[#it.element.body])
+        } else if it != none and it.element != none and it.element.supplement in ([Entwurf], [Lernerfolgskontrolle]) {
+            it + link(it.element.location())[ (S. #it.element.location().page())]
         } else {
             it
         }
     }
 
-    let abbreviations = ("z. B.", "Z. B.", "D. h.", "d. h.", "d. i.", "o. ä.", "o. J.", "o. A.")
+    let abbreviations = ("z. B.", "Z. B.", "D. h.", "d. h.", "d. i.", "o. ä.", "o. J.", "o. A.", "u. a.")
     show regex(abbreviations.join("|")
         .replace(" ", "")
         .replace(".", "\.")): it => {
