@@ -47,5 +47,6 @@ Zu jedem Verlaufsplan gehört ein *Thema*, ein *#ix("Grobziel")*, eine *Liste an
 
 Sie finden auf den drei folgenden Seiten ein Beispiel für einen #ix("Plan für eine Unterrichtsstunde", "Plan für eine Unterrichtsstunde", "Unterrichtsplan") zum Thema #ix("Erkenntnistheorie") und #ix([Descartes'], "Descartes, René") #ix("cogito-Argument"), das formal den Anforderungen der Klausur entspricht.
 
-<ephid-plan-descartes>
-#include "/src/kurzentwuerfe/uebung01/main.typ"
+#practex(<u-descartes>, supplement: [eines Kurzentwurfes])
+
+// #include "/src/kurzentwuerfe/uebung01/main.typ"

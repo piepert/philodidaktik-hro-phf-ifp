@@ -1,26 +1,31 @@
-#import "/src/lernerfolgskontrollen/template.typ": *
+#import "../template.typ": *
 
 #set page(flipped: true)
-#set text(size: 0.675em)
+== Schriftlicher Dialog <lk-schriftlicher-dialog>
+
 #show: columns.with(2)
 
+/*
 #show: project.with(
   topic: "Schriftlicher Dialog",
   stufe: 9
 )
+*/
 
-*Aufgabe* #h(1fr) (20 P.) \
+=== Aufgaben
+*Aufgabe* #h(1fr) 20 P. \
 Wähle von den folgenden zwei Situationen eine aus. Gestalte anschließend einen philosophischen Dialog, in welchem sich die Dialogpartner*innen begründet mit ihrer Position zur jeweiligen Situation auseinandersetzen!
 
 + Der Nihilist Nils und die Hedonistin Heidi sprechen über die bevorstehende Party ihrer Klassenkameradin Lucy. Diese soll am kommenden Samstag stattfinden. Einen besonderen Anlass für die Party gibt es nicht. Beide haben eine Einladung bekommen, sind sich jedoch uneinig, ob sie diese annehmen.
 
 + Der Hedonist Heinrich und die Nihilistin Nadja unterhalten sich über die neue Umweltkampagne der Schule. Diese ruft dazu auf, dass sich alle Schüler:innen jeden Sonntag im Schuljahr zum Müllsammeln im Park treffen sollen. Beide haben eine andere Meinung zu dieser Kampagne.
 
-*Zusatzaufgabe* #h(1fr) (+ 2 P.) \
+*Zusatzaufgabe* #h(1fr) + 2 P. \
 Maja, ein Vertreterin der Mesoteslehre, bekommt das Gespräch zwischen den beiden mit und möchte eine Lösung finden, mit der beide zufrieden sind. Ergänze den Lösungsvorschlag von Maja in deinem Dialog.
 
-#h(1fr)
-
+// #colbreak()
+=== Bewertungsmatrix
+#set text(size: 0.65em)
 #show table.cell: block.with(breakable: false)
 #table(columns: (1fr, auto),
     strong[Dialog],
@@ -111,6 +116,12 @@ Maja, ein Vertreterin der Mesoteslehre, bekommt das Gespräch zwischen den beide
         Das Argument ist eine mögliche Lösung des Problems.
     ],
     [\_\_ / 1],
+
+    table.cell(colspan: 2, fill: black.lighten(80%), [#v(-0.5em)]),
+
+    [], [
+        \_\_ / 22
+    ]
 )
 
 /*

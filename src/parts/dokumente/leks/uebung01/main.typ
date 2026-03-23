@@ -1,24 +1,25 @@
-#import "/src/lernerfolgskontrollen/template.typ": *
+#import "../template.typ": *
 
 #set page(flipped: true)
-#set text(size: 0.675em)
+== Descartes methodischer Zweifel <lk-descartes>
+
 #show: columns.with(2)
 
+#[
+#set text(size: 0.9em)
+
+/*
 #show: project.with(
   topic: "Descartes methodischer Zweifel"
 )
+*/
+
+=== Aufgaben
 
 #citation[
-    #{
-        set text(size: 0.75em)
-        place(dx: -1.5em, dy: 0.1em, [1])
-        place(dx: -1.5em, dy: 7.85em, [5])
-        // place(dx: -1.5em, dy: 16.6em, [10])
-    }
+    #sym.quote.low\3. Alles nämlich, was ich bisher am ehesten für wahr gehalten habe, verdanke ich den Sinnen oder der Vermittlung der Sinne. Nun aber bin ich dahintergekommen, daß diese uns bisweilen täuschen, und es ist ein Gebot der Klugheit, denen niemals ganz zu trauen, die uns auch nur einmal getäuscht haben.
 
-    \3. Alles nämlich, was ich bisher am ehesten für wahr gehalten habe, verdanke ich den Sinnen oder der Vermittlung der Sinne. Nun aber bin ich dahintergekommen, daß diese uns bisweilen täuschen, und es ist ein Gebot der Klugheit, denen niemals ganz zu trauen, die uns auch nur einmal getäuscht haben.
-
-    \4. Indessen -- mögen uns auch die Sinne mit Bezug auf zu kleine und entfernte Gegenstände bisweilen täuschen, so gibt es doch am Ende sehr vieles andere, woran man gar nicht zweifeln kann, wenngleich es aus denselben Quellen geschöpft ist; so z.B. daß ich jetzt hier bin, daß ich, mit meinem Winterrock angetan, am Kamin sitze, daß ich dieses Papier mit den Händen betaste und ähnliches; vollends daß diese Hände selbst, daß überhaupt mein ganzer Körper da ist, wie könnte man mir das abstreiten? [...]
+    \4. Indessen -- mögen uns auch die Sinne mit Bezug auf zu kleine und entfernte Gegenstände bisweilen täuschen, so gibt es doch am Ende sehr vieles andere, woran man gar nicht zweifeln kann, wenngleich es aus denselben Quellen geschöpft ist; so z.B. daß ich jetzt hier bin, daß ich, mit meinem Winterrock angetan, am Kamin sitze, daß ich dieses Papier mit den Händen betaste und ähnliches; vollends daß diese Hände selbst, daß überhaupt mein ganzer Körper da ist, wie könnte man mir das abstreiten? [...]#sym.quote.l
 ][
     Rene Descartes: _Meditationes de prima philosophia._ AT VII. S. 18 f.
 ]
@@ -36,13 +37,11 @@
 #task(5, [
     Nehmen Sie begründet Stellung, ob man den Sinnen trauen kann!
 ])
+]
 
-#colbreak()
-
-#show: project.with(
-  topic: "Descartes methodischer Zweifel",
-  eh: true
-)
+// #colbreak()
+=== Bewertungsmatrix
+#set text(size: 0.65em)
 
 #table(columns: (1fr, auto),
     strong[Aufgabe],

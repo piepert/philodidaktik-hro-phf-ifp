@@ -35,6 +35,21 @@
 #let add-heading(it) = add-outline(it, it.body, "heading")
 #let add-subheading(it) = add-outline(it, it.body, "subheading")
 
+#let practex(label, supplement: none) = {
+    block(
+        width: 100%,
+        fill: color-blue.lighten(80%),
+        stroke: (left: 4pt + color-blue),
+        inset: 1em,
+        block(
+            sticky: true,
+
+            strong(upper[Praxisbeispiel])) +
+                v(-0.5em) +
+                [Für ein praktisches Beispiel#if supplement != none [ #supplement], siehe #ref(label) im Abschnitt #link(<dokumente>, context numbering("I", ..counter("parts").at(<dokumente>))).]
+    )
+}
+
 #let refpage(label) = link(label, context counter(page).at(label).first())
 #let refheading(label) = link(label, context query(label).first().body)
 
