@@ -8,10 +8,10 @@
 Auch wenn die Gestaltung und der Name des KÜKs als Parodie an den MÜK angelehnt sind, soll hier versucht werden die Inhalte der Philosophiedidaktik-Seminare an der Universität Rostock ernsthaft aufzuarbeiten und zusammenzufassen, zu belegen und weitere Hinweise und Tipps darzulegen.
 
 #align(center)[
-    #set par(justify: false)
-    #set text(fill: red, size: 1.5em, hyphenate: false)
-    #show: strong
-    Der KÜK ist keine wissenschaftliche Arbeit und sollte in keiner Prüfung, Seminararbeit, Unterrichtsentwurf oder ähnlichem zitiert werden!
+  #set par(justify: false)
+  #set text(fill: red, size: 1.5em, hyphenate: false)
+  #show: strong
+  Der KÜK ist keine wissenschaftliche Arbeit und sollte in keiner Prüfung, Seminararbeit, Unterrichtsentwurf oder ähnlichem zitiert werden!
 ]
 
 Nutzen Sie stattdessen einfach die Quellen, die hier in den Anmerkungen angegeben werden, um die Informationen, die Sie brauchen, in wissenschaftlicher Lektüre zu finden.
@@ -20,20 +20,21 @@ Nutzen Sie stattdessen einfach die Quellen, die hier in den Anmerkungen angegebe
 
 Die Zusatzelemente des KÜKs bieten weitere Informationen und Belege. Außerdem sollen Sie die Navigation innerhalb des KÜKs erleichtern, sowohl in der Digital- als auch in einer Print-Version.
 
-#table(columns: (33.33%, 33.33%, 33.33%),
-    stroke: none,
+#table(
+  columns: (33.33%, 33.33%, 33.33%),
+  stroke: none,
 
-    strong[Aufgaben und Lösungen],
-    strong[Anmerkungen],
-    strong[Index],
+  strong[Aufgaben und Lösungen], strong[Anmerkungen], strong[Index],
 
-    [
-        Einige Abschnitte enthalten Aufgaben inklusive Lösungsvorschläge. Diese setzen sich zusammen aus den Aufgaben innerhalb des Seminars, aus den fakultativen Hausaufgaben, den bereitgestellten Beispielklausuraufgaben und einigen eigenen Ideen. Die Aufgaben sind als Anwendungsmöglichkeit der Seminarinhalte gedacht. Aufgaben werden mit Großbuchstaben nummeriert und sind in hellblauen Boxen eingerahmt.
-    ], [
-        Anmerkungen werden durch hochgestellte, arabisch nummerierte Endnotenverweise dargestellt, wie z.B. hier.#en[Hier eine Beispiel-Anmerkung!] Auf die hochgestellten Zahlen können sie in der digitalen Version klicken, um zu der Anmerkung zu gelangen. Die Anmerkungen werden am Ende des Dokuments mit der Seitenzahl, auf der sie auftreten, aufgelistet. Klicken Sie erneut auf die Zahl in dieser Anmerkungsliste, gelangen Sie zurück zu dem Ort, an dem die Anmerkung verwendet wird.
-    ], [
-        Der Index ist am Ende des KÜKs eine alphabetisch sortierte Liste von Fachbegriffen und Namen, die hier im KÜK verwendet werden. Hinter jedem Begriff sind die Seitenzahlen aufgelistet, wo er verwendet wird. Dies ist besonders nützlich, sollte der KÜK ausgedruckt werden.
-    ]
+  [
+    Einige Abschnitte enthalten Aufgaben inklusive Lösungsvorschläge. Diese setzen sich zusammen aus den Aufgaben innerhalb des Seminars, aus den fakultativen Hausaufgaben, den bereitgestellten Beispielklausuraufgaben und einigen eigenen Ideen. Die Aufgaben sind als Anwendungsmöglichkeit der Seminarinhalte gedacht. Aufgaben werden mit Großbuchstaben nummeriert und sind in hellblauen Boxen eingerahmt.
+  ],
+  [
+    Anmerkungen werden durch hochgestellte, arabisch nummerierte Endnotenverweise dargestellt, wie z.B. hier.#en[Hier eine Beispiel-Anmerkung!] Auf die hochgestellten Zahlen können sie in der digitalen Version klicken, um zu der Anmerkung zu gelangen. Die Anmerkungen werden am Ende des Dokuments mit der Seitenzahl, auf der sie auftreten, aufgelistet. Klicken Sie erneut auf die Zahl in dieser Anmerkungsliste, gelangen Sie zurück zu dem Ort, an dem die Anmerkung verwendet wird.
+  ],
+  [
+    Der Index ist am Ende des KÜKs eine alphabetisch sortierte Liste von Fachbegriffen und Namen, die hier im KÜK verwendet werden. Hinter jedem Begriff sind die Seitenzahlen aufgelistet, wo er verwendet wird. Dies ist besonders nützlich, sollte der KÜK ausgedruckt werden.
+  ],
 )
 
 == To Do
@@ -44,10 +45,16 @@ Einen Link zur jeweils neusten Version des KÜKs erhalten Sie auf der folgenden 
 
 == Versionierung
 
-#let kük-version = str(datetime.today().year())+"-"+if datetime.today().month() < 9 { "0" } else { "" } +str(datetime.today().month())
+#let kük-version = (
+  str(datetime.today().year())
+    + "-"
+    + if datetime.today().month() < 9 { "0" } else { "" }
+    + str(datetime.today().month())
+)
 
 Da der KÜK kein abgeschlossenes Werk ist und auch weiterhin daran gearbeitet werden soll, muss sichergestellt werden, dass die unterschiedlichen Versionen des KÜK gut erkannt und die neuste Version leicht auffindbar ist. Die Version ist auf dem Deckblat notiert und setzt sich aus dem Veröffentlichungsjahr und -monat zusammen. Dieses Dokument ist die *Version #kük-version*.
 
-Die aktuellste Version dieses Dokuments finden Sie immer hier: #strong(link("https://piepert.github.io/philodidaktik-hro-phf-ifp/KUEK.pdf")). Eine archivierte Version der vorliegenden Datei finden Sie unter #strong(link("https://piepert.github.io/philodidaktik-hro-phf-ifp/KUEK-"+kük-version+".pdf")).
+Die aktuellste Version dieses Dokuments finden Sie immer hier: #strong(link("https://piepert.github.io/philodidaktik-hro-phf-ifp/KUEK.pdf")). Eine archivierte Version der vorliegenden Datei finden Sie unter #strong(link("https://piepert.github.io/philodidaktik-hro-phf-ifp/KUEK-" + kük-version + ".pdf")).
 
 Eine Liste aller Versionen finden Sie hier: #strong(link("https://github.com/piepert/philodidaktik-hro-phf-ifp")).
+
